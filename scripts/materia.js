@@ -73,6 +73,9 @@ function renderMateria(materia) {
   renderLinks(materia);
   renderComentarios(materia);
   renderDatos(materia);
+
+  // Solo intenta embeber Google Drive.
+  // OneDrive queda como botón porque SharePoint suele bloquear iframes.
   renderEmbedDrive(materia);
 }
 
@@ -152,7 +155,12 @@ function renderEmbedDrive(materia) {
   const drive = links.find(link => {
     const tipo = normalizarTexto(link.tipo || "");
     const url = link.url || "";
-    return tipo.includes("drive") || url.includes("drive.google.com");
+
+    return (
+      tipo.includes("drive") &&
+      !tipo.includes("onedrive") &&
+      url.includes("drive.google.com")
+    );
   });
 
   if (!drive || !drive.url) {
@@ -188,8 +196,9 @@ function obtenerIconoLink(tipo) {
 
   if (texto.includes("whatsapp")) return "📱";
   if (texto.includes("frubox")) return "📦";
-  if (texto.includes("drive")) return "☁️";
   if (texto.includes("onedrive")) return "☁️";
+  if (texto.includes("sharepoint")) return "☁️";
+  if (texto.includes("drive")) return "☁️";
   if (texto.includes("github")) return "🐙";
   if (texto.includes("form")) return "📝";
 
