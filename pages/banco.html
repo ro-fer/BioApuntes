@@ -6,6 +6,8 @@
     <title>Banco de materias | BioApuntes UNSAM</title>
 
     <link rel="icon" href="../BioGeeks-Logo.svg">
+    <link rel="stylesheet" href="../styles/estilos.css?v=1.0">
+    <link rel="stylesheet" href="../styles/estilos-recursos.css">
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 
@@ -15,7 +17,7 @@
         <div class="navbar-container">
             <a href="../index.html" class="logo">🧬 BioApuntes UNSAM</a>
 
-            <ul class="nav-links">
+            <ul class="nav-links" id="nav-links">
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="./banco.html">Banco</a></li>
                 <li><a href="./recursos.html">Recursos</a></li>
@@ -24,15 +26,14 @@
         </div>
     </nav>
 
-    <main>
+    <main class="page-main">
+
         <section class="page-header">
-            <p class="eyebrow">Banco de materias</p>
-
-            <h1>📚 Encontrá material por materia</h1>
-
+            <p class="eyebrow">Ingeniería Biomédica · UNSAM</p>
+            <h1>📚 Banco de materias</h1>
             <p>
-                Buscá una materia de Ingeniería Biomédica UNSAM y accedé rápido
-                a apuntes, guías, parciales, finales, resueltos, Frubox, Drive u otros recursos.
+                Buscá una materia y accedé al material disponible. Los archivos siguen alojados
+                en Frubox, Drive, OneDrive u otros espacios externos.
             </p>
         </section>
 
@@ -40,7 +41,7 @@
             <input 
                 type="text" 
                 id="searchInput" 
-                placeholder="Buscar materia, por ejemplo: Física II..."
+                placeholder="Buscar materia, código o área..."
             >
 
             <select id="yearFilter">
@@ -62,24 +63,13 @@
             </select>
         </section>
 
-        <section class="notice">
-            <h2>ℹ️ Cómo usar el banco</h2>
-            <p>
-                El banco funciona como índice: los archivos no están guardados acá,
-                sino enlazados desde Frubox, Drive, OneDrive u otros espacios externos.
-            </p>
-        </section>
-
         <section id="materiasContainer" class="materias-grid">
-            <!-- Las materias se cargan desde data/materias.csv con JavaScript -->
+            <div class="empty-state">
+                <h2>Cargando materias...</h2>
+                <p>Un segundo, el banco está despertando 🧬</p>
+            </div>
         </section>
 
-        <section id="emptyState" class="notice hidden">
-            <h2>🔎 No se encontraron materias</h2>
-            <p>
-                Probá buscar con otro nombre, sin tildes o usando una palabra más corta.
-            </p>
-        </section>
     </main>
 
     <footer id="contacto">
