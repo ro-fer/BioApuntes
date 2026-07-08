@@ -1,0 +1,1665 @@
+[
+  {
+    "materia": "Introducción al Análisis Matemático",
+    "codigo": "CB01",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [],
+    "area": "Matemática",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "IAM",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Grupo WhatsApp"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/analisis-matematico.md",
+    "cargaHorariaSemanal": "8.0",
+    "cargaHorariaCuatrimestral": "128",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ciclo-basico/analisis-matematico"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1l30Ha777YgfWCoqE9ZNpAjOPwZ11NB4-"
+      },
+      {
+        "nombre": "Grupo WhatsApp Frubox",
+        "url": "https://chat.whatsapp.com/Lw0NQoBLyoq51i5Kz4tlSp"
+      }
+    ]
+  },
+  {
+    "materia": "Ciencia, Tecnología y Sociedad",
+    "codigo": "CB02",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [],
+    "area": "Humanística / CTS",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "CTS",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Grupo WhatsApp",
+      "Experiencias",
+      "Descripción/contenido"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp; Experiencias; Descripción/contenido",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/ciencia-tecnologia-y-sociedad.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ciclo-basico/ciencia-tecnologia-y-sociedad"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1qpZB_XeoNykLXiy3-GOPTUCodM5dXVxK"
+      },
+      {
+        "nombre": "Grupo WhatsApp Frubox",
+        "url": "https://chat.whatsapp.com/BkS6vYUfOKX2An2iA3BJXa"
+      }
+    ]
+  },
+  {
+    "materia": "Química General",
+    "codigo": "CB03",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [],
+    "area": "Química",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "QUIMICA GRAL",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Grupo WhatsApp",
+      "Experiencias",
+      "Descripción/contenido"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp; Experiencias; Descripción/contenido",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/quimica-general.md",
+    "cargaHorariaSemanal": "8.0",
+    "cargaHorariaCuatrimestral": "128",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ciclo-basico/quimica-general"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1xziYmKanKnJcAzgH_3M3ICY5ls6xYEdJ"
+      },
+      {
+        "nombre": "Grupo WhatsApp Frubox",
+        "url": "https://chat.whatsapp.com/HQLkik0Baf1Dy0BZr3Kc7C"
+      }
+    ]
+  },
+  {
+    "materia": "Introducción a la Informática",
+    "codigo": "IE103",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [],
+    "area": "Informática",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "INTRO A LA INFORMATICA",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Grupo WhatsApp"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/introduccion-a-la-informatica.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ciclo-basico/introduccion-a-la-informatica"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/15bseX9HkUSJuuhdnU4agwXDt4nFqJts9"
+      },
+      {
+        "nombre": "Grupo WhatsApp Frubox",
+        "url": "https://chat.whatsapp.com/Fskqm4NUrVKLi3SaOIM3gR"
+      }
+    ]
+  },
+  {
+    "materia": "Cálculo I",
+    "codigo": "CB05",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "Introducción al Análisis Matemático"
+    ],
+    "area": "Matemática",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "CALCULO 1",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Grupo WhatsApp",
+      "Experiencias",
+      "Descripción/contenido"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp; Experiencias; Descripción/contenido",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/calculo-1.md",
+    "cargaHorariaSemanal": "6.0",
+    "cargaHorariaCuatrimestral": "96",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ciclo-basico/calculo-1"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1bfMYINO9ipaXEsxUGkp4fzZMLMaooBqU"
+      },
+      {
+        "nombre": "Grupo WhatsApp Frubox",
+        "url": "https://chat.whatsapp.com/F3EpAtuYn5p9ono9jPqbon"
+      }
+    ]
+  },
+  {
+    "materia": "Álgebra y Geometría Analítica I",
+    "codigo": "CB06",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [],
+    "area": "Matemática",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "ALGEBRA 1",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Grupo WhatsApp"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/algebra-y-geometria-analitica.md",
+    "cargaHorariaSemanal": "6.0",
+    "cargaHorariaCuatrimestral": "96",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ciclo-basico/algebra-y-geometria-analitica"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1HP8h9kgSmF2gaFuN9FRQHpL6X-MGOZaH"
+      },
+      {
+        "nombre": "Grupo WhatsApp Frubox",
+        "url": "https://chat.whatsapp.com/Edd51SsLevcFPFL63d9Op2"
+      }
+    ]
+  },
+  {
+    "materia": "Sistemas de Representación Gráfica",
+    "codigo": "IE004",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "Introducción a la Informática"
+    ],
+    "area": "Ingeniería / Representación",
+    "estado": "✅ Frubox detectado",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Grupo WhatsApp"
+    ],
+    "materialDetectado": "Carpeta Frubox; Drive embebido; Grupo WhatsApp",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/sistemas-de-representacion-grafica.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ciclo-basico/sistemas-de-representacion-grafica"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1KlxsBD4T9uYAtYyaRia2-svtIF18s9bq"
+      },
+      {
+        "nombre": "Grupo WhatsApp Frubox",
+        "url": "https://chat.whatsapp.com/JMENVgIaY1HLHiOCUe8sUT"
+      }
+    ]
+  },
+  {
+    "materia": "Física I",
+    "codigo": "CB10",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "Introducción al Análisis Matemático"
+    ],
+    "area": "Física",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "FISICA 1",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Grupo WhatsApp",
+      "Experiencias",
+      "Descripción/contenido"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp; Experiencias; Descripción/contenido",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/fisica-1.md",
+    "cargaHorariaSemanal": "8.0",
+    "cargaHorariaCuatrimestral": "128",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ciclo-basico/fisica-1"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1TLhwCIoL5qbFzbf2a-mnZ7peiFmcGQKA"
+      },
+      {
+        "nombre": "Grupo WhatsApp Frubox",
+        "url": "https://chat.whatsapp.com/HB9W2mdyHeE5tiVBWpXAYx"
+      }
+    ]
+  },
+  {
+    "materia": "Cálculo II",
+    "codigo": "CB09",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "Cálculo I",
+      "Álgebra y Geometría Analítica I"
+    ],
+    "area": "Matemática",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "CALCULO 2",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Grupo WhatsApp",
+      "Experiencias",
+      "Descripción/contenido"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp; Experiencias; Descripción/contenido",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/calculo-2.md",
+    "cargaHorariaSemanal": "8.0",
+    "cargaHorariaCuatrimestral": "128",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ciclo-basico/calculo-2"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1RR1dKMEvzfEtspGlaNha309e-3oeUMYd"
+      },
+      {
+        "nombre": "Grupo WhatsApp Frubox",
+        "url": "https://chat.whatsapp.com/H72CUbeVOfm8RTtQugpSVB"
+      }
+    ]
+  },
+  {
+    "materia": "Álgebra y Geometría Analítica II",
+    "codigo": "CB28",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "Álgebra y Geometría Analítica I"
+    ],
+    "area": "Matemática",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "ALGEBRA 2",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Grupo WhatsApp"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/algebra-ii.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ciclo-basico/algebra-ii"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1C_53mgxlWxcDALQiX0_UqEcWT4w5kVgs"
+      },
+      {
+        "nombre": "Grupo WhatsApp Frubox",
+        "url": "https://chat.whatsapp.com/FBzDr5uHSVAGbk13yzRZgU"
+      }
+    ]
+  },
+  {
+    "materia": "Informática",
+    "codigo": "IE107",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "IE104 (materia/código a verificar)"
+    ],
+    "area": "Informática",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "INTRO A LA INFORMATICA",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Grupo WhatsApp"
+    ],
+    "materialDetectado": "Carpeta posible, revisar si corresponde; Carpeta Frubox; Drive embebido; Grupo WhatsApp",
+    "comentarios": "Revisar porque el plan visible cita IE104 como correlativa, pero el CSV mapea a Introducción a la Informática.",
+    "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/informatica.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ciclo-basico/informatica"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1dszHigraXLTacxhSaPOMdB2YMgItr7aL"
+      },
+      {
+        "nombre": "Grupo WhatsApp Frubox",
+        "url": "https://chat.whatsapp.com/EkXNEo5sndxGih0AQADcUv"
+      }
+    ]
+  },
+  {
+    "materia": "Física II",
+    "codigo": "CB13",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "Cálculo I",
+      "Física I"
+    ],
+    "area": "Física",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "FISICA 2",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Grupo WhatsApp"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/fisica-2.md",
+    "cargaHorariaSemanal": "8.0",
+    "cargaHorariaCuatrimestral": "128",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ciclo-basico/fisica-2"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1Rdt_uGMGn_RIMp8XcQuZn__vUd1CRrog"
+      },
+      {
+        "nombre": "Grupo WhatsApp Frubox",
+        "url": "https://chat.whatsapp.com/Dav58wCHTYnD1yPxN3JkIn; https://chat.whatsapp.com/G4eJyJLWApqEDA61BWWNGJ"
+      }
+    ]
+  },
+  {
+    "materia": "Cálculo III",
+    "codigo": "CB30",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "Cálculo II",
+      "Álgebra y Geometría Analítica II"
+    ],
+    "area": "Matemática",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "CALCULO 3",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Grupo WhatsApp",
+      "Experiencias",
+      "Descripción/contenido"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp; Experiencias; Descripción/contenido",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/calculo-3.md",
+    "cargaHorariaSemanal": "8.0",
+    "cargaHorariaCuatrimestral": "128",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ciclo-basico/calculo-3"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1HWHu3fuxrKdQ5MNcmUFAbYy3KlkMBON4"
+      },
+      {
+        "nombre": "Grupo WhatsApp Frubox",
+        "url": "https://chat.whatsapp.com/J5FbAvwFspm5zdAr5Q8Dzi"
+      }
+    ]
+  },
+  {
+    "materia": "Programación",
+    "codigo": "IE011",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "Álgebra y Geometría Analítica I",
+      "Informática"
+    ],
+    "area": "Programación",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "PROGRAMACION",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Grupo WhatsApp"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/programacion.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ciclo-basico/programacion"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1g6ekdliV5fLBm0qDGStpwhrwqlqTYDvp"
+      },
+      {
+        "nombre": "Grupo WhatsApp Frubox",
+        "url": "https://chat.whatsapp.com/FfYWgnIOzXrFLsqgwPmxhP"
+      }
+    ]
+  },
+  {
+    "materia": "Probabilidad y Estadística",
+    "codigo": "IE012",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "Cálculo II"
+    ],
+    "area": "Matemática / Estadística",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "PROB Y ESTADISTICA",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Grupo WhatsApp"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/probabilidad-y-estadistica.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ciclo-basico/probabilidad-y-estadistica"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1AGV64UPn7BYJdtKPVjtLP2wAm2y43P_z"
+      },
+      {
+        "nombre": "Grupo WhatsApp Frubox",
+        "url": "https://chat.whatsapp.com/JzBWnkcjkqbCUhbfenX3Ob"
+      }
+    ]
+  },
+  {
+    "materia": "Física III",
+    "codigo": "CB15",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "Cálculo II",
+      "Física II"
+    ],
+    "area": "Física",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "FISICA 3",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Grupo WhatsApp",
+      "Experiencias",
+      "Descripción/contenido"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp; Experiencias; Descripción/contenido",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/fisica-3.md",
+    "cargaHorariaSemanal": "8.0",
+    "cargaHorariaCuatrimestral": "128",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ciclo-basico/fisica-3"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1TJPfsKrhU_54B81PK8en6_K9F8ggbXYj"
+      },
+      {
+        "nombre": "Grupo WhatsApp Frubox",
+        "url": "https://chat.whatsapp.com/F5df3HdyLg4FEzjeYTSBVE; https://chat.whatsapp.com/JC14a0dPjUl4AHXQpD7EVk"
+      }
+    ]
+  },
+  {
+    "materia": "Física IV",
+    "codigo": "CB31",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "Física III"
+    ],
+    "area": "Física",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "FISICA 4",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Grupo WhatsApp",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/fisica-4.md",
+    "cargaHorariaSemanal": "8.0",
+    "cargaHorariaCuatrimestral": "128",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ciclo-basico/fisica-4"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1B-20zufbuKeM32eDTcYSkdNctxE_5Ze3"
+      },
+      {
+        "nombre": "Grupo WhatsApp Frubox",
+        "url": "https://chat.whatsapp.com/K3JavgrV2cEJmwTN9n89nj"
+      }
+    ]
+  },
+  {
+    "materia": "Ciencias Morfológicas",
+    "codigo": "IB001",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "B04 (materia/código a verificar)"
+    ],
+    "area": "Biología / Morfología",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "CS MORFOLOGICAS",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Correlativa B04 aparece como código dudoso/no mapeado en el plan visible.",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/ciencias-morfologicas.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/ciencias-morfologicas"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1nqpkt_tZSQBzAqjXZE1JC72VpF5RJemK"
+      }
+    ]
+  },
+  {
+    "materia": "Higiene, seguridad ambiental y laboral",
+    "codigo": "IE029",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "B04 (materia/código a verificar)"
+    ],
+    "area": "Seguridad / Gestión",
+    "estado": "✅ Frubox detectado",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Correlativa B04 aparece como código dudoso/no mapeado en el plan visible.",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Higiene_y_Seguridad_Ambiental_y_Laboral.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Higiene_y_Seguridad_Ambiental_y_Laboral"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/18rA10ZgzjjQd29rXw5hctOh26GbLqykL"
+      }
+    ]
+  },
+  {
+    "materia": "Tecnologías de los Productos y Procesos",
+    "codigo": "IB002",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "Ciencia",
+      "Tecnología y Sociedad",
+      "Sistemas de Representación Gráfica"
+    ],
+    "area": "Ingeniería / Procesos",
+    "estado": "✅ Frubox detectado",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/tpyp.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/tpyp"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1o_GVEDG00GqomO5iVgPBUjqbPh1q2nv_"
+      }
+    ]
+  },
+  {
+    "materia": "Métodos numéricos",
+    "codigo": "IE013",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "Cálculo II",
+      "Álgebra y Geometría Analítica II"
+    ],
+    "area": "Matemática / Computación",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "METODOS NUMÉRICOS",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Grupo WhatsApp",
+      "Experiencias",
+      "Descripción/contenido"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp; Experiencias; Descripción/contenido",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/metodos-numericos.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ciclo-basico/metodos-numericos"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/19oY3gzU4Wrk86GckK4UyX2lPfR9eW0Zj"
+      },
+      {
+        "nombre": "Grupo WhatsApp Frubox",
+        "url": "https://chat.whatsapp.com/G6DNMTPhxtFJusRmZHktC1"
+      }
+    ]
+  },
+  {
+    "materia": "Protección radiológica",
+    "codigo": "IB003",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "Física IV"
+    ],
+    "area": "Radiología / Seguridad",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "PROT RADIOLOGICA",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Radioproteccion.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Radioproteccion"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1o3KtZOMUwOZMvuJVxo2cAj296VERj15Q"
+      }
+    ]
+  },
+  {
+    "materia": "Modelos y sistemas",
+    "codigo": "IB004",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "Cálculo III",
+      "Probabilidad y Estadística"
+    ],
+    "area": "Modelado / Sistemas",
+    "estado": "✅ Frubox detectado",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Modelos_y_sistemas.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Modelos_y_sistemas"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/18xtRRTnavDuOSEgPYYG4-Y-bzzLIj0j0"
+      }
+    ]
+  },
+  {
+    "materia": "Análisis y procesamiento de señales",
+    "codigo": "IE025",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "Cálculo III",
+      "Probabilidad y Estadística",
+      "Métodos numéricos"
+    ],
+    "area": "Señales",
+    "estado": "✅ Frubox detectado",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Analisis y Procesamiento de Señales.md",
+    "cargaHorariaSemanal": "8.0",
+    "cargaHorariaCuatrimestral": "128",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Analisis%20y%20Procesamiento%20de%20Se%C3%B1ales"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1BhXSp_uoEy1r4j8C1FZNI9bMPFZ_3eC2"
+      }
+    ]
+  },
+  {
+    "materia": "Medidas",
+    "codigo": "IB005",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "Cálculo III",
+      "Física III"
+    ],
+    "area": "Instrumentación / Medidas",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "MEDIDAS",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Medidas_1.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Medidas_1"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1VU2NEBALWejB1-2U5uTzCwd9GdE8FWr4"
+      }
+    ]
+  },
+  {
+    "materia": "Biofísica",
+    "codigo": "IB006",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "Ciencias Morfológicas"
+    ],
+    "area": "Biofísica",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "BIOFISICA",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Biofisica.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Biofisica"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/112bOZs5-1jRuEHyoMrvW6NYcr4qfqekB"
+      }
+    ]
+  },
+  {
+    "materia": "Electrónica digital I",
+    "codigo": "IB007",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "Informática",
+      "Programación"
+    ],
+    "area": "Electrónica Digital",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "E DIGITAL 1",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Electrónica Digital 1.md",
+    "cargaHorariaSemanal": "8.0",
+    "cargaHorariaCuatrimestral": "128",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Electr%C3%B3nica%20Digital%201"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1SSGDbTno0SFY5ngp8tcUQYb15jxSIuuB"
+      }
+    ]
+  },
+  {
+    "materia": "Procesamiento de Imágenes",
+    "codigo": "IB008",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "Métodos numéricos",
+      "Análisis y procesamiento de señales"
+    ],
+    "area": "Imágenes Biomédicas",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "PROCESAMIENTO DE IMAGENES",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Procesamiento_de_imágenes.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Procesamiento_de_im%C3%A1genes"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/13bCNXMe_xMRlzXJaUycivzGi08uXQW2c"
+      }
+    ]
+  },
+  {
+    "materia": "Electrónica analógica",
+    "codigo": "IB009",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "Tecnologías de los Productos y Procesos",
+      "Análisis y procesamiento de señales"
+    ],
+    "area": "Electrónica Analógica",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "E ANALOGICA",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Electrónica Analógica.md",
+    "cargaHorariaSemanal": "8.0",
+    "cargaHorariaCuatrimestral": "128",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Electr%C3%B3nica%20Anal%C3%B3gica"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1uwO_DoINOrGEgRlOUlZ-PF_0mb2EOQCp"
+      }
+    ]
+  },
+  {
+    "materia": "Fisiología",
+    "codigo": "IB010",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "Biofísica"
+    ],
+    "area": "Biología / Fisiología",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "FISIOLOGIA",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Fisiología.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Fisiolog%C3%ADa"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1LbWwBJCnbFocWHUFPBTdxy02hUnHlhf3"
+      }
+    ]
+  },
+  {
+    "materia": "Electrónica digital II",
+    "codigo": "IB011",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "Electrónica digital I"
+    ],
+    "area": "Electrónica Digital",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "E DIGITAL 2",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Electrónica Digital 2.md",
+    "cargaHorariaSemanal": "8.0",
+    "cargaHorariaCuatrimestral": "128",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Electr%C3%B3nica%20Digital%202"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1A2QlJrStWODrYsqei5I3f9uPug_D1rlW"
+      }
+    ]
+  },
+  {
+    "materia": "Electrotecnia",
+    "codigo": "IB012",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "Modelos y sistemas",
+      "Medidas"
+    ],
+    "area": "Electrotecnia",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "ELECTROTECNIA",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Electrotecnia.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Electrotecnia"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1VSh3EJeIs7vhpAqb8weXOhIhLtCG91UX"
+      }
+    ]
+  },
+  {
+    "materia": "Ingeniería Biomédica I",
+    "codigo": "IB013",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "Fisiología",
+      "Electrónica analógica"
+    ],
+    "area": "Ingeniería Biomédica",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "ING BIOMEDICA 1",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Ingeniería_Biomédica_1.md",
+    "cargaHorariaSemanal": "8.0",
+    "cargaHorariaCuatrimestral": "128",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Ingenier%C3%ADa_Biom%C3%A9dica_1"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/15xwrdEFjv5e6FY4nMEkqUTayJrGbpHd2"
+      }
+    ]
+  },
+  {
+    "materia": "Sensores, acondicionadores de señales y adquisición de datos",
+    "codigo": "IE026",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "Medidas",
+      "Electrónica digital I",
+      "Electrónica analógica"
+    ],
+    "area": "Sensores / Instrumentación",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "SENSORES",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Sensores.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Sensores"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1i7VvsiOZ9WK-NvHi0CKUVg4hOLfrhM0h"
+      }
+    ]
+  },
+  {
+    "materia": "Ingeniería Biomédica II",
+    "codigo": "IB014",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "Electrónica digital II",
+      "Ingeniería Biomédica I",
+      "Sensores",
+      "acondicionadores de señales y adquisición de datos"
+    ],
+    "area": "Ingeniería Biomédica",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "ING BIOMEDICA 2",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Ingeniería_Biomédica_2.md",
+    "cargaHorariaSemanal": "8.0",
+    "cargaHorariaCuatrimestral": "128",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Ingenier%C3%ADa_Biom%C3%A9dica_2"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/193rdlRmycV-XWoR8EXLd2GmJp9ecry17"
+      }
+    ]
+  },
+  {
+    "materia": "Electiva I",
+    "codigo": "ELEC01",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "Según materia"
+    ],
+    "area": "Electiva",
+    "estado": "🟡 Hay carpeta, revisar",
+    "estadoFrubox": "🟡 Hay electivas candidatas",
+    "coincidenciaMateria": "Dudosa / depende de materia",
+    "carpetaOneDriveDetectada": "OPTATIVAS",
+    "queHay": [],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree",
+    "comentarios": "Electiva: depende de la materia elegida.",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": []
+  },
+  {
+    "materia": "Ingeniería Clínica",
+    "codigo": "IB015",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "Electrotecnia",
+      "Ingeniería Biomédica I"
+    ],
+    "area": "Ingeniería Clínica",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "ING CLINICA",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Ingeniería_Clínica.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Ingenier%C3%ADa_Cl%C3%ADnica"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1KYgAOBG52115j1m3Cxbv70wM8IFplJQz"
+      }
+    ]
+  },
+  {
+    "materia": "Economía",
+    "codigo": "IE031",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "Higiene",
+      "seguridad ambiental y laboral"
+    ],
+    "area": "Gestión / Economía",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "ECONOMIA",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Economia.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Economia"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1HdigxFigpkYHCYFi4Oh3LRlRmQuNzUhi"
+      }
+    ]
+  },
+  {
+    "materia": "Biomecánica y Biomateriales",
+    "codigo": "IB016",
+    "anio": 5,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "Fisiología",
+      "Sensores",
+      "acondicionadores de señales y adquisición de datos"
+    ],
+    "area": "Biomecánica / Biomateriales",
+    "estado": "✅ Frubox detectado",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Biomateriales y Biomecánica.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Biomateriales%20y%20Biomec%C3%A1nica"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/132DaYfSpImpqBYBc_9gvH7EB3ylMZSnp"
+      }
+    ]
+  },
+  {
+    "materia": "Organización industrial",
+    "codigo": "IE033",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "Higiene",
+      "seguridad ambiental y laboral"
+    ],
+    "area": "Gestión / Organización",
+    "estado": "🟡 Hay carpeta, revisar",
+    "estadoFrubox": "🔴 No encontrada",
+    "coincidenciaMateria": "Sin match",
+    "carpetaOneDriveDetectada": "ORG INDUSTRIAL",
+    "queHay": [],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree",
+    "comentarios": "No apareció MD específico en el ZIP",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": []
+  },
+  {
+    "materia": "Ingeniería Biomédica III",
+    "codigo": "IB017",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "Procesamiento de Imágenes",
+      "Ingeniería Biomédica II"
+    ],
+    "area": "Ingeniería Biomédica",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "ING BIOMEDICA 3",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Ingeniería_Biomédica_3.md",
+    "cargaHorariaSemanal": "8.0",
+    "cargaHorariaCuatrimestral": "128",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Ingenier%C3%ADa_Biom%C3%A9dica_3"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1akJ77uEm-C5KJt7kCjxP1awo_3CmBpQE"
+      }
+    ]
+  },
+  {
+    "materia": "Práctica profesional supervisada",
+    "codigo": "IB018",
+    "anio": 5,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "Ingeniería Clínica",
+      "Economía"
+    ],
+    "area": "PPS / Profesional",
+    "estado": "🔴 Sin material detectado",
+    "estadoFrubox": "🔴 No encontrada",
+    "coincidenciaMateria": "Sin match",
+    "queHay": [],
+    "comentarios": "No apareció MD específico en el ZIP",
+    "cargaHorariaSemanal": "12.5",
+    "cargaHorariaCuatrimestral": "200",
+    "links": []
+  },
+  {
+    "materia": "Ética y ejercicio profesional",
+    "codigo": "IE032",
+    "anio": 6,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "Higiene",
+      "seguridad ambiental y laboral"
+    ],
+    "area": "Ética / Profesional",
+    "estado": "✅ OneDrive + Frubox detectados",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "carpetaOneDriveDetectada": "ETICA",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Grupo WhatsApp"
+    ],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/etica-y-ejercicio-profesional.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ciclo-basico/etica-y-ejercicio-profesional"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1i-1mUqCvAtxTqvvjTvUny2CatfqwtQSe"
+      },
+      {
+        "nombre": "Grupo WhatsApp Frubox",
+        "url": "https://chat.whatsapp.com/BXTPnPJ3UWt1Uy6AgyUSRJ"
+      }
+    ]
+  },
+  {
+    "materia": "Electiva II",
+    "codigo": "ELEC02",
+    "anio": 6,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "Según materia"
+    ],
+    "area": "Electiva",
+    "estado": "🟡 Hay carpeta, revisar",
+    "estadoFrubox": "🟡 Hay electivas candidatas",
+    "coincidenciaMateria": "Dudosa / depende de materia",
+    "carpetaOneDriveDetectada": "OPTATIVAS",
+    "queHay": [],
+    "materialDetectado": "Carpeta detectada en OneDrive/tree",
+    "comentarios": "Electiva: depende de la materia elegida.",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": []
+  },
+  {
+    "materia": "Ingeniería de la Rehabilitación",
+    "codigo": "IB019",
+    "anio": 6,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "Biomecánica y Biomateriales",
+      "Ingeniería Biomédica III"
+    ],
+    "area": "Rehabilitación",
+    "estado": "✅ Frubox detectado",
+    "estadoFrubox": "✅ Tiene página + carpeta",
+    "coincidenciaMateria": "Segura",
+    "queHay": [
+      "Carpeta Frubox",
+      "Drive embebido",
+      "Experiencias"
+    ],
+    "materialDetectado": "Carpeta Frubox; Drive embebido; Experiencias",
+    "comentarios": "Match por nombre equivalente",
+    "archivoMdFrubox": "INFO DE FRUBOX/ingenieria-biomedica/Rehabilitación.md",
+    "cargaHorariaSemanal": "4.0",
+    "cargaHorariaCuatrimestral": "64",
+    "links": [
+      {
+        "nombre": "Página Frubox",
+        "url": "https://wiki.frubox.org/materias/ingenieria-biomedica/Rehabilitaci%C3%B3n"
+      },
+      {
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1w7i-SnWNcwxnYd7txtFEK_L6eVpAP77q"
+      }
+    ]
+  },
+  {
+    "materia": "Proyecto final integrador",
+    "codigo": "IB070",
+    "anio": 6,
+    "cuatrimestre": 1,
+    "cuandoSeDicta": "1° Cuatrimestre",
+    "correlativas": [
+      "Organización industrial",
+      "Ingeniería Biomédica III"
+    ],
+    "area": "Proyecto Final",
+    "estado": "🔴 Sin material detectado",
+    "estadoFrubox": "🔴 No encontrada",
+    "coincidenciaMateria": "Sin match",
+    "queHay": [],
+    "comentarios": "No apareció MD específico en el ZIP",
+    "cargaHorariaSemanal": "12.5",
+    "cargaHorariaCuatrimestral": "200",
+    "links": []
+  },
+  {
+    "materia": "Prueba de suficiencia de idioma inglés",
+    "codigo": "INGLES",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [
+      "A rendir/aprobar"
+    ],
+    "area": "Inglés técnico",
+    "estado": "🔴 Sin material detectado",
+    "estadoFrubox": "🔴 No encontrada",
+    "coincidenciaMateria": "Sin match",
+    "queHay": [],
+    "comentarios": "No apareció MD específico en el ZIP",
+    "cargaHorariaSemanal": "0.0",
+    "cargaHorariaCuatrimestral": "0",
+    "links": []
+  }
+]
