@@ -1,163 +1,157 @@
-const DATA_PATH = "../data/materias.json";
+let materias = [];
 
-const materiasContainer = document.getElementById("materiasContainer");
 const searchInput = document.getElementById("searchInput");
 const yearFilter = document.getElementById("yearFilter");
 const statusFilter = document.getElementById("statusFilter");
-const emptyState = document.getElementById("emptyState");
-
-let materias = [];
-
-document.addEventListener("DOMContentLoaded", () => {
-  cargarMaterias();
-
-  searchInput.addEventListener("input", filtrarMaterias);
-  yearFilter.addEventListener("change", filtrarMaterias);
-  statusFilter.addEventListener("change", filtrarMaterias);
-});
+const materiasContainer = document.getElementById("materiasContainer");
 
 async function cargarMaterias() {
-  try {
-    const response = await fetch(DATA_PATH);
+    try {
+        const response = await fetch("../data/materias.json");
 
-    if (!response.ok) {
-      throw new Error("No se pudo cargar el archivo JSON.");
+        if (!response.ok) {
+            throw new Error("No se pudo cargar el archivo materias.json");
+        }
+
+        materias = await response.json();
+        renderizarMaterias(materias);
+
+    } catch (error) {
+        console.error("Error cargando materias:", error);
+
+        materiasContainer.innerHTML = `
+            <div class="empty-state">
+                <h2>⚠️ No se pudo cargar el banco de materias</h2>
+                <p>
+                    Revisá que exista el archivo <strong>data/materias.json</strong>
+                    y que esté bien escrita la ruta.
+                </p>
+            </div>
+        `;
+    }
+}
+
+function renderizarMaterias(listaMaterias) {
+    materiasContainer.innerHTML = "";
+
+    if (!listaMaterias || listaMaterias.length === 0) {
+        materiasContainer.innerHTML = `
+            <div class="empty-state">
+                <h2>🔎 No se encontraron materias</h2>
+                <p>Probá cambiar la búsqueda o los filtros.</p>
+            </div>
+        `;
+        return;
     }
 
-    materias = await response.json();
-    renderMaterias(materias);
-  } catch (error) {
-    materiasContainer.innerHTML = `
-      <article class="materia-card">
-        <h2>⚠️ Error al cargar el banco</h2>
-        <p>No se pudo leer el archivo <strong>data/materias.json</strong>.</p>
-        <p class="comentario">
-          Probalo con Live Server en VS Code o desde GitHub Pages.
-        </p>
-      </article>
-    `;
+    listaMaterias.forEach((materia) => {
+        const card = document.createElement("article");
+        card.className = "materia-card card";
 
-    console.error(error);
-  }
+        const linkPrincipal = obtenerLinkPrincipal(materia);
+        const codigo = materia.codigo || "";
+
+        card.innerHTML = `
+            <div class="materia-card-header">
+                <p class="materia-area">${materia.area || "Materia"}</p>
+                <h2>${materia.materia || "Materia sin nombre"}</h2>
+            </div>
+
+            <div class="materia-card-info">
+                <p><strong>Código:</strong> ${materia.codigo || "Sin código"}</p>
+                <p><strong>Año:</strong> ${materia.anio || "-"}</p>
+                <p><strong>Cuatrimestre:</strong> ${materia.cuatrimestre || "-"}</p>
+                <p><strong>Estado:</strong> ${materia.estado || "Sin estado"}</p>
+                <p><strong>Qué hay:</strong> ${formatearTexto(materia.queHay)}</p>
+            </div>
+
+            <div class="card-buttons">
+                ${
+                    codigo
+                    ? `<a href="./materia.html?codigo=${encodeURIComponent(codigo)}" class="btn btn-secondary">
+                            Ver materia
+                       </a>`
+                    : ""
+                }
+
+                ${
+                    linkPrincipal
+                    ? `<a href="${linkPrincipal}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                            Abrir material
+                       </a>`
+                    : `<span class="no-link">Sin link cargado</span>`
+                }
+            </div>
+        `;
+
+        materiasContainer.appendChild(card);
+    });
+}
+
+function obtenerLinkPrincipal(materia) {
+    if (!materia.links) return "";
+
+    return (
+        materia.links.linkPrincipal ||
+        materia.links.carpetaDrive ||
+        materia.links.carpetaOneDrive ||
+        materia.links.paginaFrubox ||
+        materia.links.grupoWhatsapp ||
+        ""
+    );
+}
+
+function formatearTexto(valor) {
+    if (!valor || valor === "" || valor === "-") {
+        return "Sin información cargada";
+    }
+
+    if (Array.isArray(valor)) {
+        return valor.length > 0 ? valor.join(", ") : "Sin información cargada";
+    }
+
+    return valor;
 }
 
 function filtrarMaterias() {
-  const busqueda = normalizarTexto(searchInput.value);
-  const anio = yearFilter.value;
-  const estado = statusFilter.value;
+    const textoBusqueda = searchInput ? searchInput.value.toLowerCase().trim() : "";
+    const anioSeleccionado = yearFilter ? yearFilter.value : "";
+    const estadoSeleccionado = statusFilter ? statusFilter.value : "";
 
-  const materiasFiltradas = materias.filter(materia => {
-    const nombreMateria = normalizarTexto(materia.materia || "");
-    const codigo = normalizarTexto(materia.codigo || "");
-    const queHay = normalizarTexto((materia.queHay || []).join(" "));
-    const comentarios = normalizarTexto(materia.comentarios || "");
-    const area = normalizarTexto(materia.area || "");
+    const materiasFiltradas = materias.filter((materia) => {
+        const nombreMateria = (materia.materia || "").toLowerCase();
+        const codigoMateria = (materia.codigo || "").toLowerCase();
+        const areaMateria = (materia.area || "").toLowerCase();
 
-    const coincideBusqueda =
-      nombreMateria.includes(busqueda) ||
-      codigo.includes(busqueda) ||
-      queHay.includes(busqueda) ||
-      comentarios.includes(busqueda) ||
-      area.includes(busqueda);
+        const coincideBusqueda =
+            nombreMateria.includes(textoBusqueda) ||
+            codigoMateria.includes(textoBusqueda) ||
+            areaMateria.includes(textoBusqueda);
 
-    const coincideAnio = anio === "" || String(materia.anio) === anio;
-    const coincideEstado = estado === "" || (materia.estado || "").includes(estado);
+        const coincideAnio =
+            anioSeleccionado === "" ||
+            String(materia.anio) === String(anioSeleccionado);
 
-    return coincideBusqueda && coincideAnio && coincideEstado;
-  });
+        const coincideEstado =
+            estadoSeleccionado === "" ||
+            (materia.estado || "").includes(estadoSeleccionado);
 
-  renderMaterias(materiasFiltradas);
+        return coincideBusqueda && coincideAnio && coincideEstado;
+    });
+
+    renderizarMaterias(materiasFiltradas);
 }
 
-function renderMaterias(listaMaterias) {
-  materiasContainer.innerHTML = "";
-
-  if (listaMaterias.length === 0) {
-    emptyState.classList.remove("hidden");
-    return;
-  }
-
-  emptyState.classList.add("hidden");
-
-  listaMaterias.forEach(materia => {
-    const card = document.createElement("article");
-    card.className = "materia-card";
-
-    const idMateria = materia.id || generarId(materia.materia || "");
-
-    const queHayTexto =
-      materia.queHay && materia.queHay.length > 0
-        ? materia.queHay.join(", ")
-        : "Sin información";
-
-    const primerLink =
-      materia.links && materia.links.length > 0
-        ? materia.links[0]
-        : null;
-
-    const linkPrincipalHTML = primerLink
-      ? `<a href="${escaparAtributo(primerLink.url)}" target="_blank" class="btn btn-primary">
-          Abrir material
-        </a>`
-      : `<span class="btn btn-secondary">Sin link cargado</span>`;
-
-    card.innerHTML = `
-      <h2>${escaparHTML(materia.materia || "Materia sin nombre")}</h2>
-
-      <div class="materia-meta">
-        <span class="tag">${escaparHTML(materia.codigo || "Sin código")}</span>
-        <span class="tag">${escaparHTML(materia.anio || "Sin dato")}° año</span>
-        <span class="tag">${escaparHTML(materia.cuatrimestre || "Sin dato")}° cuatri</span>
-      </div>
-
-      <p class="estado">${escaparHTML(materia.estado || "🟡 Revisar")}</p>
-
-      <p class="que-hay">
-        <strong>Qué hay:</strong> ${escaparHTML(queHayTexto)}
-      </p>
-
-      ${
-        materia.comentarios
-          ? `<p class="comentario">${escaparHTML(materia.comentarios)}</p>`
-          : ""
-      }
-
-      <div class="hero-buttons">
-        <a href="./materia.html?id=${escaparAtributo(idMateria)}" class="btn btn-secondary">
-          Ver materia
-        </a>
-
-        ${linkPrincipalHTML}
-      </div>
-    `;
-
-    materiasContainer.appendChild(card);
-  });
+if (searchInput) {
+    searchInput.addEventListener("input", filtrarMaterias);
 }
 
-function generarId(texto) {
-  return normalizarTexto(texto)
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
+if (yearFilter) {
+    yearFilter.addEventListener("change", filtrarMaterias);
 }
 
-function normalizarTexto(texto) {
-  return String(texto)
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .trim();
+if (statusFilter) {
+    statusFilter.addEventListener("change", filtrarMaterias);
 }
 
-function escaparHTML(texto) {
-  return String(texto)
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#039;");
-}
-
-function escaparAtributo(texto) {
-  return escaparHTML(texto);
-}
+cargarMaterias();
