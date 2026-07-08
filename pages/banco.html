@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de materias | BioApuntes UNSAM</title>
+
+    <link rel="icon" href="../BioGeeks-Logo.svg">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="../index.html" class="logo">🧬 BioApuntes UNSAM</a>
+
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./banco.html">Banco</a></li>
+                <li><a href="./recursos.html">Recursos</a></li>
+                <li><a href="./colaborar.html">Colaborar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <p class="eyebrow">Banco de materias</p>
+
+            <h1>📚 Encontrá material por materia</h1>
+
+            <p>
+                Buscá una materia de Ingeniería Biomédica UNSAM y accedé rápido
+                a apuntes, guías, parciales, finales, resueltos, Frubox, Drive u otros recursos.
+            </p>
+        </section>
+
+        <section class="filters">
+            <input 
+                type="text" 
+                id="searchInput" 
+                placeholder="Buscar materia, por ejemplo: Física II..."
+            >
+
+            <select id="yearFilter">
+                <option value="">Todos los años</option>
+                <option value="1">1° año</option>
+                <option value="2">2° año</option>
+                <option value="3">3° año</option>
+                <option value="4">4° año</option>
+                <option value="5">5° año</option>
+                <option value="6">6° año</option>
+            </select>
+
+            <select id="statusFilter">
+                <option value="">Todos los estados</option>
+                <option value="✅">✅ Hay material</option>
+                <option value="🟡">🟡 Revisar</option>
+                <option value="🔴">🔴 Sin material</option>
+                <option value="⚠️">⚠️ Dudoso</option>
+            </select>
+        </section>
+
+        <section class="notice">
+            <h2>ℹ️ Cómo usar el banco</h2>
+            <p>
+                El banco funciona como índice: los archivos no están guardados acá,
+                sino enlazados desde Frubox, Drive, OneDrive u otros espacios externos.
+            </p>
+        </section>
+
+        <section id="materiasContainer" class="materias-grid">
+            <!-- Las materias se cargan desde data/materias.csv con JavaScript -->
+        </section>
+
+        <section id="emptyState" class="notice hidden">
+            <h2>🔎 No se encontraron materias</h2>
+            <p>
+                Probá buscar con otro nombre, sin tildes o usando una palabra más corta.
+            </p>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div>
+            <p>Copyright · Todos los derechos reservados</p>
+
+            <div>
+                <a href="../index.html">
+                    <strong class="text-footer">Página Web BioApuntes - 2026</strong>
+                </a>
+            </div>
+
+            <div class="git-hub">
+                <p>
+                    Diseñado por:
+                    <a class="text-footer" href="https://github.com/ro-fer" target="_blank">
+                        Roh Fernandez
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../scripts/banco.js"></script>
+</body>
+</html>
