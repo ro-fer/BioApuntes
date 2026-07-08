@@ -407,3 +407,39 @@ footer p {
     padding: 20px;
   }
 }
+.hidden {
+  display: none;
+}
+
+.materia-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: var(--color-primary-soft);
+  color: var(--color-primary-dark);
+  font-size: 0.85rem;
+  font-weight: 750;
+}
+
+.estado {
+  margin: 12px 0;
+  font-weight: 800;
+}
+
+.que-hay {
+  margin-top: 10px;
+}
+
+.comentario {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: var(--color-muted);
+}
