@@ -15,6 +15,12 @@ const linksContainer = document.getElementById("materia-links");
 const carpetasDriveContainer = document.getElementById("materia-carpetas-drive");
 const contenidosContainer = document.getElementById("materia-contenidos");
 
+async function cargarJSON(url) {
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`No se pudo cargar ${url}`);
+    return await response.json();
+}
+
 async function cargarMateria() {
     try {
         if (!codigoMateria) {
@@ -22,22 +28,25 @@ async function cargarMateria() {
             return;
         }
 
-        const response = await fetch("../data/materias.json");
+        const materiasBase = await cargarJSON("../data/materias.json");
+        let patchOneDrive = {};
 
-        if (!response.ok) {
-            throw new Error("No se pudo cargar materias.json");
+        try {
+            patchOneDrive = await cargarJSON("../data/onedrive_patch_bioapuntes.json");
+        } catch (errorPatch) {
+            console.warn("No se encontró patch de OneDrive. Se cargan solo los datos base.", errorPatch);
         }
 
-        const materias = await response.json();
-
-        const materia = materias.find((item) => {
+        const materiaBase = materiasBase.find((item) => {
             return String(item.codigo).toLowerCase() === String(codigoMateria).toLowerCase();
         });
 
-        if (!materia) {
+        if (!materiaBase) {
             mostrarError("No se encontró la materia solicitada.");
             return;
         }
+
+        const materia = mezclarMateriaConOneDrive(materiaBase, patchOneDrive);
 
         document.title = `${materia.materia} | BioApuntes UNSAM`;
 
@@ -47,7 +56,7 @@ async function cargarMateria() {
         cuatrimestre.textContent = materia.cuatrimestre ? `Cuatrimestre: ${materia.cuatrimestre}` : "Cuatrimestre no disponible";
         area.textContent = materia.area || "Materia";
 
-        estado.textContent = materia.estado || "Sin estado";
+        estado.textContent = calcularEstado(materia);
         correlativas.textContent = formatearTexto(materia.correlativas);
         queHay.textContent = formatearTexto(materia.queHay);
         materialDetectado.textContent = formatearTexto(materia.materialDetectado);
@@ -63,21 +72,144 @@ async function cargarMateria() {
     }
 }
 
-function formatearTexto(valor) {
-    if (!valor || valor === "" || valor === "-") {
-        return "Sin información cargada";
+function mezclarMateriaConOneDrive(materia, patchOneDrive) {
+    const extra = patchOneDrive[materia.codigo] || {};
+    const linksBase = normalizarLinks(materia.links);
+    const linksExtra = [];
+
+    if (extra.linkOneDrive) {
+        linksExtra.push({
+            nombre: "Carpeta OneDrive",
+            tipo: "OneDrive",
+            url: extra.linkOneDrive
+        });
     }
+
+    const queHayBase = normalizarArray(materia.queHay);
+    const queHayExtra = normalizarArray(extra.queHayOneDrive);
+
+    return {
+        ...materia,
+        carpetaOneDriveDetectada: extra.carpetaOneDriveDetectada || materia.carpetaOneDriveDetectada || "",
+        linkOneDrive: extra.linkOneDrive || materia.linkOneDrive || "",
+        queHayOneDrive: queHayExtra,
+        queHay: unirSinDuplicados([...queHayBase, ...queHayExtra]),
+        materialDetectadoOneDrive: extra.materialDetectadoOneDrive || "",
+        materialDetectado: unirTextos([materia.materialDetectado, extra.materialDetectadoOneDrive]),
+        comentarios: unirTextos([materia.comentarios, extra.comentarioOneDrive]),
+        links: unirLinks(linksBase, linksExtra)
+    };
+}
+
+function normalizarArray(valor) {
+    if (!valor) return [];
+    if (Array.isArray(valor)) return valor.filter(Boolean).map(String);
+    if (typeof valor === "string") {
+        return valor
+            .split(/;|,|\n/)
+            .map((item) => item.trim())
+            .filter(Boolean);
+    }
+    return [String(valor)];
+}
+
+function normalizarLinks(links) {
+    if (!links) return [];
+
+    if (Array.isArray(links)) {
+        return links
+            .map((link, index) => {
+                if (typeof link === "string") {
+                    return { nombre: `Link ${index + 1}`, tipo: "Link", url: link };
+                }
+
+                if (typeof link === "object" && link !== null) {
+                    return {
+                        nombre: link.nombre || link.titulo || link.tipo || `Link ${index + 1}`,
+                        tipo: link.tipo || link.nombre || "Link",
+                        url: link.url || link.link || link.href || link.drive || link.frubox || ""
+                    };
+                }
+
+                return null;
+            })
+            .filter((link) => link && link.url);
+    }
+
+    if (typeof links === "object") {
+        return Object.entries(links)
+            .map(([clave, valor]) => {
+                if (!valor) return null;
+
+                if (typeof valor === "string") {
+                    return { nombre: formatearNombreLink(clave), tipo: clave, url: valor };
+                }
+
+                if (typeof valor === "object") {
+                    return {
+                        nombre: valor.nombre || valor.titulo || valor.tipo || formatearNombreLink(clave),
+                        tipo: valor.tipo || clave,
+                        url: valor.url || valor.link || valor.href || ""
+                    };
+                }
+
+                return null;
+            })
+            .filter((link) => link && link.url);
+    }
+
+    return [];
+}
+
+function unirLinks(linksBase, linksExtra) {
+    const vistos = new Set();
+    const resultado = [];
+
+    [...linksBase, ...linksExtra].forEach((link) => {
+        if (!link || !link.url) return;
+        const clave = link.url.trim();
+        if (vistos.has(clave)) return;
+        vistos.add(clave);
+        resultado.push(link);
+    });
+
+    return resultado;
+}
+
+function unirSinDuplicados(lista) {
+    return [...new Set(lista.filter(Boolean).map(String))];
+}
+
+function unirTextos(textos) {
+    return textos
+        .filter((texto) => texto && texto !== "-" && String(texto).trim() !== "")
+        .map(String)
+        .filter((texto, index, array) => array.indexOf(texto) === index)
+        .join("; ");
+}
+
+function calcularEstado(materia) {
+    const links = normalizarLinks(materia.links);
+    const tieneOneDrive = links.some((link) => esLinkDrive(link.url));
+    const tieneFrubox = links.some((link) => (link.nombre || "").toLowerCase().includes("frubox"));
+
+    if (tieneOneDrive && tieneFrubox) return "✅ OneDrive + Frubox detectados";
+    if (tieneOneDrive) return "✅ OneDrive detectado";
+    if (tieneFrubox) return "✅ Frubox detectado";
+
+    return materia.estado || "🟡 Sin revisar";
+}
+
+function formatearTexto(valor) {
+    if (!valor || valor === "" || valor === "-") return "Sin información cargada";
 
     if (Array.isArray(valor)) {
         if (valor.length === 0) return "Sin información cargada";
-
         return valor.map((item) => {
             if (typeof item === "string") return item;
-
             if (typeof item === "object" && item !== null) {
                 return item.nombre || item.titulo || item.texto || item.descripcion || JSON.stringify(item);
             }
-
             return String(item);
         }).join(", ");
     }
@@ -87,11 +219,9 @@ function formatearTexto(valor) {
             .filter(Boolean)
             .map((item) => {
                 if (typeof item === "string") return item;
-
                 if (typeof item === "object" && item !== null) {
                     return item.nombre || item.titulo || item.texto || item.descripcion || JSON.stringify(item);
                 }
-
                 return String(item);
             })
             .join(", ");
@@ -100,53 +230,92 @@ function formatearTexto(valor) {
     return String(valor);
 }
 
-function renderizarLinks(links) {
-    linksContainer.innerHTML = "";
+function renderizarContenidos(contenidos) {
+    contenidosContainer.innerHTML = "";
 
-    if (!links || links.length === 0 || Object.keys(links).length === 0) {
-        linksContainer.innerHTML = "<p>Sin links cargados para esta materia.</p>";
+    if (!contenidos || contenidos === "" || contenidos === "-") {
+        contenidosContainer.innerHTML = `<p class="empty-text">Todavía no hay contenidos mínimos cargados para esta materia.</p>`;
         return;
     }
 
-    let linksNormalizados = [];
+    const lista = normalizarContenidos(contenidos);
 
-    if (Array.isArray(links)) {
-        linksNormalizados = links.map((link, index) => {
-            if (typeof link === "string") {
-                return {
-                    nombre: `Link ${index + 1}`,
-                    url: link
-                };
-            }
-
-            return {
-                nombre: link.nombre || link.titulo || link.tipo || `Link ${index + 1}`,
-                url: link.url || link.link || link.href || link.drive || link.frubox || ""
-            };
-        });
-    } else {
-        linksNormalizados = Object.entries(links).map(([clave, valor]) => {
-            if (typeof valor === "string") {
-                return {
-                    nombre: formatearNombreLink(clave),
-                    url: valor
-                };
-            }
-
-            if (typeof valor === "object" && valor !== null) {
-                return {
-                    nombre: valor.nombre || valor.titulo || valor.tipo || formatearNombreLink(clave),
-                    url: valor.url || valor.link || valor.href || ""
-                };
-            }
-
-            return {
-                nombre: formatearNombreLink(clave),
-                url: ""
-            };
-        });
+    if (lista.length === 0) {
+        contenidosContainer.innerHTML = `<p class="empty-text">Todavía no hay contenidos mínimos cargados para esta materia.</p>`;
+        return;
     }
 
+    const wrapper = document.createElement("div");
+    wrapper.className = "contenidos-bloques";
+
+    lista.forEach((item) => {
+        const bloque = document.createElement("div");
+        bloque.className = "contenido-bloque";
+
+        if (typeof item === "string") {
+            bloque.innerHTML = `<p>${item}</p>`;
+        } else {
+            bloque.innerHTML = `
+                <h3>${item.titulo}</h3>
+                <p>${item.texto}</p>
+            `;
+        }
+
+        wrapper.appendChild(bloque);
+    });
+
+    contenidosContainer.appendChild(wrapper);
+}
+
+function normalizarContenidos(contenidos) {
+    if (Array.isArray(contenidos)) {
+        return contenidos
+            .map((item) => {
+                if (typeof item === "string") return item;
+                if (typeof item === "object" && item !== null) {
+                    return item.contenido || item.texto || item.titulo || item.nombre || item.descripcion || Object.values(item).join(" ");
+                }
+                return String(item);
+            })
+            .filter((item) => item && item.trim() !== "");
+    }
+
+    if (typeof contenidos === "object" && contenidos !== null) {
+        const lista = [];
+
+        if (contenidos.cargaHorariaSemanalTexto) {
+            lista.push({ titulo: "Carga horaria semanal", texto: contenidos.cargaHorariaSemanalTexto });
+        }
+
+        if (contenidos.cargaHorariaCuatrimestralTexto) {
+            lista.push({ titulo: "Carga horaria cuatrimestral", texto: contenidos.cargaHorariaCuatrimestralTexto });
+        }
+
+        if (contenidos.texto) {
+            lista.push({ titulo: "Temas", texto: contenidos.texto });
+        }
+
+        if (contenidos.fuente) {
+            lista.push({ titulo: "Fuente", texto: contenidos.fuente });
+        }
+
+        return lista;
+    }
+
+    if (typeof contenidos === "string") {
+        return contenidos
+            .split(/\.\s+|;|\n/)
+            .map((item) => item.trim())
+            .filter((item) => item.length > 0);
+    }
+
+    return [];
+}
+
+function renderizarLinks(links) {
+    linksContainer.innerHTML = "";
+
+    const linksNormalizados = normalizarLinks(links);
     const linksValidos = linksNormalizados.filter((link) => {
         if (!link.url || link.url === "" || link.url === "-") return false;
 
@@ -175,7 +344,6 @@ function renderizarLinks(links) {
         link.rel = "noopener noreferrer";
         link.className = "btn btn-secondary";
         link.textContent = item.nombre;
-
         linksContainer.appendChild(link);
     });
 }
@@ -183,87 +351,10 @@ function renderizarLinks(links) {
 function renderizarCarpetasDrive(links) {
     carpetasDriveContainer.innerHTML = "";
 
-    if (!links || links.length === 0 || Object.keys(links).length === 0) {
-        carpetasDriveContainer.innerHTML = "<p>Sin carpetas de Drive u OneDrive cargadas para esta materia.</p>";
-        return;
-    }
-
-    let carpetas = [];
-
-    if (Array.isArray(links)) {
-        carpetas = links
-            .map((link, index) => {
-                if (typeof link === "string") {
-                    const esDrive = esLinkDrive(link);
-
-                    return esDrive
-                        ? {
-                            nombre: `Carpeta ${index + 1}`,
-                            url: link
-                        }
-                        : null;
-                }
-
-                if (typeof link === "object" && link !== null) {
-                    const url = link.url || link.link || link.href || link.drive || link.frubox || "";
-                    const nombre = link.nombre || link.titulo || link.tipo || `Carpeta ${index + 1}`;
-
-                    return esLinkDrive(url) || nombre.toLowerCase().includes("drive")
-                        ? {
-                            nombre: nombre,
-                            url: url
-                        }
-                        : null;
-                }
-
-                return null;
-            })
-            .filter(Boolean);
-    } else {
-        carpetas = Object.entries(links)
-            .map(([clave, valor]) => {
-                if (!valor) return null;
-
-                if (typeof valor === "string") {
-                    const esCarpeta =
-                        clave.toLowerCase().includes("drive") ||
-                        clave.toLowerCase().includes("onedrive") ||
-                        esLinkDrive(valor);
-
-                    return esCarpeta
-                        ? {
-                            nombre: formatearNombreLink(clave),
-                            url: valor
-                        }
-                        : null;
-                }
-
-                if (typeof valor === "object" && valor !== null) {
-                    const url = valor.url || valor.link || valor.href || "";
-                    const nombre = valor.nombre || valor.titulo || valor.tipo || formatearNombreLink(clave);
-
-                    const esCarpeta =
-                        clave.toLowerCase().includes("drive") ||
-                        clave.toLowerCase().includes("onedrive") ||
-                        nombre.toLowerCase().includes("drive") ||
-                        nombre.toLowerCase().includes("onedrive") ||
-                        esLinkDrive(url);
-
-                    return esCarpeta
-                        ? {
-                            nombre: nombre,
-                            url: url
-                        }
-                        : null;
-                }
-
-                return null;
-            })
-            .filter(Boolean);
-    }
-
-    const carpetasValidas = carpetas.filter((carpeta) => {
-        return carpeta.url && carpeta.url !== "" && carpeta.url !== "-";
+    const linksNormalizados = normalizarLinks(links);
+    const carpetasValidas = linksNormalizados.filter((link) => {
+        const nombre = (link.nombre || "").toLowerCase();
+        return link.url && (esLinkDrive(link.url) || nombre.includes("drive") || nombre.includes("onedrive"));
     });
 
     if (carpetasValidas.length === 0) {
@@ -278,16 +369,13 @@ function renderizarCarpetasDrive(links) {
         link.rel = "noopener noreferrer";
         link.className = "btn btn-primary";
         link.textContent = carpeta.nombre;
-
         carpetasDriveContainer.appendChild(link);
     });
 }
 
 function esLinkDrive(url) {
     if (!url) return false;
-
     const urlMinuscula = url.toLowerCase();
-
     return (
         urlMinuscula.includes("drive.google.com") ||
         urlMinuscula.includes("sharepoint.com") ||
@@ -312,94 +400,6 @@ function formatearNombreLink(nombreLink) {
     return nombres[nombreLink] || nombreLink;
 }
 
-function renderizarContenidos(contenidos) {
-    contenidosContainer.innerHTML = "";
-
-    if (!contenidos || contenidos === "" || contenidos === "-") {
-        contenidosContainer.innerHTML = `
-            <p class="empty-text">
-                Todavía no hay contenidos mínimos cargados para esta materia.
-            </p>
-        `;
-        return;
-    }
-
-    const lista = normalizarContenidos(contenidos);
-
-    if (lista.length === 0) {
-        contenidosContainer.innerHTML = `
-            <p class="empty-text">
-                Todavía no hay contenidos mínimos cargados para esta materia.
-            </p>
-        `;
-        return;
-    }
-
-    const ul = document.createElement("ul");
-
-    lista.forEach((contenido) => {
-        const li = document.createElement("li");
-        li.textContent = contenido;
-        ul.appendChild(li);
-    });
-
-    contenidosContainer.appendChild(ul);
-}
-
-function normalizarContenidos(contenidos) {
-    if (Array.isArray(contenidos)) {
-        return contenidos
-            .map((item) => {
-                if (typeof item === "string") return item;
-
-                if (typeof item === "object" && item !== null) {
-                    return (
-                        item.contenido ||
-                        item.texto ||
-                        item.titulo ||
-                        item.nombre ||
-                        item.descripcion ||
-                        Object.values(item).join(": ")
-                    );
-                }
-
-                return String(item);
-            })
-            .filter((item) => item && item.trim() !== "");
-    }
-
-    if (typeof contenidos === "object" && contenidos !== null) {
-        return Object.entries(contenidos)
-            .map(([clave, valor]) => {
-                if (!valor) return "";
-
-                if (typeof valor === "string") {
-                    return `${clave}: ${valor}`;
-                }
-
-                if (Array.isArray(valor)) {
-                    return `${clave}: ${valor.join(", ")}`;
-                }
-
-                if (typeof valor === "object") {
-                    return `${clave}: ${Object.values(valor).join(", ")}`;
-                }
-
-                return `${clave}: ${String(valor)}`;
-            })
-            .filter((item) => item && item.trim() !== "");
-    }
-
-    if (typeof contenidos === "string") {
-        return contenidos
-            .split(/\.|;|\n/)
-            .map((item) => item.trim())
-            .filter((item) => item.length > 0);
-    }
-
-    return [];
-}
-
 function mostrarError(mensaje) {
     nombre.textContent = "Materia no encontrada";
     area.textContent = "Error";
@@ -415,11 +415,7 @@ function mostrarError(mensaje) {
 
     linksContainer.innerHTML = "";
     carpetasDriveContainer.innerHTML = "";
-    contenidosContainer.innerHTML = `
-        <p class="empty-text">
-            ${mensaje}
-        </p>
-    `;
+    contenidosContainer.innerHTML = `<p class="empty-text">${mensaje}</p>`;
 }
 
 cargarMateria();
