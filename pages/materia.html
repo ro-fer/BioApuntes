@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materia | BioApuntes UNSAM</title>
+
+    <link rel="icon" href="../BioGeeks-Logo.svg">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="../index.html" class="logo">🧬 BioApuntes UNSAM</a>
+
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./banco.html">Banco</a></li>
+                <li><a href="./recursos.html">Recursos</a></li>
+                <li><a href="./colaborar.html">Colaborar</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <p class="eyebrow">Detalle de materia</p>
+
+            <h1 id="materiaTitulo">Cargando materia...</h1>
+
+            <p id="materiaDescripcion">
+                Información, links y material disponible para esta materia.
+            </p>
+        </section>
+
+        <section id="materiaResumen" class="materia-detail-card">
+            <!-- Resumen cargado con JS -->
+        </section>
+
+        <section class="detail-layout">
+
+            <article class="detail-main">
+                <section class="detail-section">
+                    <h2>📚 Qué hay cargado</h2>
+                    <ul id="queHayLista" class="pretty-list">
+                        <!-- Se carga con JS -->
+                    </ul>
+                </section>
+
+                <section class="detail-section">
+                    <h2>🔗 Links disponibles</h2>
+                    <div id="linksContainer" class="links-grid">
+                        <!-- Se carga con JS -->
+                    </div>
+                </section>
+
+                <section class="detail-section">
+                    <h2>🧾 Comentarios</h2>
+                    <p id="comentariosMateria" class="comentario">
+                        <!-- Se carga con JS -->
+                    </p>
+                </section>
+            </article>
+
+            <aside class="detail-aside">
+                <h2>📌 Datos de la materia</h2>
+
+                <div id="datosMateria" class="datos-lista">
+                    <!-- Se carga con JS -->
+                </div>
+
+                <a href="./banco.html" class="btn btn-secondary">
+                    Volver al banco
+                </a>
+            </aside>
+
+        </section>
+
+        <section id="driveEmbedSection" class="detail-section hidden">
+            <h2>☁️ Vista previa de carpeta</h2>
+
+            <p class="comentario">
+                Esta vista puede tardar unos segundos en cargar y depende de los permisos de la carpeta.
+            </p>
+
+            <div id="driveEmbedContainer" class="embed-container">
+                <!-- Iframe opcional -->
+            </div>
+        </section>
+
+        <section id="materiaNoEncontrada" class="notice hidden">
+            <h2>🔎 Materia no encontrada</h2>
+            <p>
+                No encontramos una materia con ese identificador. Volvé al banco e intentá abrirla de nuevo.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="./banco.html" class="btn btn-primary">Volver al banco</a>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div>
+            <p>Copyright · Todos los derechos reservados</p>
+
+            <div>
+                <a href="../index.html">
+                    <strong class="text-footer">Página Web BioApuntes - 2026</strong>
+                </a>
+            </div>
+
+            <div class="git-hub">
+                <p>
+                    Diseñado por:
+                    <a class="text-footer" href="https://github.com/ro-fer" target="_blank">
+                        Roh Fernandez
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../scripts/materia.js"></script>
+</body>
+</html>
