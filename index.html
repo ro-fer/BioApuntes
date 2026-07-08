@@ -3,126 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BioGeeks</title>
+    <title>BioApuntes UNSAM</title>
+
     <link rel="icon" href="BioGeeks-Logo.svg">
-    <link rel="stylesheet" href="styles/estilos.css?v=1.0">
-    <link rel="stylesheet" href="./styles/estilos-recursos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
 <body>
 
     <nav class="navbar">
         <div class="navbar-container">
+            <a href="./index.html" class="logo">🧬 BioApuntes UNSAM</a>
+
             <ul class="nav-links" id="nav-links">
                 <li><a href="./index.html">Inicio</a></li>
-                
-                <li class="recursos" id="recursos">
-                    <button class="dropbtn" id="recursos-btn">
-                        Recursos
-                    </button>
-                    <div class="dropdown" id="dropdown"></div>
-                </li>
-
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="./pages/banco.html">Banco</a></li>
+                <li><a href="./pages/recursos.html">Recursos</a></li>
+                <li><a href="./pages/colaborar.html">Colaborar</a></li>
             </ul>
         </div>
     </nav>
 
     <main>
+        <section class="hero animate__animated animate__fadeIn">
+            <p class="eyebrow">Ingeniería Biomédica · UNSAM</p>
 
-        <section id="imagen">
-            <img src="BioGeeks-Logo.svg" alt="logo_BIOGEEKS" class="img_max"/>
-            <h1 id="subtitulo">Difundiendo lo que nos apasiona.</h1>
-        </section>
-        <section id="quienes_somos" class="descripcion_somos">
-            <div>
-                <h1 class="title">¡Somos Bio Geeks! 🧬</h1>
+            <h1>Apuntes, guías y recursos de Biomédica en un solo lugar.</h1>
 
-                <div class="col3">
-                    <div>👩‍🔬 Ingenieras biomédicas en proceso</div>
-                    <div>💻 Apasionadas por la ciencia y programación</div>
-                    <div>👾 Geeks a tiempo completo</div>
-                </div>
-                
-               <div class="col2">
+            <p class="hero-text">
+                BioApuntes UNSAM es un índice colaborativo para encontrar material de materias
+                de Ingeniería Biomédica: apuntes, guías, parciales, finales, resueltos y links útiles.
+            </p>
 
-    <div id="sol" class="nosotras">
-        <div class="contenido">
-            <div class="imagen">
-                <img src="img_sol.png" alt="Sol BioGeeks">
+            <div class="hero-buttons">
+                <a href="./pages/banco.html" class="btn btn-primary">Ver banco de materias</a>
+                <a href="./pages/colaborar.html" class="btn btn-secondary">Quiero colaborar</a>
             </div>
-            <div class="texto">
-                <h2>🧠 Sol</h2>
+        </section>
+
+        <section class="cards-section">
+            <article class="card">
+                <h2>📚 Banco de materias</h2>
                 <p>
-                    Me apasiona la Programación, Neurociencia e Inteligencia Artificial.
-                    Trabajé en diferentes proyectos de investigación, específicamente sobre el Procesamiento de Imágenes.
+                    Buscá una materia y encontrá rápidamente si hay material disponible,
+                    qué tipo de archivos existen y dónde están alojados.
                 </p>
-            </div>
-            
-        </div>
-    </div>
+            </article>
 
-    <div id="ro" class="nosotras">
-        <div class="contenido">
-            <div class="imagen">
-                <img src="img_ro.png" alt="Ro BioGeeks">
-            </div>
-            <div class="texto">
-                <h2>🦾 Ro</h2>
+            <article class="card">
+                <h2>📁 Recursos útiles</h2>
                 <p>
-                    Me apasiona la Programación, Ingeniería en Rehabilitación, Robótica,
-                    Automatización y Docencia. He sido ayudante en materias de Física y he participado
-                    en clubes de ciencia y robótica.
+                    Accesos a Frubox, Drive, calendario académico, guía de estudiantes,
+                    contactos importantes y otros links de la carrera.
                 </p>
-            </div>
-            
-        </div>
-    </div>
+            </article>
 
-</div>
-            </div>
+            <article class="card">
+                <h2>📝 Proyecto colaborativo</h2>
+                <p>
+                    Si tenés apuntes, guías, parciales, finales o links que puedan servir,
+                    podés sumarlos para que otrxs estudiantes también los encuentren.
+                </p>
+            </article>
         </section>
 
-        <section id="contacto" >
-            <div class="col3">
-                <div>
-                    <a target="_blank"  href="https://github.com/suflorcita">
-                        <img alt="Github" src="./resours/git.svg" style="color: transparent" class="img_contacto">
-                        <h4>Github Sol</h4>
-                    </a>
-                </div>
-                <div>
-                    <a target="_blank"  href="https://www.instagram.com/_biogeeks/">
-                        <img alt="Instagram" src="./resours/ig.svg" style="color: transparent" class="img_contacto">
-                        <h4>Instagram BioGeeks</h4>
-                    </a>
-                </div>
-                <div>
-                    <a target="_blank"  href="https://github.com/ro-fer">
-                        <img alt="Github" src="./resours/git.svg" style="color: transparent" class="img_contacto">
-                        <h4>Github Ro</h4>
-                    </a>
-                </div>
-            </div>
+        <section class="notice">
+            <h2>⚠️ Importante</h2>
+            <p>
+                Este sitio no es oficial de la UNSAM. Es un índice colaborativo hecho por estudiantes.
+                La información puede estar incompleta o desactualizada, así que siempre conviene
+                verificar programas, fechas y condiciones con la cátedra o canales oficiales.
+            </p>
         </section>
-
     </main>
 
-    <footer>
+    <footer id="contacto">
         <div>
-            <p>
-                Copyright Todos los derechos reservados:
-                <div>
-                    <a href="./index.html">
-                        <strong class="text-footer">Página Web BioGeeks - 2025</strong>
-                    </a>
-                </div>
-            </p>
+            <p>Copyright · Todos los derechos reservados</p>
+
+            <div>
+                <a href="./index.html">
+                    <strong class="text-footer">Página Web BioApuntes - 2026</strong>
+                </a>
+            </div>
 
             <div class="git-hub">
                 <p>
-                    Diseñado por :
+                    Diseñado por:
                     <a class="text-footer" href="https://github.com/ro-fer" target="_blank">
                         Roh Fernandez
                     </a>
