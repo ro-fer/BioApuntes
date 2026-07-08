@@ -6,6 +6,8 @@
     <title>Materia | BioApuntes UNSAM</title>
 
     <link rel="icon" href="../BioGeeks-Logo.svg">
+    <link rel="stylesheet" href="../styles/estilos.css?v=1.0">
+    <link rel="stylesheet" href="../styles/estilos-recursos.css">
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 
@@ -15,7 +17,7 @@
         <div class="navbar-container">
             <a href="../index.html" class="logo">🧬 BioApuntes UNSAM</a>
 
-            <ul class="nav-links">
+            <ul class="nav-links" id="nav-links">
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="./banco.html">Banco</a></li>
                 <li><a href="./recursos.html">Recursos</a></li>
@@ -24,82 +26,50 @@
         </div>
     </nav>
 
-    <main>
+    <main class="materia-page">
+
         <section class="page-header">
-            <p class="eyebrow">Detalle de materia</p>
+            <a href="./banco.html" class="back-link">← Volver al banco</a>
 
-            <h1 id="materiaTitulo">Cargando materia...</h1>
+            <p class="eyebrow" id="materia-area">Materia</p>
+            <h1 id="materia-nombre">Cargando materia...</h1>
 
-            <p id="materiaDescripcion">
-                Información, links y material disponible para esta materia.
-            </p>
+            <div class="materia-meta">
+                <span id="materia-codigo"></span>
+                <span id="materia-anio"></span>
+                <span id="materia-cuatrimestre"></span>
+            </div>
         </section>
 
-        <section id="materiaResumen" class="materia-detail-card">
-            <!-- Resumen cargado con JS -->
-        </section>
+        <section class="materia-layout">
 
-        <section class="detail-layout">
-
-            <article class="detail-main">
-                <section class="detail-section">
-                    <h2>📚 Qué hay cargado</h2>
-                    <ul id="queHayLista" class="pretty-list">
-                        <!-- Se carga con JS -->
-                    </ul>
-                </section>
-
-                <section class="detail-section">
-                    <h2>🔗 Links disponibles</h2>
-                    <div id="linksContainer" class="links-grid">
-                        <!-- Se carga con JS -->
-                    </div>
-                </section>
-
-                <section class="detail-section">
-                    <h2>🧾 Comentarios</h2>
-                    <p id="comentariosMateria" class="comentario">
-                        <!-- Se carga con JS -->
-                    </p>
-                </section>
+            <article class="card materia-contenidos-card">
+                <h2>📖 Contenidos mínimos</h2>
+                <div id="materia-contenidos" class="contenidos-minimos"></div>
             </article>
 
-            <aside class="detail-aside">
-                <h2>📌 Datos de la materia</h2>
+            <article class="card materia-info-card">
+                <h2>📌 Información general</h2>
 
-                <div id="datosMateria" class="datos-lista">
-                    <!-- Se carga con JS -->
-                </div>
+                <p><strong>Estado:</strong> <span id="materia-estado"></span></p>
+                <p><strong>Correlativas:</strong> <span id="materia-correlativas"></span></p>
+                <p><strong>Qué hay cargado:</strong> <span id="materia-que-hay"></span></p>
+                <p><strong>Material detectado:</strong> <span id="materia-material-detectado"></span></p>
+                <p><strong>Comentarios:</strong> <span id="materia-comentarios"></span></p>
+            </article>
 
-                <a href="./banco.html" class="btn btn-secondary">
-                    Volver al banco
-                </a>
-            </aside>
+            <article class="card materia-links-card">
+                <h2>🔗 Links de material</h2>
+                <div id="materia-links" class="links-list"></div>
+            </article>
+
+            <article class="card materia-drive-card">
+                <h2>📁 Carpetas de Drive / OneDrive</h2>
+                <div id="materia-carpetas-drive" class="links-list"></div>
+            </article>
 
         </section>
 
-        <section id="driveEmbedSection" class="detail-section hidden">
-            <h2>☁️ Vista previa de carpeta</h2>
-
-            <p class="comentario">
-                Esta vista puede tardar unos segundos en cargar y depende de los permisos de la carpeta.
-            </p>
-
-            <div id="driveEmbedContainer" class="embed-container">
-                <!-- Iframe opcional -->
-            </div>
-        </section>
-
-        <section id="materiaNoEncontrada" class="notice hidden">
-            <h2>🔎 Materia no encontrada</h2>
-            <p>
-                No encontramos una materia con ese identificador. Volvé al banco e intentá abrirla de nuevo.
-            </p>
-
-            <div class="hero-buttons">
-                <a href="./banco.html" class="btn btn-primary">Volver al banco</a>
-            </div>
-        </section>
     </main>
 
     <footer id="contacto">
