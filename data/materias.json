@@ -34,7 +34,14 @@
         "nombre": "Grupo WhatsApp Frubox",
         "url": "https://chat.whatsapp.com/Lw0NQoBLyoq51i5Kz4tlSp"
       }
-    ]
+    ],
+    "id": "introduccion-al-analisis-matematico",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "8 horas teórico-prácticas.",
+      "cargaHorariaCuatrimestralTexto": "128 horas.",
+      "texto": "Números reales. Propiedades. Intervalos en  R. Módulo. Concepto de función. Dominio. Gráficas. Inyectividad y suryectividad. Función inversa. Funciones polinomiales, racionales, exponenciales y logaritmicas.  Sucesiones. Monotonía. Acotación. Límites de sucesiones. Límites de funciones y Continuidad. Discontinuidades: Clasificación. Cálculo diferencial. Reglas de derivación. Fórmula de Taylor. Aplicaciones de las derivadas. Funciones. Intervalos de monotonía. Extremos locales. Extremos absolutos. Concavidad. Puntos de inflexión.  Análisis de funciones. Gráficas aproximadas.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Ciencia, Tecnología y Sociedad",
@@ -73,7 +80,14 @@
         "nombre": "Grupo WhatsApp Frubox",
         "url": "https://chat.whatsapp.com/BkS6vYUfOKX2An2iA3BJXa"
       }
-    ]
+    ],
+    "id": "ciencia-tecnologia-y-sociedad",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas. Semanales",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Introducción a la Ciencia y la Tecnología. Las ciencias básicas. Tecnología, recursos naturales y energía. Ambiente. Concepto. Impactos tecnológicos en el medio ambiente natural y social. Biotecnología. Concepto. Aplicaciones de la Biotecnología. Física Médica. Campos de aplicación. Física y salud humana. Tecnologías asociadas al diagnóstico y tratamiento de enfermedades. Radioterapia. Medicina Nuclear. Electrónica. Alcances e incumbencias. Ciencias básicas, tecnologías básicas y tecnologías aplicadas. Electrónica analógica y digital. Campos de aplicaciones: telecomunicaciones, instrumentación, control, procesamiento de datos.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Química General",
@@ -112,7 +126,14 @@
         "nombre": "Grupo WhatsApp Frubox",
         "url": "https://chat.whatsapp.com/HQLkik0Baf1Dy0BZr3Kc7C"
       }
-    ]
+    ],
+    "id": "quimica-general",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "8 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "128 horas.",
+      "texto": "Sistemas materiales. Estructura atómico molecular. Clasificación de los elementos. Uniones químicas. Gases, sólidos y líquidos. Soluciones. Termodinámica y cinética química.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Introducción a la Informática",
@@ -149,7 +170,14 @@
         "nombre": "Grupo WhatsApp Frubox",
         "url": "https://chat.whatsapp.com/Fskqm4NUrVKLi3SaOIM3gR"
       }
-    ]
+    ],
+    "id": "introduccion-a-la-informatica",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico-prácticas",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Sistemas de Numeración. Algebra de Conmutación, Variables y Funciones Lógicas.  La computadora. Modelo de operación.  Una computadora personal. Diagramación estructurada",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Cálculo I",
@@ -190,7 +218,14 @@
         "nombre": "Grupo WhatsApp Frubox",
         "url": "https://chat.whatsapp.com/F3EpAtuYn5p9ono9jPqbon"
       }
-    ]
+    ],
+    "id": "calculo-i",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "6 horas teórico-prácticas.",
+      "cargaHorariaCuatrimestralTexto": "96 horas.",
+      "texto": "Integral. Primitivas. Fórmula de Barrow. Cálculo integral y sus aplicaciones. Series numéricas. Criterios de convergencia para series positivas y alternadas. Integrales impropias. Series funcionales y de potencias. Convergencia puntual y uniforme. Radio de convergencia. Series de Taylor. Introducción a las ecuaciones diferenciales ordinarias. Métodos elementales de integración. Ecuaciones con variables separables y lineales de primer orden.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Álgebra y Geometría Analítica I",
@@ -227,7 +262,14 @@
         "nombre": "Grupo WhatsApp Frubox",
         "url": "https://chat.whatsapp.com/Edd51SsLevcFPFL63d9Op2"
       }
-    ]
+    ],
+    "id": "algebra-y-geometria-analitica-i",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "6 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "96 horas.",
+      "texto": "El cuerpo de los números complejos. Polinomios.  Geometría en el plano y el espacio. Vectores. Producto escalar. Magnitud, distancia y ángulo. Rectas y planos.  Paralelismo y perpendicularidad. Matrices. Operaciones aritméticas matriciales. Transposición.  Matriz inversa. Sistemas de ecuaciones lineales. Eliminación gaussiana. Determinantes. Espacios vectoriales R^n.  Sub-espacios.  Generadores. Independencia lineal. Bases y dimensión. Intersección, suma y suma directa de sub-espacios.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Sistemas de Representación Gráfica",
@@ -265,7 +307,14 @@
         "nombre": "Grupo WhatsApp Frubox",
         "url": "https://chat.whatsapp.com/JMENVgIaY1HLHiOCUe8sUT"
       }
-    ]
+    ],
+    "id": "sistemas-de-representacion-grafica",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Representación de cuerpos. Proyecciones, vistas, cortes, cotas. Planos, croquis. Normas de dibujo técnico. Dibujo asistido por computadora.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Física I",
@@ -306,7 +355,14 @@
         "nombre": "Grupo WhatsApp Frubox",
         "url": "https://chat.whatsapp.com/HB9W2mdyHeE5tiVBWpXAYx"
       }
-    ]
+    ],
+    "id": "fisica-i",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "8 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "128 horas.",
+      "texto": "Medición, errores, sistemas de unidades. Cinemática. Masa inercial. Cantidad de movimiento y fuerza. Impulso y trabajo. Energía. Oscilaciones. Momento angular. Cinemática y dinámica del cuerpo rígido. Equilibrio y elasticidad. Mecánica de fluidos.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Cálculo II",
@@ -348,7 +404,14 @@
         "nombre": "Grupo WhatsApp Frubox",
         "url": "https://chat.whatsapp.com/H72CUbeVOfm8RTtQugpSVB"
       }
-    ]
+    ],
+    "id": "calculo-ii",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "8 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "128 horas.",
+      "texto": "Funciones vectoriales reales. Límites y continuidad. Cálculo diferencial vectorial. Regla de la cadena. Funciones implícitas. Curvas y superficies parametrizadas.  Fórmula de Taylor vectorial. Plano tangente. Problemas de máximos y mínimos. Multiplicadores de Lagrange. Campos escalares y vectoriales. Potencial. Campo tangente y normal. Formas diferenciales exactas. Análisis geométrico de ecuaciones diferenciales. Cambio de coordenadas. Coordenadas polares, esféricas y cilíndricas. Integrales múltiples. Integrales paramétricas, curvilíneas  y de superficie. Aplicaciones geométricas. Operadores gradiente, divergencia, rotor y laplaciano. Teoremas integrales. Fórmula de Green. Teoremas de Stockes y de la divergencia.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Álgebra y Geometría Analítica II",
@@ -387,7 +450,14 @@
         "nombre": "Grupo WhatsApp Frubox",
         "url": "https://chat.whatsapp.com/FBzDr5uHSVAGbk13yzRZgU"
       }
-    ]
+    ],
+    "id": "algebra-y-geometria-analitica-ii",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Espacios vectoriales generales. Transformaciones lineales. Producto interno. Ortogonalidad.  Bases.  Matrices asociadas a una transformación lineal.  Autovalores y autovectores. Diagonalización de matrices. Forma canónica de Jordan.   Formas cuadráticas. Cónicas y cuádricas.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Informática",
@@ -426,7 +496,14 @@
         "nombre": "Grupo WhatsApp Frubox",
         "url": "https://chat.whatsapp.com/EkXNEo5sndxGih0AQADcUv"
       }
-    ]
+    ],
+    "id": "informatica",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Computadoras y sistemas informáticos. Representación y procesamiento de la información. Computadoras. Hardware y software. CPU. Memorias. Dispositivos de almacenamiento. Sistemas operativos. Periféricos y utilitarios. Redes. Introducción a la programación. Algoritmos, lenguajes y programación estructurada.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Física II",
@@ -466,7 +543,14 @@
         "nombre": "Grupo WhatsApp Frubox",
         "url": "https://chat.whatsapp.com/Dav58wCHTYnD1yPxN3JkIn; https://chat.whatsapp.com/G4eJyJLWApqEDA61BWWNGJ"
       }
-    ]
+    ],
+    "id": "fisica-ii",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "8 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "128 horas.",
+      "texto": "Ondas mecánicas y acústicas. Óptica geométrica y óptica física. Temperatura. Calor y primera ley de la termodinámica. Entropía y segunda ley de la termodinámica. Potenciales termodinámicos. Teoría cinética de los gases.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Cálculo III",
@@ -508,7 +592,14 @@
         "nombre": "Grupo WhatsApp Frubox",
         "url": "https://chat.whatsapp.com/J5FbAvwFspm5zdAr5Q8Dzi"
       }
-    ]
+    ],
+    "id": "calculo-iii",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "8 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "128 horas.",
+      "texto": "Funciones de variable compleja. Funciones analíticas. Condiciones de Cauchy-Riemann. Integración. Primitivas. Teorema de Cauchy- Goursat. Fórmula de Cauchy. Series de potencias complejas. Radio de convergencia. Series de Taylor y de Laurent.  Residuos. Transformada Z.  Convolución discreta.  Fórmulas recurrentes y ecuaciones en diferencias. Aplicación de la transformada Z  a la resolución de  ecuaciones en diferencias. Transformada de Laplace. Producto de convolución.  Ecuaciones diferenciales y ordinarias lineales con coeficientes constantes. Sistemas. Reducción del orden. Aplicación de la Transformada de Laplace a la resolución de problemas de valores iniciales. Exponencial matricial. Conceptos básicos de sistemas lineales, causales e invariantes. Transformada de Fourier. Series de Fourier. Convergencia y aproximación  de funciones. Espectro de potencias.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Programación",
@@ -548,7 +639,14 @@
         "nombre": "Grupo WhatsApp Frubox",
         "url": "https://chat.whatsapp.com/FfYWgnIOzXrFLsqgwPmxhP"
       }
-    ]
+    ],
+    "id": "programacion",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Introducción a la programación en lenguaje C. Compiladores e intérpretes. Programas: Depuración y control de errores. Tipos de datos y variables. Funciones y parámetros. Estructuras. Arreglos. Enumeraciones. Punteros y referencias. Control de flujo. Funciones y procedimientos. Implementación de estructura de datos y algoritmos. Consolas y dispositivos de entrada/salida.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Probabilidad y Estadística",
@@ -587,7 +685,14 @@
         "nombre": "Grupo WhatsApp Frubox",
         "url": "https://chat.whatsapp.com/JzBWnkcjkqbCUhbfenX3Ob"
       }
-    ]
+    ],
+    "id": "probabilidad-y-estadistica",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Experimentos aleatorios. Frecuencias relativas. Modelo de Laplace.  Probabilidad. Independencia y probabilidad condicional. Teorema de Bayes. Cálculo de probabilidades. Variables aleatorias. Funciones de densidad y de probabilidad. Funciones de distribución.  Principales distribuciones discretas y continuas. Variables aleatorias vectoriales.  Distribuciones conjuntas y marginales.  Momentos de primer y segundo orden. Correlación. Nociones de procesos estocásticos. Función de auto-correlación. Procesos estacionarios. Ruido gaussiano.  Nociones de estadística  descriptiva y paramétrica. Test de hipótesis.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Física III",
@@ -629,7 +734,14 @@
         "nombre": "Grupo WhatsApp Frubox",
         "url": "https://chat.whatsapp.com/F5df3HdyLg4FEzjeYTSBVE; https://chat.whatsapp.com/JC14a0dPjUl4AHXQpD7EVk"
       }
-    ]
+    ],
+    "id": "fisica-iii",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "8 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "128 horas.",
+      "texto": "Electrostática: carga y campo eléctrico. Ley de Coulomb. Ley de Gauss. Energía potencial eléctrica. Potencial electrostático. Electrostática en medios dieléctricos. Condensadores. Corriente y resistencia eléctricas. Ley de Ohm. Leyes de Kirchoff. Magnetismo: campo magnético. Fuerza de Lorentz. Ley de Biot-Savart. Aplicaciones de la Ley de Ampere. Ley de Faraday. Inducción electromagnética. Energía magnética. Propiedades magnéticas de la materia. Fuerza electromotriz alterna. Circuitos de corriente alterna. Aplicaciones en motores, generadores  y galvanómetros. Campos electromagnéticos variables en el espacio y el tiempo. Ecuaciones de Maxwell. Ondas electromagnéticas. Espectro de radiación. Propagación de ondas electromagnéticas en medios materiales.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Física IV",
@@ -669,7 +781,14 @@
         "nombre": "Grupo WhatsApp Frubox",
         "url": "https://chat.whatsapp.com/K3JavgrV2cEJmwTN9n89nj"
       }
-    ]
+    ],
+    "id": "fisica-iv",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "8 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "128 horas.",
+      "texto": "Radiación de cuerpo negro. Efecto fotoeléctrico. Efecto Compton. Postulados de De Broglie. Modelo atómico. Espectros atómicos y moleculares. Postulados de la Mecánica Cuántica. Función de onda y ecuación de Schrödinger. Problemas unidimensionales. Átomo de hidrógeno. Momento angular intrínseco. Principio de exclusión de Pauli. Introducción a la física del sólido. Estructura cristalina. Electrones en sólidos. Bandas. Conductores, semiconductores y aislantes.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Ciencias Morfológicas",
@@ -704,7 +823,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1nqpkt_tZSQBzAqjXZE1JC72VpF5RJemK"
       }
-    ]
+    ],
+    "id": "ciencias-morfologicas",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Histología, embriología y anatomía humana relacionada. Biología celular. Membrana Plasmática. Estructura y Función. Teoría Celular. Genes. Diferenciación y Proliferación Celular. Desarrollo embrionario. Histología del los tejidos y estructura anatómica. Anatomía de los sistemas.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Higiene, seguridad ambiental y laboral",
@@ -738,7 +864,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/18rA10ZgzjjQd29rXw5hctOh26GbLqykL"
       }
-    ]
+    ],
+    "id": "higiene-seguridad-ambiental-y-laboral",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Aspectos normativos, legales y éticos. Legislación aplicable. Seguridad, elementos de protección. El ambiente laboral. El impacto ambiental de los establecimientos industriales. Conservación del medio ambiente y los recursos naturales. Normas de Gestión ambiental.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Tecnologías de los Productos y Procesos",
@@ -774,7 +907,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1o_GVEDG00GqomO5iVgPBUjqbPh1q2nv_"
       }
-    ]
+    ],
+    "id": "tecnologias-de-los-productos-y-procesos",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Componentes eléctricos, características y especificaciones. Conductores, aislantes y elementos de conmutación. Circuitos de CC y CA. Componentes electrónicos. Semiconductores. Introducción a los mecanismos. Introducción a los métodos constructivos, mecanizado, moldeado y soldado. Introducción a los sistemas neumáticos.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Métodos numéricos",
@@ -816,7 +956,14 @@
         "nombre": "Grupo WhatsApp Frubox",
         "url": "https://chat.whatsapp.com/G6DNMTPhxtFJusRmZHktC1"
       }
-    ]
+    ],
+    "id": "metodos-numericos",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Ecuaciones lineales. Métodos de Jacobi y Gauss-Seidel para sistemas de ecuaciones lineales. Métodos de bisección, secante, de punto fijo y de Newton-Raphson para ecuaciones no lineales. Diferencias divididas. Interpolación polinomial y por funciones spline. Ajuste por mínimos cuadrados. Métodos numéricos para  integración.   Métodos de los trapecios y de Simson.  Cuadraturas gaussianas.  Métodos para la resolución numérica de ecuaciones diferenciales ordinarias. Método de Euler, Euler mejorado y de Runge–Kutta.  Métodos de predicción-corrección.  Métodos de diferencias finitas y elementos finitos para ecuaciones diferenciales.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Protección radiológica",
@@ -851,7 +998,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1o3KtZOMUwOZMvuJVxo2cAj296VERj15Q"
       }
-    ]
+    ],
+    "id": "proteccion-radiologica",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Radiaciones ionizantes: fuentes y tipos aplicaciones médicas; alfa, beta, gamma Rx.  Interacción de la radiación con la materia. Efectos estocásticos y determínisticos. Magnitudes: dosis absorbida, equivalente efectiva, ambiental, comprometida. Fundamentos de la protección radiología: optimización, justificación, límites de dosis. Monitoreo de la radiación ocupacional, blindajes: dosímetros, monitores ambientales, atenuación, blindajes de instalaciones, protecciones personales. Protección radiológica del paciente y del público. Prevención de accidentes.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Modelos y sistemas",
@@ -886,7 +1040,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/18xtRRTnavDuOSEgPYYG4-Y-bzzLIj0j0"
       }
-    ]
+    ],
+    "id": "modelos-y-sistemas",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Sistemas lineales. Función transferencia.  Polos y ceros en el plano S. Respuesta en frecuencia. Bode. Ecuaciones de estado. Simulación de sistemas. Analogía  de los modelos eléctricos RLC con los modelos mecánicos y biomédicos. Estabilidad y sistemas realimentados. Sistemas no lineales simples. Diferenciación con los lineales. Ejemplos de modelo biomédicos (presa depredador, etc).",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Análisis y procesamiento de señales",
@@ -922,7 +1083,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1BhXSp_uoEy1r4j8C1FZNI9bMPFZ_3eC2"
       }
-    ]
+    ],
+    "id": "analisis-y-procesamiento-de-senales",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "8 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "128 horas.",
+      "texto": "Señales analógicas. Análisis mediante series de Fourier, la transformada de Fourier y la transformada de Laplace. Filtros analógicos. Señales digitales. Muestreo e interpolación. Análisis mediante la transformada discreta de Fourier.  Transformada Z. Filtros digitales. Análisis mediante onditas. Cuantización. Ruido. Modulación en frecuencia.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Medidas",
@@ -958,7 +1126,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1VU2NEBALWejB1-2U5uTzCwd9GdE8FWr4"
       }
-    ]
+    ],
+    "id": "medidas",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Sistemas de unidades y patrones. Exactitud e incertidumbre en las mediciones. Especificaciones de los instrumentos. Métodos de medición. Mediciones de tensiones y corrientes continuas y de baja frecuencia. Mediciones de impedancia y potencia.  Introducción a la instrumentación virtual.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Biofísica",
@@ -993,7 +1168,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/112bOZs5-1jRuEHyoMrvW6NYcr4qfqekB"
       }
-    ]
+    ],
+    "id": "biofisica",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Metabolismo energético. Termodinámica en los seres vivos. Propiedades coligativas de las soluciones. Presión osmótica. Transporte a través de la membrana celular. Potencial de acción. Fluidos. Fenómenos de superficie. Difusión de gases en líquidos.  Estado ácido-base, pH. Biofísica de los sentidos.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Electrónica digital I",
@@ -1029,7 +1211,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1SSGDbTno0SFY5ngp8tcUQYb15jxSIuuB"
       }
-    ]
+    ],
+    "id": "electronica-digital-i",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "8 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "128 horas.",
+      "texto": "Sistemas de numeración y códigos. Álgebra de Boole. Circuitos lógicos combinacionales. Familias lógicas comerciales. Circuitos lógicos secuenciales y reconfigurables. Introducción a los microprocesadores y las memorias. Introducción a lenguajes descriptores de hardware.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Procesamiento de Imágenes",
@@ -1065,7 +1254,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/13bCNXMe_xMRlzXJaUycivzGi08uXQW2c"
       }
-    ]
+    ],
+    "id": "procesamiento-de-imagenes",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Formación de imágenes. Relación muestreo y tamaño del píxel. Cuantificación digital y su relación con tonos de grises y colores. Formatos de imágenes; BMP, TIFF, JPEG, etc y biomédicas; DICOM. Compresión digital. Transformaciones geométricas, mascaras, realces. Dominio espacial y frecuencial. Transformada de Fourier bidimensional. Filtros bidimensionales, estudio de sus características y criterios de diseño.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Electrónica analógica",
@@ -1101,7 +1297,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1uwO_DoINOrGEgRlOUlZ-PF_0mb2EOQCp"
       }
-    ]
+    ],
+    "id": "electronica-analogica",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "8 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "128 horas.",
+      "texto": "Amplificadores operacionales. Diodos de señal, rectificadores y Zener. Transistores BJT, FET y MOS. Modelos y Aplicaciones. Etapas amplificadoras de baja frecuencia. Configuraciones usuales. Amplificadores diferenciales. Amplificadores de instrumentación. Amplificadores de potencia. Ruido en amplificadores.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Fisiología",
@@ -1136,7 +1339,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1LbWwBJCnbFocWHUFPBTdxy02hUnHlhf3"
       }
-    ]
+    ],
+    "id": "fisiologia",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Fisiología celular. Ciclo de Krebs. Transporte a través de la membrana celular. Fisiología tisular. Microcirculación. Endotelio. Fisiología y fisiopatología de los sistemas. Sistema respiratorio, cardiovascular, sanguíneo, renal, digestivo, endocrino y nervioso.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Electrónica digital II",
@@ -1171,7 +1381,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1A2QlJrStWODrYsqei5I3f9uPug_D1rlW"
       }
-    ]
+    ],
+    "id": "electronica-digital-ii",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "8 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "128 horas.",
+      "texto": "Sistemas digitales programables. Microprocesadores, microcontroladores. Conversión A/D y D/A. Procesamiento digital de señales. La computadora personal. Programación.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Electrotecnia",
@@ -1207,7 +1424,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1VSh3EJeIs7vhpAqb8weXOhIhLtCG91UX"
       }
-    ]
+    ],
+    "id": "electrotecnia",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Circuitos eléctricos trifásicos. Instalaciones eléctricas. Seguridad. Conducción de la corriente eléctrica en metales, líquidos y gases. Características de los materiales eléctricos. Conversión electromecánica de la energía eléctrica. Motores de distinto tipo. Generadores.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Ingeniería Biomédica I",
@@ -1243,7 +1467,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/15xwrdEFjv5e6FY4nMEkqUTayJrGbpHd2"
       }
-    ]
+    ],
+    "id": "ingenieria-biomedica-i",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "8 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "128 horas.",
+      "texto": "Riesgo eléctrico. Instalaciones eléctricas Hospitalarias. Sistemas de protección. Clasificación del equipamiento según su aislación. Instalaciones de gases médicos. Transductores de temperatura: Sistemas de control de temperatura. Bombas aspiración, torácicas y de descompresión gástrica. Bombas de infusión.  Laboratorio acústico.  Características ambientales y de aislación acústica  Laboratorio de análisis clínicos. Gases en sangre.  Rutina de mantenimiento y limpieza. Hemodiálisis.  Tipos de bombas. Bombas de circulación extracorpórea. Tipos de bombas. Oxigenadores.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Sensores, acondicionadores de señales y adquisición de datos",
@@ -1280,7 +1511,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1i7VvsiOZ9WK-NvHi0CKUVg4hOLfrhM0h"
       }
-    ]
+    ],
+    "id": "sensores-acondicionadores-de-senales-y-adquisicion-de-datos",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Sensores para la medición de magnitudes físicas. Tipos, características y electrónica asociada. Filtros y conversores de datos. Multiplexado. Reconstrucción. Sistemas de adquisición de datos. Instrumentación virtual.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Ingeniería Biomédica II",
@@ -1318,7 +1556,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/193rdlRmycV-XWoR8EXLd2GmJp9ecry17"
       }
-    ]
+    ],
+    "id": "ingenieria-biomedica-ii",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "8 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "128 horas.",
+      "texto": "Electroencefalografía. Electromiografía. Electrocardiografía. Sistemas computados para el procesamiento de la señal. Transductores de presión sanguínea en forma invasiva y no invasiva. Presurometría. Medición del gasto cardíaco. Instrumental de medición de la función respiratoria. Tipos de transductores. Equipos de asistencia respiratoria mecánica. Ventiladores volumétricos. Monitoreo no invasivo del estado ácido base. Polígrafos y registradores multiparamétricos. Sistema externo de regulación de la temperatura corporal. Incubadoras. Servocunas. Estimuladores cardíacos: marcapasos internos y externos. Desfibriladores. Cardioversores. Electrobisturi",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Electiva I",
@@ -1339,7 +1584,9 @@
     "comentarios": "Electiva: depende de la materia elegida.",
     "cargaHorariaSemanal": "4.0",
     "cargaHorariaCuatrimestral": "64",
-    "links": []
+    "links": [],
+    "id": "electiva-i",
+    "contenidosMinimos": null
   },
   {
     "materia": "Ingeniería Clínica",
@@ -1375,7 +1622,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1KYgAOBG52115j1m3Cxbv70wM8IFplJQz"
       }
-    ]
+    ],
+    "id": "ingenieria-clinica",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Introducción a la Ingeniería Clínica. Normas y Reglamentos Sistemas de Calidad, Procedimientos y Registros Requerimientos especiales en áreas críticas. Buenas Prácticas en Productos Biomédicos. Estrategias del gerenciamiento. Tecnología hospitalaria: Ciclos de vida. Mantenimiento como herramienta estratégica. Análisis del tipo de mantenimientos aplicables al sector. Calidad del servicio de Ingeniería Clínica. Acreditación.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Economía",
@@ -1411,7 +1665,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1HdigxFigpkYHCYFi4Oh3LRlRmQuNzUhi"
       }
-    ]
+    ],
+    "id": "economia",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Micro y Macroeconomía. Costos. Formulación y evaluación de proyectos. Financiamiento, rentabilidad y amortización de proyectos. Análisis de presupuesto. Licitaciones. Contratos. Legislación comercial.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Biomecánica y Biomateriales",
@@ -1447,7 +1708,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/132DaYfSpImpqBYBc_9gvH7EB3ylMZSnp"
       }
-    ]
+    ],
+    "id": "biomecanica-y-biomateriales",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Propiedades biomecánicas de los huesos y sus articulaciones. Cinemática aplicada al movimiento humano. Elasticidad  de los tejidos. Análisis biomecánico de las estructuras óseas, estáticas y dinámicas. Comportamiento mecánico de los biomateriales. Condiciones que debe cumplir. Metales, plásticos, materiales porosos, cerámicas, compuestos carbonados, polímeros biodegradables, materiales con memoria de forma. Adhesivos.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Organización industrial",
@@ -1469,7 +1737,14 @@
     "comentarios": "No apareció MD específico en el ZIP",
     "cargaHorariaSemanal": "4.0",
     "cargaHorariaCuatrimestral": "64",
-    "links": []
+    "links": [],
+    "id": "organizacion-industrial",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Tipos de sociedades empresariales. Organización y administración de empresas. Planificación, programación y control de gestión Relaciones laborales. Legislación laboral. Gestión de recursos humanos. Planificación, control y seguimiento de obras públicas. Gestión de calidad. Normas. Pericias.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Ingeniería Biomédica III",
@@ -1505,7 +1780,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1akJ77uEm-C5KJt7kCjxP1awo_3CmBpQE"
       }
-    ]
+    ],
+    "id": "ingenieria-biomedica-iii",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "8 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "128 horas.",
+      "texto": "Ultrasonido: Efecto piezoeléctrico. Efecto Doppler. Ecografo modo M. Ecógrafos modo B. Transductores de barrido lineal y angular. Video printer. Rayos X: Generación. Tipos de tubos de rayos X. Generadores de radiación pulsada y continua. Intensificadores de imágenes. Circuitos cerrados de video. Fluoroscopio. Digitalización de la imagen. Tomografía axial computada. Sistemas y principio de funcionamiento. Cámara Gamma. Conformación y digitalización de las imágenes. Resonancia magnética nuclear. Principio de funcionamiento. Comparación de todos los sistemas de diagnostico por imágenes. Normas generales.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Práctica profesional supervisada",
@@ -1525,7 +1807,14 @@
     "comentarios": "No apareció MD específico en el ZIP",
     "cargaHorariaSemanal": "12.5",
     "cargaHorariaCuatrimestral": "200",
-    "links": []
+    "links": [],
+    "id": "practica-profesional-supervisada",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "12,5 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "200 horas.",
+      "texto": "Realización de un trabajo en o para una Empresa productora de bienes o servicios, con la debida supervisión docente, con el objeto de dar oportunidad al alumno de realizar una tarea práctica que lo acerque a aquellas características del ejercicio profesional.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Ética y ejercicio profesional",
@@ -1565,7 +1854,14 @@
         "nombre": "Grupo WhatsApp Frubox",
         "url": "https://chat.whatsapp.com/BXTPnPJ3UWt1Uy6AgyUSRJ"
       }
-    ]
+    ],
+    "id": "etica-y-ejercicio-profesional",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Ejercicio profesional. Modalidades. Normativa aplicable. Colegios profesionales. Ética profesional. Código de ética. Desarrollo sustentable. Responsabilidad social del ingeniero y de la Empresa.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Electiva II",
@@ -1586,7 +1882,9 @@
     "comentarios": "Electiva: depende de la materia elegida.",
     "cargaHorariaSemanal": "4.0",
     "cargaHorariaCuatrimestral": "64",
-    "links": []
+    "links": [],
+    "id": "electiva-ii",
+    "contenidosMinimos": null
   },
   {
     "materia": "Ingeniería de la Rehabilitación",
@@ -1621,7 +1919,14 @@
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1w7i-SnWNcwxnYd7txtFEK_L6eVpAP77q"
       }
-    ]
+    ],
+    "id": "ingenieria-de-la-rehabilitacion",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "4 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "64 horas.",
+      "texto": "Evaluación de las capacidades residuales, incapacidad físico y sensorial. Incapacidades funcionales de invidentes, sordomudos, cuadrapléjicos y parapléjicos. Ingeniería asistida. Prótesis y Ortesis. Ingeniería de Rehabilitación. Estimulación.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Proyecto final integrador",
@@ -1641,7 +1946,14 @@
     "comentarios": "No apareció MD específico en el ZIP",
     "cargaHorariaSemanal": "12.5",
     "cargaHorariaCuatrimestral": "200",
-    "links": []
+    "links": [],
+    "id": "proyecto-final-integrador",
+    "contenidosMinimos": {
+      "cargaHorariaSemanalTexto": "12,5 horas teórico prácticas.",
+      "cargaHorariaCuatrimestralTexto": "200 horas.",
+      "texto": "Realización de una tarea de proyecto que requiera la aplicación integrada de conceptos fundamentales de ciencias básicas, tecnologías básicas y aplicadas, economía y gerenciamiento, conocimientos relativos al impacto social, la metodología de la investigación, así como habilidades que estimulen la capacidad de análisis, de síntesis y el espíritu crítico del estudiante, despierten su vocación creativa y entrenen para el trabajo en equipo y la valoración de alternativas.",
+      "fuente": "Contenidos mínimos del plan de estudios"
+    }
   },
   {
     "materia": "Prueba de suficiencia de idioma inglés",
@@ -1660,6 +1972,8 @@
     "comentarios": "No apareció MD específico en el ZIP",
     "cargaHorariaSemanal": "0.0",
     "cargaHorariaCuatrimestral": "0",
-    "links": []
+    "links": [],
+    "id": "prueba-de-suficiencia-de-idioma-ingles",
+    "contenidosMinimos": null
   }
 ]
