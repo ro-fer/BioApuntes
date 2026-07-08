@@ -1,0 +1,578 @@
+{
+  "CB01": {
+    "materia": "Introducción al Análisis Matemático",
+    "codigo": "CB01",
+    "carpetaOneDriveDetectada": "IAM",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgBePVm1EexHRLS9LeGerizaAbbBbmosxgEchyKhR5I6fvY?e=fuwZ0o",
+    "queHayOneDrive": [
+      "Guías / prácticas",
+      "Parciales / recuperatorios",
+      "Finales",
+      "Resueltos / respuestas",
+      "Teóricas / clases",
+      "Resúmenes"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Guías / prácticas; Parciales / recuperatorios; Finales; Resueltos / respuestas; Teóricas / clases; Resúmenes",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "CB02": {
+    "materia": "Ciencia, Tecnología y Sociedad",
+    "codigo": "CB02",
+    "carpetaOneDriveDetectada": "CTS",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgBhHVZlGZ5JTpKoVvQHM312AcCMR-zvsvt52p87zBX9Drs?e=7iOGgs",
+    "queHayOneDrive": [
+      "Guías / prácticas",
+      "Parciales / recuperatorios",
+      "Resueltos / respuestas",
+      "Teóricas / clases",
+      "Resúmenes",
+      "Libros / bibliografía"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Guías / prácticas; Parciales / recuperatorios; Resueltos / respuestas; Teóricas / clases; Resúmenes; Libros / bibliografía",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "CB03": {
+    "materia": "Química General",
+    "codigo": "CB03",
+    "carpetaOneDriveDetectada": "QUIMICA GRAL",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgAE44v8lAazTbXL3x8RHS0dATmtxRCP1IROj6J6ivmXIQs?e=pxVQj4",
+    "queHayOneDrive": [
+      "Guías / prácticas",
+      "Parciales / recuperatorios",
+      "Finales",
+      "Resueltos / respuestas",
+      "Teóricas / clases",
+      "Resúmenes"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Guías / prácticas; Parciales / recuperatorios; Finales; Resueltos / respuestas; Teóricas / clases; Resúmenes",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IE103": {
+    "materia": "Introducción a la Informática",
+    "codigo": "IE103",
+    "carpetaOneDriveDetectada": "INTRO A LA INFORMATICA",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgAVGVHKk0V6RKFUsIy2GTpAAWryvzlzuJA7GFnxPsa55e8?e=6Arw4j",
+    "queHayOneDrive": [
+      "Parciales / recuperatorios"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Parciales / recuperatorios",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "CB05": {
+    "materia": "Cálculo I",
+    "codigo": "CB05",
+    "carpetaOneDriveDetectada": "CALCULO 1",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgBtQmHbgyJtQL3j-qjOQSKLAXnp1PX67rC3Tr-Vb46bS84?e=1Da9dp",
+    "queHayOneDrive": [
+      "Guías / prácticas",
+      "Parciales / recuperatorios",
+      "Finales",
+      "Teóricas / clases",
+      "Resúmenes"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Guías / prácticas; Parciales / recuperatorios; Finales; Teóricas / clases; Resúmenes",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "CB06": {
+    "materia": "Álgebra y Geometría Analítica I",
+    "codigo": "CB06",
+    "carpetaOneDriveDetectada": "ALGEBRA 1",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgBI6QBjMfrITbD9Il2E0SFfARrQJ41Dk0QvRHcd9oLdXkc?e=NVKS6C",
+    "queHayOneDrive": [
+      "Guías / prácticas",
+      "Parciales / recuperatorios",
+      "Finales",
+      "Teóricas / clases",
+      "Resúmenes",
+      "Libros / bibliografía"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Guías / prácticas; Parciales / recuperatorios; Finales; Teóricas / clases; Resúmenes; Libros / bibliografía",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IE004": {
+    "materia": "Sistemas de Representación Gráfica",
+    "codigo": "IE004",
+    "carpetaOneDriveDetectada": "",
+    "linkOneDrive": "",
+    "queHayOneDrive": [],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida",
+    "comentarioOneDrive": "Sin carpeta OneDrive detectada"
+  },
+  "CB10": {
+    "materia": "Física I",
+    "codigo": "CB10",
+    "carpetaOneDriveDetectada": "FISICA 1",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgCkNLPV8hKHQqg8d2A86PEfAfnfuph-suvY3qW5EiMYcK0?e=W4orAy",
+    "queHayOneDrive": [
+      "Guías / prácticas",
+      "Parciales / recuperatorios",
+      "Teóricas / clases",
+      "Resúmenes",
+      "Libros / bibliografía"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Guías / prácticas; Parciales / recuperatorios; Teóricas / clases; Resúmenes; Libros / bibliografía",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "CB09": {
+    "materia": "Cálculo II",
+    "codigo": "CB09",
+    "carpetaOneDriveDetectada": "CALCULO 2",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgBFdKyRtW0MSrl3UrgYy75YAaf52YAONjrVbLlGjOeixxc?e=cJfAUb",
+    "queHayOneDrive": [
+      "Parciales / recuperatorios",
+      "Finales",
+      "Resueltos / respuestas"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Parciales / recuperatorios; Finales; Resueltos / respuestas",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "CB28": {
+    "materia": "Álgebra y Geometría Analítica II",
+    "codigo": "CB28",
+    "carpetaOneDriveDetectada": "ALGEBRA 2",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgA04bJ56ehhQoTyTZ4mxDYiAfUq00EPS-r5mVwFdWgHZWk?e=KFxKsd",
+    "queHayOneDrive": [
+      "Parciales / recuperatorios"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Parciales / recuperatorios",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IE107": {
+    "materia": "Informática",
+    "codigo": "IE107",
+    "carpetaOneDriveDetectada": "INTRO A LA INFORMATICA",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgAVGVHKk0V6RKFUsIy2GTpAAWryvzlzuJA7GFnxPsa55e8?e=6Arw4j",
+    "queHayOneDrive": [
+      "Parciales / recuperatorios"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Parciales / recuperatorios",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "CB13": {
+    "materia": "Física II",
+    "codigo": "CB13",
+    "carpetaOneDriveDetectada": "FISICA 2",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgDYXWgTGQJITa05SbytM0xHAYe8WIUIYOp9HNDzE3QyHbk?e=LSeVJQ",
+    "queHayOneDrive": [
+      "Parciales / recuperatorios",
+      "Finales",
+      "Resueltos / respuestas",
+      "Teóricas / clases",
+      "Resúmenes",
+      "Libros / bibliografía"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Parciales / recuperatorios; Finales; Resueltos / respuestas; Teóricas / clases; Resúmenes; Libros / bibliografía",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "CB30": {
+    "materia": "Cálculo III",
+    "codigo": "CB30",
+    "carpetaOneDriveDetectada": "CALCULO 3",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgDiU4xYoK3CR51kXNIrTdiJAbL75MMdNDAPmhHxeb8U-UQ?e=6OjjER",
+    "queHayOneDrive": [
+      "Guías / prácticas",
+      "Parciales / recuperatorios",
+      "Finales",
+      "Resueltos / respuestas",
+      "Teóricas / clases",
+      "Libros / bibliografía"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Guías / prácticas; Parciales / recuperatorios; Finales; Resueltos / respuestas; Teóricas / clases; Libros / bibliografía",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IE011": {
+    "materia": "Programación",
+    "codigo": "IE011",
+    "carpetaOneDriveDetectada": "PROGRAMACION",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgBrzNlAL2a4TrepO03ZIhnIASeScs68FHs5XwF1vD5izPU?e=AvjH3d",
+    "queHayOneDrive": [],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IE012": {
+    "materia": "Probabilidad y Estadística",
+    "codigo": "IE012",
+    "carpetaOneDriveDetectada": "PROB Y ESTADISTICA",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgBQ_UHizMoIRruBFuauvNgPAY-Du59SV9mvgxhLBX2sCYs?e=tdh0B0",
+    "queHayOneDrive": [
+      "Parciales / recuperatorios",
+      "Finales",
+      "Resueltos / respuestas",
+      "Teóricas / clases",
+      "Resúmenes"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Parciales / recuperatorios; Finales; Resueltos / respuestas; Teóricas / clases; Resúmenes",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "CB15": {
+    "materia": "Física III",
+    "codigo": "CB15",
+    "carpetaOneDriveDetectada": "FISICA 3",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgA-z8IY9zRPQotUpqjbF77fARZN-YLvCWvJgoSqnuguUT4?e=UybgfA",
+    "queHayOneDrive": [],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "CB31": {
+    "materia": "Física IV",
+    "codigo": "CB31",
+    "carpetaOneDriveDetectada": "FISICA 4",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgAfAr-FyccpQY_0eQku-D7sAfbq_W8HGMzuN6Fo7Hc3duc?e=SZVXNa",
+    "queHayOneDrive": [
+      "Finales",
+      "Resúmenes"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Finales; Resúmenes",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IB001": {
+    "materia": "Ciencias Morfológicas",
+    "codigo": "IB001",
+    "carpetaOneDriveDetectada": "CS MORFOLOGICAS",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgBvMK74AGVxT409clCPE1drAZJZOGs8psVEQwyWlSVOFAo?e=nAC88m",
+    "queHayOneDrive": [
+      "Guías / prácticas",
+      "Finales",
+      "Teóricas / clases"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Guías / prácticas; Finales; Teóricas / clases",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IE029": {
+    "materia": "Higiene, seguridad ambiental y laboral",
+    "codigo": "IE029",
+    "carpetaOneDriveDetectada": "Seg e Higiene",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgDu-BCumTRNT70XT35N8UVFAQ2bnn5OwVzjH1k5H2Wjgv0?e=WRefSo",
+    "queHayOneDrive": [
+      "Parciales / recuperatorios"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Parciales / recuperatorios",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IB002": {
+    "materia": "Tecnologías de los Productos y Procesos",
+    "codigo": "IB002",
+    "carpetaOneDriveDetectada": "",
+    "linkOneDrive": "",
+    "queHayOneDrive": [],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida",
+    "comentarioOneDrive": "Sin carpeta OneDrive detectada"
+  },
+  "IE013": {
+    "materia": "Métodos numéricos",
+    "codigo": "IE013",
+    "carpetaOneDriveDetectada": "METODOS NUMÉRICOS",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgBfeww4lYRWSqAbpx2RROTBAWLEwV0s56qeYl62QAzzCw4?e=jTU6D3",
+    "queHayOneDrive": [
+      "Resueltos / respuestas"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Resueltos / respuestas",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IB003": {
+    "materia": "Protección radiológica",
+    "codigo": "IB003",
+    "carpetaOneDriveDetectada": "PROT RADIOLOGICA",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgBB_Et1tWndTKJ93Ok-848yAZkjMfooJLvjiw_GnI_V-Wo?e=VK8rBK",
+    "queHayOneDrive": [
+      "Parciales / recuperatorios",
+      "Resueltos / respuestas",
+      "Teóricas / clases",
+      "Libros / bibliografía",
+      "ZIPs / compilados"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Parciales / recuperatorios; Resueltos / respuestas; Teóricas / clases; Libros / bibliografía; ZIPs / compilados",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IB004": {
+    "materia": "Modelos y sistemas",
+    "codigo": "IB004",
+    "carpetaOneDriveDetectada": "",
+    "linkOneDrive": "",
+    "queHayOneDrive": [],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida",
+    "comentarioOneDrive": "Sin carpeta OneDrive detectada"
+  },
+  "IE025": {
+    "materia": "Análisis y procesamiento de señales",
+    "codigo": "IE025",
+    "carpetaOneDriveDetectada": "",
+    "linkOneDrive": "",
+    "queHayOneDrive": [],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida",
+    "comentarioOneDrive": "Sin carpeta OneDrive detectada"
+  },
+  "IB005": {
+    "materia": "Medidas",
+    "codigo": "IB005",
+    "carpetaOneDriveDetectada": "MEDIDAS",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgAIeUL0-AvrR4nM3df3_pWSAWwaKaNq-9OxxtEN-U1Rtwk?e=POWrad",
+    "queHayOneDrive": [
+      "Guías / prácticas",
+      "Parciales / recuperatorios",
+      "Finales",
+      "Resueltos / respuestas",
+      "Teóricas / clases",
+      "Resúmenes"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Guías / prácticas; Parciales / recuperatorios; Finales; Resueltos / respuestas; Teóricas / clases; Resúmenes",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IB006": {
+    "materia": "Biofísica",
+    "codigo": "IB006",
+    "carpetaOneDriveDetectada": "BIOFISICA",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgCwWhBMtirmS78T3Celt4UNAaVcnx8edmQCTFuPT1CFqQk?e=48XDfd",
+    "queHayOneDrive": [
+      "Guías / prácticas",
+      "Parciales / recuperatorios",
+      "Resueltos / respuestas",
+      "Teóricas / clases",
+      "Resúmenes",
+      "Libros / bibliografía"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Guías / prácticas; Parciales / recuperatorios; Resueltos / respuestas; Teóricas / clases; Resúmenes; Libros / bibliografía",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IB007": {
+    "materia": "Electrónica digital I",
+    "codigo": "IB007",
+    "carpetaOneDriveDetectada": "E DIGITAL 1",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgCA9scF_1fzS6yJkIc3MmayAataZY3a_VORHZQRcgv2m0I?e=5zhLIq",
+    "queHayOneDrive": [
+      "Guías / prácticas",
+      "Finales",
+      "Resueltos / respuestas",
+      "Libros / bibliografía"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Guías / prácticas; Finales; Resueltos / respuestas; Libros / bibliografía",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IB008": {
+    "materia": "Procesamiento de Imágenes",
+    "codigo": "IB008",
+    "carpetaOneDriveDetectada": "PROCESAMIENTO DE IMAGENES",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgD6wdb8E3tNQIwZi3NLEI73AYN_FPQmefxN2Qs9yxJQuPs?e=bbyBAx",
+    "queHayOneDrive": [
+      "Finales"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Finales",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IB009": {
+    "materia": "Electrónica analógica",
+    "codigo": "IB009",
+    "carpetaOneDriveDetectada": "E ANALOGICA",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgCJg_e6YfwqR5HSQxRJ_rQPAQ75HdHO5b2xc9ADWCjqPJA?e=3P9cfg",
+    "queHayOneDrive": [
+      "Guías / prácticas",
+      "Parciales / recuperatorios",
+      "Finales",
+      "Resueltos / respuestas",
+      "Teóricas / clases",
+      "Resúmenes"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Guías / prácticas; Parciales / recuperatorios; Finales; Resueltos / respuestas; Teóricas / clases; Resúmenes",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IB010": {
+    "materia": "Fisiología",
+    "codigo": "IB010",
+    "carpetaOneDriveDetectada": "FISIOLOGIA",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgCM0D8m1604QKzCDISh4uBSAUGmWnLivPgOUpdHecSM8f0?e=KbFeq4",
+    "queHayOneDrive": [
+      "Guías / prácticas",
+      "Parciales / recuperatorios",
+      "Teóricas / clases"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Guías / prácticas; Parciales / recuperatorios; Teóricas / clases",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IB011": {
+    "materia": "Electrónica digital II",
+    "codigo": "IB011",
+    "carpetaOneDriveDetectada": "E DIGITAL 2",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgAxbV3pLt1HS6zdBRZ32yO6Af4nvmIa9scaFZ2KSzyLwLY?e=7EGyKs",
+    "queHayOneDrive": [
+      "Guías / prácticas",
+      "Finales",
+      "Resueltos / respuestas",
+      "Teóricas / clases"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Guías / prácticas; Finales; Resueltos / respuestas; Teóricas / clases",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IB012": {
+    "materia": "Electrotecnia",
+    "codigo": "IB012",
+    "carpetaOneDriveDetectada": "ELECTROTECNIA",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgCsurcrM5MZT5PjWjp-GpcFAd6suYEqVUsNmvryRWHDWHE?e=4yFo96",
+    "queHayOneDrive": [
+      "Guías / prácticas",
+      "Parciales / recuperatorios",
+      "Finales",
+      "Resueltos / respuestas",
+      "Teóricas / clases"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Guías / prácticas; Parciales / recuperatorios; Finales; Resueltos / respuestas; Teóricas / clases",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IB013": {
+    "materia": "Ingeniería Biomédica I",
+    "codigo": "IB013",
+    "carpetaOneDriveDetectada": "ING BIOMEDICA 1",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgDTAOUfw8YUQZpmUBuKsbgQASSe4m2dK21bLtq0lZTd6wE?e=X8XBBH",
+    "queHayOneDrive": [],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IE026": {
+    "materia": "Sensores, acondicionadores de señales y adquisición de datos",
+    "codigo": "IE026",
+    "carpetaOneDriveDetectada": "SENSORES",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgDMwLWa6yX3S7tCt5GA2aVmAeAVt23dXZ_b8TEILGKPiA8?e=2mXzt9",
+    "queHayOneDrive": [
+      "Finales",
+      "Resueltos / respuestas"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Finales; Resueltos / respuestas",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IB014": {
+    "materia": "Ingeniería Biomédica II",
+    "codigo": "IB014",
+    "carpetaOneDriveDetectada": "ING BIOMEDICA 2",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgA_oUEIsUtqQbaspy_fVZHVAR31xyB973zbal-Gl2YOSKo?e=nXUI9U",
+    "queHayOneDrive": [
+      "Teóricas / clases",
+      "ZIPs / compilados"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Teóricas / clases; ZIPs / compilados",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "ELEC01": {
+    "materia": "Electiva I",
+    "codigo": "ELEC01",
+    "carpetaOneDriveDetectada": "OPTATIVAS",
+    "linkOneDrive": "",
+    "queHayOneDrive": [
+      "Resúmenes",
+      "ZIPs / compilados"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Resúmenes; ZIPs / compilados",
+    "comentarioOneDrive": "Sin link OneDrive cargado"
+  },
+  "IB015": {
+    "materia": "Ingeniería Clínica",
+    "codigo": "IB015",
+    "carpetaOneDriveDetectada": "ING CLINICA",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgDLnL3mnKEWRoAiPuGTyH6mATnxxc1Gb_7H5LWNortWyXo?e=7nWE5h",
+    "queHayOneDrive": [
+      "ZIPs / compilados"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; ZIPs / compilados",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IE031": {
+    "materia": "Economía",
+    "codigo": "IE031",
+    "carpetaOneDriveDetectada": "ECONOMIA",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgBKHlLfE8uET4pzI2pFI4Q0Ackbhi8IfgVs05Oy8D6JFq0?e=mSFtMX",
+    "queHayOneDrive": [
+      "Parciales / recuperatorios",
+      "Teóricas / clases",
+      "ZIPs / compilados"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Parciales / recuperatorios; Teóricas / clases; ZIPs / compilados",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IB016": {
+    "materia": "Biomecánica y Biomateriales",
+    "codigo": "IB016",
+    "carpetaOneDriveDetectada": "",
+    "linkOneDrive": "",
+    "queHayOneDrive": [],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida",
+    "comentarioOneDrive": "Sin carpeta OneDrive detectada"
+  },
+  "IE033": {
+    "materia": "Organización industrial",
+    "codigo": "IE033",
+    "carpetaOneDriveDetectada": "ORG INDUSTRIAL",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgANIj_hkd1nT6FBlE7x1PWPAQ0bZkBpoHR2j0GJG-8hrQ8?e=d8N7KI",
+    "queHayOneDrive": [
+      "Teóricas / clases"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Teóricas / clases",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IB017": {
+    "materia": "Ingeniería Biomédica III",
+    "codigo": "IB017",
+    "carpetaOneDriveDetectada": "ING BIOMEDICA 3",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgCNZHxJyVilRLD15kfgqOCTAYh1wHHV7pd4jWoLvZfbnz8?e=dvn0MD",
+    "queHayOneDrive": [],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "IB018": {
+    "materia": "Práctica profesional supervisada",
+    "codigo": "IB018",
+    "carpetaOneDriveDetectada": "",
+    "linkOneDrive": "",
+    "queHayOneDrive": [],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida",
+    "comentarioOneDrive": "Sin carpeta OneDrive detectada"
+  },
+  "IE032": {
+    "materia": "Ética y ejercicio profesional",
+    "codigo": "IE032",
+    "carpetaOneDriveDetectada": "ETICA",
+    "linkOneDrive": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgCuiew027XlQrCfTR17WxdDAZ2i1Joz7cUboBLoh1Sf-3w?e=8GpmkZ",
+    "queHayOneDrive": [
+      "Parciales / recuperatorios",
+      "Resúmenes"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Parciales / recuperatorios; Resúmenes",
+    "comentarioOneDrive": "Link de carpeta OneDrive cargado"
+  },
+  "ELEC02": {
+    "materia": "Electiva II",
+    "codigo": "ELEC02",
+    "carpetaOneDriveDetectada": "OPTATIVAS",
+    "linkOneDrive": "",
+    "queHayOneDrive": [
+      "Resúmenes",
+      "ZIPs / compilados"
+    ],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida; Resúmenes; ZIPs / compilados",
+    "comentarioOneDrive": "Sin link OneDrive cargado"
+  },
+  "IB019": {
+    "materia": "Ingeniería de la Rehabilitación",
+    "codigo": "IB019",
+    "carpetaOneDriveDetectada": "",
+    "linkOneDrive": "",
+    "queHayOneDrive": [],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida",
+    "comentarioOneDrive": "Sin carpeta OneDrive detectada"
+  },
+  "IB070": {
+    "materia": "Proyecto final integrador",
+    "codigo": "IB070",
+    "carpetaOneDriveDetectada": "",
+    "linkOneDrive": "",
+    "queHayOneDrive": [],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida",
+    "comentarioOneDrive": "Sin carpeta OneDrive detectada"
+  },
+  "INGLES": {
+    "materia": "Prueba de suficiencia de idioma inglés",
+    "codigo": "INGLES",
+    "carpetaOneDriveDetectada": "",
+    "linkOneDrive": "",
+    "queHayOneDrive": [],
+    "materialDetectadoOneDrive": "Carpeta OneDrive compartida",
+    "comentarioOneDrive": "Sin carpeta OneDrive detectada"
+  }
+}
