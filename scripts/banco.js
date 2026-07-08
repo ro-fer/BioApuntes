@@ -48,13 +48,17 @@ function filtrarMaterias() {
 
   const materiasFiltradas = materias.filter(materia => {
     const nombreMateria = normalizarTexto(materia.materia || "");
+    const codigo = normalizarTexto(materia.codigo || "");
     const queHay = normalizarTexto((materia.queHay || []).join(" "));
     const comentarios = normalizarTexto(materia.comentarios || "");
+    const area = normalizarTexto(materia.area || "");
 
     const coincideBusqueda =
       nombreMateria.includes(busqueda) ||
+      codigo.includes(busqueda) ||
       queHay.includes(busqueda) ||
-      comentarios.includes(busqueda);
+      comentarios.includes(busqueda) ||
+      area.includes(busqueda);
 
     const coincideAnio = anio === "" || String(materia.anio) === anio;
     const coincideEstado = estado === "" || (materia.estado || "").includes(estado);
@@ -79,19 +83,23 @@ function renderMaterias(listaMaterias) {
     const card = document.createElement("article");
     card.className = "materia-card";
 
+    const idMateria = materia.id || generarId(materia.materia || "");
+
     const queHayTexto =
       materia.queHay && materia.queHay.length > 0
         ? materia.queHay.join(", ")
         : "Sin información";
 
-    const linksHTML =
+    const primerLink =
       materia.links && materia.links.length > 0
-        ? materia.links.map(link => `
-            <a href="${escaparAtributo(link.url)}" target="_blank" class="btn btn-primary">
-              ${escaparHTML(link.nombre)}
-            </a>
-          `).join("")
-        : `<span class="btn btn-secondary">Sin link cargado</span>`;
+        ? materia.links[0]
+        : null;
+
+    const linkPrincipalHTML = primerLink
+      ? `<a href="${escaparAtributo(primerLink.url)}" target="_blank" class="btn btn-primary">
+          Abrir material
+        </a>`
+      : `<span class="btn btn-secondary">Sin link cargado</span>`;
 
     card.innerHTML = `
       <h2>${escaparHTML(materia.materia || "Materia sin nombre")}</h2>
@@ -115,12 +123,22 @@ function renderMaterias(listaMaterias) {
       }
 
       <div class="hero-buttons">
-        ${linksHTML}
+        <a href="./materia.html?id=${escaparAtributo(idMateria)}" class="btn btn-secondary">
+          Ver materia
+        </a>
+
+        ${linkPrincipalHTML}
       </div>
     `;
 
     materiasContainer.appendChild(card);
   });
+}
+
+function generarId(texto) {
+  return normalizarTexto(texto)
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
 }
 
 function normalizarTexto(texto) {
