@@ -1,243 +1,425 @@
-const DATA_PATH = "../data/materias.json";
+const params = new URLSearchParams(window.location.search);
+const codigoMateria = params.get("codigo");
 
-const materiaTitulo = document.getElementById("materiaTitulo");
-const materiaDescripcion = document.getElementById("materiaDescripcion");
-const materiaResumen = document.getElementById("materiaResumen");
-const queHayLista = document.getElementById("queHayLista");
-const linksContainer = document.getElementById("linksContainer");
-const comentariosMateria = document.getElementById("comentariosMateria");
-const datosMateria = document.getElementById("datosMateria");
-const materiaNoEncontrada = document.getElementById("materiaNoEncontrada");
-const driveEmbedSection = document.getElementById("driveEmbedSection");
-const driveEmbedContainer = document.getElementById("driveEmbedContainer");
-
-document.addEventListener("DOMContentLoaded", cargarMateria);
+const nombre = document.getElementById("materia-nombre");
+const codigo = document.getElementById("materia-codigo");
+const anio = document.getElementById("materia-anio");
+const cuatrimestre = document.getElementById("materia-cuatrimestre");
+const area = document.getElementById("materia-area");
+const estado = document.getElementById("materia-estado");
+const correlativas = document.getElementById("materia-correlativas");
+const queHay = document.getElementById("materia-que-hay");
+const materialDetectado = document.getElementById("materia-material-detectado");
+const comentarios = document.getElementById("materia-comentarios");
+const linksContainer = document.getElementById("materia-links");
+const carpetasDriveContainer = document.getElementById("materia-carpetas-drive");
+const contenidosContainer = document.getElementById("materia-contenidos");
 
 async function cargarMateria() {
-  try {
-    const params = new URLSearchParams(window.location.search);
-    const idMateria = params.get("id");
+    try {
+        if (!codigoMateria) {
+            mostrarError("No se indicó ninguna materia en la URL.");
+            return;
+        }
 
-    if (!idMateria) {
-      mostrarError();
-      return;
+        const response = await fetch("../data/materias.json");
+
+        if (!response.ok) {
+            throw new Error("No se pudo cargar materias.json");
+        }
+
+        const materias = await response.json();
+
+        const materia = materias.find((item) => {
+            return String(item.codigo).toLowerCase() === String(codigoMateria).toLowerCase();
+        });
+
+        if (!materia) {
+            mostrarError("No se encontró la materia solicitada.");
+            return;
+        }
+
+        document.title = `${materia.materia} | BioApuntes UNSAM`;
+
+        nombre.textContent = materia.materia || "Materia sin nombre";
+        codigo.textContent = materia.codigo ? `Código: ${materia.codigo}` : "Código no disponible";
+        anio.textContent = materia.anio ? `Año: ${materia.anio}` : "Año no disponible";
+        cuatrimestre.textContent = materia.cuatrimestre ? `Cuatrimestre: ${materia.cuatrimestre}` : "Cuatrimestre no disponible";
+        area.textContent = materia.area || "Materia";
+
+        estado.textContent = materia.estado || "Sin estado";
+        correlativas.textContent = formatearTexto(materia.correlativas);
+        queHay.textContent = formatearTexto(materia.queHay);
+        materialDetectado.textContent = formatearTexto(materia.materialDetectado);
+        comentarios.textContent = formatearTexto(materia.comentarios);
+
+        renderizarContenidos(materia.contenidosMinimos);
+        renderizarLinks(materia.links);
+        renderizarCarpetasDrive(materia.links);
+
+    } catch (error) {
+        console.error("Error cargando la materia:", error);
+        mostrarError("Hubo un problema al cargar la información de la materia.");
+    }
+}
+
+function formatearTexto(valor) {
+    if (!valor || valor === "" || valor === "-") {
+        return "Sin información cargada";
     }
 
-    const response = await fetch(DATA_PATH);
+    if (Array.isArray(valor)) {
+        if (valor.length === 0) return "Sin información cargada";
 
-    if (!response.ok) {
-      throw new Error("No se pudo cargar materias.json");
+        return valor.map((item) => {
+            if (typeof item === "string") return item;
+
+            if (typeof item === "object" && item !== null) {
+                return item.nombre || item.titulo || item.texto || item.descripcion || JSON.stringify(item);
+            }
+
+            return String(item);
+        }).join(", ");
     }
 
-    const materias = await response.json();
+    if (typeof valor === "object") {
+        return Object.values(valor)
+            .filter(Boolean)
+            .map((item) => {
+                if (typeof item === "string") return item;
 
-    const materia = materias.find(item => {
-      const id = item.id || generarId(item.materia || "");
-      return id === idMateria;
+                if (typeof item === "object" && item !== null) {
+                    return item.nombre || item.titulo || item.texto || item.descripcion || JSON.stringify(item);
+                }
+
+                return String(item);
+            })
+            .join(", ");
+    }
+
+    return String(valor);
+}
+
+function renderizarLinks(links) {
+    linksContainer.innerHTML = "";
+
+    if (!links || links.length === 0 || Object.keys(links).length === 0) {
+        linksContainer.innerHTML = "<p>Sin links cargados para esta materia.</p>";
+        return;
+    }
+
+    let linksNormalizados = [];
+
+    if (Array.isArray(links)) {
+        linksNormalizados = links.map((link, index) => {
+            if (typeof link === "string") {
+                return {
+                    nombre: `Link ${index + 1}`,
+                    url: link
+                };
+            }
+
+            return {
+                nombre: link.nombre || link.titulo || link.tipo || `Link ${index + 1}`,
+                url: link.url || link.link || link.href || link.drive || link.frubox || ""
+            };
+        });
+    } else {
+        linksNormalizados = Object.entries(links).map(([clave, valor]) => {
+            if (typeof valor === "string") {
+                return {
+                    nombre: formatearNombreLink(clave),
+                    url: valor
+                };
+            }
+
+            if (typeof valor === "object" && valor !== null) {
+                return {
+                    nombre: valor.nombre || valor.titulo || valor.tipo || formatearNombreLink(clave),
+                    url: valor.url || valor.link || valor.href || ""
+                };
+            }
+
+            return {
+                nombre: formatearNombreLink(clave),
+                url: ""
+            };
+        });
+    }
+
+    const linksValidos = linksNormalizados.filter((link) => {
+        if (!link.url || link.url === "" || link.url === "-") return false;
+
+        const url = link.url.toLowerCase();
+        const nombre = link.nombre.toLowerCase();
+
+        const esDrive =
+            url.includes("drive.google.com") ||
+            url.includes("sharepoint.com") ||
+            url.includes("onedrive") ||
+            nombre.includes("drive") ||
+            nombre.includes("onedrive");
+
+        return !esDrive;
     });
 
-    if (!materia) {
-      mostrarError();
-      return;
+    if (linksValidos.length === 0) {
+        linksContainer.innerHTML = "<p>Sin otros links de material cargados para esta materia.</p>";
+        return;
     }
 
-    renderMateria(materia);
+    linksValidos.forEach((item) => {
+        const link = document.createElement("a");
+        link.href = item.url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.className = "btn btn-secondary";
+        link.textContent = item.nombre;
 
-  } catch (error) {
-    console.error(error);
-    mostrarError();
-  }
+        linksContainer.appendChild(link);
+    });
 }
 
-function renderMateria(materia) {
-  document.title = `${materia.materia} | BioApuntes UNSAM`;
+function renderizarCarpetasDrive(links) {
+    carpetasDriveContainer.innerHTML = "";
 
-  materiaTitulo.textContent = materia.materia || "Materia sin nombre";
+    if (!links || links.length === 0 || Object.keys(links).length === 0) {
+        carpetasDriveContainer.innerHTML = "<p>Sin carpetas de Drive u OneDrive cargadas para esta materia.</p>";
+        return;
+    }
 
-  materiaDescripcion.textContent =
-    materia.descripcion ||
-    "Información, links y material disponible para esta materia.";
+    let carpetas = [];
 
-  materiaResumen.innerHTML = `
-    <div>
-      <p class="eyebrow">${escaparHTML(materia.area || "Ingeniería Biomédica UNSAM")}</p>
-      <h2>${escaparHTML(materia.estado || "🟡 Revisar")}</h2>
-      <p>
-        ${escaparHTML(materia.materia || "")}
-        ${materia.codigo ? ` · Código ${escaparHTML(materia.codigo)}` : ""}
-      </p>
-    </div>
-  `;
+    if (Array.isArray(links)) {
+        carpetas = links
+            .map((link, index) => {
+                if (typeof link === "string") {
+                    const esDrive = esLinkDrive(link);
 
-  renderQueHay(materia);
-  renderLinks(materia);
-  renderComentarios(materia);
-  renderDatos(materia);
+                    return esDrive
+                        ? {
+                            nombre: `Carpeta ${index + 1}`,
+                            url: link
+                        }
+                        : null;
+                }
 
-  // Solo intenta embeber Google Drive.
-  // OneDrive queda como botón porque SharePoint suele bloquear iframes.
-  renderEmbedDrive(materia);
+                if (typeof link === "object" && link !== null) {
+                    const url = link.url || link.link || link.href || link.drive || link.frubox || "";
+                    const nombre = link.nombre || link.titulo || link.tipo || `Carpeta ${index + 1}`;
+
+                    return esLinkDrive(url) || nombre.toLowerCase().includes("drive")
+                        ? {
+                            nombre: nombre,
+                            url: url
+                        }
+                        : null;
+                }
+
+                return null;
+            })
+            .filter(Boolean);
+    } else {
+        carpetas = Object.entries(links)
+            .map(([clave, valor]) => {
+                if (!valor) return null;
+
+                if (typeof valor === "string") {
+                    const esCarpeta =
+                        clave.toLowerCase().includes("drive") ||
+                        clave.toLowerCase().includes("onedrive") ||
+                        esLinkDrive(valor);
+
+                    return esCarpeta
+                        ? {
+                            nombre: formatearNombreLink(clave),
+                            url: valor
+                        }
+                        : null;
+                }
+
+                if (typeof valor === "object" && valor !== null) {
+                    const url = valor.url || valor.link || valor.href || "";
+                    const nombre = valor.nombre || valor.titulo || valor.tipo || formatearNombreLink(clave);
+
+                    const esCarpeta =
+                        clave.toLowerCase().includes("drive") ||
+                        clave.toLowerCase().includes("onedrive") ||
+                        nombre.toLowerCase().includes("drive") ||
+                        nombre.toLowerCase().includes("onedrive") ||
+                        esLinkDrive(url);
+
+                    return esCarpeta
+                        ? {
+                            nombre: nombre,
+                            url: url
+                        }
+                        : null;
+                }
+
+                return null;
+            })
+            .filter(Boolean);
+    }
+
+    const carpetasValidas = carpetas.filter((carpeta) => {
+        return carpeta.url && carpeta.url !== "" && carpeta.url !== "-";
+    });
+
+    if (carpetasValidas.length === 0) {
+        carpetasDriveContainer.innerHTML = "<p>Sin carpetas de Drive u OneDrive cargadas para esta materia.</p>";
+        return;
+    }
+
+    carpetasValidas.forEach((carpeta) => {
+        const link = document.createElement("a");
+        link.href = carpeta.url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.className = "btn btn-primary";
+        link.textContent = carpeta.nombre;
+
+        carpetasDriveContainer.appendChild(link);
+    });
 }
 
-function renderQueHay(materia) {
-  queHayLista.innerHTML = "";
+function esLinkDrive(url) {
+    if (!url) return false;
 
-  const items = materia.queHay || [];
-
-  if (items.length === 0) {
-    queHayLista.innerHTML = `<li>Sin información cargada todavía.</li>`;
-    return;
-  }
-
-  items.forEach(item => {
-    const li = document.createElement("li");
-    li.textContent = item;
-    queHayLista.appendChild(li);
-  });
-}
-
-function renderLinks(materia) {
-  linksContainer.innerHTML = "";
-
-  const links = materia.links || [];
-
-  if (links.length === 0) {
-    linksContainer.innerHTML = `
-      <article class="link-card">
-        <h3>🔴 Sin links cargados</h3>
-        <p>Todavía no hay un link específico para esta materia.</p>
-      </article>
-    `;
-    return;
-  }
-
-  links.forEach(link => {
-    const card = document.createElement("article");
-    card.className = "link-card";
-
-    const icono = obtenerIconoLink(link.tipo || link.nombre || "");
-
-    card.innerHTML = `
-      <h3>${icono} ${escaparHTML(link.nombre || "Abrir link")}</h3>
-      <p>${escaparHTML(link.descripcion || "Recurso externo asociado a la materia.")}</p>
-      <a href="${escaparAtributo(link.url)}" target="_blank" class="btn btn-primary">
-        Abrir
-      </a>
-    `;
-
-    linksContainer.appendChild(card);
-  });
-}
-
-function renderComentarios(materia) {
-  comentariosMateria.textContent =
-    materia.comentarios ||
-    "No hay comentarios cargados para esta materia.";
-}
-
-function renderDatos(materia) {
-  const correlativas = Array.isArray(materia.correlativas)
-    ? materia.correlativas.join(", ")
-    : materia.correlativas || "Sin correlativas cargadas";
-
-  datosMateria.innerHTML = `
-    <p><strong>Código:</strong> ${escaparHTML(materia.codigo || "Sin dato")}</p>
-    <p><strong>Año:</strong> ${escaparHTML(materia.anio || "Sin dato")}°</p>
-    <p><strong>Cuatrimestre:</strong> ${escaparHTML(materia.cuatrimestre || "Sin dato")}°</p>
-    <p><strong>Área:</strong> ${escaparHTML(materia.area || "Sin dato")}</p>
-    <p><strong>Correlativas:</strong> ${escaparHTML(correlativas)}</p>
-  `;
-}
-
-function renderEmbedDrive(materia) {
-  const links = materia.links || [];
-
-  const drive = links.find(link => {
-    const tipo = normalizarTexto(link.tipo || "");
-    const url = link.url || "";
+    const urlMinuscula = url.toLowerCase();
 
     return (
-      tipo.includes("drive") &&
-      !tipo.includes("onedrive") &&
-      url.includes("drive.google.com")
+        urlMinuscula.includes("drive.google.com") ||
+        urlMinuscula.includes("sharepoint.com") ||
+        urlMinuscula.includes("onedrive")
     );
-  });
-
-  if (!drive || !drive.url) {
-    return;
-  }
-
-  const folderId = obtenerGoogleDriveFolderId(drive.url);
-
-  if (!folderId) {
-    return;
-  }
-
-  driveEmbedSection.classList.remove("hidden");
-
-  driveEmbedContainer.innerHTML = `
-    <iframe 
-      src="https://drive.google.com/embeddedfolderview?id=${folderId}#list"
-      width="100%" 
-      height="520" 
-      frameborder="0">
-    </iframe>
-  `;
 }
 
-function mostrarError() {
-  materiaTitulo.textContent = "Materia no encontrada";
-  materiaDescripcion.textContent = "No pudimos cargar la información de esta materia.";
-  materiaNoEncontrada.classList.remove("hidden");
+function formatearNombreLink(nombreLink) {
+    const nombres = {
+        paginaFrubox: "Página Frubox",
+        carpetaDrive: "Carpeta Drive",
+        carpetaOneDrive: "Carpeta OneDrive",
+        grupoWhatsapp: "Grupo WhatsApp",
+        linkPrincipal: "Abrir material",
+        frubox: "Frubox",
+        drive: "Drive",
+        oneDrive: "OneDrive",
+        onedrive: "OneDrive",
+        whatsapp: "Grupo WhatsApp"
+    };
+
+    return nombres[nombreLink] || nombreLink;
 }
 
-function obtenerIconoLink(tipo) {
-  const texto = normalizarTexto(tipo);
+function renderizarContenidos(contenidos) {
+    contenidosContainer.innerHTML = "";
 
-  if (texto.includes("whatsapp")) return "📱";
-  if (texto.includes("frubox")) return "📦";
-  if (texto.includes("onedrive")) return "☁️";
-  if (texto.includes("sharepoint")) return "☁️";
-  if (texto.includes("drive")) return "☁️";
-  if (texto.includes("github")) return "🐙";
-  if (texto.includes("form")) return "📝";
+    if (!contenidos || contenidos === "" || contenidos === "-") {
+        contenidosContainer.innerHTML = `
+            <p class="empty-text">
+                Todavía no hay contenidos mínimos cargados para esta materia.
+            </p>
+        `;
+        return;
+    }
 
-  return "🔗";
+    const lista = normalizarContenidos(contenidos);
+
+    if (lista.length === 0) {
+        contenidosContainer.innerHTML = `
+            <p class="empty-text">
+                Todavía no hay contenidos mínimos cargados para esta materia.
+            </p>
+        `;
+        return;
+    }
+
+    const ul = document.createElement("ul");
+
+    lista.forEach((contenido) => {
+        const li = document.createElement("li");
+        li.textContent = contenido;
+        ul.appendChild(li);
+    });
+
+    contenidosContainer.appendChild(ul);
 }
 
-function obtenerGoogleDriveFolderId(url) {
-  const matchFolders = url.match(/folders\/([a-zA-Z0-9_-]+)/);
-  if (matchFolders) return matchFolders[1];
+function normalizarContenidos(contenidos) {
+    if (Array.isArray(contenidos)) {
+        return contenidos
+            .map((item) => {
+                if (typeof item === "string") return item;
 
-  const matchId = url.match(/[?&]id=([a-zA-Z0-9_-]+)/);
-  if (matchId) return matchId[1];
+                if (typeof item === "object" && item !== null) {
+                    return (
+                        item.contenido ||
+                        item.texto ||
+                        item.titulo ||
+                        item.nombre ||
+                        item.descripcion ||
+                        Object.values(item).join(": ")
+                    );
+                }
 
-  return null;
+                return String(item);
+            })
+            .filter((item) => item && item.trim() !== "");
+    }
+
+    if (typeof contenidos === "object" && contenidos !== null) {
+        return Object.entries(contenidos)
+            .map(([clave, valor]) => {
+                if (!valor) return "";
+
+                if (typeof valor === "string") {
+                    return `${clave}: ${valor}`;
+                }
+
+                if (Array.isArray(valor)) {
+                    return `${clave}: ${valor.join(", ")}`;
+                }
+
+                if (typeof valor === "object") {
+                    return `${clave}: ${Object.values(valor).join(", ")}`;
+                }
+
+                return `${clave}: ${String(valor)}`;
+            })
+            .filter((item) => item && item.trim() !== "");
+    }
+
+    if (typeof contenidos === "string") {
+        return contenidos
+            .split(/\.|;|\n/)
+            .map((item) => item.trim())
+            .filter((item) => item.length > 0);
+    }
+
+    return [];
 }
 
-function generarId(texto) {
-  return normalizarTexto(texto)
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
+function mostrarError(mensaje) {
+    nombre.textContent = "Materia no encontrada";
+    area.textContent = "Error";
+    codigo.textContent = "";
+    anio.textContent = "";
+    cuatrimestre.textContent = "";
+
+    estado.textContent = "";
+    correlativas.textContent = "";
+    queHay.textContent = "";
+    materialDetectado.textContent = "";
+    comentarios.textContent = "";
+
+    linksContainer.innerHTML = "";
+    carpetasDriveContainer.innerHTML = "";
+    contenidosContainer.innerHTML = `
+        <p class="empty-text">
+            ${mensaje}
+        </p>
+    `;
 }
 
-function normalizarTexto(texto) {
-  return String(texto)
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .trim();
-}
-
-function escaparHTML(texto) {
-  return String(texto)
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#039;");
-}
-
-function escaparAtributo(texto) {
-  return escaparHTML(texto);
-}
+cargarMateria();
