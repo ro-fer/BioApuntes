@@ -574,3 +574,191 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
+.page-main,
+.materia-page {
+    width: min(1100px, 92%);
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.page-header {
+    margin-bottom: 2rem;
+}
+
+.page-header h1 {
+    margin-bottom: 1rem;
+}
+
+.eyebrow {
+    font-weight: 700;
+    opacity: 0.8;
+    margin-bottom: 0.5rem;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.filters input,
+.filters select {
+    padding: 0.85rem 1rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    min-width: 220px;
+}
+
+.materias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+}
+
+.materia-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.materia-card-header h2 {
+    margin-top: 0.25rem;
+}
+
+.materia-area {
+    font-size: 0.9rem;
+    font-weight: 700;
+    opacity: 0.75;
+}
+
+.materia-card-info p {
+    margin: 0.5rem 0;
+}
+
+.card-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.no-link {
+    opacity: 0.7;
+    font-style: italic;
+}
+
+.empty-state {
+    grid-column: 1 / -1;
+    padding: 2rem;
+    text-align: center;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.materia-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.materia-meta span {
+    padding: 0.45rem 0.75rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
+    font-size: 0.9rem;
+}
+
+.materia-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.materia-info-card p {
+    margin: 0.75rem 0;
+}
+
+.links-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.contenidos-minimos ul {
+    padding-left: 1.25rem;
+}
+
+.contenidos-minimos li {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+}
+
+.empty-text {
+    opacity: 0.75;
+    font-style: italic;
+}
+.materia-page {
+    width: min(1100px, 92%);
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.materia-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.materia-meta span {
+    padding: 0.45rem 0.75rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
+    font-size: 0.9rem;
+}
+
+.materia-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.materia-info-card p {
+    margin: 0.75rem 0;
+}
+
+.links-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.contenidos-minimos ul {
+    padding-left: 1.25rem;
+}
+
+.contenidos-minimos li {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+}
+
+.empty-text {
+    opacity: 0.75;
+    font-style: italic;
+}
