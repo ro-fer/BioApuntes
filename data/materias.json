@@ -1972,7 +1972,10 @@
     "comentarios": "No apareció MD específico en el ZIP",
     "cargaHorariaSemanal": "0.0",
     "cargaHorariaCuatrimestral": "0",
-    "links": [],
+    "links": [{
+        "nombre": "Carpeta OneDrive",
+        "url": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgBjrexY21yeQZNMyI83qIfdAYWT8rDdZKNIjtrLux3qZ68?e=NYQ0uI"
+      }],
     "id": "prueba-de-suficiencia-de-idioma-ingles",
     "contenidosMinimos": null
   }
