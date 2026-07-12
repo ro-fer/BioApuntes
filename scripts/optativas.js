@@ -6,7 +6,7 @@ const elementos = {
     carga: document.querySelector("#estado-carga"), error: document.querySelector("#error-carga"),
     sinResultados: document.querySelector("#sin-resultados"), busqueda: document.querySelector("#busqueda"),
     area: document.querySelector("#filtro-area"), modalidad: document.querySelector("#filtro-modalidad"),
-    material: document.querySelector("#filtro-material"), ordenar: document.querySelector("#ordenar"),
+    cursada: document.querySelector("#filtro-cursada"), ordenar: document.querySelector("#ordenar"),
     limpiar: document.querySelector("#limpiar-filtros"), modal: document.querySelector("#detalle-modal"),
     modalContenido: document.querySelector("#detalle-contenido"), modalCerrar: document.querySelector(".modal-close")
 };
@@ -32,7 +32,7 @@ async function iniciar() {
 }
 
 function registrarEventos() {
-    [elementos.busqueda, elementos.area, elementos.modalidad, elementos.material, elementos.ordenar]
+    [elementos.busqueda, elementos.area, elementos.modalidad, elementos.cursada, elementos.ordenar]
         .forEach(control => control?.addEventListener("input", renderizar));
     elementos.limpiar?.addEventListener("click", limpiarFiltros);
     document.querySelector('[data-action="limpiar"]')?.addEventListener("click", limpiarFiltros);
@@ -66,16 +66,36 @@ function obtenerFiltradas() {
     const termino = normalizar(elementos.busqueda.value);
     const resultado = optativas.filter(item => {
         const texto = normalizar([item.materia,item.codigo,item.area,item.modalidad,...(item.correlativas||[]),item.comentarios,item.oferta?.horario,item.oferta?.observaciones].filter(Boolean).join(" "));
-        const tieneMaterial = enlacesValidos(item).length > 0;
+        const filtroCursada = elementos.cursada.value;
+        const coincideCursada = coincideFiltroCursada(item, filtroCursada);
         return (!termino || texto.includes(termino)) && (!elementos.area.value || item.area === elementos.area.value)
             && (!elementos.modalidad.value || item.modalidad === elementos.modalidad.value)
-            && (!elementos.material.value || (elementos.material.value === "con" ? tieneMaterial : !tieneMaterial));
+            && coincideCursada;
     });
     return [...resultado].sort((a,b) => {
         if (elementos.ordenar.value === "material") return Number(enlacesValidos(b).length>0)-Number(enlacesValidos(a).length>0) || a.materia.localeCompare(b.materia,"es");
         if (elementos.ordenar.value === "puntaje") return (b.puntaje ?? -1)-(a.puntaje ?? -1) || a.materia.localeCompare(b.materia,"es");
         return a.materia.localeCompare(b.materia,"es");
     });
+}
+
+function coincideFiltroCursada(item, filtro) {
+    if (!filtro) return true;
+
+    const oferta = item.oferta || {};
+    const cuatrimestres = Array.isArray(oferta.cuatrimestres) ? oferta.cuatrimestres : [];
+    const cuatrimestresNormalizados = cuatrimestres.map(normalizar);
+    const tieneInformacion = cuatrimestres.length > 0
+        || Boolean(oferta.horario?.trim())
+        || Boolean(oferta.observaciones?.trim())
+        || (Array.isArray(oferta.anios) && oferta.anios.length > 0);
+
+    if (filtro === "con-info") return tieneInformacion;
+    if (filtro === "sin-info") return !tieneInformacion;
+    if (filtro === "primero") return cuatrimestresNormalizados.some(valor => valor.includes("1°") || valor.includes("1o") || valor.includes("primer"));
+    if (filtro === "segundo") return cuatrimestresNormalizados.some(valor => valor.includes("2°") || valor.includes("2o") || valor.includes("segundo"));
+
+    return true;
 }
 
 function crearTarjeta(item) {
@@ -129,6 +149,6 @@ function abrirDetalle(id) {
 function seccionTexto(titulo,texto){return `<section class="optativa-detail-section"><h3>${escapar(titulo)}</h3><p>${escapar(texto)}</p></section>`;}
 function seccionLista(titulo,items){return `<section class="optativa-detail-section"><h3>${escapar(titulo)}</h3><ul class="optativa-detail-list">${items.map(x=>`<li>${x}</li>`).join("")}</ul></section>`;}
 function enlacesValidos(item){return Array.isArray(item.links)?item.links.filter(l=>l&&l.url):[];}
-function limpiarFiltros(){elementos.busqueda.value="";elementos.area.value="";elementos.modalidad.value="";elementos.material.value="";elementos.ordenar.value="nombre";renderizar();elementos.busqueda.focus();}
+function limpiarFiltros(){elementos.busqueda.value="";elementos.area.value="";elementos.modalidad.value="";elementos.cursada.value="";elementos.ordenar.value="nombre";renderizar();elementos.busqueda.focus();}
 function normalizar(v=""){return String(v).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLocaleLowerCase("es").trim();}
 function escapar(v=""){return String(v).replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#039;",'"':"&quot;"})[c]);}
