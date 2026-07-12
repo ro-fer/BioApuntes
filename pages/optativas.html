@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Materias optativas y electivas disponibles en BioApuntes.">
+  <title>Optativas y electivas | BioApuntes</title>
+  <link rel="stylesheet" href="../styles/optativas.css">
+  <script src="../scripts/optativas.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html" aria-label="Volver al inicio de BioApuntes">
+      <span class="brand-mark" aria-hidden="true">🧬</span>
+      <span>BioApuntes</span>
+    </a>
+    <a class="back-link" href="./banco.html">← Volver al banco</a>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow">Banco colaborativo</p>
+        <h1 id="page-title">Optativas y electivas</h1>
+        <p class="hero-copy">
+          Explorá posibles materias optativas y el material disponible. Usá los filtros para encontrar opciones por área, modalidad o estado del material.
+        </p>
+      </div>
+      <div class="hero-icon" aria-hidden="true">📚</div>
+    </section>
+
+    <aside class="notice" role="note">
+      <span aria-hidden="true">⚠️</span>
+      <div>
+        <strong>Información orientativa y colaborativa.</strong>
+        <p>La oferta puede cambiar según el cuatrimestre, la carrera, los cupos y la disponibilidad de cada cátedra. Confirmá siempre con la carrera o cátedra correspondiente.</p>
+      </div>
+    </aside>
+
+    <section class="controls" aria-label="Filtros de optativas">
+      <label class="search-field">
+        <span>Buscar</span>
+        <input id="busqueda" type="search" placeholder="Materia, código, área o correlativa…" autocomplete="off">
+      </label>
+
+      <label>
+        <span>Área</span>
+        <select id="filtro-area">
+          <option value="">Todas las áreas</option>
+        </select>
+      </label>
+
+      <label>
+        <span>Modalidad</span>
+        <select id="filtro-modalidad">
+          <option value="">Todas las modalidades</option>
+        </select>
+      </label>
+
+      <label>
+        <span>Material</span>
+        <select id="filtro-material">
+          <option value="">Con y sin material</option>
+          <option value="con">Con material</option>
+          <option value="sin">Sin material</option>
+        </select>
+      </label>
+
+      <button id="limpiar-filtros" class="button button-secondary" type="button">Limpiar</button>
+    </section>
+
+    <section class="results-heading" aria-live="polite">
+      <div>
+        <h2>Materias encontradas</h2>
+        <p id="contador">Cargando información…</p>
+      </div>
+      <label class="sort-field">
+        <span>Ordenar</span>
+        <select id="ordenar">
+          <option value="nombre">Nombre A–Z</option>
+          <option value="material">Primero con material</option>
+          <option value="puntaje">Mayor puntaje</option>
+        </select>
+      </label>
+    </section>
+
+    <div id="estado-carga" class="state-card" role="status">
+      <div class="spinner" aria-hidden="true"></div>
+      <p>Cargando optativas…</p>
+    </div>
+
+    <section id="grilla-optativas" class="cards-grid" aria-label="Listado de optativas"></section>
+
+    <section id="sin-resultados" class="state-card" hidden>
+      <div class="state-icon" aria-hidden="true">🔎</div>
+      <h2>No encontramos coincidencias</h2>
+      <p>Probá con otra búsqueda o limpiá los filtros.</p>
+      <button class="button button-primary" data-action="limpiar" type="button">Limpiar filtros</button>
+    </section>
+
+    <section id="error-carga" class="state-card state-error" hidden>
+      <div class="state-icon" aria-hidden="true">🧩</div>
+      <h2>No se pudo leer el archivo de optativas</h2>
+      <p>Para probar esta página, abrí el proyecto con un servidor local. No funciona haciendo doble clic sobre el HTML porque el navegador bloquea la lectura del JSON.</p>
+      <code>python -m http.server 8000</code>
+    </section>
+  </main>
+
+  <dialog id="detalle-modal" class="detail-modal">
+    <button class="modal-close" type="button" aria-label="Cerrar detalle">×</button>
+    <div id="detalle-contenido"></div>
+  </dialog>
+
+  <footer class="site-footer">
+    <p>BioApuntes · Información construida colaborativamente 🧬</p>
+  </footer>
+</body>
+</html>
