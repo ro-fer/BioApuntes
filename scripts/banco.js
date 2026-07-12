@@ -171,6 +171,10 @@ function renderizarMaterias(listaMaterias) {
 
         const linkPrincipal = obtenerLinkPrincipal(materia);
         const codigo = materia.codigo || "";
+        const esElectiva = esMateriaElectiva(materia);
+        const linkDetalle = esElectiva
+            ? "./optativas.html"
+            : `./materia.html?codigo=${encodeURIComponent(codigo)}`;
 
         card.innerHTML = `
             <div class="materia-card-header">
@@ -187,13 +191,18 @@ function renderizarMaterias(listaMaterias) {
             </div>
 
             <div class="card-buttons">
-                ${codigo ? `<a href="./materia.html?codigo=${encodeURIComponent(codigo)}" class="btn btn-secondary">Ver materia</a>` : ""}
+                ${(codigo || esElectiva) ? `<a href="${linkDetalle}" class="btn btn-secondary">${esElectiva ? "Ver optativas" : "Ver materia"}</a>` : ""}
                 ${linkPrincipal ? `<a href="${linkPrincipal}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Abrir material</a>` : ""}
             </div>
         `;
 
         materiasContainer.appendChild(card);
     });
+}
+
+function esMateriaElectiva(materia) {
+    const nombre = `${materia?.materia || ""} ${materia?.area || ""}`.toLowerCase();
+    return nombre.includes("electiva") || nombre.includes("optativa");
 }
 
 function calcularEstado(materia) {
