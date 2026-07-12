@@ -1,118 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Materias optativas y electivas disponibles en BioApuntes.">
-  <title>Optativas y electivas | BioApuntes</title>
-  <link rel="stylesheet" href="../styles/optativas.css">
-  <script src="../scripts/optativas.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Materias optativas y electivas con material disponible en BioApuntes UNSAM.">
+    <title>Optativas y electivas | BioApuntes UNSAM</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/bioapuntes-ajustes.css">
+    <link rel="stylesheet" href="../styles/optativas.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="../index.html" aria-label="Volver al inicio de BioApuntes">
-      <span class="brand-mark" aria-hidden="true">🧬</span>
-      <span>BioApuntes</span>
-    </a>
-    <a class="back-link" href="./banco.html">← Volver al banco</a>
-  </header>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="../index.html" class="logo">🧬 BioApuntes UNSAM</a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./banco.html">Banco</a></li>
+                <li><a href="./optativas.html" aria-current="page">Optativas</a></li>
+                <li><a href="./recursos.html">Recursos</a></li>
+                <li><a href="./colaborar.html">Colaborar</a></li>
+            </ul>
+        </div>
+    </nav>
 
-  <main class="page-shell">
-    <section class="hero" aria-labelledby="page-title">
-      <div>
-        <p class="eyebrow">Banco colaborativo</p>
-        <h1 id="page-title">Optativas y electivas</h1>
-        <p class="hero-copy">
-          Explorá posibles materias optativas y el material disponible. Usá los filtros para encontrar opciones por área, modalidad o estado del material.
-        </p>
-      </div>
-      <div class="hero-icon" aria-hidden="true">📚</div>
-    </section>
+    <main class="page-main optativas-page">
+        <section class="page-header">
+            <a href="./banco.html" class="back-link">← Volver al banco</a>
+            <p class="eyebrow">Electiva I · Electiva II</p>
+            <h1>📚 Optativas y electivas</h1>
+            <p>Explorá posibles materias optativas, sus antecedentes de cursada y el material colaborativo disponible.</p>
+        </section>
 
-    <aside class="notice" role="note">
-      <span aria-hidden="true">⚠️</span>
-      <div>
-        <strong>Información orientativa y colaborativa.</strong>
-        <p>La oferta puede cambiar según el cuatrimestre, la carrera, los cupos y la disponibilidad de cada cátedra. Confirmá siempre con la carrera o cátedra correspondiente.</p>
-      </div>
-    </aside>
+        <section class="notice optativas-notice">
+            <h2>⚠️ Información orientativa</h2>
+            <p>La lista es colaborativa y no confirma la oferta académica actual. Las materias, horarios, cupos y condiciones pueden cambiar. Confirmá siempre con la carrera o la cátedra.</p>
+        </section>
 
-    <section class="controls" aria-label="Filtros de optativas">
-      <label class="search-field">
-        <span>Buscar</span>
-        <input id="busqueda" type="search" placeholder="Materia, código, área o correlativa…" autocomplete="off">
-      </label>
+        <section class="filters optativas-filters" aria-label="Filtros de optativas">
+            <input id="busqueda" type="search" placeholder="Buscar materia, código, área o correlativa..." autocomplete="off">
+            <select id="filtro-area"><option value="">Todas las áreas</option></select>
+            <select id="filtro-modalidad"><option value="">Todas las modalidades</option></select>
+            <select id="filtro-cursada">
+                <option value="">Cuándo se dicta</option>
+                <option value="primero">1° Cuatrimestre</option>
+                <option value="segundo">2° Cuatrimestre</option>
+                <option value="con-info">Con información de cursada</option>
+                <option value="sin-info">Sin información de cursada</option>
+            </select>
+            <select id="ordenar">
+                <option value="nombre">Ordenar: nombre A–Z</option>
+                <option value="material">Primero con material</option>
+                <option value="puntaje">Mayor puntaje</option>
+            </select>
+            <button id="limpiar-filtros" class="btn btn-secondary" type="button">Limpiar filtros</button>
+        </section>
 
-      <label>
-        <span>Área</span>
-        <select id="filtro-area">
-          <option value="">Todas las áreas</option>
-        </select>
-      </label>
+        <section class="optativas-summary" aria-live="polite">
+            <h2>Materias encontradas</h2>
+            <p id="contador">Cargando información...</p>
+        </section>
 
-      <label>
-        <span>Modalidad</span>
-        <select id="filtro-modalidad">
-          <option value="">Todas las modalidades</option>
-        </select>
-      </label>
+        <section id="estado-carga" class="empty-state"><h2>Cargando optativas...</h2><p>El banco está ordenando carpetas 🧬</p></section>
+        <section id="grilla-optativas" class="materias-grid optativas-grid" aria-label="Listado de optativas"></section>
+        <section id="sin-resultados" class="empty-state" hidden>
+            <h2>🔎 No encontramos coincidencias</h2><p>Probá otra búsqueda o limpiá los filtros.</p>
+            <button class="btn btn-primary" data-action="limpiar" type="button">Limpiar filtros</button>
+        </section>
+        <section id="error-carga" class="empty-state optativas-error" hidden>
+            <h2>⚠️ No se pudo cargar el archivo de optativas</h2>
+            <p>Abrí el proyecto mediante Live Server o un servidor local para que el navegador pueda leer el JSON.</p>
+        </section>
+    </main>
 
-      <label>
-        <span>Material</span>
-        <select id="filtro-material">
-          <option value="">Con y sin material</option>
-          <option value="con">Con material</option>
-          <option value="sin">Sin material</option>
-        </select>
-      </label>
+    <dialog id="detalle-modal" class="optativa-modal">
+        <button class="modal-close" type="button" aria-label="Cerrar detalle">×</button>
+        <div id="detalle-contenido"></div>
+    </dialog>
 
-      <button id="limpiar-filtros" class="button button-secondary" type="button">Limpiar</button>
-    </section>
+    <footer id="contacto">
+        <div>
+            <p>Copyright · Todos los derechos reservados</p>
+            <div><a href="../index.html"><strong class="text-footer">Página Web BioApuntes - 2026</strong></a></div>
+            <div class="git-hub"><p>Diseñado por: <a class="text-footer" href="https://github.com/ro-fer" target="_blank" rel="noopener noreferrer">Roh Fernandez</a></p></div>
+        </div>
+    </footer>
 
-    <section class="results-heading" aria-live="polite">
-      <div>
-        <h2>Materias encontradas</h2>
-        <p id="contador">Cargando información…</p>
-      </div>
-      <label class="sort-field">
-        <span>Ordenar</span>
-        <select id="ordenar">
-          <option value="nombre">Nombre A–Z</option>
-          <option value="material">Primero con material</option>
-          <option value="puntaje">Mayor puntaje</option>
-        </select>
-      </label>
-    </section>
-
-    <div id="estado-carga" class="state-card" role="status">
-      <div class="spinner" aria-hidden="true"></div>
-      <p>Cargando optativas…</p>
-    </div>
-
-    <section id="grilla-optativas" class="cards-grid" aria-label="Listado de optativas"></section>
-
-    <section id="sin-resultados" class="state-card" hidden>
-      <div class="state-icon" aria-hidden="true">🔎</div>
-      <h2>No encontramos coincidencias</h2>
-      <p>Probá con otra búsqueda o limpiá los filtros.</p>
-      <button class="button button-primary" data-action="limpiar" type="button">Limpiar filtros</button>
-    </section>
-
-    <section id="error-carga" class="state-card state-error" hidden>
-      <div class="state-icon" aria-hidden="true">🧩</div>
-      <h2>No se pudo leer el archivo de optativas</h2>
-      <p>Para probar esta página, abrí el proyecto con un servidor local. No funciona haciendo doble clic sobre el HTML porque el navegador bloquea la lectura del JSON.</p>
-      <code>python -m http.server 8000</code>
-    </section>
-  </main>
-
-  <dialog id="detalle-modal" class="detail-modal">
-    <button class="modal-close" type="button" aria-label="Cerrar detalle">×</button>
-    <div id="detalle-contenido"></div>
-  </dialog>
-
-  <footer class="site-footer">
-    <p>BioApuntes · Información construida colaborativamente 🧬</p>
-  </footer>
+    <script src="../scripts/optativas.js"></script>
 </body>
 </html>
