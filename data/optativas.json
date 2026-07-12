@@ -1,579 +1,1017 @@
 [
   {
+    "id": "administracion-de-sistemas-gnu-linux-y-virtualizacion",
     "materia": "Administración de sistemas GNU/Linux y virtualización",
     "codigo": "ELE78",
-    "cuandoSeDicta": "2° Cuatrimestre",
-    "modalidad":"Bimestral",
-    "correlativas": ["CB36"],
-    "puntaje":"25",
     "area": "Informática",
-    "cargaHorariaSemanal": "4.0",
-    "links": [
-      {
-        "nombre": "OneDrive",
-        "url": ""
-      }
+    "modalidad": "Bimestral",
+    "puntaje": 25,
+    "cargaHorariaSemanal": 4.0,
+    "correlativas": [
+      "CB36"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [
+        "2° Cuatrimestre"
+      ],
+      "horario": null,
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [],
+    "revisionPendiente": [
+      "El código ELE78 aparece también en: Administración de sistemas GNU/Linux y virtualización avanzada."
     ]
-},{
+  },
+  {
+    "id": "administracion-de-sistemas-gnu-linux-y-virtualizacion-avanzada",
     "materia": "Administración de sistemas GNU/Linux y virtualización avanzada",
     "codigo": "ELE78",
-    "cuandoSeDicta": "2° Cuatrimestre",
-    "modalidad":"Bimestral",
-    "correlativas": ["CB36"],
-    "puntaje":"25",
     "area": "Informática",
-    "cargaHorariaSemanal": "4.0",
+    "modalidad": "Bimestral",
+    "puntaje": 25,
+    "cargaHorariaSemanal": 4.0,
+    "correlativas": [
+      "CB36"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [
+        "2° Cuatrimestre"
+      ],
+      "horario": null,
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [],
+    "revisionPendiente": [
+      "El código ELE78 aparece también en: Administración de sistemas GNU/Linux y virtualización."
+    ]
+  },
+  {
+    "id": "applied-probability-and-statistics",
+    "materia": "Applied Probability and Statistics",
+    "codigo": null,
+    "area": null,
+    "modalidad": null,
+    "puntaje": null,
+    "cargaHorariaSemanal": null,
+    "correlativas": [],
+    "oferta": {
+      "anios": [
+        2026,
+        2025
+      ],
+      "cuatrimestres": [
+        "1° Cuatrimestre",
+        "2° Cuatrimestre"
+      ],
+      "horario": "Jueves 9 a 13 hs",
+      "observaciones": null
+    },
+    "comentarios": "La aprobación de la asignatura exime de rendir el examen de suficiencia de inglés",
+    "contenidosMinimos": null,
     "links": [
       {
-        "nombre": "OneDrive",
-        "url": ""
+        "tipo": "programa",
+        "nombre": "Programa",
+        "url": "https://drive.google.com/file/d/1hlgHEsDLgWuHp7G_VUG307KrxnvT7Cyc/view?usp=drive_link"
       }
-    ]
-},{
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "biologia-basica-aplicada",
     "materia": "Biología básica aplicada",
     "codigo": "BMD92",
-    "seDictoCuatrimestre":["1° Cuatrimestre","2° Cuatrimestre"],
-    "diasDeCursada": "viernes de 18 a 22hs",
-    "modalidad":"Cuatrimestral",
-    "correlativas": ["CB36"],
-    "puntaje":"50",
     "area": "Biologia",
-    "cargaHorariaSemanal": "4.0",
+    "modalidad": "Cuatrimestral",
+    "puntaje": 50,
+    "cargaHorariaSemanal": 4.0,
+    "correlativas": [
+      "CB36"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [
+        "1° Cuatrimestre",
+        "2° Cuatrimestre"
+      ],
+      "horario": "viernes de 18 a 22hs",
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
     "links": [
       {
-        "nombre": "OneDrive",
-        "url": ""
-      },
-      {
+        "tipo": "material",
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1KQeeXSANC3goe3mGffXtEIcn9PbwO89k"
       },
       {
+        "tipo": "programa",
         "nombre": "Programa",
         "url": "https://drive.google.com/file/d/129Rr8VA4pIt7g4iWnTeG0HTF8ujOh7zd/view"
       }
-    ]
-},{
-    "materia": "Electrónica Digital III",
-    "codigo": "ELE13",
-    "seDictoCuatrimestre":"2° Cuatrimestre",
-    "horario": "Miércoles 18-22 hs",
-    "modalidad":"Cuatrimestral",
-    "correlativas": ["EDII"],
-    "puntaje":"50",
-    "area": "Electrónica",
-    "cargaHorariaSemanal": "",
-    "links": [
-      {
-        "nombre": "Carpeta Drive Frubox",
-        "url": "https://drive.google.com/drive/folders/1Ara5cwN8XQe6W2PsRUN4cqqCyAJcYlu9"
-      }
-    ]
-},{
-    "materia": "Gestión de la calidad",
-    "codigo": "IND14",
-    "cuandoSeDicta": "",
-    "modalidad":"Cuatrimestral",
-    "correlativas": ["BMD07 - BMD01"],
-    "puntaje":"50",
-    "area": "",
-    "cargaHorariaSemanal": "4.0"
-},{
-    "materia": "Instalaciones industriales",
-    "codigo": "IND12",
-    "cuandoSeDicta": "",
-    "modalidad":"Cuatrimestral",
-    "correlativas": ["BMD07"],
-    "puntaje":"50",
-    "area": "",
-    "cargaHorariaSemanal": "4.0"
-},{
-    "materia": "Introducción a la calidad",
-    "codigo": "IND01",
-    "cuandoSeDicta": "",
-    "horario" : "Viernes 18-22 hs",
-    "modalidad":"Cuatrimestral",
-    "correlativas": ["BMD07 - BMD01"],
-    "cometarios" : "Se cursa en INTI",
-    "puntaje":"50",
-    "area": "",
-    "cargaHorariaSemanal": "4.0",
-    "links": [
-      {
-        "nombre": "Programa / Proyecto de catedra",
-        "url": "https://drive.google.com/file/d/19SNjUORKqP8W8rlArJLzviWhoJXRvLla/view?usp=drive_link"
-      }
-    ]
-},{
-    "materia": "Introducción a la investigación desde una perspectiva multidisciplinaria",
-    "codigo": "DFA",
-    "cuandoSeDicta": "",
-    "modalidad":"",
-    "correlativas": [""],
-    "puntaje":"50",
-    "area": "",
-    "cargaHorariaSemanal": ""
-},{
-    "materia": "Introducción a la neurociencia computacional",
-    "codigo": "BMD90",
-    "cuandoSeDicta": "Lunes y Miércoles de 16 a 18 hs",
-    "modalidad":"Cuatrimestral",
-    "correlativas": [""],
-    "puntaje":"50",
-    "area": "",
-    "cargaHorariaSemanal": "",
-    "links": [
-      {
-        "nombre": "Programa / Proyecto de catedra",
-        "url": "https://drive.google.com/file/d/1yd1I84kXLmI-f3kZXTinPPfnmD4DAvRh/view?usp=sharing"
-      }
-    ]
-},{
-    "materia": "Introducción a la mecatrónica",
-    "codigo": "ELE75",
-    "cuandoSeDicta": "",
-    "modalidad":"",
-    "correlativas": [""],
-    "puntaje":"25",
-    "area": "",
-    "cargaHorariaSemanal": ""
-},{
-    "materia": "Introducción a la mecatrónica",
-    "codigo": "ELE75",
-    "cuandoSeDicta": "",
-    "modalidad":"",
-    "correlativas": ["CB10 - CB13"],
-    "puntaje":"25",
-    "area": "",
-    "cargaHorariaSemanal": ""
-},{
-    "materia": "Introducción a la nanotecnología 1",
-    "codigo": "BMD99",
-    "horario": "Sábado 9 a 13 hs",
-    "modalidad":"",
-    "correlativas": ["Química, Física I y II, Análisis Matemático I"],
-    "puntaje":"50",
-    "area": "",
-    "cargaHorariaSemanal": "",
-    "links": [
-      {
-        "nombre": "Programa / Proyecto de catedra",
-        "url": "https://drive.google.com/file/d/17s3PJ2wK1m0BUYnewyWtP9yodUx_OGN2/view?usp=drive_link"
-      }
-    ]
-},{
-    "materia": "Laboratorio de biomateriales",
-    "codigo": "AEX08",
-    "cuandoSeDicta": "",
-    "modalidad":"",
-    "correlativas": [""],
-    "puntaje":"50",
-    "area": "",
-    "cargaHorariaSemanal": ""
-},{
-    "materia": "Mecatronica aplicada",
-    "codigo": "ELE76",
-    "cuandoSeDicta": "",
-    "modalidad":"",
-    "correlativas": ["ELE14 - ELE08"],
-    "puntaje":"50",
-    "area": "",
-    "cargaHorariaSemanal": ""
-},{
-    "materia": "Modelos matemáticos en medicina y fisiología",
-    "codigo": "BMD98",
-    "cuandoSeDicta": "",
-    "modalidad":"",
-    "correlativas": ["CB42 - BMD03 - ELE04"],
-    "puntaje":"50",
-    "area": "",
-    "cargaHorariaSemanal": ""
-},{
-    "materia": "Química inorgánica",
-    "codigo": "CB08",
-    "cuandoSeDicta": "",
-    "modalidad":"",
-    "correlativas": ["CB01 - CB03"],
-    "puntaje":"100",
-    "area": "Química",
-    "cargaHorariaSemanal": "8.0"
-},{
-    "materia": "Redes, protocolos y convergencia",
-    "codigo": "COM08",
-    "horario": "Sábado 9 a 13 hs",
-    "modalidad":"",
-    "correlativas": ["EDI"],
-    "puntaje":"100",
-    "area": "",
-    "cargaHorariaSemanal": "",
-    "links": [
-      {
-        "nombre": "Carpeta Drive Frubox",
-        "url": "https://drive.google.com/file/d/1SA_jH2l8IktmQt7M5v4ldva3fWpJ_noj/view?usp=sharing"
-      }
-    ]
-},{
-    "materia": "Teoría de circuitos",
-    "codigo": "BMD97",
-    "horario": "Lunes 18-22; Sábados de 9-13 hs",
-    "modalidad":"",
-    "correlativas": ["BMD97 (Bloque de Ciencias Básicas) "],
-    "puntaje":"100",
-    "area": "",
-    "cargaHorariaSemanal": "8.0",
-    "links": [
-      {
-        "nombre": "Carpeta Drive Frubox",
-        "url": "https://drive.google.com/drive/folders/1qghOyiZGbk3ME0LO4SOfWAM7JGTqHzlI"
-      }
-    ]
-},{
-    "materia": "Teoría de control",
-    "codigo": "ELE12",
-    "horario": "Jueves 18-22 hs; Sábados de 9-13 hs",
-    "modalidad":"",
-    "correlativas": ["Electrónica Analógica, Medidas, Electrotecnia"],
-    "puntaje":"100",
-    "area": "",
-    "cargaHorariaSemanal": "8.0",
-    "links": [
-      {
-        "nombre": "Carpeta Drive Frubox",
-        "url": "https://drive.google.com/drive/folders/1KtY9ZNsRVVOLzgSQaLXg2Cgyme2wdBUj"
-      }
-    ]
-},{
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "biomateriales-para-ingenieria-de-tejidos",
     "materia": "Biomateriales para Ingeniería de Tejidos",
-    "codigo": "",
-    "seDictoAnio": ["2026","2025"],
-    "seDictoCuatrimestre":["1° Cuatrimestre","2° Cuatrimestre"],
-    "horario": ["Martes 10 a 14:30 hs","martes 12 a 16 hs "],
-    "modalidad":"",
-    "correlativas": ["IAM y Fïsica I"],
-    "cometarios":"Con cupo",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": "",
+    "codigo": null,
+    "area": null,
+    "modalidad": null,
+    "puntaje": null,
+    "cargaHorariaSemanal": null,
+    "correlativas": [
+      "IAM y Física I"
+    ],
+    "oferta": {
+      "anios": [
+        2026,
+        2025
+      ],
+      "cuatrimestres": [
+        "1° Cuatrimestre",
+        "2° Cuatrimestre"
+      ],
+      "horario": "Martes 10 a 14:30 hs / martes 12 a 16 hs",
+      "observaciones": null
+    },
+    "comentarios": "Con cupo",
+    "contenidosMinimos": null,
     "links": [
       {
+        "tipo": "programa",
         "nombre": "Programa",
         "url": "https://drive.google.com/file/d/1XY1BNVsD8sPmDYqJZnPA98zAgWS0jLur/view?usp=sharing"
       }
-    ]
-},{
-    "materia": "Modelos Matemáticos en Medicina y Fisiología",
-    "codigo": "",
-    "seDicto": "Se dicto en 2doCuatrimestre 2025 : Lunes 9:30-13:30 (a confirmar) ",
-    "modalidad":"",
-    "correlativas": [""],
-    "cometarios":"",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": "",
-    "links": [
-      {
-        "nombre": "Programa",
-        "url": "https://drive.google.com/file/d/1A8gjshfpZxGcJhArXFGGeu7ziRljPAkC/view?usp=sharing"
-      }
-    ]
-},{
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "bionanotecnologia",
     "materia": "Bionanotecnología",
-    "codigo": "",
-    "seDicto": "Se dicto en 2doCuatrimestre 2025 : Sábado 9-12 hs",
-    "modalidad":"",
-    "correlativas": [""],
-    "cometarios":"",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": ""
-},{
-    "materia": "Diseño y Fabricación de Circuitos Impresos",
-    "codigo": "",
-    "seDicto": "Se dicto en 2doCuatrimestre 2025 : Miércoles 18 a 22 hs",
-    "modalidad":"",
-    "correlativas": [""],
-    "cometarios":"",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": "",
-    "links": [
-      {
-        "nombre": "Programa",
-        "url": "https://drive.google.com/file/d/1WQaEWrFph-AR8D2sw3Fb5yL1KWmQEC5h/view?usp=sharing"
-      }
-    ]
-},{
-    "materia": "Internet de las Cosas",
-    "codigo": "",
-    "seDicto": "Se dicto en 2doCuatrimestre 2025 : Lunes 18 a 22 hs",
-    "modalidad":"",
-    "correlativas": [""],
-    "cometarios":"",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": ""
-},{
-    "materia": "Introduction to Integrated Circuits Design",
-    "codigo": "",
-    "seDictoAnio": ["2026","2025"],
-    "seDictoCuatrimestre":["1° Cuatrimestre","2° Cuatrimestre"],
-    "horario": ":Martes de 18 a 22 hs",
-    "modalidad":"",
-    "correlativas": [""],
-    "cometarios":"La aprobación de la asignatura exime de rendir el examen de suficiencia de inglés",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": "",
-    "links": [
-      {
-        "nombre": "Programa",
-        "url": "https://drive.google.com/file/d/1mcxywtxbdeK3SlJS4yQgJPtys8SKdito/view?usp=sharing"
-      }
-    ]
-},{
-    "materia": "Mechatronic systems",
-    "codigo": "",
-    "seDictoAnio": ["2026","2025"],
-    "seDictoCuatrimestre":["1° Cuatrimestre","2° Cuatrimestre"],
-    "horario": "Lunes y miércoles de 11 a 13 hs",
-    "modalidad":"",
-    "correlativas": [""],
-    "cometarios":"La aprobación de la asignatura exime de rendir el examen de suficiencia de inglés",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": ""
-},{
-    "materia": "Applied Probabily and Statistics",
-    "codigo": "",
-    "seDictoAnio": ["2026","2025"],
-    "seDictoCuatrimestre":["1° Cuatrimestre","2° Cuatrimestre"],
-    "horario": "Jueves 9 a 13 hs",
-    "modalidad":"",
-    "correlativas": [""],
-    "cometarios":"La aprobación de la asignatura exime de rendir el examen de suficiencia de inglés",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": "",
-    "links": [
-      {
-        "nombre": "Programa",
-        "url": "https://drive.google.com/file/d/1hlgHEsDLgWuHp7G_VUG307KrxnvT7Cyc/view?usp=drive_link"
-      }
-    ]
-},{
-    "materia": "Física Espacial",
-    "codigo": "",
-    "seDicto": "Se dicto en 2doCuatrimestre 2025 :Días a definir de 17 a 22hs",
-    "modalidad":"",
-    "correlativas": ["Física 1 aprobada, Física 2 y 3 convenientes"],
-    "cometarios":"",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": "5.0",
-    "links": [
-      {
-        "nombre": "Programa",
-        "url": "https://docs.google.com/document/d/1JHmCEmeaE4kQKK7GXs9aS7jVvnEXwfFG/edit?usp=sharing&ouid=111724916181633056872&rtpof=true&sd=true"
-      }
-    ]
-},{
-    "materia": "Introducción a la Ingeniería de Sistemas Espaciales",
-    "codigo": "",
-    "seDicto": "Se dicto en 2doCuatrimestre 2025 :Días a definir de 17 a 22hs",
-    "modalidad":"",
-    "correlativas": [""],
-    "cometarios":"",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": "10.0",
-    "links": [
-      {
-        "nombre": "Programa",
-        "url": "https://docs.google.com/document/d/1JHmCEmeaE4kQKK7GXs9aS7jVvnEXwfFG/edit?usp=sharing&ouid=111724916181633056872&rtpof=true&sd=true"
-      }
-    ]
-},{
-    "materia": "Introducción a la ciencia de datos",
-    "codigo": "",
-    "seDicto": "Lunes 14-16 hs virtual; Miércoles 14-18 hs presencial",
-    "modalidad":"",
-    "correlativas": [""],
-    "cometarios":"Con cupos en gral",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": "",
-    "links": [
-      {
-        "nombre": "Programa",
-        "url": "https://drive.google.com/file/d/1LLTURbVnFXwjmi4sfmW4UuSPV673u717/view?usp=sharing"
-      }
-    ]
-},{
-    "materia": "Programación I",
-    "codigo": "",
-    "seDicto": "Jueves 14-18 hs + 2 h asincrónicas",
-    "modalidad":"",
-    "correlativas": ["Informática"],
-    "cometarios":"Programacion en Python (con cupos)",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": "",
-    "links": [
-      {
-        "nombre": "Programa",
-        "url": "https://drive.google.com/file/d/1T-dkIMLuoRrwQXe-BSLWtpgrpnzSFkvk/view?usp=sharing"
-      }
-    ]
-},{
-    "materia": "Gobernanza de datos",
-    "codigo": "",
-    "seDicto": "Miércoles 18-20 hs + 2 h asincrónicas",
-    "modalidad":"",
-    "correlativas": ["Probabilidad y estadística; Programación"],
-    "cometarios":" (con cupos)",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": "",
-    "links": [
-      {
-        "nombre": "Programa",
-        "url": "https://drive.google.com/file/d/1sFLHRh34bXUPS7dbtLcCwopRQ4aJeTyn/view?usp=sharing"
-      }
-    ]
-},{
-    "materia": "Infraestructura para ccia de datos",
-    "codigo": "",
-    "seDicto": "Jueves 18-22 hs",
-    "modalidad":"",
-    "correlativas": ["Probabilidad y estadística; Programación"],
-    "cometarios":" (con cupos)",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": "",
-    "links": [
-      {
-        "nombre": "Programa",
-        "url": "https://drive.google.com/file/d/1YeLDbOAMdlOQF5acdakiXb_ekJstLy7g/view?usp=sharing"
-      }
-    ]
-},{
-    "materia": "Introducción al aprendizaje automático",
-    "codigo": "",
-    "seDicto": "Martes 19-21 hs (virtual); Viernes 14-18 hs (presencial)",
-    "modalidad":"",
-    "correlativas": ["Probabilidad y estadística; Programación; Procesamiento de imágenes"],
-    "cometarios":" (con cupos)",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": "",
-    "links": [
-      {
-        "nombre": "Programa",
-        "url": "https://drive.google.com/file/d/1RanaQv16yZ30ed-ao1JabEvvL8qm6IGG/view?usp=sharing"
-      }
-    ]
-},{
-    "materia": "Diseño Integral de Aplicaciones Móviles para Salud Humana",
-    "codigo": "",
-    "seDictoAnio": "2026",
-    "seDictoCuatrimestre":"1° Cuatrimestre",
-    "horario": "Miércoles 14 a 18hs",
-    "modalidad":"",
-    "correlativas": ["Informática"],
-    "cometarios":" (con cupos)",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": "",
-    "links": [
-      {
-        "nombre": "Programa / Proyecto de catedra",
-        "url": "https://drive.google.com/file/d/1CzIBNqoHjeG9lYacmvoDp7fQEuK_3bGu/view?usp=drive_link"
-      }
-    ]
-},{
-    "materia": "Diseño Integral de Aplicaciones Móviles para Salud Humana",
-    "codigo": "",
-    "seDictoAnio": "2026",
-    "seDictoCuatrimestre":"1° Cuatrimestre",
-    "horario": "Miércoles 14 a 18hs",
-    "modalidad":"",
-    "correlativas": ["Informática"],
-    "cometarios":" (con cupos)",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": "",
-    "links": [
-      {
-        "nombre": "Programa / Proyecto de catedra",
-        "url": "https://drive.google.com/file/d/1CzIBNqoHjeG9lYacmvoDp7fQEuK_3bGu/view?usp=drive_link"
-      }
-    ]
-},{
-    "materia": "Taller de Tecnología Biomédica",
-    "codigo": "",
-    "seDictoAnio": "2026",
-    "seDictoCuatrimestre":"1° Cuatrimestre",
-    "horario": "Martes 18-22 hs",
-    "modalidad":"",
-    "correlativas": ["IAM, Física I"],
-    "cometarios":" (con cupos)",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": "",
-    "contenidosMinimos" : "Contenidos mínimos: Nociones de seguridad. Riesgos en el taller y laboratorio. Fuentes eléctricas de AC y DC. Componentes y circuitos eléctricos básicos. Herramientas e instrumentos de uso frecuente en biomédica. Instrumental de medición. Mediciones eléctricas de tensión corriente y resistencia. Mediciones mecánicas longitud, superficie y volumen. Mediciones mecánicas de presión y flujo. Determinación de la incertidumbre de las mediciones. Señales variables en el tiempo."
-},{
-    "materia": "Radiobiología",
-    "codigo": "",
-    "seDictoAnio": "2026",
-    "seDictoCuatrimestre":"1° Cuatrimestre",
-    "horario": "Martes y jueves 9 a 13 hs",
-    "modalidad":"",
-    "correlativas": ["Biofísica"],
-    "cometarios":" Se cursa en el Centro Atómico Constituyentes (CNEA) ",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": "",
-    "links": [
-      {
-        "nombre": "Programa / Proyecto de catedra",
-        "url": "https://drive.google.com/file/d/1OpG5dF1zOmPqNvTO3nu-0Doc3wY3zMbs/view?usp=sharing"
-      }
-    ]
-},{
+    "codigo": null,
+    "area": null,
+    "modalidad": null,
+    "puntaje": null,
+    "cargaHorariaSemanal": null,
+    "correlativas": [],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": "Se dictó en 2.º cuatrimestre 2025 : Sábado 9-12 hs"
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [],
+    "revisionPendiente": []
+  },
+  {
+    "id": "ciencia-tecnologia-e-innovacion-en-argentina",
     "materia": "Ciencia, Tecnología e Innovación en Argentina",
-    "codigo": "",
-    "seDictoAnio": "2026",
-    "seDictoCuatrimestre":"1° Cuatrimestre",
-    "horario": "Jueves 18-22 hs",
-    "modalidad":"",
-    "correlativas": ["CTS"],
-    "cometarios":" ",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": "",
+    "codigo": null,
+    "area": null,
+    "modalidad": null,
+    "puntaje": null,
+    "cargaHorariaSemanal": null,
+    "correlativas": [
+      "CTS"
+    ],
+    "oferta": {
+      "anios": [
+        2026
+      ],
+      "cuatrimestres": [
+        "1° Cuatrimestre"
+      ],
+      "horario": "Jueves 18-22 hs",
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
     "links": [
       {
+        "tipo": "programa",
         "nombre": "Programa / Proyecto de catedra",
         "url": "https://drive.google.com/file/d/1_dMWIrVpAZ_z8cekfus9bHk8A2i_Zrxe/view?usp=sharing"
       }
-    ]
-},{
-    "materia": "Emprendedorismo",
-    "codigo": "",
-    "seDictoAnio": "2026",
-    "seDictoCuatrimestre":"1° Cuatrimestre",
-    "horario": "Miércoles 18-22 hs",
-    "modalidad":"",
-    "correlativas": ["CTS"],
-    "cometarios":"  ",
-    "puntaje":"",
-    "area": "",
-    "cargaHorariaSemanal": "",
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "diseno-integral-de-aplicaciones-moviles-para-salud-humana",
+    "materia": "Diseño Integral de Aplicaciones Móviles para Salud Humana",
+    "codigo": null,
+    "area": null,
+    "modalidad": null,
+    "puntaje": null,
+    "cargaHorariaSemanal": null,
+    "correlativas": [
+      "Informática"
+    ],
+    "oferta": {
+      "anios": [
+        2026
+      ],
+      "cuatrimestres": [
+        "1° Cuatrimestre"
+      ],
+      "horario": "Miércoles 14 a 18hs",
+      "observaciones": null
+    },
+    "comentarios": "Con cupos",
+    "contenidosMinimos": null,
     "links": [
       {
+        "tipo": "programa",
+        "nombre": "Programa / Proyecto de catedra",
+        "url": "https://drive.google.com/file/d/1CzIBNqoHjeG9lYacmvoDp7fQEuK_3bGu/view?usp=drive_link"
+      }
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "diseno-y-fabricacion-de-circuitos-impresos",
+    "materia": "Diseño y Fabricación de Circuitos Impresos",
+    "codigo": null,
+    "area": null,
+    "modalidad": null,
+    "puntaje": null,
+    "cargaHorariaSemanal": null,
+    "correlativas": [],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": "Se dictó en 2.º cuatrimestre 2025 : Miércoles 18 a 22 hs"
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [
+      {
+        "tipo": "programa",
+        "nombre": "Programa",
+        "url": "https://drive.google.com/file/d/1WQaEWrFph-AR8D2sw3Fb5yL1KWmQEC5h/view?usp=sharing"
+      }
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "electronica-digital-iii",
+    "materia": "Electrónica Digital III",
+    "codigo": "ELE13",
+    "area": "Electrónica",
+    "modalidad": "Cuatrimestral",
+    "puntaje": 50,
+    "cargaHorariaSemanal": null,
+    "correlativas": [
+      "EDII"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [
+        "2° Cuatrimestre"
+      ],
+      "horario": "Miércoles 18-22 hs",
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": "Procesadores digitales de Señales. Arquitectura Codecs. Periféricos Integrados. Procesadores de punto fijo y punto flotante. Procesadores avanzados de 32/64 bits.  Introducción a la arquitectura del 80386 y sus sucesores.  Arquitectura de doble núcleo. Gerenciación de memoria. Sistema de Protección. Descriptores. Concepto de sistemas operativos real time y event driven. Arquitectura de las Computadoras Personales. Sistemas de Redes.",
+    "links": [
+      {
+        "tipo": "material",
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1Ara5cwN8XQe6W2PsRUN4cqqCyAJcYlu9"
+      }
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "emprendedorismo",
+    "materia": "Emprendedorismo",
+    "codigo": null,
+    "area": null,
+    "modalidad": null,
+    "puntaje": null,
+    "cargaHorariaSemanal": null,
+    "correlativas": [
+      "CTS"
+    ],
+    "oferta": {
+      "anios": [
+        2026
+      ],
+      "cuatrimestres": [
+        "1° Cuatrimestre"
+      ],
+      "horario": "Miércoles 18-22 hs",
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [
+      {
+        "tipo": "programa",
         "nombre": "Programa / Proyecto de catedra",
         "url": "https://drive.google.com/file/d/1J_zIhPPyKBC0KMTYt5aMn0qUwb-c7BvW/view?usp=sharing"
       }
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "fisica-espacial",
+    "materia": "Física Espacial",
+    "codigo": null,
+    "area": null,
+    "modalidad": null,
+    "puntaje": null,
+    "cargaHorariaSemanal": 5.0,
+    "correlativas": [
+      "Física 1 aprobada, Física 2 y 3 convenientes"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": "Se dictó en 2.º cuatrimestre 2025 : Días a definir de 17 a 22 hs"
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [
+      {
+        "tipo": "programa",
+        "nombre": "Programa",
+        "url": "https://docs.google.com/document/d/1JHmCEmeaE4kQKK7GXs9aS7jVvnEXwfFG/edit?usp=sharing&ouid=111724916181633056872&rtpof=true&sd=true"
+      }
+    ],
+    "revisionPendiente": [
+      "Este enlace también aparece en otra materia; verificar que corresponda."
     ]
-}
+  },
+  {
+    "id": "gestion-de-la-calidad",
+    "materia": "Gestión de la calidad",
+    "codigo": "IND14",
+    "area": null,
+    "modalidad": "Cuatrimestral",
+    "puntaje": 50,
+    "cargaHorariaSemanal": 6.0,
+    "correlativas": [
+      "BMD07",
+      "BMD01"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": "Normas de gestión de la calidad. Familia de normas ISO 9000. Documentación. Implantación de sistemas de GC. Auditorías internas. Certificación y evaluación de sistemas de GC. Generación y Procesamiento de la Información relativa a la Calidad y Costos de la Calidad. Sistemas de información de gestión. Costos relacionados con la calidad. Mejora de la calidad. Herramientas y métodos para la gestión de la calidad. Sistemas de GC orientados hacia los procesos. Gestión de los procesos de la empresa. Fomento de la Calidad. Fundamentos del TQM. Elementos del TQM. Estilos de conducción. Motivación y participación. Indicadores, evaluación y mediciones. Implantación de TQM.",
+    "links": [],
+    "revisionPendiente": []
+  },
+  {
+    "id": "gobernanza-de-datos",
+    "materia": "Gobernanza de datos",
+    "codigo": null,
+    "area": null,
+    "modalidad": null,
+    "puntaje": null,
+    "cargaHorariaSemanal": null,
+    "correlativas": [
+      "Probabilidad y estadística",
+      "Programación"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": "Miércoles 18-20 hs + 2 h asincrónicas"
+    },
+    "comentarios": "Con cupos",
+    "contenidosMinimos": null,
+    "links": [
+      {
+        "tipo": "programa",
+        "nombre": "Programa",
+        "url": "https://drive.google.com/file/d/1sFLHRh34bXUPS7dbtLcCwopRQ4aJeTyn/view?usp=sharing"
+      }
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "infraestructura-para-ciencia-de-datos",
+    "materia": "Infraestructura para ciencia de datos",
+    "codigo": null,
+    "area": null,
+    "modalidad": null,
+    "puntaje": null,
+    "cargaHorariaSemanal": null,
+    "correlativas": [
+      "Probabilidad y estadística",
+      "Programación"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": "Jueves 18-22 hs"
+    },
+    "comentarios": "Con cupos",
+    "contenidosMinimos": null,
+    "links": [
+      {
+        "tipo": "programa",
+        "nombre": "Programa",
+        "url": "https://drive.google.com/file/d/1YeLDbOAMdlOQF5acdakiXb_ekJstLy7g/view?usp=sharing"
+      }
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "instalaciones-industriales",
+    "materia": "Instalaciones industriales",
+    "codigo": "IND12",
+    "area": null,
+    "modalidad": "Cuatrimestral",
+    "puntaje": 50,
+    "cargaHorariaSemanal": 4.0,
+    "correlativas": [
+      "BMD07"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [],
+    "revisionPendiente": []
+  },
+  {
+    "id": "internet-de-las-cosas",
+    "materia": "Internet de las Cosas",
+    "codigo": null,
+    "area": null,
+    "modalidad": null,
+    "puntaje": null,
+    "cargaHorariaSemanal": null,
+    "correlativas": [],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": "Se dictó en 2.º cuatrimestre 2025 : Lunes 18 a 22 hs"
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [],
+    "revisionPendiente": []
+  },
+  {
+    "id": "introduccion-a-la-calidad",
+    "materia": "Introducción a la calidad",
+    "codigo": "IND01",
+    "area": null,
+    "modalidad": "Cuatrimestral",
+    "puntaje": 50,
+    "cargaHorariaSemanal": 4.0,
+    "correlativas": [
+      "BMD07",
+      "BMD01"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": "Viernes 18-22 hs",
+      "observaciones": null
+    },
+    "comentarios": "Se cursa en INTI",
+    "contenidosMinimos": "Escuelas universales.  Los grandes maestros.   Focalización al cliente. ISO 9000. Gestión  Total de la Calidad.  Hacia la mejora continua de la calidad. Ejemplos de empresas argentinas. Las bases del Premio Nacional a la Calidad. Ejercicios grupales.",
+    "links": [
+      {
+        "tipo": "programa",
+        "nombre": "Programa / Proyecto de catedra",
+        "url": "https://drive.google.com/file/d/19SNjUORKqP8W8rlArJLzviWhoJXRvLla/view?usp=drive_link"
+      }
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "introduccion-a-la-ciencia-de-datos",
+    "materia": "Introducción a la ciencia de datos",
+    "codigo": null,
+    "area": null,
+    "modalidad": null,
+    "puntaje": null,
+    "cargaHorariaSemanal": null,
+    "correlativas": [],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": "Lunes 14-16 hs virtual; Miércoles 14-18 hs presencial"
+    },
+    "comentarios": "Con cupos en general",
+    "contenidosMinimos": null,
+    "links": [
+      {
+        "tipo": "programa",
+        "nombre": "Programa",
+        "url": "https://drive.google.com/file/d/1LLTURbVnFXwjmi4sfmW4UuSPV673u717/view?usp=sharing"
+      }
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "introduccion-a-la-ingenieria-de-sistemas-espaciales",
+    "materia": "Introducción a la Ingeniería de Sistemas Espaciales",
+    "codigo": null,
+    "area": null,
+    "modalidad": null,
+    "puntaje": null,
+    "cargaHorariaSemanal": 10.0,
+    "correlativas": [],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": "Se dictó en 2.º cuatrimestre 2025 : Días a definir de 17 a 22 hs"
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [
+      {
+        "tipo": "programa",
+        "nombre": "Programa",
+        "url": "https://docs.google.com/document/d/1JHmCEmeaE4kQKK7GXs9aS7jVvnEXwfFG/edit?usp=sharing&ouid=111724916181633056872&rtpof=true&sd=true"
+      }
+    ],
+    "revisionPendiente": [
+      "Este enlace también aparece en otra materia; verificar que corresponda."
+    ]
+  },
+  {
+    "id": "introduccion-a-la-investigacion-desde-una-perspectiva-multidisciplinaria",
+    "materia": "Introducción a la investigación desde una perspectiva multidisciplinaria",
+    "codigo": "DFA",
+    "area": null,
+    "modalidad": null,
+    "puntaje": 50,
+    "cargaHorariaSemanal": null,
+    "correlativas": [],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [],
+    "revisionPendiente": []
+  },
+  {
+    "id": "introduccion-a-la-mecatronica",
+    "materia": "Introducción a la mecatrónica",
+    "codigo": "ELE75",
+    "area": null,
+    "modalidad": null,
+    "puntaje": 25,
+    "cargaHorariaSemanal": null,
+    "correlativas": [
+      "CB10",
+      "CB13"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [],
+    "revisionPendiente": []
+  },
+  {
+    "id": "introduccion-a-la-nanotecnologia-i",
+    "materia": "Introducción a la nanotecnología I",
+    "codigo": "BMD99",
+    "area": null,
+    "modalidad": null,
+    "puntaje": 50,
+    "cargaHorariaSemanal": null,
+    "correlativas": [
+      "Química, Física I y II, Análisis Matemático I"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": "Sábado 9 a 13 hs",
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [
+      {
+        "tipo": "programa",
+        "nombre": "Programa / Proyecto de catedra",
+        "url": "https://drive.google.com/file/d/17s3PJ2wK1m0BUYnewyWtP9yodUx_OGN2/view?usp=drive_link"
+      }
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "introduccion-a-la-neurociencia-computacional",
+    "materia": "Introducción a la neurociencia computacional",
+    "codigo": "BMD90",
+    "area": null,
+    "modalidad": "Cuatrimestral",
+    "puntaje": 50,
+    "cargaHorariaSemanal": null,
+    "correlativas": [],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": "Lunes y Miércoles de 16 a 18 hs"
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [
+      {
+        "tipo": "programa",
+        "nombre": "Programa / Proyecto de catedra",
+        "url": "https://drive.google.com/file/d/1yd1I84kXLmI-f3kZXTinPPfnmD4DAvRh/view?usp=sharing"
+      }
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "introduccion-al-aprendizaje-automatico",
+    "materia": "Introducción al aprendizaje automático",
+    "codigo": null,
+    "area": null,
+    "modalidad": null,
+    "puntaje": null,
+    "cargaHorariaSemanal": null,
+    "correlativas": [
+      "Probabilidad y estadística",
+      "Programación",
+      "Procesamiento de imágenes"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": "Martes 19-21 hs (virtual); Viernes 14-18 hs (presencial)"
+    },
+    "comentarios": "Con cupos",
+    "contenidosMinimos": null,
+    "links": [
+      {
+        "tipo": "programa",
+        "nombre": "Programa",
+        "url": "https://drive.google.com/file/d/1RanaQv16yZ30ed-ao1JabEvvL8qm6IGG/view?usp=sharing"
+      }
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "introduction-to-integrated-circuits-design",
+    "materia": "Introduction to Integrated Circuits Design",
+    "codigo": null,
+    "area": null,
+    "modalidad": null,
+    "puntaje": null,
+    "cargaHorariaSemanal": null,
+    "correlativas": [],
+    "oferta": {
+      "anios": [
+        2026,
+        2025
+      ],
+      "cuatrimestres": [
+        "1° Cuatrimestre",
+        "2° Cuatrimestre"
+      ],
+      "horario": ":Martes de 18 a 22 hs",
+      "observaciones": null
+    },
+    "comentarios": "La aprobación de la asignatura exime de rendir el examen de suficiencia de inglés",
+    "contenidosMinimos": null,
+    "links": [
+      {
+        "tipo": "programa",
+        "nombre": "Programa",
+        "url": "https://drive.google.com/file/d/1mcxywtxbdeK3SlJS4yQgJPtys8SKdito/view?usp=sharing"
+      }
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "laboratorio-de-biomateriales",
+    "materia": "Laboratorio de biomateriales",
+    "codigo": "AEX08",
+    "area": null,
+    "modalidad": null,
+    "puntaje": 50,
+    "cargaHorariaSemanal": null,
+    "correlativas": [],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [],
+    "revisionPendiente": []
+  },
+  {
+    "id": "mecatronica-aplicada",
+    "materia": "Mecatrónica aplicada",
+    "codigo": "ELE76",
+    "area": null,
+    "modalidad": null,
+    "puntaje": 50,
+    "cargaHorariaSemanal": null,
+    "correlativas": [
+      "ELE14",
+      "ELE08"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [],
+    "revisionPendiente": []
+  },
+  {
+    "id": "mechatronic-systems",
+    "materia": "Mechatronic systems",
+    "codigo": null,
+    "area": null,
+    "modalidad": null,
+    "puntaje": null,
+    "cargaHorariaSemanal": null,
+    "correlativas": [],
+    "oferta": {
+      "anios": [
+        2026,
+        2025
+      ],
+      "cuatrimestres": [
+        "1° Cuatrimestre",
+        "2° Cuatrimestre"
+      ],
+      "horario": "Lunes y miércoles de 11 a 13 hs",
+      "observaciones": null
+    },
+    "comentarios": "La aprobación de la asignatura exime de rendir el examen de suficiencia de inglés",
+    "contenidosMinimos": null,
+    "links": [],
+    "revisionPendiente": []
+  },
+  {
+    "id": "modelos-matematicos-en-medicina-y-fisiologia",
+    "materia": "Modelos matemáticos en medicina y fisiología",
+    "codigo": "BMD98",
+    "area": null,
+    "modalidad": null,
+    "puntaje": 50,
+    "cargaHorariaSemanal": null,
+    "correlativas": [
+      "CB42",
+      "BMD03",
+      "ELE04"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": "Se dictó en 2.º cuatrimestre 2025 : Lunes 9:30-13:30 (a confirmar)"
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [
+      {
+        "tipo": "programa",
+        "nombre": "Programa",
+        "url": "https://drive.google.com/file/d/1A8gjshfpZxGcJhArXFGGeu7ziRljPAkC/view?usp=sharing"
+      }
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "programacion-i",
+    "materia": "Programación I",
+    "codigo": null,
+    "area": null,
+    "modalidad": null,
+    "puntaje": null,
+    "cargaHorariaSemanal": null,
+    "correlativas": [
+      "Informática"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": "Jueves 14-18 hs + 2 h asincrónicas"
+    },
+    "comentarios": "Programación en Python Con cupos",
+    "contenidosMinimos": null,
+    "links": [
+      {
+        "tipo": "programa",
+        "nombre": "Programa",
+        "url": "https://drive.google.com/file/d/1T-dkIMLuoRrwQXe-BSLWtpgrpnzSFkvk/view?usp=sharing"
+      }
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "quimica-inorganica",
+    "materia": "Química inorgánica",
+    "codigo": "CB08",
+    "area": "Química",
+    "modalidad": null,
+    "puntaje": 100,
+    "cargaHorariaSemanal": 8.0,
+    "correlativas": [
+      "CB01",
+      "CB03"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [],
+    "revisionPendiente": []
+  },
+  {
+    "id": "radiobiologia",
+    "materia": "Radiobiología",
+    "codigo": null,
+    "area": null,
+    "modalidad": null,
+    "puntaje": null,
+    "cargaHorariaSemanal": null,
+    "correlativas": [
+      "Biofísica"
+    ],
+    "oferta": {
+      "anios": [
+        2026
+      ],
+      "cuatrimestres": [
+        "1° Cuatrimestre"
+      ],
+      "horario": "Martes y jueves 9 a 13 hs",
+      "observaciones": null
+    },
+    "comentarios": "Se cursa en el Centro Atómico Constituyentes (CNEA)",
+    "contenidosMinimos": null,
+    "links": [
+      {
+        "tipo": "programa",
+        "nombre": "Programa / Proyecto de catedra",
+        "url": "https://drive.google.com/file/d/1OpG5dF1zOmPqNvTO3nu-0Doc3wY3zMbs/view?usp=sharing"
+      }
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "redes-protocolos-y-convergencia",
+    "materia": "Redes, protocolos y convergencia",
+    "codigo": "COM08",
+    "area": null,
+    "modalidad": null,
+    "puntaje": 100,
+    "cargaHorariaSemanal": null,
+    "correlativas": [
+      "EDI"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": "Sábado 9 a 13 hs",
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [
+      {
+        "tipo": "material",
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/file/d/1SA_jH2l8IktmQt7M5v4ldva3fWpJ_noj/view?usp=sharing"
+      }
+    ],
+    "revisionPendiente": []
+  },
+  {
+    "id": "taller-de-tecnologia-biomedica",
+    "materia": "Taller de Tecnología Biomédica",
+    "codigo": null,
+    "area": null,
+    "modalidad": null,
+    "puntaje": null,
+    "cargaHorariaSemanal": null,
+    "correlativas": [
+      "IAM, Física I"
+    ],
+    "oferta": {
+      "anios": [
+        2026
+      ],
+      "cuatrimestres": [
+        "1° Cuatrimestre"
+      ],
+      "horario": "Martes 18-22 hs",
+      "observaciones": null
+    },
+    "comentarios": "Con cupos",
+    "contenidosMinimos": "Contenidos mínimos: Nociones de seguridad. Riesgos en el taller y laboratorio. Fuentes eléctricas de AC y DC. Componentes y circuitos eléctricos básicos. Herramientas e instrumentos de uso frecuente en biomédica. Instrumental de medición. Mediciones eléctricas de tensión corriente y resistencia. Mediciones mecánicas longitud, superficie y volumen. Mediciones mecánicas de presión y flujo. Determinación de la incertidumbre de las mediciones. Señales variables en el tiempo.",
+    "links": [],
+    "revisionPendiente": []
+  },
+  {
+    "id": "teoria-de-circuitos",
+    "materia": "Teoría de circuitos",
+    "codigo": "BMD97",
+    "area": null,
+    "modalidad": null,
+    "puntaje": 100,
+    "cargaHorariaSemanal": 8.0,
+    "correlativas": [
+      "BMD97 (Bloque de Ciencias Básicas)"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": "Lunes 18-22; Sábados de 9-13 hs",
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": "Tipos y caracterización de señales usuales. Respuestas natural y forzada de circuitos simples. Fasores, régimen permanente de circuitos en corriente alterna senoidal. Diagramas de Bode. Señales poliarmónicas. Resolución sistemática de circuitos. Teoría de los circuitos. Teoría de los cuadripolos. Introducción a los amplificadores operacionales y al filtrado.",
+    "links": [
+      {
+        "tipo": "material",
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1qghOyiZGbk3ME0LO4SOfWAM7JGTqHzlI"
+      }
+    ],
+    "revisionPendiente": [
+      "La correlativa contiene el mismo código de esta materia; conviene verificarla."
+    ]
+  },
+  {
+    "id": "teoria-de-control",
+    "materia": "Teoría de control",
+    "codigo": "ELE12",
+    "area": null,
+    "modalidad": null,
+    "puntaje": 100,
+    "cargaHorariaSemanal": 8.0,
+    "correlativas": [
+      "Electrónica Analógica, Medidas, Electrotecnia"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": "Jueves 18-22 hs; Sábados de 9-13 hs",
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": "Problemas de control. Modelos y sistemas lineales de tiempo continuo y discreto. Representación por funciones de transferencia y por variables de estado. Estabilidad. Análisis de respuestas en el dominio del tiempo y en frecuencia. Tipo de sistemas. Lugar de las raíces. Leyes de control. Análisis y diseño de los sistemas de control lineales.",
+    "links": [
+      {
+        "tipo": "material",
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/drive/folders/1KtY9ZNsRVVOLzgSQaLXg2Cgyme2wdBUj"
+      }
+    ],
+    "revisionPendiente": []
+  }
 ]
