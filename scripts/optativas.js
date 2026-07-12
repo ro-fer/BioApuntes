@@ -36,12 +36,6 @@ function registrarEventos() {
         .forEach(control => control?.addEventListener("input", renderizar));
     elementos.limpiar?.addEventListener("click", limpiarFiltros);
     document.querySelector('[data-action="limpiar"]')?.addEventListener("click", limpiarFiltros);
-    elementos.grilla?.addEventListener("click", evento => {
-        const boton = evento.target.closest("[data-detalle-id]");
-        if (boton) abrirDetalle(boton.dataset.detalleId);
-    });
-    elementos.modalCerrar?.addEventListener("click", () => elementos.modal.close());
-    elementos.modal?.addEventListener("click", evento => { if (evento.target === elementos.modal) elementos.modal.close(); });
 }
 
 function completarFiltros(datos) {
@@ -90,10 +84,18 @@ function coincideFiltroCursada(item, filtro) {
         || Boolean(oferta.observaciones?.trim())
         || (Array.isArray(oferta.anios) && oferta.anios.length > 0);
 
+    const seDictaPrimero = cuatrimestresNormalizados.some(valor =>
+        valor.includes("1°") || valor.includes("1o") || valor.includes("primer")
+    );
+    const seDictaSegundo = cuatrimestresNormalizados.some(valor =>
+        valor.includes("2°") || valor.includes("2o") || valor.includes("segundo")
+    );
+
     if (filtro === "con-info") return tieneInformacion;
     if (filtro === "sin-info") return !tieneInformacion;
-    if (filtro === "primero") return cuatrimestresNormalizados.some(valor => valor.includes("1°") || valor.includes("1o") || valor.includes("primer"));
-    if (filtro === "segundo") return cuatrimestresNormalizados.some(valor => valor.includes("2°") || valor.includes("2o") || valor.includes("segundo"));
+    if (filtro === "primero") return seDictaPrimero;
+    if (filtro === "segundo") return seDictaSegundo;
+    if (filtro === "ambos") return seDictaPrimero && seDictaSegundo;
 
     return true;
 }
@@ -118,36 +120,12 @@ function crearTarjeta(item) {
             </div>${revision}
         </div>
         <div class="card-buttons">
-            <button class="btn btn-secondary" type="button" data-detalle-id="${escapar(item.id)}">Ver detalle</button>
+            <a class="btn btn-secondary" href="./optativa.html?id=${encodeURIComponent(item.id)}">Ver detalle</a>
             ${tieneMaterial ? `<a class="btn btn-primary" href="${escapar(links[0].url)}" target="_blank" rel="noopener noreferrer">Abrir material</a>` : ""}
         </div>
     </article>`;
 }
 
-function abrirDetalle(id) {
-    const item = optativas.find(x => x.id === id); if (!item) return;
-    const oferta=item.oferta||{}, links=enlacesValidos(item), revisiones=item.revisionPendiente||[];
-    elementos.modalContenido.innerHTML = `<article class="optativa-detail">
-        <div class="optativa-badges"><span class="optativa-badge">${escapar(item.area||"Área no informada")}</span>${item.modalidad?`<span class="optativa-badge">${escapar(item.modalidad)}</span>`:""}</div>
-        <h2>${escapar(item.materia)}</h2><p class="optativa-detail-subtitle">${escapar(item.codigo||"Código no informado")}</p>
-        ${seccionLista("Datos académicos",[
-            `<strong>Puntaje:</strong> ${item.puntaje != null ? item.puntaje+" puntos" : "No informado"}`,
-            `<strong>Carga semanal:</strong> ${item.cargaHorariaSemanal != null ? item.cargaHorariaSemanal+" h" : "No informada"}`,
-            `<strong>Correlativas:</strong> ${escapar(item.correlativas?.join(" · ")||"No informadas")}`,
-            `<strong>Años registrados:</strong> ${escapar(oferta.anios?.join(" · ")||"No informados")}`,
-            `<strong>Cuatrimestres:</strong> ${escapar(oferta.cuatrimestres?.join(" · ")||"No informados")}`,
-            `<strong>Horario:</strong> ${escapar(oferta.horario||"No informado")}`
-        ])}
-        ${item.comentarios?seccionTexto("Comentarios",item.comentarios):""}
-        ${item.contenidosMinimos?seccionTexto("Contenidos mínimos",item.contenidosMinimos):""}
-        ${oferta.observaciones?seccionTexto("Antecedentes de cursada",oferta.observaciones):""}
-        <section class="optativa-detail-section"><h3>Material disponible</h3>${links.length?`<div class="optativa-detail-links">${links.map(l=>`<a class="btn btn-primary" href="${escapar(l.url)}" target="_blank" rel="noopener noreferrer">${escapar(l.nombre||"Abrir recurso")} ↗</a>`).join("")}</div>`:"<p>Todavía no hay enlaces cargados para esta materia.</p>"}</section>
-        ${revisiones.length?seccionLista("Datos pendientes de revisión",revisiones.map(escapar)):""}
-    </article>`;
-    elementos.modal.showModal();
-}
-function seccionTexto(titulo,texto){return `<section class="optativa-detail-section"><h3>${escapar(titulo)}</h3><p>${escapar(texto)}</p></section>`;}
-function seccionLista(titulo,items){return `<section class="optativa-detail-section"><h3>${escapar(titulo)}</h3><ul class="optativa-detail-list">${items.map(x=>`<li>${x}</li>`).join("")}</ul></section>`;}
 function enlacesValidos(item){return Array.isArray(item.links)?item.links.filter(l=>l&&l.url):[];}
 function limpiarFiltros(){elementos.busqueda.value="";elementos.area.value="";elementos.modalidad.value="";elementos.cursada.value="";elementos.ordenar.value="nombre";renderizar();elementos.busqueda.focus();}
 function normalizar(v=""){return String(v).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLocaleLowerCase("es").trim();}
