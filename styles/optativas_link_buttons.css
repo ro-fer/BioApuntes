@@ -1,0 +1,71 @@
+/* =========================
+   Botones por tipo de link
+   ========================= */
+
+.card-buttons-links {
+    align-items: stretch;
+}
+
+.card-buttons-links .btn {
+    white-space: nowrap;
+}
+
+.btn-link-programa {
+    background: #ffffff;
+    color: #3b008f;
+    border: 1px solid rgba(59, 0, 143, 0.18);
+}
+
+.btn-link-programa:hover {
+    background: #f4edff;
+}
+
+.btn-link-frubox {
+    background: #fff7e6;
+    color: #8a4b00;
+    border: 1px solid rgba(138, 75, 0, 0.18);
+}
+
+.btn-link-frubox:hover {
+    background: #ffefd0;
+}
+
+.btn-link-drive {
+    background: #eef7ff;
+    color: #135a91;
+    border: 1px solid rgba(19, 90, 145, 0.18);
+}
+
+.btn-link-drive:hover {
+    background: #dff0ff;
+}
+
+.btn-link-onedrive {
+    background: #edf8ff;
+    color: #075985;
+    border: 1px solid rgba(7, 89, 133, 0.18);
+}
+
+.btn-link-onedrive:hover {
+    background: #dcf1ff;
+}
+
+.btn-link-github {
+    background: #f2f2f3;
+    color: #24292f;
+    border: 1px solid rgba(36, 41, 47, 0.14);
+}
+
+.btn-link-github:hover {
+    background: #e8e8ea;
+}
+
+.btn-link-notion {
+    background: #f6f2ff;
+    color: #4b1d95;
+    border: 1px solid rgba(75, 29, 149, 0.16);
+}
+
+.btn-link-notion:hover {
+    background: #eee6ff;
+}
