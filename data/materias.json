@@ -41,7 +41,8 @@
       "cargaHorariaCuatrimestralTexto": "128 horas.",
       "texto": "Números reales. Propiedades. Intervalos en  R. Módulo. Concepto de función. Dominio. Gráficas. Inyectividad y suryectividad. Función inversa. Funciones polinomiales, racionales, exponenciales y logaritmicas.  Sucesiones. Monotonía. Acotación. Límites de sucesiones. Límites de funciones y Continuidad. Discontinuidades: Clasificación. Cálculo diferencial. Reglas de derivación. Fórmula de Taylor. Aplicaciones de las derivadas. Funciones. Intervalos de monotonía. Extremos locales. Extremos absolutos. Concavidad. Puntos de inflexión.  Análisis de funciones. Gráficas aproximadas.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Ciencia, Tecnología y Sociedad",
@@ -87,7 +88,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Introducción a la Ciencia y la Tecnología. Las ciencias básicas. Tecnología, recursos naturales y energía. Ambiente. Concepto. Impactos tecnológicos en el medio ambiente natural y social. Biotecnología. Concepto. Aplicaciones de la Biotecnología. Física Médica. Campos de aplicación. Física y salud humana. Tecnologías asociadas al diagnóstico y tratamiento de enfermedades. Radioterapia. Medicina Nuclear. Electrónica. Alcances e incumbencias. Ciencias básicas, tecnologías básicas y tecnologías aplicadas. Electrónica analógica y digital. Campos de aplicaciones: telecomunicaciones, instrumentación, control, procesamiento de datos.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Complementarias"
   },
   {
     "materia": "Química General",
@@ -133,7 +135,8 @@
       "cargaHorariaCuatrimestralTexto": "128 horas.",
       "texto": "Sistemas materiales. Estructura atómico molecular. Clasificación de los elementos. Uniones químicas. Gases, sólidos y líquidos. Soluciones. Termodinámica y cinética química.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Introducción a la Informática",
@@ -177,7 +180,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Sistemas de Numeración. Algebra de Conmutación, Variables y Funciones Lógicas.  La computadora. Modelo de operación.  Una computadora personal. Diagramación estructurada",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Cálculo I",
@@ -225,7 +229,8 @@
       "cargaHorariaCuatrimestralTexto": "96 horas.",
       "texto": "Integral. Primitivas. Fórmula de Barrow. Cálculo integral y sus aplicaciones. Series numéricas. Criterios de convergencia para series positivas y alternadas. Integrales impropias. Series funcionales y de potencias. Convergencia puntual y uniforme. Radio de convergencia. Series de Taylor. Introducción a las ecuaciones diferenciales ordinarias. Métodos elementales de integración. Ecuaciones con variables separables y lineales de primer orden.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Álgebra y Geometría Analítica I",
@@ -269,7 +274,8 @@
       "cargaHorariaCuatrimestralTexto": "96 horas.",
       "texto": "El cuerpo de los números complejos. Polinomios.  Geometría en el plano y el espacio. Vectores. Producto escalar. Magnitud, distancia y ángulo. Rectas y planos.  Paralelismo y perpendicularidad. Matrices. Operaciones aritméticas matriciales. Transposición.  Matriz inversa. Sistemas de ecuaciones lineales. Eliminación gaussiana. Determinantes. Espacios vectoriales R^n.  Sub-espacios.  Generadores. Independencia lineal. Bases y dimensión. Intersección, suma y suma directa de sub-espacios.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Sistemas de Representación Gráfica",
@@ -314,7 +320,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Representación de cuerpos. Proyecciones, vistas, cortes, cotas. Planos, croquis. Normas de dibujo técnico. Dibujo asistido por computadora.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Física I",
@@ -362,7 +369,8 @@
       "cargaHorariaCuatrimestralTexto": "128 horas.",
       "texto": "Medición, errores, sistemas de unidades. Cinemática. Masa inercial. Cantidad de movimiento y fuerza. Impulso y trabajo. Energía. Oscilaciones. Momento angular. Cinemática y dinámica del cuerpo rígido. Equilibrio y elasticidad. Mecánica de fluidos.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Cálculo II",
@@ -411,7 +419,8 @@
       "cargaHorariaCuatrimestralTexto": "128 horas.",
       "texto": "Funciones vectoriales reales. Límites y continuidad. Cálculo diferencial vectorial. Regla de la cadena. Funciones implícitas. Curvas y superficies parametrizadas.  Fórmula de Taylor vectorial. Plano tangente. Problemas de máximos y mínimos. Multiplicadores de Lagrange. Campos escalares y vectoriales. Potencial. Campo tangente y normal. Formas diferenciales exactas. Análisis geométrico de ecuaciones diferenciales. Cambio de coordenadas. Coordenadas polares, esféricas y cilíndricas. Integrales múltiples. Integrales paramétricas, curvilíneas  y de superficie. Aplicaciones geométricas. Operadores gradiente, divergencia, rotor y laplaciano. Teoremas integrales. Fórmula de Green. Teoremas de Stockes y de la divergencia.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Álgebra y Geometría Analítica II",
@@ -457,7 +466,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Espacios vectoriales generales. Transformaciones lineales. Producto interno. Ortogonalidad.  Bases.  Matrices asociadas a una transformación lineal.  Autovalores y autovectores. Diagonalización de matrices. Forma canónica de Jordan.   Formas cuadráticas. Cónicas y cuádricas.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Informática",
@@ -503,7 +513,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Computadoras y sistemas informáticos. Representación y procesamiento de la información. Computadoras. Hardware y software. CPU. Memorias. Dispositivos de almacenamiento. Sistemas operativos. Periféricos y utilitarios. Redes. Introducción a la programación. Algoritmos, lenguajes y programación estructurada.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Física II",
@@ -550,7 +561,8 @@
       "cargaHorariaCuatrimestralTexto": "128 horas.",
       "texto": "Ondas mecánicas y acústicas. Óptica geométrica y óptica física. Temperatura. Calor y primera ley de la termodinámica. Entropía y segunda ley de la termodinámica. Potenciales termodinámicos. Teoría cinética de los gases.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Cálculo III",
@@ -599,7 +611,8 @@
       "cargaHorariaCuatrimestralTexto": "128 horas.",
       "texto": "Funciones de variable compleja. Funciones analíticas. Condiciones de Cauchy-Riemann. Integración. Primitivas. Teorema de Cauchy- Goursat. Fórmula de Cauchy. Series de potencias complejas. Radio de convergencia. Series de Taylor y de Laurent.  Residuos. Transformada Z.  Convolución discreta.  Fórmulas recurrentes y ecuaciones en diferencias. Aplicación de la transformada Z  a la resolución de  ecuaciones en diferencias. Transformada de Laplace. Producto de convolución.  Ecuaciones diferenciales y ordinarias lineales con coeficientes constantes. Sistemas. Reducción del orden. Aplicación de la Transformada de Laplace a la resolución de problemas de valores iniciales. Exponencial matricial. Conceptos básicos de sistemas lineales, causales e invariantes. Transformada de Fourier. Series de Fourier. Convergencia y aproximación  de funciones. Espectro de potencias.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Programación",
@@ -646,7 +659,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Introducción a la programación en lenguaje C. Compiladores e intérpretes. Programas: Depuración y control de errores. Tipos de datos y variables. Funciones y parámetros. Estructuras. Arreglos. Enumeraciones. Punteros y referencias. Control de flujo. Funciones y procedimientos. Implementación de estructura de datos y algoritmos. Consolas y dispositivos de entrada/salida.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Probabilidad y Estadística",
@@ -692,7 +706,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Experimentos aleatorios. Frecuencias relativas. Modelo de Laplace.  Probabilidad. Independencia y probabilidad condicional. Teorema de Bayes. Cálculo de probabilidades. Variables aleatorias. Funciones de densidad y de probabilidad. Funciones de distribución.  Principales distribuciones discretas y continuas. Variables aleatorias vectoriales.  Distribuciones conjuntas y marginales.  Momentos de primer y segundo orden. Correlación. Nociones de procesos estocásticos. Función de auto-correlación. Procesos estacionarios. Ruido gaussiano.  Nociones de estadística  descriptiva y paramétrica. Test de hipótesis.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Física III",
@@ -741,7 +756,8 @@
       "cargaHorariaCuatrimestralTexto": "128 horas.",
       "texto": "Electrostática: carga y campo eléctrico. Ley de Coulomb. Ley de Gauss. Energía potencial eléctrica. Potencial electrostático. Electrostática en medios dieléctricos. Condensadores. Corriente y resistencia eléctricas. Ley de Ohm. Leyes de Kirchoff. Magnetismo: campo magnético. Fuerza de Lorentz. Ley de Biot-Savart. Aplicaciones de la Ley de Ampere. Ley de Faraday. Inducción electromagnética. Energía magnética. Propiedades magnéticas de la materia. Fuerza electromotriz alterna. Circuitos de corriente alterna. Aplicaciones en motores, generadores  y galvanómetros. Campos electromagnéticos variables en el espacio y el tiempo. Ecuaciones de Maxwell. Ondas electromagnéticas. Espectro de radiación. Propagación de ondas electromagnéticas en medios materiales.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Física IV",
@@ -788,7 +804,8 @@
       "cargaHorariaCuatrimestralTexto": "128 horas.",
       "texto": "Radiación de cuerpo negro. Efecto fotoeléctrico. Efecto Compton. Postulados de De Broglie. Modelo atómico. Espectros atómicos y moleculares. Postulados de la Mecánica Cuántica. Función de onda y ecuación de Schrödinger. Problemas unidimensionales. Átomo de hidrógeno. Momento angular intrínseco. Principio de exclusión de Pauli. Introducción a la física del sólido. Estructura cristalina. Electrones en sólidos. Bandas. Conductores, semiconductores y aislantes.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Ciencias Morfológicas",
@@ -830,7 +847,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Histología, embriología y anatomía humana relacionada. Biología celular. Membrana Plasmática. Estructura y Función. Teoría Celular. Genes. Diferenciación y Proliferación Celular. Desarrollo embrionario. Histología del los tejidos y estructura anatómica. Anatomía de los sistemas.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Higiene, seguridad ambiental y laboral",
@@ -871,7 +889,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Aspectos normativos, legales y éticos. Legislación aplicable. Seguridad, elementos de protección. El ambiente laboral. El impacto ambiental de los establecimientos industriales. Conservación del medio ambiente y los recursos naturales. Normas de Gestión ambiental.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Complementarias"
   },
   {
     "materia": "Tecnologías de los Productos y Procesos",
@@ -914,7 +933,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Componentes eléctricos, características y especificaciones. Conductores, aislantes y elementos de conmutación. Circuitos de CC y CA. Componentes electrónicos. Semiconductores. Introducción a los mecanismos. Introducción a los métodos constructivos, mecanizado, moldeado y soldado. Introducción a los sistemas neumáticos.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Tecnologías básicas"
   },
   {
     "materia": "Métodos numéricos",
@@ -963,7 +983,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Ecuaciones lineales. Métodos de Jacobi y Gauss-Seidel para sistemas de ecuaciones lineales. Métodos de bisección, secante, de punto fijo y de Newton-Raphson para ecuaciones no lineales. Diferencias divididas. Interpolación polinomial y por funciones spline. Ajuste por mínimos cuadrados. Métodos numéricos para  integración.   Métodos de los trapecios y de Simson.  Cuadraturas gaussianas.  Métodos para la resolución numérica de ecuaciones diferenciales ordinarias. Método de Euler, Euler mejorado y de Runge–Kutta.  Métodos de predicción-corrección.  Métodos de diferencias finitas y elementos finitos para ecuaciones diferenciales.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Protección radiológica",
@@ -1005,7 +1026,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Radiaciones ionizantes: fuentes y tipos aplicaciones médicas; alfa, beta, gamma Rx.  Interacción de la radiación con la materia. Efectos estocásticos y determínisticos. Magnitudes: dosis absorbida, equivalente efectiva, ambiental, comprometida. Fundamentos de la protección radiología: optimización, justificación, límites de dosis. Monitoreo de la radiación ocupacional, blindajes: dosímetros, monitores ambientales, atenuación, blindajes de instalaciones, protecciones personales. Protección radiológica del paciente y del público. Prevención de accidentes.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Tecnologías aplicadas"
   },
   {
     "materia": "Modelos y sistemas",
@@ -1047,7 +1069,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Sistemas lineales. Función transferencia.  Polos y ceros en el plano S. Respuesta en frecuencia. Bode. Ecuaciones de estado. Simulación de sistemas. Analogía  de los modelos eléctricos RLC con los modelos mecánicos y biomédicos. Estabilidad y sistemas realimentados. Sistemas no lineales simples. Diferenciación con los lineales. Ejemplos de modelo biomédicos (presa depredador, etc).",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Tecnologías básicas"
   },
   {
     "materia": "Análisis y procesamiento de señales",
@@ -1090,7 +1113,8 @@
       "cargaHorariaCuatrimestralTexto": "128 horas.",
       "texto": "Señales analógicas. Análisis mediante series de Fourier, la transformada de Fourier y la transformada de Laplace. Filtros analógicos. Señales digitales. Muestreo e interpolación. Análisis mediante la transformada discreta de Fourier.  Transformada Z. Filtros digitales. Análisis mediante onditas. Cuantización. Ruido. Modulación en frecuencia.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Tecnologías básicas"
   },
   {
     "materia": "Medidas",
@@ -1133,7 +1157,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Sistemas de unidades y patrones. Exactitud e incertidumbre en las mediciones. Especificaciones de los instrumentos. Métodos de medición. Mediciones de tensiones y corrientes continuas y de baja frecuencia. Mediciones de impedancia y potencia.  Introducción a la instrumentación virtual.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Tecnologías básicas"
   },
   {
     "materia": "Biofísica",
@@ -1175,7 +1200,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Metabolismo energético. Termodinámica en los seres vivos. Propiedades coligativas de las soluciones. Presión osmótica. Transporte a través de la membrana celular. Potencial de acción. Fluidos. Fenómenos de superficie. Difusión de gases en líquidos.  Estado ácido-base, pH. Biofísica de los sentidos.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Electrónica digital I",
@@ -1218,7 +1244,8 @@
       "cargaHorariaCuatrimestralTexto": "128 horas.",
       "texto": "Sistemas de numeración y códigos. Álgebra de Boole. Circuitos lógicos combinacionales. Familias lógicas comerciales. Circuitos lógicos secuenciales y reconfigurables. Introducción a los microprocesadores y las memorias. Introducción a lenguajes descriptores de hardware.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Tecnologías básicas"
   },
   {
     "materia": "Procesamiento de Imágenes",
@@ -1261,7 +1288,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Formación de imágenes. Relación muestreo y tamaño del píxel. Cuantificación digital y su relación con tonos de grises y colores. Formatos de imágenes; BMP, TIFF, JPEG, etc y biomédicas; DICOM. Compresión digital. Transformaciones geométricas, mascaras, realces. Dominio espacial y frecuencial. Transformada de Fourier bidimensional. Filtros bidimensionales, estudio de sus características y criterios de diseño.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Tecnologías básicas"
   },
   {
     "materia": "Electrónica analógica",
@@ -1304,7 +1332,8 @@
       "cargaHorariaCuatrimestralTexto": "128 horas.",
       "texto": "Amplificadores operacionales. Diodos de señal, rectificadores y Zener. Transistores BJT, FET y MOS. Modelos y Aplicaciones. Etapas amplificadoras de baja frecuencia. Configuraciones usuales. Amplificadores diferenciales. Amplificadores de instrumentación. Amplificadores de potencia. Ruido en amplificadores.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Tecnologías básicas"
   },
   {
     "materia": "Fisiología",
@@ -1346,7 +1375,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Fisiología celular. Ciclo de Krebs. Transporte a través de la membrana celular. Fisiología tisular. Microcirculación. Endotelio. Fisiología y fisiopatología de los sistemas. Sistema respiratorio, cardiovascular, sanguíneo, renal, digestivo, endocrino y nervioso.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Electrónica digital II",
@@ -1388,7 +1418,8 @@
       "cargaHorariaCuatrimestralTexto": "128 horas.",
       "texto": "Sistemas digitales programables. Microprocesadores, microcontroladores. Conversión A/D y D/A. Procesamiento digital de señales. La computadora personal. Programación.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Tecnologías básicas"
   },
   {
     "materia": "Electrotecnia",
@@ -1431,7 +1462,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Circuitos eléctricos trifásicos. Instalaciones eléctricas. Seguridad. Conducción de la corriente eléctrica en metales, líquidos y gases. Características de los materiales eléctricos. Conversión electromecánica de la energía eléctrica. Motores de distinto tipo. Generadores.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Tecnologías básicas"
   },
   {
     "materia": "Ingeniería Biomédica I",
@@ -1474,7 +1506,8 @@
       "cargaHorariaCuatrimestralTexto": "128 horas.",
       "texto": "Riesgo eléctrico. Instalaciones eléctricas Hospitalarias. Sistemas de protección. Clasificación del equipamiento según su aislación. Instalaciones de gases médicos. Transductores de temperatura: Sistemas de control de temperatura. Bombas aspiración, torácicas y de descompresión gástrica. Bombas de infusión.  Laboratorio acústico.  Características ambientales y de aislación acústica  Laboratorio de análisis clínicos. Gases en sangre.  Rutina de mantenimiento y limpieza. Hemodiálisis.  Tipos de bombas. Bombas de circulación extracorpórea. Tipos de bombas. Oxigenadores.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Tecnologías aplicadas"
   },
   {
     "materia": "Sensores, acondicionadores de señales y adquisición de datos",
@@ -1518,7 +1551,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Sensores para la medición de magnitudes físicas. Tipos, características y electrónica asociada. Filtros y conversores de datos. Multiplexado. Reconstrucción. Sistemas de adquisición de datos. Instrumentación virtual.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Tecnologías básicas"
   },
   {
     "materia": "Ingeniería Biomédica II",
@@ -1563,7 +1597,8 @@
       "cargaHorariaCuatrimestralTexto": "128 horas.",
       "texto": "Electroencefalografía. Electromiografía. Electrocardiografía. Sistemas computados para el procesamiento de la señal. Transductores de presión sanguínea en forma invasiva y no invasiva. Presurometría. Medición del gasto cardíaco. Instrumental de medición de la función respiratoria. Tipos de transductores. Equipos de asistencia respiratoria mecánica. Ventiladores volumétricos. Monitoreo no invasivo del estado ácido base. Polígrafos y registradores multiparamétricos. Sistema externo de regulación de la temperatura corporal. Incubadoras. Servocunas. Estimuladores cardíacos: marcapasos internos y externos. Desfibriladores. Cardioversores. Electrobisturi",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Tecnologías aplicadas"
   },
   {
     "materia": "Electiva I",
@@ -1586,7 +1621,8 @@
     "cargaHorariaCuatrimestral": "64",
     "links": [],
     "id": "electiva-i",
-    "contenidosMinimos": null
+    "contenidosMinimos": null,
+    "bloqueCurricular": "Electivas"
   },
   {
     "materia": "Ingeniería Clínica",
@@ -1629,7 +1665,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Introducción a la Ingeniería Clínica. Normas y Reglamentos Sistemas de Calidad, Procedimientos y Registros Requerimientos especiales en áreas críticas. Buenas Prácticas en Productos Biomédicos. Estrategias del gerenciamiento. Tecnología hospitalaria: Ciclos de vida. Mantenimiento como herramienta estratégica. Análisis del tipo de mantenimientos aplicables al sector. Calidad del servicio de Ingeniería Clínica. Acreditación.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Tecnologías aplicadas"
   },
   {
     "materia": "Economía",
@@ -1672,7 +1709,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Micro y Macroeconomía. Costos. Formulación y evaluación de proyectos. Financiamiento, rentabilidad y amortización de proyectos. Análisis de presupuesto. Licitaciones. Contratos. Legislación comercial.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Complementarias"
   },
   {
     "materia": "Biomecánica y Biomateriales",
@@ -1715,7 +1753,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Propiedades biomecánicas de los huesos y sus articulaciones. Cinemática aplicada al movimiento humano. Elasticidad  de los tejidos. Análisis biomecánico de las estructuras óseas, estáticas y dinámicas. Comportamiento mecánico de los biomateriales. Condiciones que debe cumplir. Metales, plásticos, materiales porosos, cerámicas, compuestos carbonados, polímeros biodegradables, materiales con memoria de forma. Adhesivos.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Tecnologías básicas"
   },
   {
     "materia": "Organización industrial",
@@ -1744,7 +1783,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Tipos de sociedades empresariales. Organización y administración de empresas. Planificación, programación y control de gestión Relaciones laborales. Legislación laboral. Gestión de recursos humanos. Planificación, control y seguimiento de obras públicas. Gestión de calidad. Normas. Pericias.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Complementarias"
   },
   {
     "materia": "Ingeniería Biomédica III",
@@ -1787,7 +1827,8 @@
       "cargaHorariaCuatrimestralTexto": "128 horas.",
       "texto": "Ultrasonido: Efecto piezoeléctrico. Efecto Doppler. Ecografo modo M. Ecógrafos modo B. Transductores de barrido lineal y angular. Video printer. Rayos X: Generación. Tipos de tubos de rayos X. Generadores de radiación pulsada y continua. Intensificadores de imágenes. Circuitos cerrados de video. Fluoroscopio. Digitalización de la imagen. Tomografía axial computada. Sistemas y principio de funcionamiento. Cámara Gamma. Conformación y digitalización de las imágenes. Resonancia magnética nuclear. Principio de funcionamiento. Comparación de todos los sistemas de diagnostico por imágenes. Normas generales.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Tecnologías aplicadas"
   },
   {
     "materia": "Práctica profesional supervisada",
@@ -1814,7 +1855,8 @@
       "cargaHorariaCuatrimestralTexto": "200 horas.",
       "texto": "Realización de un trabajo en o para una Empresa productora de bienes o servicios, con la debida supervisión docente, con el objeto de dar oportunidad al alumno de realizar una tarea práctica que lo acerque a aquellas características del ejercicio profesional.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Tecnologías aplicadas"
   },
   {
     "materia": "Ética y ejercicio profesional",
@@ -1861,7 +1903,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Ejercicio profesional. Modalidades. Normativa aplicable. Colegios profesionales. Ética profesional. Código de ética. Desarrollo sustentable. Responsabilidad social del ingeniero y de la Empresa.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Complementarias"
   },
   {
     "materia": "Electiva II",
@@ -1884,7 +1927,8 @@
     "cargaHorariaCuatrimestral": "64",
     "links": [],
     "id": "electiva-ii",
-    "contenidosMinimos": null
+    "contenidosMinimos": null,
+    "bloqueCurricular": "Electivas"
   },
   {
     "materia": "Ingeniería de la Rehabilitación",
@@ -1926,7 +1970,8 @@
       "cargaHorariaCuatrimestralTexto": "64 horas.",
       "texto": "Evaluación de las capacidades residuales, incapacidad físico y sensorial. Incapacidades funcionales de invidentes, sordomudos, cuadrapléjicos y parapléjicos. Ingeniería asistida. Prótesis y Ortesis. Ingeniería de Rehabilitación. Estimulación.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Tecnologías aplicadas"
   },
   {
     "materia": "Proyecto final integrador",
@@ -1953,32 +1998,34 @@
       "cargaHorariaCuatrimestralTexto": "200 horas.",
       "texto": "Realización de una tarea de proyecto que requiera la aplicación integrada de conceptos fundamentales de ciencias básicas, tecnologías básicas y aplicadas, economía y gerenciamiento, conocimientos relativos al impacto social, la metodología de la investigación, así como habilidades que estimulen la capacidad de análisis, de síntesis y el espíritu crítico del estudiante, despierten su vocación creativa y entrenen para el trabajo en equipo y la valoración de alternativas.",
       "fuente": "Contenidos mínimos del plan de estudios"
-    }
+    },
+    "bloqueCurricular": "Tecnologías aplicadas"
   },
   {
-  "materia": "Prueba de suficiencia de idioma inglés",
-  "codigo": "INGLES",
-  "anio": 3,
-  "cuatrimestre": 2,
-  "cuandoSeDicta": "2° Cuatrimestre",
-  "correlativas": [],
-  "area": "Inglés técnico",
-  "estado": "🟡 Enlace disponible",
-  "estadoFrubox": "🔴 No encontrada",
-  "coincidenciaMateria": "Sin match",
-  "queHay": [
-    "Carpeta OneDrive"
-  ],
-  "comentarios": "Debe rendirse o aprobarse la prueba de suficiencia.",
-  "cargaHorariaSemanal": 0,
-  "cargaHorariaCuatrimestral": 0,
-  "links": [
-    {
-      "nombre": "Carpeta OneDrive",
-      "url": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgBjrexY21yeQZNMyI83qIfdAYWT8rDdZKNIjtrLux3qZ68?e=NYQ0uI"
-    }
-  ],
-  "id": "prueba-de-suficiencia-de-idioma-ingles",
-  "contenidosMinimos": null
-}
+    "materia": "Prueba de suficiencia de idioma inglés",
+    "codigo": "INGLES",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "cuandoSeDicta": "2° Cuatrimestre",
+    "correlativas": [],
+    "area": "Inglés técnico",
+    "estado": "🟡 Enlace disponible",
+    "estadoFrubox": "🔴 No encontrada",
+    "coincidenciaMateria": "Sin match",
+    "queHay": [
+      "Carpeta OneDrive"
+    ],
+    "comentarios": "Debe rendirse o aprobarse la prueba de suficiencia.",
+    "cargaHorariaSemanal": 0,
+    "cargaHorariaCuatrimestral": 0,
+    "links": [
+      {
+        "nombre": "Carpeta OneDrive",
+        "url": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgBjrexY21yeQZNMyI83qIfdAYWT8rDdZKNIjtrLux3qZ68?e=NYQ0uI"
+      }
+    ],
+    "id": "prueba-de-suficiencia-de-idioma-ingles",
+    "contenidosMinimos": null,
+    "bloqueCurricular": "Requisito académico"
+  }
 ]
