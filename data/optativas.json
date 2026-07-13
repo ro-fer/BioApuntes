@@ -3,37 +3,9 @@
     "id": "administracion-de-sistemas-gnu-linux-y-virtualizacion",
     "materia": "Administración de sistemas GNU/Linux y virtualización",
     "codigo": "ELE78",
-    "area": "Informática",
-    "modalidad": "Bimestral",
-    "puntaje": 25,
-    "cargaHorariaSemanal": 4.0,
-    "correlativas": [
-      "CB36"
+    "area": [
+      "Informática"
     ],
-    "oferta": {
-      "anios": [],
-      "cuatrimestres": [
-        "2° Cuatrimestre"
-      ],
-      "horario": "Jueves 18-22 hs",
-      "observaciones": null
-    },
-    "comentarios": null,
-    "contenidosMinimos": null,
-    "links": [
-       {
-        "tipo": "material",
-        "nombre": "Carpeta OneDrive",
-        "url": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgDykBshOPsOSqRaaCuinm6OAcHDtX4MdEnIQJ0315ByXq4?e=4ssssW"
-      }
-    ],
-    "revisionPendiente": []
-  },
-  {
-    "id": "administracion-de-sistemas-gnu-linux-y-virtualizacion-avanzada",
-    "materia": "Administración de sistemas GNU/Linux y virtualización avanzada",
-    "codigo": "ELE78",
-    "area": "Informática",
     "modalidad": "Bimestral",
     "puntaje": 25,
     "cargaHorariaSemanal": 4.0,
@@ -52,18 +24,54 @@
     "contenidosMinimos": null,
     "links": [
       {
-        "tipo": "material",
+        "tipo": "onedrive",
         "nombre": "Carpeta OneDrive",
         "url": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgDykBshOPsOSqRaaCuinm6OAcHDtX4MdEnIQJ0315ByXq4?e=4ssssW"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
+  },
+  {
+    "id": "administracion-de-sistemas-gnu-linux-y-virtualizacion-avanzada",
+    "materia": "Administración de sistemas GNU/Linux y virtualización avanzada",
+    "codigo": "ELE78",
+    "area": [
+      "Informática"
+    ],
+    "modalidad": "Bimestral",
+    "puntaje": 25,
+    "cargaHorariaSemanal": 4.0,
+    "correlativas": [
+      "CB36"
+    ],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [
+        "2° Cuatrimestre"
+      ],
+      "horario": "Jueves 18-22 hs",
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [
+      {
+        "tipo": "onedrive",
+        "nombre": "Carpeta OneDrive",
+        "url": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgDykBshOPsOSqRaaCuinm6OAcHDtX4MdEnIQJ0315ByXq4?e=4ssssW"
+      }
+    ],
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "applied-probability-and-statistics",
     "materia": "Applied Probability and Statistics",
     "codigo": null,
-    "area": null,
+    "area": [
+      "Sin área informada"
+    ],
     "modalidad": null,
     "puntaje": null,
     "cargaHorariaSemanal": null,
@@ -89,13 +97,16 @@
         "url": "https://drive.google.com/file/d/1hlgHEsDLgWuHp7G_VUG307KrxnvT7Cyc/view?usp=drive_link"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "biologia-basica-aplicada",
     "materia": "Biología básica aplicada",
     "codigo": "BMD92",
-    "area": "Biologia",
+    "area": [
+      "Biología"
+    ],
     "modalidad": "Cuatrimestral",
     "puntaje": 50,
     "cargaHorariaSemanal": 4.0,
@@ -115,12 +126,12 @@
     "contenidosMinimos": null,
     "links": [
       {
-        "tipo": "material",
+        "tipo": "frubox",
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1KQeeXSANC3goe3mGffXtEIcn9PbwO89k"
       },
       {
-        "tipo": "material",
+        "tipo": "onedrive",
         "nombre": "Carpeta OneDrive",
         "url": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgDgPodgCpprQbjQq2ZPodKyAbU2eI5AKJdxihrwZUPsKKM?e=T4BdNs"
       },
@@ -130,13 +141,16 @@
         "url": "https://drive.google.com/file/d/129Rr8VA4pIt7g4iWnTeG0HTF8ujOh7zd/view"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "biomateriales-para-ingenieria-de-tejidos",
     "materia": "Biomateriales para Ingeniería de Tejidos",
     "codigo": null,
-    "area": "Biomateriales",
+    "area": [
+      "Biomateriales"
+    ],
     "modalidad": null,
     "puntaje": null,
     "cargaHorariaSemanal": null,
@@ -164,33 +178,43 @@
         "url": "https://drive.google.com/file/d/1XY1BNVsD8sPmDYqJZnPA98zAgWS0jLur/view?usp=sharing"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "bionanotecnologia",
     "materia": "Bionanotecnología",
     "codigo": null,
-    "area": "Bionanotecnología",
+    "area": [
+      "Bionanotecnología"
+    ],
     "modalidad": null,
     "puntaje": null,
     "cargaHorariaSemanal": null,
     "correlativas": [],
     "oferta": {
-      "anios": [2025],
-      "cuatrimestres": ["2° Cuatrimestre"],
+      "anios": [
+        2025
+      ],
+      "cuatrimestres": [
+        "2° Cuatrimestre"
+      ],
       "horario": " Sábado 9-12 hs",
       "observaciones": null
     },
     "comentarios": null,
     "contenidosMinimos": null,
     "links": [],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "ciencia-tecnologia-e-innovacion-en-argentina",
     "materia": "Ciencia, Tecnología e Innovación en Argentina",
     "codigo": null,
-    "area": "CTS",
+    "area": [
+      "Humanística / CTS"
+    ],
     "modalidad": null,
     "puntaje": null,
     "cargaHorariaSemanal": null,
@@ -216,13 +240,16 @@
         "url": "https://drive.google.com/file/d/1_dMWIrVpAZ_z8cekfus9bHk8A2i_Zrxe/view?usp=sharing"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "diseno-integral-de-aplicaciones-moviles-para-salud-humana",
     "materia": "Diseño Integral de Aplicaciones Móviles para Salud Humana",
     "codigo": null,
-    "area": "Programacion",
+    "area": [
+      "Programación"
+    ],
     "modalidad": null,
     "puntaje": null,
     "cargaHorariaSemanal": null,
@@ -248,20 +275,27 @@
         "url": "https://drive.google.com/file/d/1CzIBNqoHjeG9lYacmvoDp7fQEuK_3bGu/view?usp=drive_link"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "diseno-y-fabricacion-de-circuitos-impresos",
     "materia": "Diseño y Fabricación de Circuitos Impresos",
     "codigo": null,
-    "area": "Electrónica",
+    "area": [
+      "Electrónica"
+    ],
     "modalidad": null,
     "puntaje": null,
     "cargaHorariaSemanal": null,
     "correlativas": [],
     "oferta": {
-      "anios": [2025],
-      "cuatrimestres": ["2° Cuatrimestre"],
+      "anios": [
+        2025
+      ],
+      "cuatrimestres": [
+        "2° Cuatrimestre"
+      ],
       "horario": "Miércoles 18 a 22 hs",
       "observaciones": null
     },
@@ -272,19 +306,23 @@
         "tipo": "programa",
         "nombre": "Programa",
         "url": "https://drive.google.com/file/d/1WQaEWrFph-AR8D2sw3Fb5yL1KWmQEC5h/view?usp=sharing"
-      },{
-        "tipo": "material",
+      },
+      {
+        "tipo": "onedrive",
         "nombre": "Carpeta OneDrive",
         "url": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgAjp8RnrZO2QLIYAabPUWcWAT92lFpSuPdXAurI4-egCSM?e=IhX7E5"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "electronica-digital-iii",
     "materia": "Electrónica Digital III",
     "codigo": "ELE13",
-    "area": "Electrónica",
+    "area": [
+      "Electrónica"
+    ],
     "modalidad": "Cuatrimestral",
     "puntaje": 50,
     "cargaHorariaSemanal": null,
@@ -303,18 +341,21 @@
     "contenidosMinimos": "Procesadores digitales de Señales. Arquitectura Codecs. Periféricos Integrados. Procesadores de punto fijo y punto flotante. Procesadores avanzados de 32/64 bits.  Introducción a la arquitectura del 80386 y sus sucesores.  Arquitectura de doble núcleo. Gerenciación de memoria. Sistema de Protección. Descriptores. Concepto de sistemas operativos real time y event driven. Arquitectura de las Computadoras Personales. Sistemas de Redes.",
     "links": [
       {
-        "tipo": "material",
+        "tipo": "frubox",
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1Ara5cwN8XQe6W2PsRUN4cqqCyAJcYlu9"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "emprendedorismo",
     "materia": "Emprendedorismo",
     "codigo": null,
-    "area": null,
+    "area": [
+      "Sin área informada"
+    ],
     "modalidad": null,
     "puntaje": null,
     "cargaHorariaSemanal": null,
@@ -340,13 +381,17 @@
         "url": "https://drive.google.com/file/d/1J_zIhPPyKBC0KMTYt5aMn0qUwb-c7BvW/view?usp=sharing"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "fisica-espacial",
     "materia": "Física Espacial",
     "codigo": null,
-    "area": ["Sistemas espaciales","Fisica"],
+    "area": [
+      "Sistemas espaciales",
+      "Física"
+    ],
     "modalidad": null,
     "puntaje": null,
     "cargaHorariaSemanal": 5.0,
@@ -370,13 +415,16 @@
     ],
     "revisionPendiente": [
       "Este enlace también aparece en otra materia; verificar que corresponda."
-    ]
+    ],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "gestion-de-la-calidad",
     "materia": "Gestión de la calidad",
     "codigo": "IND14",
-    "area": null,
+    "area": [
+      "Sin área informada"
+    ],
     "modalidad": "Cuatrimestral",
     "puntaje": 50,
     "cargaHorariaSemanal": 6.0,
@@ -393,13 +441,16 @@
     "comentarios": null,
     "contenidosMinimos": "Normas de gestión de la calidad. Familia de normas ISO 9000. Documentación. Implantación de sistemas de GC. Auditorías internas. Certificación y evaluación de sistemas de GC. Generación y Procesamiento de la Información relativa a la Calidad y Costos de la Calidad. Sistemas de información de gestión. Costos relacionados con la calidad. Mejora de la calidad. Herramientas y métodos para la gestión de la calidad. Sistemas de GC orientados hacia los procesos. Gestión de los procesos de la empresa. Fomento de la Calidad. Fundamentos del TQM. Elementos del TQM. Estilos de conducción. Motivación y participación. Indicadores, evaluación y mediciones. Implantación de TQM.",
     "links": [],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "gobernanza-de-datos",
     "materia": "Gobernanza de datos",
     "codigo": null,
-    "area": "Cs de Datos",
+    "area": [
+      "Ciencia de datos"
+    ],
     "modalidad": null,
     "puntaje": null,
     "cargaHorariaSemanal": null,
@@ -420,19 +471,23 @@
         "tipo": "programa",
         "nombre": "Programa",
         "url": "https://drive.google.com/file/d/1sFLHRh34bXUPS7dbtLcCwopRQ4aJeTyn/view?usp=sharing"
-      },{
-        "tipo": "material",
+      },
+      {
+        "tipo": "notion",
         "nombre": "Notion de DataSam",
         "url": "https://datasam.notion.site/Gobernanza-de-Datos-cd23b8f356f84bb6b8ac56abaf16e4bc"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "infraestructura-para-ciencia-de-datos",
     "materia": "Infraestructura para ciencia de datos",
     "codigo": null,
-    "area": "Cs de Datos",
+    "area": [
+      "Ciencia de datos"
+    ],
     "modalidad": null,
     "puntaje": null,
     "cargaHorariaSemanal": null,
@@ -455,13 +510,16 @@
         "url": "https://drive.google.com/file/d/1YeLDbOAMdlOQF5acdakiXb_ekJstLy7g/view?usp=sharing"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "instalaciones-industriales",
     "materia": "Instalaciones industriales",
     "codigo": "IND12",
-    "area": null,
+    "area": [
+      "Sin área informada"
+    ],
     "modalidad": "Cuatrimestral",
     "puntaje": 50,
     "cargaHorariaSemanal": 4.0,
@@ -477,13 +535,16 @@
     "comentarios": null,
     "contenidosMinimos": null,
     "links": [],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "internet-de-las-cosas",
     "materia": "Internet de las Cosas",
     "codigo": null,
-    "area": null,
+    "area": [
+      "Sin área informada"
+    ],
     "modalidad": null,
     "puntaje": null,
     "cargaHorariaSemanal": null,
@@ -497,13 +558,16 @@
     "comentarios": null,
     "contenidosMinimos": null,
     "links": [],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "introduccion-a-la-calidad",
     "materia": "Introducción a la calidad",
     "codigo": "IND01",
-    "area": null,
+    "area": [
+      "Sin área informada"
+    ],
     "modalidad": "Cuatrimestral",
     "puntaje": 50,
     "cargaHorariaSemanal": 4.0,
@@ -526,13 +590,16 @@
         "url": "https://drive.google.com/file/d/19SNjUORKqP8W8rlArJLzviWhoJXRvLla/view?usp=drive_link"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "introduccion-a-la-ciencia-de-datos",
     "materia": "Introducción a la ciencia de datos",
     "codigo": null,
-    "area": "Cs de Datos",
+    "area": [
+      "Ciencia de datos"
+    ],
     "modalidad": null,
     "puntaje": null,
     "cargaHorariaSemanal": null,
@@ -552,13 +619,16 @@
         "url": "https://drive.google.com/file/d/1LLTURbVnFXwjmi4sfmW4UuSPV673u717/view?usp=sharing"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "introduccion-a-la-ingenieria-de-sistemas-espaciales",
     "materia": "Introducción a la Ingeniería de Sistemas Espaciales",
     "codigo": null,
-    "area": "Sistemas espaciales",
+    "area": [
+      "Sistemas espaciales"
+    ],
     "modalidad": null,
     "puntaje": null,
     "cargaHorariaSemanal": 10.0,
@@ -580,13 +650,16 @@
     ],
     "revisionPendiente": [
       "Este enlace también aparece en otra materia; verificar que corresponda."
-    ]
+    ],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "introduccion-a-la-investigacion-desde-una-perspectiva-multidisciplinaria",
     "materia": "Introducción a la investigación desde una perspectiva multidisciplinaria",
     "codigo": "DFA",
-    "area": "Investigación",
+    "area": [
+      "Investigación"
+    ],
     "modalidad": null,
     "puntaje": 50,
     "cargaHorariaSemanal": null,
@@ -600,13 +673,17 @@
     "comentarios": null,
     "contenidosMinimos": null,
     "links": [],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "introduccion-a-la-mecatronica",
     "materia": "Introducción a la mecatrónica",
     "codigo": "ELE75",
-    "area": ["Mecatrónica","Electrónica"],
+    "area": [
+      "Mecatrónica",
+      "Electrónica"
+    ],
     "modalidad": null,
     "puntaje": 25,
     "cargaHorariaSemanal": null,
@@ -623,13 +700,16 @@
     "comentarios": null,
     "contenidosMinimos": null,
     "links": [],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "introduccion-a-la-nanotecnologia-i",
     "materia": "Introducción a la nanotecnología I",
     "codigo": "BMD99",
-    "area": "Bionanotecnología",
+    "area": [
+      "Bionanotecnología"
+    ],
     "modalidad": null,
     "puntaje": 50,
     "cargaHorariaSemanal": null,
@@ -651,13 +731,16 @@
         "url": "https://drive.google.com/file/d/17s3PJ2wK1m0BUYnewyWtP9yodUx_OGN2/view?usp=drive_link"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "introduccion-a-la-neurociencia-computacional",
     "materia": "Introducción a la neurociencia computacional",
     "codigo": "BMD90",
-    "area": "Neurociencia",
+    "area": [
+      "Neurociencia"
+    ],
     "modalidad": "Cuatrimestral",
     "puntaje": 50,
     "cargaHorariaSemanal": null,
@@ -677,13 +760,16 @@
         "url": "https://drive.google.com/file/d/1yd1I84kXLmI-f3kZXTinPPfnmD4DAvRh/view?usp=sharing"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "introduccion-al-aprendizaje-automatico",
     "materia": "Introducción al aprendizaje automático",
     "codigo": null,
-    "area": "Cs de Datos",
+    "area": [
+      "Ciencia de datos"
+    ],
     "modalidad": null,
     "puntaje": null,
     "cargaHorariaSemanal": null,
@@ -694,7 +780,10 @@
     ],
     "oferta": {
       "anios": [],
-      "cuatrimestres": ["1° Cuatrimestre","2° Cuatrimestre"],
+      "cuatrimestres": [
+        "1° Cuatrimestre",
+        "2° Cuatrimestre"
+      ],
       "horario": "Martes 19-21 hs (virtual); Viernes 14-18 hs (presencial)",
       "observaciones": null
     },
@@ -707,18 +796,22 @@
         "url": "https://drive.google.com/file/d/1RanaQv16yZ30ed-ao1JabEvvL8qm6IGG/view?usp=sharing"
       },
       {
-        "tipo": "material",
+        "tipo": "notion",
         "nombre": "Notion de DataSam",
         "url": "https://datasam.notion.site/Introducci-n-al-Aprendizaje-Autom-tico-04985211328241a9991c656e0acf5f96"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "introduction-to-integrated-circuits-design",
     "materia": "Introduction to Integrated Circuits Design",
     "codigo": null,
-    "area": ["Electrónica","Circuitos"],
+    "area": [
+      "Electrónica",
+      "Circuitos"
+    ],
     "modalidad": null,
     "puntaje": null,
     "cargaHorariaSemanal": null,
@@ -744,13 +837,16 @@
         "url": "https://drive.google.com/file/d/1mcxywtxbdeK3SlJS4yQgJPtys8SKdito/view?usp=sharing"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "laboratorio-de-biomateriales",
     "materia": "Laboratorio de biomateriales",
     "codigo": "AEX08",
-    "area": "Biomateriales",
+    "area": [
+      "Biomateriales"
+    ],
     "modalidad": null,
     "puntaje": 50,
     "cargaHorariaSemanal": null,
@@ -764,13 +860,17 @@
     "comentarios": null,
     "contenidosMinimos": null,
     "links": [],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "mecatronica-aplicada",
     "materia": "Mecatrónica aplicada",
     "codigo": "ELE76",
-    "area": ["Mecatrónica","Electrónica"],
+    "area": [
+      "Mecatrónica",
+      "Electrónica"
+    ],
     "modalidad": null,
     "puntaje": 50,
     "cargaHorariaSemanal": null,
@@ -787,13 +887,16 @@
     "comentarios": null,
     "contenidosMinimos": null,
     "links": [],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "mechatronic-systems",
     "materia": "Mechatronic systems",
     "codigo": null,
-    "area": null,
+    "area": [
+      "Sin área informada"
+    ],
     "modalidad": null,
     "puntaje": null,
     "cargaHorariaSemanal": null,
@@ -813,13 +916,16 @@
     "comentarios": "La aprobación de la asignatura exime de rendir el examen de suficiencia de inglés",
     "contenidosMinimos": null,
     "links": [],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "modelos-matematicos-en-medicina-y-fisiologia",
     "materia": "Modelos matemáticos en medicina y fisiología",
     "codigo": "BMD98",
-    "area": "Modelos",
+    "area": [
+      "Modelos"
+    ],
     "modalidad": null,
     "puntaje": 50,
     "cargaHorariaSemanal": null,
@@ -843,13 +949,17 @@
         "url": "https://drive.google.com/file/d/1A8gjshfpZxGcJhArXFGGeu7ziRljPAkC/view?usp=sharing"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "programacion-i",
     "materia": "Programación I",
     "codigo": null,
-    "area": ["Cs de datos", "Programación"],
+    "area": [
+      "Ciencia de datos",
+      "Programación"
+    ],
     "modalidad": null,
     "puntaje": null,
     "cargaHorariaSemanal": null,
@@ -858,7 +968,10 @@
     ],
     "oferta": {
       "anios": [],
-      "cuatrimestres": ["1° Cuatrimestre", "2° Cuatrimestre"],
+      "cuatrimestres": [
+        "1° Cuatrimestre",
+        "2° Cuatrimestre"
+      ],
       "horario": null,
       "observaciones": "Jueves 14-18 hs + 2 h asincrónicas"
     },
@@ -869,27 +982,33 @@
         "tipo": "programa",
         "nombre": "Programa",
         "url": "https://drive.google.com/file/d/1T-dkIMLuoRrwQXe-BSLWtpgrpnzSFkvk/view?usp=sharing"
-      },{
-        "tipo": "material",
+      },
+      {
+        "tipo": "onedrive",
         "nombre": "Carpeta OneDrive",
-        "url": " https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgB0loJH0e_ESKOS-qg5uN6IAbYpJP4u95xOlYujA05s-ls?e=5mRl9v"
-      },{
-        "tipo": "material",
+        "url": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgB0loJH0e_ESKOS-qg5uN6IAbYpJP4u95xOlYujA05s-ls?e=5mRl9v"
+      },
+      {
+        "tipo": "github",
         "nombre": "Github cursada",
         "url": "https://github.com/python-unsam/programacion1"
-      },{
-        "tipo": "material",
+      },
+      {
+        "tipo": "notion",
         "nombre": "Notion de DataSam",
         "url": "https://datasam.notion.site/Programaci-n-1-417c7a3bf63643db967e9f7e7e64e181"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "quimica-inorganica",
     "materia": "Química inorgánica",
     "codigo": "CB08",
-    "area": "Química",
+    "area": [
+      "Química"
+    ],
     "modalidad": null,
     "puntaje": 100,
     "cargaHorariaSemanal": 8.0,
@@ -906,13 +1025,16 @@
     "comentarios": null,
     "contenidosMinimos": null,
     "links": [],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "radiobiologia",
     "materia": "Radiobiología",
     "codigo": null,
-    "area": "Radiobiología",
+    "area": [
+      "Radiobiología"
+    ],
     "modalidad": null,
     "puntaje": null,
     "cargaHorariaSemanal": null,
@@ -938,13 +1060,16 @@
         "url": "https://drive.google.com/file/d/1OpG5dF1zOmPqNvTO3nu-0Doc3wY3zMbs/view?usp=sharing"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "redes-protocolos-y-convergencia",
     "materia": "Redes, protocolos y convergencia",
     "codigo": "COM08",
-    "area": "Redes",
+    "area": [
+      "Redes"
+    ],
     "modalidad": null,
     "puntaje": 100,
     "cargaHorariaSemanal": null,
@@ -961,18 +1086,21 @@
     "contenidosMinimos": null,
     "links": [
       {
-        "tipo": "material",
+        "tipo": "frubox",
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/file/d/1SA_jH2l8IktmQt7M5v4ldva3fWpJ_noj/view?usp=sharing"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "taller-de-tecnologia-biomedica",
     "materia": "Taller de Tecnología Biomédica",
     "codigo": null,
-    "area": "Tecnologia biomédica",
+    "area": [
+      "Tecnología biomédica"
+    ],
     "modalidad": null,
     "puntaje": null,
     "cargaHorariaSemanal": null,
@@ -992,13 +1120,17 @@
     "comentarios": "Con cupos",
     "contenidosMinimos": "Contenidos mínimos: Nociones de seguridad. Riesgos en el taller y laboratorio. Fuentes eléctricas de AC y DC. Componentes y circuitos eléctricos básicos. Herramientas e instrumentos de uso frecuente en biomédica. Instrumental de medición. Mediciones eléctricas de tensión corriente y resistencia. Mediciones mecánicas longitud, superficie y volumen. Mediciones mecánicas de presión y flujo. Determinación de la incertidumbre de las mediciones. Señales variables en el tiempo.",
     "links": [],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "teoria-de-circuitos",
     "materia": "Teoría de circuitos",
     "codigo": "BMD97",
-    "area": ["Circuitos","Electrónica"],
+    "area": [
+      "Circuitos",
+      "Electrónica"
+    ],
     "modalidad": null,
     "puntaje": 100,
     "cargaHorariaSemanal": 8.0,
@@ -1015,23 +1147,26 @@
     "contenidosMinimos": "Tipos y caracterización de señales usuales. Respuestas natural y forzada de circuitos simples. Fasores, régimen permanente de circuitos en corriente alterna senoidal. Diagramas de Bode. Señales poliarmónicas. Resolución sistemática de circuitos. Teoría de los circuitos. Teoría de los cuadripolos. Introducción a los amplificadores operacionales y al filtrado.",
     "links": [
       {
-        "tipo": "material",
+        "tipo": "frubox",
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1qghOyiZGbk3ME0LO4SOfWAM7JGTqHzlI"
       },
       {
-        "tipo": "material",
+        "tipo": "onedrive",
         "nombre": "Carpeta OneDrive",
         "url": "https://unsamms-my.sharepoint.com/:u:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IQC_3duXGv1mRrYR0rsV9viBAU5kLVBDmK3dC2qDtXweYgI?e=PBhoqE"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   },
   {
     "id": "teoria-de-control",
     "materia": "Teoría de control",
     "codigo": "ELE12",
-    "area": "Electrónica",
+    "area": [
+      "Electrónica"
+    ],
     "modalidad": null,
     "puntaje": 100,
     "cargaHorariaSemanal": 8.0,
@@ -1048,11 +1183,12 @@
     "contenidosMinimos": "Problemas de control. Modelos y sistemas lineales de tiempo continuo y discreto. Representación por funciones de transferencia y por variables de estado. Estabilidad. Análisis de respuestas en el dominio del tiempo y en frecuencia. Tipo de sistemas. Lugar de las raíces. Leyes de control. Análisis y diseño de los sistemas de control lineales.",
     "links": [
       {
-        "tipo": "material",
+        "tipo": "frubox",
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1KtY9ZNsRVVOLzgSQaLXg2Cgyme2wdBUj"
       }
     ],
-    "revisionPendiente": []
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
   }
 ]
