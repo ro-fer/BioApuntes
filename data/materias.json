@@ -1956,27 +1956,29 @@
     }
   },
   {
-    "materia": "Prueba de suficiencia de idioma inglés",
-    "codigo": "INGLES",
-    "anio": 3,
-    "cuatrimestre": 2,
-    "cuandoSeDicta": "2° Cuatrimestre",
-    "correlativas": [
-      "A rendir/aprobar"
-    ],
-    "area": "Inglés técnico",
-    "estado": "🔴 Sin material detectado",
-    "estadoFrubox": "🔴 No encontrada",
-    "coincidenciaMateria": "Sin match",
-    "queHay": [],
-    "comentarios": "No apareció MD específico en el ZIP",
-    "cargaHorariaSemanal": "0.0",
-    "cargaHorariaCuatrimestral": "0",
-    "links": [{
-        "nombre": "Carpeta OneDrive",
-        "url": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgBjrexY21yeQZNMyI83qIfdAYWT8rDdZKNIjtrLux3qZ68?e=NYQ0uI"
-      }],
-    "id": "prueba-de-suficiencia-de-idioma-ingles",
-    "contenidosMinimos": null
-  }
+  "materia": "Prueba de suficiencia de idioma inglés",
+  "codigo": "INGLES",
+  "anio": 3,
+  "cuatrimestre": 2,
+  "cuandoSeDicta": "2° Cuatrimestre",
+  "correlativas": [],
+  "area": "Inglés técnico",
+  "estado": "🟡 Enlace disponible",
+  "estadoFrubox": "🔴 No encontrada",
+  "coincidenciaMateria": "Sin match",
+  "queHay": [
+    "Carpeta OneDrive"
+  ],
+  "comentarios": "Debe rendirse o aprobarse la prueba de suficiencia.",
+  "cargaHorariaSemanal": 0,
+  "cargaHorariaCuatrimestral": 0,
+  "links": [
+    {
+      "nombre": "Carpeta OneDrive",
+      "url": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgBjrexY21yeQZNMyI83qIfdAYWT8rDdZKNIjtrLux3qZ68?e=NYQ0uI"
+    }
+  ],
+  "id": "prueba-de-suficiencia-de-idioma-ingles",
+  "contenidosMinimos": null
+}
 ]
