@@ -297,9 +297,12 @@ function filtrarMaterias() {
             estadoCalculado.includes(estadoSeleccionado) ||
             (materia.estado || "").includes(estadoSeleccionado);
 
+        const bloqueSeleccionadoNormalizado = bloqueSeleccionado.toLowerCase().trim();
+        const bloqueMateriaNormalizado = (materia.bloqueCurricular || "").toLowerCase().trim();
+
         const coincideBloque =
-            bloqueSeleccionado === "" ||
-            materia.bloqueCurricular === bloqueSeleccionado;
+            bloqueSeleccionadoNormalizado === "" ||
+            bloqueMateriaNormalizado === bloqueSeleccionadoNormalizado;
 
         return coincideBusqueda && coincideAnio && coincideEstado && coincideBloque;
     });
