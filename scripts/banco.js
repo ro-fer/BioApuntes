@@ -3,6 +3,7 @@ let materias = [];
 const searchInput = document.getElementById("searchInput");
 const yearFilter = document.getElementById("yearFilter");
 const statusFilter = document.getElementById("statusFilter");
+const blockFilter = document.getElementById("blockFilter");
 const materiasContainer = document.getElementById("materiasContainer");
 
 async function cargarJSON(url) {
@@ -185,6 +186,7 @@ function renderizarMaterias(listaMaterias) {
             <div class="materia-card-info">
                 <p><strong>Código:</strong> ${materia.codigo || "Sin código"}</p>
                 <p><strong>Año:</strong> ${materia.anio || "-"}</p>
+                <p><strong>Bloque:</strong> ${materia.bloqueCurricular || "Sin clasificar"}</p>
                 <p><strong>Cuatrimestre:</strong> ${materia.cuatrimestre || "-"}</p>
                 <p><strong>Estado:</strong> ${calcularEstado(materia)}</p>
                 <p><strong>Qué hay:</strong> ${formatearTexto(materia.queHay)}</p>
@@ -269,18 +271,21 @@ function filtrarMaterias() {
     const textoBusqueda = searchInput ? searchInput.value.toLowerCase().trim() : "";
     const anioSeleccionado = yearFilter ? yearFilter.value : "";
     const estadoSeleccionado = statusFilter ? statusFilter.value : "";
+    const bloqueSeleccionado = blockFilter ? blockFilter.value : "";
 
     const materiasFiltradas = materias.filter((materia) => {
         const nombreMateria = (materia.materia || "").toLowerCase();
         const codigoMateria = (materia.codigo || "").toLowerCase();
         const areaMateria = (materia.area || "").toLowerCase();
         const queHayMateria = formatearTexto(materia.queHay).toLowerCase();
+        const bloqueMateria = (materia.bloqueCurricular || "").toLowerCase();
 
         const coincideBusqueda =
             nombreMateria.includes(textoBusqueda) ||
             codigoMateria.includes(textoBusqueda) ||
             areaMateria.includes(textoBusqueda) ||
-            queHayMateria.includes(textoBusqueda);
+            queHayMateria.includes(textoBusqueda) ||
+            bloqueMateria.includes(textoBusqueda);
 
         const coincideAnio =
             anioSeleccionado === "" ||
@@ -292,7 +297,11 @@ function filtrarMaterias() {
             estadoCalculado.includes(estadoSeleccionado) ||
             (materia.estado || "").includes(estadoSeleccionado);
 
-        return coincideBusqueda && coincideAnio && coincideEstado;
+        const coincideBloque =
+            bloqueSeleccionado === "" ||
+            materia.bloqueCurricular === bloqueSeleccionado;
+
+        return coincideBusqueda && coincideAnio && coincideEstado && coincideBloque;
     });
 
     renderizarMaterias(materiasFiltradas);
@@ -301,5 +310,6 @@ function filtrarMaterias() {
 if (searchInput) searchInput.addEventListener("input", filtrarMaterias);
 if (yearFilter) yearFilter.addEventListener("change", filtrarMaterias);
 if (statusFilter) statusFilter.addEventListener("change", filtrarMaterias);
+if (blockFilter) blockFilter.addEventListener("change", filtrarMaterias);
 
 cargarMaterias();
