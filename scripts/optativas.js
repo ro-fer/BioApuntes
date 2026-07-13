@@ -40,7 +40,6 @@ async function iniciar() {
         }
 
         optativas = datos;
-
         completarFiltros(datos);
         renderizar();
 
@@ -48,6 +47,7 @@ async function iniciar() {
         console.error("No se pudieron cargar las optativas:", error);
 
         if (elementos.carga) elementos.carga.hidden = true;
+
         if (elementos.error) {
             elementos.error.hidden = false;
             elementos.error.innerHTML = `
@@ -86,17 +86,17 @@ function registrarEventos() {
     elementos.modalCerrar?.addEventListener("click", cerrarModal);
 
     elementos.modal?.addEventListener("click", (evento) => {
-        if (evento.target === elementos.modal) {
-            cerrarModal();
-        }
+        if (evento.target === elementos.modal) cerrarModal();
     });
 
     document.addEventListener("keydown", (evento) => {
-        if (evento.key === "Escape") {
-            cerrarModal();
-        }
+        if (evento.key === "Escape") cerrarModal();
     });
 }
+
+/* =========================
+   Filtros
+   ========================= */
 
 function completarFiltros(datos) {
     const todasLasAreas = datos.flatMap(item => obtenerAreas(item));
@@ -142,7 +142,6 @@ function llenarSelect(select, valores) {
     if (!select) return;
 
     const primeraOpcion = select.querySelector("option")?.outerHTML || "";
-
     select.innerHTML = primeraOpcion;
 
     const opciones = valores
@@ -151,6 +150,10 @@ function llenarSelect(select, valores) {
 
     select.insertAdjacentHTML("beforeend", opciones);
 }
+
+/* =========================
+   Render
+   ========================= */
 
 function renderizar() {
     if (!optativas.length) return;
@@ -215,17 +218,17 @@ function obtenerFiltradas() {
             return (
                 Number(enlacesValidos(b).length > 0) -
                 Number(enlacesValidos(a).length > 0)
-            ) || a.materia.localeCompare(b.materia, "es");
+            ) || (a.materia || "").localeCompare(b.materia || "", "es");
         }
 
         if (ordenarPor === "puntaje") {
             return (
                 (b.puntaje ?? -1) -
                 (a.puntaje ?? -1)
-            ) || a.materia.localeCompare(b.materia, "es");
+            ) || (a.materia || "").localeCompare(b.materia || "", "es");
         }
 
-        return a.materia.localeCompare(b.materia, "es");
+        return (a.materia || "").localeCompare(b.materia || "", "es");
     });
 }
 
@@ -289,6 +292,8 @@ function crearTarjeta(item) {
         ? item.correlativas.join(" · ")
         : "No informadas";
 
+    const ultimaRevision = item.ultimaRevision || "Sin fecha cargada";
+
     return `
         <article class="materia-card card optativa-card">
             <div>
@@ -322,37 +327,120 @@ function crearTarjeta(item) {
                     <p><strong>Puntaje:</strong> ${
                         item.puntaje != null ? `${item.puntaje} puntos` : "No informado"
                     }</p>
+                    <p><strong>Última revisión:</strong> ${escapar(ultimaRevision)}</p>
                 </div>
 
                 ${revision}
             </div>
 
-            <div class="card-buttons">
+            <div class="card-buttons card-buttons-links">
                 <a class="btn btn-secondary" href="./optativa.html?id=${encodeURIComponent(item.id)}">
                     Ver detalle
                 </a>
 
-                ${
-                    tieneMaterial
-                        ? `
-                            <a class="btn btn-primary" href="${escapar(links[0].url)}" target="_blank" rel="noopener noreferrer">
-                                Abrir material
-                            </a>
-                        `
-                        : ""
-                }
+                ${crearBotonesLinks(links)}
             </div>
         </article>
     `;
 }
 
+/* =========================
+   Links por tipo
+   ========================= */
+
 function enlacesValidos(item) {
     if (!Array.isArray(item.links)) return [];
 
-    return item.links.filter(link => {
-        return link && link.url && String(link.url).trim() !== "";
-    });
+    return item.links
+        .filter(link => link && link.url && String(link.url).trim() !== "")
+        .map(link => ({
+            ...link,
+            url: String(link.url).trim(),
+            tipo: normalizarTipoLink(link),
+            nombre: link.nombre || etiquetaTipoLink(normalizarTipoLink(link))
+        }));
 }
+
+function crearBotonesLinks(links) {
+    if (!links.length) return "";
+
+    return links
+        .map(link => {
+            const tipo = normalizarTipoLink(link);
+            const icono = iconoTipoLink(tipo);
+            const clase = claseTipoLink(tipo);
+            const texto = link.nombre || etiquetaTipoLink(tipo);
+
+            return `
+                <a class="btn ${clase}" href="${escapar(link.url)}" target="_blank" rel="noopener noreferrer">
+                    ${icono} ${escapar(texto)}
+                </a>
+            `;
+        })
+        .join("");
+}
+
+function normalizarTipoLink(link) {
+    const tipoOriginal = normalizar(link.tipo || "");
+    const nombre = normalizar(link.nombre || "");
+    const url = normalizar(link.url || "");
+
+    if (tipoOriginal.includes("programa") || nombre.includes("programa")) return "programa";
+    if (tipoOriginal.includes("frubox") || nombre.includes("frubox")) return "frubox";
+    if (tipoOriginal.includes("onedrive") || nombre.includes("onedrive") || url.includes("sharepoint") || url.includes("onedrive")) return "onedrive";
+    if (tipoOriginal.includes("drive") || nombre.includes("drive") || url.includes("drive.google")) return "drive";
+    if (tipoOriginal.includes("github") || nombre.includes("github") || url.includes("github")) return "github";
+    if (tipoOriginal.includes("notion") || nombre.includes("notion") || nombre.includes("datasam") || url.includes("notion")) return "notion";
+    if (tipoOriginal.includes("material")) return "material";
+
+    return tipoOriginal || "material";
+}
+
+function iconoTipoLink(tipo) {
+    const iconos = {
+        programa: "📄",
+        frubox: "📦",
+        drive: "📁",
+        onedrive: "☁️",
+        github: "💻",
+        notion: "🧠",
+        material: "🔗"
+    };
+
+    return iconos[tipo] || "🔗";
+}
+
+function etiquetaTipoLink(tipo) {
+    const etiquetas = {
+        programa: "Programa",
+        frubox: "Frubox",
+        drive: "Drive",
+        onedrive: "OneDrive",
+        github: "GitHub",
+        notion: "Notion / DataSAM",
+        material: "Material"
+    };
+
+    return etiquetas[tipo] || "Material";
+}
+
+function claseTipoLink(tipo) {
+    const clases = {
+        programa: "btn-link-programa",
+        frubox: "btn-link-frubox",
+        drive: "btn-link-drive",
+        onedrive: "btn-link-onedrive",
+        github: "btn-link-github",
+        notion: "btn-link-notion",
+        material: "btn-primary"
+    };
+
+    return clases[tipo] || "btn-primary";
+}
+
+/* =========================
+   Utilidades
+   ========================= */
 
 function limpiarFiltros() {
     if (elementos.busqueda) elementos.busqueda.value = "";
@@ -362,7 +450,6 @@ function limpiarFiltros() {
     if (elementos.ordenar) elementos.ordenar.value = "nombre";
 
     renderizar();
-
     elementos.busqueda?.focus();
 }
 
