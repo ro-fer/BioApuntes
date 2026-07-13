@@ -15,15 +15,19 @@
       "cuatrimestres": [
         "2° Cuatrimestre"
       ],
-      "horario": null,
+      "horario": "Jueves 18-22 hs",
       "observaciones": null
     },
     "comentarios": null,
     "contenidosMinimos": null,
-    "links": [],
-    "revisionPendiente": [
-      "El código ELE78 aparece también en: Administración de sistemas GNU/Linux y virtualización avanzada."
-    ]
+    "links": [
+       {
+        "tipo": "material",
+        "nombre": "Carpeta OneDrive",
+        "url": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgDykBshOPsOSqRaaCuinm6OAcHDtX4MdEnIQJ0315ByXq4?e=4ssssW"
+      }
+    ],
+    "revisionPendiente": []
   },
   {
     "id": "administracion-de-sistemas-gnu-linux-y-virtualizacion-avanzada",
@@ -41,15 +45,19 @@
       "cuatrimestres": [
         "2° Cuatrimestre"
       ],
-      "horario": null,
+      "horario": "Jueves 18-22 hs",
       "observaciones": null
     },
     "comentarios": null,
     "contenidosMinimos": null,
-    "links": [],
-    "revisionPendiente": [
-      "El código ELE78 aparece también en: Administración de sistemas GNU/Linux y virtualización."
-    ]
+    "links": [
+      {
+        "tipo": "material",
+        "nombre": "Carpeta OneDrive",
+        "url": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgDykBshOPsOSqRaaCuinm6OAcHDtX4MdEnIQJ0315ByXq4?e=4ssssW"
+      }
+    ],
+    "revisionPendiente": []
   },
   {
     "id": "applied-probability-and-statistics",
@@ -112,6 +120,11 @@
         "url": "https://drive.google.com/drive/folders/1KQeeXSANC3goe3mGffXtEIcn9PbwO89k"
       },
       {
+        "tipo": "material",
+        "nombre": "Carpeta OneDrive",
+        "url": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgDgPodgCpprQbjQq2ZPodKyAbU2eI5AKJdxihrwZUPsKKM?e=T4BdNs"
+      },
+      {
         "tipo": "programa",
         "nombre": "Programa",
         "url": "https://drive.google.com/file/d/129Rr8VA4pIt7g4iWnTeG0HTF8ujOh7zd/view"
@@ -163,10 +176,10 @@
     "cargaHorariaSemanal": null,
     "correlativas": [],
     "oferta": {
-      "anios": [],
-      "cuatrimestres": [],
-      "horario": null,
-      "observaciones": "Se dictó en 2.º cuatrimestre 2025 : Sábado 9-12 hs"
+      "anios": [2025],
+      "cuatrimestres": ["2° Cuatrimestre"],
+      "horario": " Sábado 9-12 hs",
+      "observaciones": null
     },
     "comentarios": null,
     "contenidosMinimos": null,
@@ -247,10 +260,10 @@
     "cargaHorariaSemanal": null,
     "correlativas": [],
     "oferta": {
-      "anios": [],
-      "cuatrimestres": [],
-      "horario": null,
-      "observaciones": "Se dictó en 2.º cuatrimestre 2025 : Miércoles 18 a 22 hs"
+      "anios": [2025],
+      "cuatrimestres": ["2° Cuatrimestre"],
+      "horario": "Miércoles 18 a 22 hs",
+      "observaciones": null
     },
     "comentarios": null,
     "contenidosMinimos": null,
@@ -259,6 +272,10 @@
         "tipo": "programa",
         "nombre": "Programa",
         "url": "https://drive.google.com/file/d/1WQaEWrFph-AR8D2sw3Fb5yL1KWmQEC5h/view?usp=sharing"
+      },{
+        "tipo": "material",
+        "nombre": "Carpeta OneDrive",
+        "url": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgAjp8RnrZO2QLIYAabPUWcWAT92lFpSuPdXAurI4-egCSM?e=IhX7E5"
       }
     ],
     "revisionPendiente": []
@@ -393,16 +410,20 @@
     "oferta": {
       "anios": [],
       "cuatrimestres": [],
-      "horario": null,
-      "observaciones": "Miércoles 18-20 hs + 2 h asincrónicas"
+      "horario": "Miércoles - Virtual - 18:00 a 22:00 hs",
+      "observaciones": null
     },
-    "comentarios": "Con cupos",
+    "comentarios": "Con cupos - Supuestamente se toma asistencia",
     "contenidosMinimos": null,
     "links": [
       {
         "tipo": "programa",
         "nombre": "Programa",
         "url": "https://drive.google.com/file/d/1sFLHRh34bXUPS7dbtLcCwopRQ4aJeTyn/view?usp=sharing"
+      },{
+        "tipo": "material",
+        "nombre": "Notion de DataSam",
+        "url": "https://datasam.notion.site/Gobernanza-de-Datos-cd23b8f356f84bb6b8ac56abaf16e4bc"
       }
     ],
     "revisionPendiente": []
@@ -673,17 +694,22 @@
     ],
     "oferta": {
       "anios": [],
-      "cuatrimestres": [],
-      "horario": null,
-      "observaciones": "Martes 19-21 hs (virtual); Viernes 14-18 hs (presencial)"
+      "cuatrimestres": ["1° Cuatrimestre","2° Cuatrimestre"],
+      "horario": "Martes 19-21 hs (virtual); Viernes 14-18 hs (presencial)",
+      "observaciones": null
     },
-    "comentarios": "Con cupos",
-    "contenidosMinimos": null,
+    "comentarios": "Con cupos - Supuestamente se toma asistencia",
+    "contenidosMinimos": "Funcionamiento de los algoritmos de aprendizaje automático. Validez, aplicabilidad, y limitaciones. Conjunto de datos de entrenamiento, validación y testeo. Repaso de regresión lineal. Funciones de error. Sobreajuste. Regularización. Regresión ridge y lasso. Aplicación de algoritmos de aprendizaje automático: regresión y clasificación lineal; discriminante linear de Fischer; perceptrón; support vector machine; árboles de decisión; naive Bayes.",
     "links": [
       {
         "tipo": "programa",
         "nombre": "Programa",
         "url": "https://drive.google.com/file/d/1RanaQv16yZ30ed-ao1JabEvvL8qm6IGG/view?usp=sharing"
+      },
+      {
+        "tipo": "material",
+        "nombre": "Notion de DataSam",
+        "url": "https://datasam.notion.site/Introducci-n-al-Aprendizaje-Autom-tico-04985211328241a9991c656e0acf5f96"
       }
     ],
     "revisionPendiente": []
@@ -832,17 +858,29 @@
     ],
     "oferta": {
       "anios": [],
-      "cuatrimestres": [],
+      "cuatrimestres": ["1° Cuatrimestre", "2° Cuatrimestre"],
       "horario": null,
       "observaciones": "Jueves 14-18 hs + 2 h asincrónicas"
     },
-    "comentarios": "Programación en Python Con cupos",
-    "contenidosMinimos": null,
+    "comentarios": "Programación en Python Con cupos. SUELEN TOMAR ASISTENCIA",
+    "contenidosMinimos": "Introducción al pensamiento algorítmico. Presentación del lenguaje de programación Python. Diferentes entornos de programación (consola, IDE, notebooks). Sintaxis del lenguaje. Tipos de datos básicos. Funciones y documentación. Estructuras de control básicas: condicionales (if; while), iteraciones (for), comprensión de listas. Estructuras de datos: diccionarios, listas, tuplas, vectores, matrices y árboles. Módulos y paquetes. Concepto de namespace. Introducción a la programación orientada a objetos. Conceptos básicos, métodos, atributos, herencia. Estructuras de lectura y escritura de datos. Visualización de datos. Testeo y debuggeo de los programas. Manejo de excepciones. Control de flujos. Introducción a paquetes de cálculo (numpy) y visualización (matplotlib). Elementos de cálculo numérico para análisis matemático.",
     "links": [
       {
         "tipo": "programa",
         "nombre": "Programa",
         "url": "https://drive.google.com/file/d/1T-dkIMLuoRrwQXe-BSLWtpgrpnzSFkvk/view?usp=sharing"
+      },{
+        "tipo": "material",
+        "nombre": "Carpeta OneDrive",
+        "url": " https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgB0loJH0e_ESKOS-qg5uN6IAbYpJP4u95xOlYujA05s-ls?e=5mRl9v"
+      },{
+        "tipo": "material",
+        "nombre": "Github cursada",
+        "url": "https://github.com/python-unsam/programacion1"
+      },{
+        "tipo": "material",
+        "nombre": "Notion de DataSam",
+        "url": "https://datasam.notion.site/Programaci-n-1-417c7a3bf63643db967e9f7e7e64e181"
       }
     ],
     "revisionPendiente": []
@@ -965,7 +1003,7 @@
     "puntaje": 100,
     "cargaHorariaSemanal": 8.0,
     "correlativas": [
-      "BMD97 (Bloque de Ciencias Básicas)"
+      " (Bloque de Ciencias Básicas)"
     ],
     "oferta": {
       "anios": [],
@@ -980,11 +1018,14 @@
         "tipo": "material",
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1qghOyiZGbk3ME0LO4SOfWAM7JGTqHzlI"
+      },
+      {
+        "tipo": "material",
+        "nombre": "Carpeta OneDrive",
+        "url": "https://unsamms-my.sharepoint.com/:u:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IQC_3duXGv1mRrYR0rsV9viBAU5kLVBDmK3dC2qDtXweYgI?e=PBhoqE"
       }
     ],
-    "revisionPendiente": [
-      "La correlativa contiene el mismo código de esta materia; conviene verificarla."
-    ]
+    "revisionPendiente": []
   },
   {
     "id": "teoria-de-control",
