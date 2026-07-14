@@ -113,14 +113,20 @@ function mezclarMateriaConOneDrive(materia, patchOneDrive) {
 
 function normalizarArray(valor) {
     if (!valor) return [];
-    if (Array.isArray(valor)) return valor.filter(Boolean).map(String);
+    if (Array.isArray(valor)) {
+        return valor
+            .filter(Boolean)
+            .map((item) => typeof item === "string" ? item.trim() : item)
+            .filter(Boolean);
+    }
     if (typeof valor === "string") {
         return valor
-            .split(/;|,|\n/)
+            .split(/;|,|
+/)
             .map((item) => item.trim())
             .filter(Boolean);
     }
-    return [String(valor)];
+    return [valor];
 }
 
 function normalizarLinks(links) {
@@ -368,8 +374,15 @@ function normalizarTurno(turno) {
 }
 
 function tieneDiaSabado(cursada) {
-    return normalizarArray(cursada.diasHorarios).some((diaHorario) => {
-        if (typeof diaHorario === "string") return diaHorario.toLowerCase().includes("sábado") || diaHorario.toLowerCase().includes("sabado");
+    const lista = Array.isArray(cursada.diasHorarios)
+        ? cursada.diasHorarios.filter(Boolean)
+        : normalizarArray(cursada.diasHorarios);
+
+    return lista.some((diaHorario) => {
+        if (typeof diaHorario === "string") {
+            return diaHorario.toLowerCase().includes("sábado") || diaHorario.toLowerCase().includes("sabado");
+        }
+
         const dia = String(diaHorario?.dia || "").toLowerCase();
         return dia.includes("sábado") || dia.includes("sabado");
     });
@@ -445,14 +458,20 @@ function filtrarMaterias() {
 }
 
 function formatearDiasHorarios(diasHorarios) {
-    const lista = normalizarArray(diasHorarios);
+    const lista = Array.isArray(diasHorarios)
+        ? diasHorarios.filter(Boolean)
+        : normalizarArray(diasHorarios);
+
     if (lista.length === 0) return "";
 
     return lista.map((item) => {
         if (typeof item === "string") return item;
+
         const dia = item.dia || "";
         const horario = item.horario || [item.desde, item.hasta].filter(Boolean).join(" a ");
-        return [dia, horario].filter(Boolean).join(" ");
+        const aula = item.aula ? `— ${item.aula}` : "";
+
+        return [dia, horario, aula].filter(Boolean).join(" ");
     }).join("; ");
 }
 
