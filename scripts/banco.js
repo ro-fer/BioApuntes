@@ -113,22 +113,23 @@ function mezclarMateriaConOneDrive(materia, patchOneDrive) {
 
 function normalizarArray(valor) {
     if (!valor) return [];
+
     if (Array.isArray(valor)) {
         return valor
             .filter(Boolean)
             .map((item) => typeof item === "string" ? item.trim() : item)
             .filter(Boolean);
     }
+
     if (typeof valor === "string") {
         return valor
-            .split(/;|,|
-/)
+            .split(/[;,\n]+/)
             .map((item) => item.trim())
             .filter(Boolean);
     }
+
     return [valor];
 }
-
 function normalizarLinks(links) {
     if (!links) return [];
 
