@@ -1,9 +1,13 @@
 let materias = [];
+let cursadas = [];
 
 const searchInput = document.getElementById("searchInput");
 const yearFilter = document.getElementById("yearFilter");
 const statusFilter = document.getElementById("statusFilter");
 const blockFilter = document.getElementById("blockFilter");
+const periodFilter = document.getElementById("periodFilter");
+const turnoFilter = document.getElementById("turnoFilter");
+const scheduleFilter = document.getElementById("scheduleFilter");
 const materiasContainer = document.getElementById("materiasContainer");
 
 async function cargarJSON(url) {
@@ -23,8 +27,16 @@ async function cargarMaterias() {
             console.warn("No se encontró patch de OneDrive. Se cargan solo las materias base.", errorPatch);
         }
 
+        try {
+            cursadas = await cargarJSON("../data/cursadas.json");
+        } catch (errorCursadas) {
+            console.warn("No se encontró data/cursadas.json. Se cargan materias sin horarios.", errorCursadas);
+            cursadas = [];
+        }
+
         materias = materiasBase.map((materia) => mezclarMateriaConOneDrive(materia, patchOneDrive));
-        renderizarMaterias(materias);
+        cargarOpcionesDeCursadas();
+        filtrarMaterias();
 
     } catch (error) {
         console.error("Error cargando materias:", error);
@@ -34,6 +46,39 @@ async function cargarMaterias() {
                 <p>Revisá que exista <strong>data/materias.json</strong> y que la ruta esté bien escrita.</p>
             </div>
         `;
+    }
+}
+
+function cargarOpcionesDeCursadas() {
+    if (periodFilter) {
+        const periodos = [...new Set(cursadas.map((cursada) => cursada.periodo).filter(Boolean))].sort();
+        const valorActual = periodFilter.value;
+        periodFilter.innerHTML = `<option value="">Todos los períodos</option>`;
+        periodos.forEach((periodo) => {
+            const option = document.createElement("option");
+            option.value = periodo;
+            option.textContent = periodo;
+            periodFilter.appendChild(option);
+        });
+        periodFilter.value = valorActual;
+    }
+
+    if (turnoFilter) {
+        const turnosBase = ["Mañana", "Tarde", "Noche", "No especificado"];
+        const turnosExtra = cursadas
+            .map((cursada) => normalizarTurno(cursada.turno))
+            .filter(Boolean)
+            .filter((turno) => !turnosBase.includes(turno));
+        const turnos = [...new Set([...turnosBase, ...turnosExtra])];
+        const valorActual = turnoFilter.value;
+        turnoFilter.innerHTML = `<option value="">Todos los turnos</option>`;
+        turnos.forEach((turno) => {
+            const option = document.createElement("option");
+            option.value = turno;
+            option.textContent = turno;
+            turnoFilter.appendChild(option);
+        });
+        turnoFilter.value = valorActual;
     }
 }
 
@@ -153,6 +198,53 @@ function unirTextos(textos) {
         .join("; ");
 }
 
+function obtenerCursadasMateria(codigoMateria) {
+    return cursadas.filter((cursada) => {
+        return String(cursada.codigoMateria || "").toLowerCase() === String(codigoMateria || "").toLowerCase();
+    });
+}
+
+function obtenerResumenCursadas(codigoMateria) {
+    const lista = obtenerCursadasMateria(codigoMateria);
+    const periodos = [...new Set(lista.map((cursada) => cursada.periodo).filter(Boolean))];
+    const turnos = [...new Set(lista.map((cursada) => normalizarTurno(cursada.turno)).filter(Boolean))];
+
+    return {
+        total: lista.length,
+        periodos,
+        turnos,
+        seDictaSabados: lista.some((cursada) => cursada.seDictaSabados || tieneDiaSabado(cursada)),
+        seDictaEnVerano: lista.some((cursada) => cursada.seDictaEnVerano || String(cursada.periodo || "").toLowerCase().includes("verano")),
+        tieneHorario: lista.some((cursada) => normalizarArray(cursada.diasHorarios).length > 0)
+    };
+}
+
+function renderizarResumenCursadas(resumen) {
+    if (!resumen || resumen.total === 0) {
+        return `<p><strong>Horarios:</strong> Sin cursadas cargadas</p>`;
+    }
+
+    const partes = [];
+    partes.push(`${resumen.total} comisión${resumen.total === 1 ? "" : "es"}`);
+
+    if (resumen.periodos.length > 0) {
+        partes.push(`Períodos: ${resumen.periodos.join(", ")}`);
+    }
+
+    if (resumen.turnos.length > 0) {
+        partes.push(`Turnos: ${resumen.turnos.join(", ")}`);
+    }
+
+    const marcas = [];
+    if (resumen.seDictaSabados) marcas.push("📅 sábados");
+    if (resumen.seDictaEnVerano) marcas.push("🌞 verano");
+
+    return `
+        <p><strong>Horarios:</strong> ${partes.join(" · ")}</p>
+        ${marcas.length ? `<p><strong>Cursada especial:</strong> ${marcas.join(" · ")}</p>` : ""}
+    `;
+}
+
 function renderizarMaterias(listaMaterias) {
     materiasContainer.innerHTML = "";
 
@@ -176,6 +268,7 @@ function renderizarMaterias(listaMaterias) {
         const linkDetalle = esElectiva
             ? "./optativas.html"
             : `./materia.html?codigo=${encodeURIComponent(codigo)}`;
+        const resumenCursadas = obtenerResumenCursadas(codigo);
 
         card.innerHTML = `
             <div class="materia-card-header">
@@ -188,6 +281,7 @@ function renderizarMaterias(listaMaterias) {
                 <p><strong>Año:</strong> ${materia.anio || "-"}</p>
                 <p><strong>Bloque:</strong> ${materia.bloqueCurricular || "Sin clasificar"}</p>
                 <p><strong>Cuatrimestre:</strong> ${materia.cuatrimestre || "-"}</p>
+                ${renderizarResumenCursadas(resumenCursadas)}
                 <p><strong>Estado:</strong> ${calcularEstado(materia)}</p>
                 <p><strong>Qué hay:</strong> ${formatearTexto(materia.queHay)}</p>
             </div>
@@ -267,25 +361,54 @@ function formatearNombreLink(nombreLink) {
     return nombres[nombreLink] || nombreLink;
 }
 
+function normalizarTurno(turno) {
+    const texto = String(turno || "").trim();
+    if (!texto || texto === "-" || texto.toLowerCase() === "no especificada") return "No especificado";
+    return texto;
+}
+
+function tieneDiaSabado(cursada) {
+    return normalizarArray(cursada.diasHorarios).some((diaHorario) => {
+        if (typeof diaHorario === "string") return diaHorario.toLowerCase().includes("sábado") || diaHorario.toLowerCase().includes("sabado");
+        const dia = String(diaHorario?.dia || "").toLowerCase();
+        return dia.includes("sábado") || dia.includes("sabado");
+    });
+}
+
 function filtrarMaterias() {
     const textoBusqueda = searchInput ? searchInput.value.toLowerCase().trim() : "";
     const anioSeleccionado = yearFilter ? yearFilter.value : "";
     const estadoSeleccionado = statusFilter ? statusFilter.value : "";
-    const bloqueSeleccionado = blockFilter ? blockFilter.value : "";
+    const bloqueSeleccionado = blockFilter ? blockFilter.value.toLowerCase().trim() : "";
+    const periodoSeleccionado = periodFilter ? periodFilter.value : "";
+    const turnoSeleccionado = turnoFilter ? turnoFilter.value : "";
+    const horarioSeleccionado = scheduleFilter ? scheduleFilter.value : "";
 
     const materiasFiltradas = materias.filter((materia) => {
         const nombreMateria = (materia.materia || "").toLowerCase();
         const codigoMateria = (materia.codigo || "").toLowerCase();
         const areaMateria = (materia.area || "").toLowerCase();
         const queHayMateria = formatearTexto(materia.queHay).toLowerCase();
-        const bloqueMateria = (materia.bloqueCurricular || "").toLowerCase();
+        const bloqueMateria = (materia.bloqueCurricular || "").toLowerCase().trim();
+        const cursadasMateria = obtenerCursadasMateria(materia.codigo);
+        const resumenCursadas = obtenerResumenCursadas(materia.codigo);
+        const textoCursadas = cursadasMateria.map((cursada) => {
+            return [
+                cursada.periodo,
+                cursada.comision,
+                cursada.turno,
+                formatearDiasHorarios(cursada.diasHorarios),
+                cursada.observaciones
+            ].filter(Boolean).join(" ");
+        }).join(" ").toLowerCase();
 
         const coincideBusqueda =
             nombreMateria.includes(textoBusqueda) ||
             codigoMateria.includes(textoBusqueda) ||
             areaMateria.includes(textoBusqueda) ||
             queHayMateria.includes(textoBusqueda) ||
-            bloqueMateria.includes(textoBusqueda);
+            bloqueMateria.includes(textoBusqueda) ||
+            textoCursadas.includes(textoBusqueda);
 
         const coincideAnio =
             anioSeleccionado === "" ||
@@ -297,22 +420,48 @@ function filtrarMaterias() {
             estadoCalculado.includes(estadoSeleccionado) ||
             (materia.estado || "").includes(estadoSeleccionado);
 
-        const bloqueSeleccionadoNormalizado = bloqueSeleccionado.toLowerCase().trim();
-        const bloqueMateriaNormalizado = (materia.bloqueCurricular || "").toLowerCase().trim();
-
         const coincideBloque =
-            bloqueSeleccionadoNormalizado === "" ||
-            bloqueMateriaNormalizado === bloqueSeleccionadoNormalizado;
+            bloqueSeleccionado === "" ||
+            bloqueMateria === bloqueSeleccionado;
 
-        return coincideBusqueda && coincideAnio && coincideEstado && coincideBloque;
+        const coincidePeriodo =
+            periodoSeleccionado === "" ||
+            cursadasMateria.some((cursada) => cursada.periodo === periodoSeleccionado);
+
+        const coincideTurno =
+            turnoSeleccionado === "" ||
+            cursadasMateria.some((cursada) => normalizarTurno(cursada.turno) === turnoSeleccionado);
+
+        const coincideHorario =
+            horarioSeleccionado === "" ||
+            (horarioSeleccionado === "con-horario" && resumenCursadas.tieneHorario) ||
+            (horarioSeleccionado === "sabados" && resumenCursadas.seDictaSabados) ||
+            (horarioSeleccionado === "verano" && resumenCursadas.seDictaEnVerano);
+
+        return coincideBusqueda && coincideAnio && coincideEstado && coincideBloque && coincidePeriodo && coincideTurno && coincideHorario;
     });
 
     renderizarMaterias(materiasFiltradas);
+}
+
+function formatearDiasHorarios(diasHorarios) {
+    const lista = normalizarArray(diasHorarios);
+    if (lista.length === 0) return "";
+
+    return lista.map((item) => {
+        if (typeof item === "string") return item;
+        const dia = item.dia || "";
+        const horario = item.horario || [item.desde, item.hasta].filter(Boolean).join(" a ");
+        return [dia, horario].filter(Boolean).join(" ");
+    }).join("; ");
 }
 
 if (searchInput) searchInput.addEventListener("input", filtrarMaterias);
 if (yearFilter) yearFilter.addEventListener("change", filtrarMaterias);
 if (statusFilter) statusFilter.addEventListener("change", filtrarMaterias);
 if (blockFilter) blockFilter.addEventListener("change", filtrarMaterias);
+if (periodFilter) periodFilter.addEventListener("change", filtrarMaterias);
+if (turnoFilter) turnoFilter.addEventListener("change", filtrarMaterias);
+if (scheduleFilter) scheduleFilter.addEventListener("change", filtrarMaterias);
 
 cargarMaterias();

@@ -14,6 +14,7 @@ const comentarios = document.getElementById("materia-comentarios");
 const linksContainer = document.getElementById("materia-links");
 const carpetasDriveContainer = document.getElementById("materia-carpetas-drive");
 const contenidosContainer = document.getElementById("materia-contenidos");
+const cursadasContainer = document.getElementById("materia-cursadas");
 
 async function cargarJSON(url) {
     const response = await fetch(url);
@@ -30,11 +31,19 @@ async function cargarMateria() {
 
         const materiasBase = await cargarJSON("../data/materias.json");
         let patchOneDrive = {};
+        let cursadas = [];
 
         try {
             patchOneDrive = await cargarJSON("../data/onedrive_patch_bioapuntes.json");
         } catch (errorPatch) {
             console.warn("No se encontró patch de OneDrive. Se cargan solo los datos base.", errorPatch);
+        }
+
+        try {
+            cursadas = await cargarJSON("../data/cursadas.json");
+        } catch (errorCursadas) {
+            console.warn("No se encontró data/cursadas.json. Se carga la materia sin horarios.", errorCursadas);
+            cursadas = [];
         }
 
         const materiaBase = materiasBase.find((item) => {
@@ -63,6 +72,7 @@ async function cargarMateria() {
         comentarios.textContent = formatearTexto(materia.comentarios);
 
         renderizarContenidos(materia.contenidosMinimos);
+        renderizarCursadas(obtenerCursadasMateria(materia.codigo, cursadas));
         renderizarLinks(materia.links);
         renderizarCarpetasDrive(materia.links);
 
@@ -400,6 +410,102 @@ function formatearNombreLink(nombreLink) {
     return nombres[nombreLink] || nombreLink;
 }
 
+
+function obtenerCursadasMateria(codigoMateria, listaCursadas) {
+    return (listaCursadas || []).filter((cursada) => {
+        return String(cursada.codigoMateria || "").toLowerCase() === String(codigoMateria || "").toLowerCase();
+    });
+}
+
+function renderizarCursadas(listaCursadas) {
+    if (!cursadasContainer) return;
+
+    cursadasContainer.innerHTML = "";
+
+    if (!listaCursadas || listaCursadas.length === 0) {
+        cursadasContainer.innerHTML = `
+            <p class="empty-text">Todavía no hay cursadas u horarios cargados para esta materia.</p>
+            <p class="empty-text">Cuando tengas datos, agregalos en <strong>data/cursadas.json</strong>.</p>
+        `;
+        return;
+    }
+
+    const aviso = document.createElement("p");
+    aviso.className = "empty-text";
+    aviso.innerHTML = "⚠️ Los horarios pueden cambiar. Usalos como referencia y verificá siempre la oferta oficial antes de inscribirte.";
+    cursadasContainer.appendChild(aviso);
+
+    const grupos = agruparPorPeriodo(listaCursadas);
+
+    Object.entries(grupos).forEach(([periodo, cursadasPeriodo]) => {
+        const bloquePeriodo = document.createElement("div");
+        bloquePeriodo.className = "cursadas-periodo";
+
+        bloquePeriodo.innerHTML = `<h3>${periodo || "Período no especificado"}</h3>`;
+
+        cursadasPeriodo.forEach((cursada) => {
+            const item = document.createElement("div");
+            item.className = "cursada-item";
+
+            const dias = formatearDiasHorarios(cursada.diasHorarios);
+            const marcas = [];
+            if (cursada.seDictaSabados || tieneDiaSabado(cursada)) marcas.push("📅 sábados");
+            if (cursada.seDictaEnVerano || String(cursada.periodo || "").toLowerCase().includes("verano")) marcas.push("🌞 verano");
+
+            item.innerHTML = `
+                <h4>${cursada.comision || "Comisión sin nombre"}</h4>
+                <p><strong>Turno:</strong> ${normalizarTurno(cursada.turno)}</p>
+                <p><strong>Días y horarios:</strong> ${dias || "Horario a completar"}</p>
+                <p><strong>Modalidad:</strong> ${cursada.modalidad || "No especificada"}</p>
+                <p><strong>Sede:</strong> ${cursada.sede || "No especificada"}</p>
+                ${marcas.length ? `<p><strong>Notas:</strong> ${marcas.join(" · ")}</p>` : ""}
+                <p><strong>Estado:</strong> ${cursada.estadoHorario || "A verificar"}</p>
+                <p><strong>Fuente:</strong> ${cursada.fuente || "Sin fuente cargada"}</p>
+                ${cursada.observaciones ? `<p><strong>Observaciones:</strong> ${cursada.observaciones}</p>` : ""}
+            `;
+
+            bloquePeriodo.appendChild(item);
+        });
+
+        cursadasContainer.appendChild(bloquePeriodo);
+    });
+}
+
+function agruparPorPeriodo(listaCursadas) {
+    return listaCursadas.reduce((grupos, cursada) => {
+        const periodo = cursada.periodo || "Sin período";
+        if (!grupos[periodo]) grupos[periodo] = [];
+        grupos[periodo].push(cursada);
+        return grupos;
+    }, {});
+}
+
+function formatearDiasHorarios(diasHorarios) {
+    const lista = normalizarArray(diasHorarios);
+    if (lista.length === 0) return "Horario a completar";
+
+    return lista.map((item) => {
+        if (typeof item === "string") return item;
+        const dia = item.dia || "";
+        const horario = item.horario || [item.desde, item.hasta].filter(Boolean).join(" a ");
+        return [dia, horario].filter(Boolean).join(" ");
+    }).join("; ");
+}
+
+function normalizarTurno(turno) {
+    const texto = String(turno || "").trim();
+    if (!texto || texto === "-" || texto.toLowerCase() === "no especificada") return "No especificado";
+    return texto;
+}
+
+function tieneDiaSabado(cursada) {
+    return normalizarArray(cursada.diasHorarios).some((diaHorario) => {
+        if (typeof diaHorario === "string") return diaHorario.toLowerCase().includes("sábado") || diaHorario.toLowerCase().includes("sabado");
+        const dia = String(diaHorario?.dia || "").toLowerCase();
+        return dia.includes("sábado") || dia.includes("sabado");
+    });
+}
+
 function mostrarError(mensaje) {
     nombre.textContent = "Materia no encontrada";
     area.textContent = "Error";
@@ -416,6 +522,7 @@ function mostrarError(mensaje) {
     linksContainer.innerHTML = "";
     carpetasDriveContainer.innerHTML = "";
     contenidosContainer.innerHTML = `<p class="empty-text">${mensaje}</p>`;
+    if (cursadasContainer) cursadasContainer.innerHTML = "";
 }
 
 cargarMateria();
