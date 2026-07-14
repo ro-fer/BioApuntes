@@ -113,19 +113,23 @@ function mezclarMateriaConOneDrive(materia, patchOneDrive) {
 
 function normalizarArray(valor) {
     if (!valor) return [];
+
     if (Array.isArray(valor)) {
         return valor
             .filter(Boolean)
             .map((item) => typeof item === "string" ? item.trim() : item)
             .filter(Boolean);
     }
+
     if (typeof valor === "string") {
         return valor
-            .split(/;|,|
-/)
+            .split(";")
+            .flatMap((item) => item.split(","))
+            .flatMap((item) => item.split("\n"))
             .map((item) => item.trim())
             .filter(Boolean);
     }
+
     return [valor];
 }
 
@@ -221,6 +225,7 @@ function formatearTexto(valor) {
 
     if (Array.isArray(valor)) {
         if (valor.length === 0) return "Sin información cargada";
+
         return valor.map((item) => {
             if (typeof item === "string") return item;
             if (typeof item === "object" && item !== null) {
@@ -320,7 +325,9 @@ function normalizarContenidos(contenidos) {
 
     if (typeof contenidos === "string") {
         return contenidos
-            .split(/\.\s+|;|\n/)
+            .split(". ")
+            .flatMap((item) => item.split(";"))
+            .flatMap((item) => item.split("\n"))
             .map((item) => item.trim())
             .filter((item) => item.length > 0);
     }
@@ -391,7 +398,9 @@ function renderizarCarpetasDrive(links) {
 
 function esLinkDrive(url) {
     if (!url) return false;
+
     const urlMinuscula = url.toLowerCase();
+
     return (
         urlMinuscula.includes("drive.google.com") ||
         urlMinuscula.includes("sharepoint.com") ||
@@ -415,7 +424,6 @@ function formatearNombreLink(nombreLink) {
 
     return nombres[nombreLink] || nombreLink;
 }
-
 
 function obtenerCursadasMateria(codigoMateria, listaCursadas) {
     return (listaCursadas || []).filter((cursada) => {
@@ -455,8 +463,14 @@ function renderizarCursadas(listaCursadas) {
 
             const dias = formatearDiasHorarios(cursada.diasHorarios);
             const marcas = [];
-            if (cursada.seDictaSabados || tieneDiaSabado(cursada)) marcas.push("📅 sábados");
-            if (cursada.seDictaEnVerano || String(cursada.periodo || "").toLowerCase().includes("verano")) marcas.push("🌞 verano");
+
+            if (cursada.seDictaSabados || tieneDiaSabado(cursada)) {
+                marcas.push("📅 sábados");
+            }
+
+            if (cursada.seDictaEnVerano || String(cursada.periodo || "").toLowerCase().includes("verano")) {
+                marcas.push("🌞 verano");
+            }
 
             item.innerHTML = `
                 <h4>${cursada.comision || "Comisión sin nombre"}</h4>
@@ -499,14 +513,19 @@ function formatearDiasHorarios(diasHorarios) {
         const dia = item.dia || "";
         const horario = item.horario || [item.desde, item.hasta].filter(Boolean).join(" a ");
         const aula = item.aula ? `— ${item.aula}` : "";
+        const sede = item.sede ? `— ${item.sede}` : "";
 
-        return [dia, horario, aula].filter(Boolean).join(" ");
+        return [dia, horario, aula || sede].filter(Boolean).join(" ");
     }).join("; ");
 }
 
 function normalizarTurno(turno) {
     const texto = String(turno || "").trim();
-    if (!texto || texto === "-" || texto.toLowerCase() === "no especificada") return "No especificado";
+
+    if (!texto || texto === "-" || texto.toLowerCase() === "no especificada") {
+        return "No especificado";
+    }
+
     return texto;
 }
 
@@ -541,7 +560,10 @@ function mostrarError(mensaje) {
     linksContainer.innerHTML = "";
     carpetasDriveContainer.innerHTML = "";
     contenidosContainer.innerHTML = `<p class="empty-text">${mensaje}</p>`;
-    if (cursadasContainer) cursadasContainer.innerHTML = "";
+
+    if (cursadasContainer) {
+        cursadasContainer.innerHTML = "";
+    }
 }
 
 cargarMateria();
