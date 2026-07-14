@@ -1,0 +1,6268 @@
+[
+  {
+    "codigoMateria": "CB01",
+    "materia": "Introducción al Análisis Matemático",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB01-M1",
+    "codigoOfertaOriginal": "CB01",
+    "materiaOfertaOriginal": "INTRODUCCION AL ANALISIS MATEMATICO",
+    "cuatrimestreOferta": 1,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB01",
+    "materia": "Introducción al Análisis Matemático",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB01-M2",
+    "codigoOfertaOriginal": "CB01",
+    "materiaOfertaOriginal": "INTRODUCCION AL ANALISIS MATEMATICO",
+    "cuatrimestreOferta": 1,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB01",
+    "materia": "Introducción al Análisis Matemático",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB01-N1",
+    "codigoOfertaOriginal": "CB01",
+    "materiaOfertaOriginal": "INTRODUCCION AL ANALISIS MATEMATICO",
+    "cuatrimestreOferta": 1,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB01",
+    "materia": "Introducción al Análisis Matemático",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB01-N2",
+    "codigoOfertaOriginal": "CB01",
+    "materiaOfertaOriginal": "INTRODUCCION AL ANALISIS MATEMATICO",
+    "cuatrimestreOferta": 1,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB01",
+    "materia": "Introducción al Análisis Matemático",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB01-M1",
+    "codigoOfertaOriginal": "CB01",
+    "materiaOfertaOriginal": "INTRODUCCION AL ANALISIS MATEMATICO",
+    "cuatrimestreOferta": 1,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB01",
+    "materia": "Introducción al Análisis Matemático",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB01-M2",
+    "codigoOfertaOriginal": "CB01",
+    "materiaOfertaOriginal": "INTRODUCCION AL ANALISIS MATEMATICO",
+    "cuatrimestreOferta": 1,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB01",
+    "materia": "Introducción al Análisis Matemático",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB01-N1",
+    "codigoOfertaOriginal": "CB01",
+    "materiaOfertaOriginal": "INTRODUCCION AL ANALISIS MATEMATICO",
+    "cuatrimestreOferta": 1,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB01",
+    "materia": "Introducción al Análisis Matemático",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB01-N2",
+    "codigoOfertaOriginal": "CB01",
+    "materiaOfertaOriginal": "INTRODUCCION AL ANALISIS MATEMATICO",
+    "cuatrimestreOferta": 1,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB01",
+    "materia": "Introducción al Análisis Matemático",
+    "periodo": "Verano 2026",
+    "anioFuente": 2026,
+    "comision": "A completar",
+    "codigoOfertaOriginal": "CB01",
+    "materiaOfertaOriginal": "Introducción al Análisis Matemático",
+    "cuatrimestreOferta": "Verano",
+    "turno": "A completar",
+    "modalidad": "A completar",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": true,
+    "estadoHorario": "Base manual / falta cargar horarios",
+    "fuente": "Dato aportado por estudiante: materias dictadas en Verano 2026",
+    "observaciones": "Materia indicada como dictada en verano 2026. Completar comisión, días y horarios.",
+    "planes": []
+  },
+  {
+    "codigoMateria": "CB02",
+    "materia": "Ciencia, Tecnología y Sociedad",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB02-1",
+    "codigoOfertaOriginal": "CB02",
+    "materiaOfertaOriginal": "CIENCIA, TECNOLOGIA Y SOCIEDAD",
+    "cuatrimestreOferta": 1,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "13 a 17",
+        "desde": "13:00",
+        "hasta": "17:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB02",
+    "materia": "Ciencia, Tecnología y Sociedad",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB02-2",
+    "codigoOfertaOriginal": "CB02",
+    "materiaOfertaOriginal": "CIENCIA, TECNOLOGIA Y SOCIEDAD",
+    "cuatrimestreOferta": 1,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Jueves",
+        "horario": "13 a 17",
+        "desde": "13:00",
+        "hasta": "17:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB02",
+    "materia": "Ciencia, Tecnología y Sociedad",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB02-3",
+    "codigoOfertaOriginal": "CB02",
+    "materiaOfertaOriginal": "CIENCIA, TECNOLOGIA Y SOCIEDAD",
+    "cuatrimestreOferta": 1,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Viernes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB02",
+    "materia": "Ciencia, Tecnología y Sociedad",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB02-4",
+    "codigoOfertaOriginal": "CB02",
+    "materiaOfertaOriginal": "CIENCIA, TECNOLOGIA Y SOCIEDAD",
+    "cuatrimestreOferta": 1,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Sábado",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      }
+    ],
+    "seDictaSabados": true,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB02",
+    "materia": "Ciencia, Tecnología y Sociedad",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB02-5",
+    "codigoOfertaOriginal": "CB02",
+    "materiaOfertaOriginal": "CIENCIA, TECNOLOGIA Y SOCIEDAD",
+    "cuatrimestreOferta": 1,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Sábado",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      }
+    ],
+    "seDictaSabados": true,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB02",
+    "materia": "Ciencia, Tecnología y Sociedad",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB02-1",
+    "codigoOfertaOriginal": "CB02",
+    "materiaOfertaOriginal": "CIENCIA, TECNOLOGIA Y SOCIEDAD",
+    "cuatrimestreOferta": 1,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "13 a 17",
+        "desde": "13:00",
+        "hasta": "17:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB02",
+    "materia": "Ciencia, Tecnología y Sociedad",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB02-2",
+    "codigoOfertaOriginal": "CB02",
+    "materiaOfertaOriginal": "CIENCIA, TECNOLOGIA Y SOCIEDAD",
+    "cuatrimestreOferta": 1,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Jueves",
+        "horario": "13 a 17",
+        "desde": "13:00",
+        "hasta": "17:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB02",
+    "materia": "Ciencia, Tecnología y Sociedad",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB02-3",
+    "codigoOfertaOriginal": "CB02",
+    "materiaOfertaOriginal": "CIENCIA, TECNOLOGIA Y SOCIEDAD",
+    "cuatrimestreOferta": 1,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Viernes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB02",
+    "materia": "Ciencia, Tecnología y Sociedad",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB02-4",
+    "codigoOfertaOriginal": "CB02",
+    "materiaOfertaOriginal": "CIENCIA, TECNOLOGIA Y SOCIEDAD",
+    "cuatrimestreOferta": 1,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Sábado",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      }
+    ],
+    "seDictaSabados": true,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB02",
+    "materia": "Ciencia, Tecnología y Sociedad",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB02-5",
+    "codigoOfertaOriginal": "CB02",
+    "materiaOfertaOriginal": "CIENCIA, TECNOLOGIA Y SOCIEDAD",
+    "cuatrimestreOferta": 1,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Sábado",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      }
+    ],
+    "seDictaSabados": true,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB03",
+    "materia": "Química General",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB03-M1",
+    "codigoOfertaOriginal": "CB03",
+    "materiaOfertaOriginal": "QUIMICA GENERAL",
+    "cuatrimestreOferta": 1,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB03",
+    "materia": "Química General",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB03-M2",
+    "codigoOfertaOriginal": "CB03",
+    "materiaOfertaOriginal": "QUIMICA GENERAL",
+    "cuatrimestreOferta": 1,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB03",
+    "materia": "Química General",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB03-N1",
+    "codigoOfertaOriginal": "CB03",
+    "materiaOfertaOriginal": "QUIMICA GENERAL",
+    "cuatrimestreOferta": 1,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB03",
+    "materia": "Química General",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB03-N2",
+    "codigoOfertaOriginal": "CB03",
+    "materiaOfertaOriginal": "QUIMICA GENERAL",
+    "cuatrimestreOferta": 1,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB03",
+    "materia": "Química General",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB03-T1",
+    "codigoOfertaOriginal": "CB03",
+    "materiaOfertaOriginal": "QUIMICA GENERAL",
+    "cuatrimestreOferta": 1,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "13:30 a 17:30",
+        "desde": "13:30",
+        "hasta": "17:30"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "13:30 a 17:30",
+        "desde": "13:30",
+        "hasta": "17:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB03",
+    "materia": "Química General",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB03-M1",
+    "codigoOfertaOriginal": "CB03",
+    "materiaOfertaOriginal": "QUIMICA GENERAL",
+    "cuatrimestreOferta": 1,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB03",
+    "materia": "Química General",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB03-M2",
+    "codigoOfertaOriginal": "CB03",
+    "materiaOfertaOriginal": "QUIMICA GENERAL",
+    "cuatrimestreOferta": 1,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB03",
+    "materia": "Química General",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB03-N1",
+    "codigoOfertaOriginal": "CB03",
+    "materiaOfertaOriginal": "QUIMICA GENERAL",
+    "cuatrimestreOferta": 1,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB03",
+    "materia": "Química General",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB03-N2",
+    "codigoOfertaOriginal": "CB03",
+    "materiaOfertaOriginal": "QUIMICA GENERAL",
+    "cuatrimestreOferta": 1,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB03",
+    "materia": "Química General",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB03-T1",
+    "codigoOfertaOriginal": "CB03",
+    "materiaOfertaOriginal": "QUIMICA GENERAL",
+    "cuatrimestreOferta": 1,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "13:30 a 17:30",
+        "desde": "13:30",
+        "hasta": "17:30"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "13:30 a 17:30",
+        "desde": "13:30",
+        "hasta": "17:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB05",
+    "materia": "Cálculo I",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB05-M1",
+    "codigoOfertaOriginal": "CB05",
+    "materiaOfertaOriginal": "CALCULO I",
+    "cuatrimestreOferta": 2,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "11 a 13",
+        "desde": "11:00",
+        "hasta": "13:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB05",
+    "materia": "Cálculo I",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB05-M2",
+    "codigoOfertaOriginal": "CB05",
+    "materiaOfertaOriginal": "CALCULO I",
+    "cuatrimestreOferta": 2,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "8:30 a 10:30",
+        "desde": "08:30",
+        "hasta": "10:30"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB05",
+    "materia": "Cálculo I",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB05-N",
+    "codigoOfertaOriginal": "CB05",
+    "materiaOfertaOriginal": "CALCULO I",
+    "cuatrimestreOferta": 2,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "20 a 22",
+        "desde": "20:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB05",
+    "materia": "Cálculo I",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB05-M1",
+    "codigoOfertaOriginal": "CB05",
+    "materiaOfertaOriginal": "CALCULO I",
+    "cuatrimestreOferta": 2,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "8:30 a 10:30",
+        "desde": "08:30",
+        "hasta": "10:30"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB05",
+    "materia": "Cálculo I",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB05-M2",
+    "codigoOfertaOriginal": "CB05",
+    "materiaOfertaOriginal": "CALCULO I",
+    "cuatrimestreOferta": 2,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "11 a 13",
+        "desde": "11:00",
+        "hasta": "13:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB05",
+    "materia": "Cálculo I",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB05-N",
+    "codigoOfertaOriginal": "CB05",
+    "materiaOfertaOriginal": "CALCULO I",
+    "cuatrimestreOferta": 2,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "20 a 22",
+        "desde": "20:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB05",
+    "materia": "Cálculo I",
+    "periodo": "Verano 2026",
+    "anioFuente": 2026,
+    "comision": "A completar",
+    "codigoOfertaOriginal": "CB05",
+    "materiaOfertaOriginal": "Cálculo I",
+    "cuatrimestreOferta": "Verano",
+    "turno": "A completar",
+    "modalidad": "A completar",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": true,
+    "estadoHorario": "Base manual / falta cargar horarios",
+    "fuente": "Dato aportado por estudiante: materias dictadas en Verano 2026",
+    "observaciones": "Materia indicada como dictada en verano 2026. Completar comisión, días y horarios.",
+    "planes": []
+  },
+  {
+    "codigoMateria": "CB06",
+    "materia": "Álgebra y Geometría Analítica I",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB06-M1",
+    "codigoOfertaOriginal": "CB06",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA I",
+    "cuatrimestreOferta": 2,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "8:30 a 10:30",
+        "desde": "08:30",
+        "hasta": "10:30"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB06",
+    "materia": "Álgebra y Geometría Analítica I",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB06-M2",
+    "codigoOfertaOriginal": "CB06",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA I",
+    "cuatrimestreOferta": 2,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "11 a 13",
+        "desde": "11:00",
+        "hasta": "13:00"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB06",
+    "materia": "Álgebra y Geometría Analítica I",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB06-N1",
+    "codigoOfertaOriginal": "CB06",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA I",
+    "cuatrimestreOferta": 2,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "18 a 20",
+        "desde": "18:00",
+        "hasta": "20:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB06",
+    "materia": "Álgebra y Geometría Analítica I",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB06-T",
+    "codigoOfertaOriginal": "CB06",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA I",
+    "cuatrimestreOferta": 2,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "14 a 18",
+        "desde": "14:00",
+        "hasta": "18:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "14 a 16",
+        "desde": "14:00",
+        "hasta": "16:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB06",
+    "materia": "Álgebra y Geometría Analítica I",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-LBT03-M1",
+    "codigoOfertaOriginal": "LBT03",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA",
+    "cuatrimestreOferta": 2,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "8:30 a 10:30",
+        "desde": "08:30",
+        "hasta": "10:30"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019"
+    ]
+  },
+  {
+    "codigoMateria": "CB06",
+    "materia": "Álgebra y Geometría Analítica I",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-LBT03-M2",
+    "codigoOfertaOriginal": "LBT03",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA",
+    "cuatrimestreOferta": 2,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "11 a 13",
+        "desde": "11:00",
+        "hasta": "13:00"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019"
+    ]
+  },
+  {
+    "codigoMateria": "CB06",
+    "materia": "Álgebra y Geometría Analítica I",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-LBT03-N1",
+    "codigoOfertaOriginal": "LBT03",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA",
+    "cuatrimestreOferta": 2,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "18 a 20",
+        "desde": "18:00",
+        "hasta": "20:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019"
+    ]
+  },
+  {
+    "codigoMateria": "CB06",
+    "materia": "Álgebra y Geometría Analítica I",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-LBT03-T",
+    "codigoOfertaOriginal": "LBT03",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA",
+    "cuatrimestreOferta": 2,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "14 a 18",
+        "desde": "14:00",
+        "hasta": "18:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "14 a 16",
+        "desde": "14:00",
+        "hasta": "16:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019"
+    ]
+  },
+  {
+    "codigoMateria": "CB06",
+    "materia": "Álgebra y Geometría Analítica I",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB06-M1",
+    "codigoOfertaOriginal": "CB06",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA I",
+    "cuatrimestreOferta": 2,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "11 a 13",
+        "desde": "11:00",
+        "hasta": "13:00"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB06",
+    "materia": "Álgebra y Geometría Analítica I",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB06-M2",
+    "codigoOfertaOriginal": "CB06",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA I",
+    "cuatrimestreOferta": 2,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "8:30 a 10:30",
+        "desde": "08:30",
+        "hasta": "10:30"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB06",
+    "materia": "Álgebra y Geometría Analítica I",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB06-N1",
+    "codigoOfertaOriginal": "CB06",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA I",
+    "cuatrimestreOferta": 2,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "18 a 20",
+        "desde": "18:00",
+        "hasta": "20:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB06",
+    "materia": "Álgebra y Geometría Analítica I",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB06-T",
+    "codigoOfertaOriginal": "CB06",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA I",
+    "cuatrimestreOferta": 2,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "14 a 18",
+        "desde": "14:00",
+        "hasta": "18:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "14 a 16",
+        "desde": "14:00",
+        "hasta": "16:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB06",
+    "materia": "Álgebra y Geometría Analítica I",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-LBT03-M1",
+    "codigoOfertaOriginal": "LBT03",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA",
+    "cuatrimestreOferta": 2,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "11 a 13",
+        "desde": "11:00",
+        "hasta": "13:00"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019"
+    ]
+  },
+  {
+    "codigoMateria": "CB06",
+    "materia": "Álgebra y Geometría Analítica I",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-LBT03-M2",
+    "codigoOfertaOriginal": "LBT03",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA",
+    "cuatrimestreOferta": 2,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "8:30 a 10:30",
+        "desde": "08:30",
+        "hasta": "10:30"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019"
+    ]
+  },
+  {
+    "codigoMateria": "CB06",
+    "materia": "Álgebra y Geometría Analítica I",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-LBT03-N1",
+    "codigoOfertaOriginal": "LBT03",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA",
+    "cuatrimestreOferta": 2,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "18 a 20",
+        "desde": "18:00",
+        "hasta": "20:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019"
+    ]
+  },
+  {
+    "codigoMateria": "CB06",
+    "materia": "Álgebra y Geometría Analítica I",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-LBT03-T",
+    "codigoOfertaOriginal": "LBT03",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA",
+    "cuatrimestreOferta": 2,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "14 a 18",
+        "desde": "14:00",
+        "hasta": "18:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "14 a 16",
+        "desde": "14:00",
+        "hasta": "16:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019"
+    ]
+  },
+  {
+    "codigoMateria": "CB06",
+    "materia": "Álgebra y Geometría Analítica I",
+    "periodo": "Verano 2026",
+    "anioFuente": 2026,
+    "comision": "A completar",
+    "codigoOfertaOriginal": "CB06",
+    "materiaOfertaOriginal": "Álgebra y Geometría Analítica I",
+    "cuatrimestreOferta": "Verano",
+    "turno": "A completar",
+    "modalidad": "A completar",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": true,
+    "estadoHorario": "Base manual / falta cargar horarios",
+    "fuente": "Dato aportado por estudiante: materias dictadas en Verano 2026",
+    "observaciones": "Materia indicada como dictada en verano 2026. Completar comisión, días y horarios.",
+    "planes": []
+  },
+  {
+    "codigoMateria": "CB09",
+    "materia": "Cálculo II",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB09-M",
+    "codigoOfertaOriginal": "CB09",
+    "materiaOfertaOriginal": "CALCULO II",
+    "cuatrimestreOferta": 3,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB09",
+    "materia": "Cálculo II",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB09-N",
+    "codigoOfertaOriginal": "CB09",
+    "materiaOfertaOriginal": "CALCULO II",
+    "cuatrimestreOferta": 3,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB09",
+    "materia": "Cálculo II",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB09-M",
+    "codigoOfertaOriginal": "CB09",
+    "materiaOfertaOriginal": "CALCULO II",
+    "cuatrimestreOferta": 3,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB09",
+    "materia": "Cálculo II",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB09-N",
+    "codigoOfertaOriginal": "CB09",
+    "materiaOfertaOriginal": "CALCULO II",
+    "cuatrimestreOferta": 3,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB09",
+    "materia": "Cálculo II",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB09-T",
+    "codigoOfertaOriginal": "CB09",
+    "materiaOfertaOriginal": "CALCULO II",
+    "cuatrimestreOferta": 3,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "14 a 18",
+        "desde": "14:00",
+        "hasta": "18:00"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "14 a 18",
+        "desde": "14:00",
+        "hasta": "18:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB10",
+    "materia": "Física I",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB10-M1",
+    "codigoOfertaOriginal": "CB10",
+    "materiaOfertaOriginal": "FISICA I",
+    "cuatrimestreOferta": 3,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB10",
+    "materia": "Física I",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB10-M2",
+    "codigoOfertaOriginal": "CB10",
+    "materiaOfertaOriginal": "FISICA I",
+    "cuatrimestreOferta": 3,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB10",
+    "materia": "Física I",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB10-N",
+    "codigoOfertaOriginal": "CB10",
+    "materiaOfertaOriginal": "FISICA I",
+    "cuatrimestreOferta": 3,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB10",
+    "materia": "Física I",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-T0001",
+    "codigoOfertaOriginal": "T0001",
+    "materiaOfertaOriginal": "FÍSICA I",
+    "cuatrimestreOferta": 1,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "13 a 17",
+        "desde": "13:00",
+        "hasta": "17:00"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "14 a 17",
+        "desde": "14:00",
+        "hasta": "17:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "TDI/1999/2"
+    ]
+  },
+  {
+    "codigoMateria": "CB10",
+    "materia": "Física I",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB10-M1",
+    "codigoOfertaOriginal": "CB10",
+    "materiaOfertaOriginal": "FISICA I",
+    "cuatrimestreOferta": 3,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB10",
+    "materia": "Física I",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB10-M2",
+    "codigoOfertaOriginal": "CB10",
+    "materiaOfertaOriginal": "FISICA I",
+    "cuatrimestreOferta": 3,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB10",
+    "materia": "Física I",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB10-N",
+    "codigoOfertaOriginal": "CB10",
+    "materiaOfertaOriginal": "FISICA I",
+    "cuatrimestreOferta": 3,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019",
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB10",
+    "materia": "Física I",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-T0001",
+    "codigoOfertaOriginal": "T0001",
+    "materiaOfertaOriginal": "FÍSICA I",
+    "cuatrimestreOferta": 1,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "13 a 17:30",
+        "desde": "13:00",
+        "hasta": "17:30"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "14 a 17",
+        "desde": "14:00",
+        "hasta": "17:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "TDI/1999/2"
+    ]
+  },
+  {
+    "codigoMateria": "CB10",
+    "materia": "Física I",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-T0203",
+    "codigoOfertaOriginal": "T0203",
+    "materiaOfertaOriginal": "FÍSICA I",
+    "cuatrimestreOferta": 1,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "TEM/1998"
+    ]
+  },
+  {
+    "codigoMateria": "CB13",
+    "materia": "Física II",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB13-N",
+    "codigoOfertaOriginal": "CB13",
+    "materiaOfertaOriginal": "FISICA II",
+    "cuatrimestreOferta": 3,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB13",
+    "materia": "Física II",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB13-T",
+    "codigoOfertaOriginal": "CB13",
+    "materiaOfertaOriginal": "FISICA II",
+    "cuatrimestreOferta": 3,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "13 a 17",
+        "desde": "13:00",
+        "hasta": "17:00"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "13 a 17",
+        "desde": "13:00",
+        "hasta": "17:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB13",
+    "materia": "Física II",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-LBT05",
+    "codigoOfertaOriginal": "LBT05",
+    "materiaOfertaOriginal": "FISICA II",
+    "cuatrimestreOferta": 4,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "14 a 18",
+        "desde": "14:00",
+        "hasta": "18:00"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "14 a 18",
+        "desde": "14:00",
+        "hasta": "18:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019"
+    ]
+  },
+  {
+    "codigoMateria": "CB13",
+    "materia": "Física II",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-T0005",
+    "codigoOfertaOriginal": "T0005",
+    "materiaOfertaOriginal": "FÍSICA II",
+    "cuatrimestreOferta": 2,
+    "turno": "Mixto",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "14 a 17",
+        "desde": "14:00",
+        "hasta": "17:00"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "TDI/1999/2"
+    ]
+  },
+  {
+    "codigoMateria": "CB13",
+    "materia": "Física II",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-T0207",
+    "codigoOfertaOriginal": "T0207",
+    "materiaOfertaOriginal": "FÍSICA II",
+    "cuatrimestreOferta": 2,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "TEM/1998"
+    ]
+  },
+  {
+    "codigoMateria": "CB13",
+    "materia": "Física II",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB13-N",
+    "codigoOfertaOriginal": "CB13",
+    "materiaOfertaOriginal": "FISICA II",
+    "cuatrimestreOferta": 3,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB13",
+    "materia": "Física II",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB13-T",
+    "codigoOfertaOriginal": "CB13",
+    "materiaOfertaOriginal": "FISICA II",
+    "cuatrimestreOferta": 3,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "13 a 17",
+        "desde": "13:00",
+        "hasta": "17:00"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "13 a 17",
+        "desde": "13:00",
+        "hasta": "17:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB13",
+    "materia": "Física II",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-LBT05",
+    "codigoOfertaOriginal": "LBT05",
+    "materiaOfertaOriginal": "FISICA II",
+    "cuatrimestreOferta": 4,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "12 a 16",
+        "desde": "12:00",
+        "hasta": "16:00"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "12 a 16",
+        "desde": "12:00",
+        "hasta": "16:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LBT/2019"
+    ]
+  },
+  {
+    "codigoMateria": "CB13",
+    "materia": "Física II",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-T0005",
+    "codigoOfertaOriginal": "T0005",
+    "materiaOfertaOriginal": "FÍSICA II",
+    "cuatrimestreOferta": 2,
+    "turno": "Mixto",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "14 a 17",
+        "desde": "14:00",
+        "hasta": "17:00"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "TDI/1999/2"
+    ]
+  },
+  {
+    "codigoMateria": "CB13",
+    "materia": "Física II",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-T0207",
+    "codigoOfertaOriginal": "T0207",
+    "materiaOfertaOriginal": "FÍSICA II",
+    "cuatrimestreOferta": 2,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "TEM/1998"
+    ]
+  },
+  {
+    "codigoMateria": "CB15",
+    "materia": "Física III",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB15-M",
+    "codigoOfertaOriginal": "CB15",
+    "materiaOfertaOriginal": "FISICA III",
+    "cuatrimestreOferta": 4,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB15",
+    "materia": "Física III",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB15-N",
+    "codigoOfertaOriginal": "CB15",
+    "materiaOfertaOriginal": "FISICA III",
+    "cuatrimestreOferta": 4,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB15",
+    "materia": "Física III",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB15-M",
+    "codigoOfertaOriginal": "CB15",
+    "materiaOfertaOriginal": "FISICA III",
+    "cuatrimestreOferta": 4,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB15",
+    "materia": "Física III",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB15-N",
+    "codigoOfertaOriginal": "CB15",
+    "materiaOfertaOriginal": "FISICA III",
+    "cuatrimestreOferta": 4,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB15",
+    "materia": "Física III",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-T0103",
+    "codigoOfertaOriginal": "T0103",
+    "materiaOfertaOriginal": "FÍSICA III",
+    "cuatrimestreOferta": 3,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "17:30 a 21:30",
+        "desde": "17:30",
+        "hasta": "21:30"
+      },
+      {
+        "dia": "Miércoles",
+        "horario": "17:30 a 21:30",
+        "desde": "17:30",
+        "hasta": "21:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "TDI/1999/2"
+    ]
+  },
+  {
+    "codigoMateria": "CB28",
+    "materia": "Álgebra y Geometría Analítica II",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB28-N",
+    "codigoOfertaOriginal": "CB28",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA II",
+    "cuatrimestreOferta": 3,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Jueves",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB28",
+    "materia": "Álgebra y Geometría Analítica II",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB28-T",
+    "codigoOfertaOriginal": "CB28",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA II",
+    "cuatrimestreOferta": 3,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Jueves",
+        "horario": "14 a 18",
+        "desde": "14:00",
+        "hasta": "18:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB28",
+    "materia": "Álgebra y Geometría Analítica II",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB28-N",
+    "codigoOfertaOriginal": "CB28",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA II",
+    "cuatrimestreOferta": 3,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Jueves",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB28",
+    "materia": "Álgebra y Geometría Analítica II",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB28-T",
+    "codigoOfertaOriginal": "CB28",
+    "materiaOfertaOriginal": "ALGEBRA Y GEOMETRIA ANALITICA II",
+    "cuatrimestreOferta": 3,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Jueves",
+        "horario": "14 a 18",
+        "desde": "14:00",
+        "hasta": "18:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "CB30",
+    "materia": "Cálculo III",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB30",
+    "codigoOfertaOriginal": "CB30",
+    "materiaOfertaOriginal": "CALCULO III",
+    "cuatrimestreOferta": 4,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "13 a 17",
+        "desde": "13:00",
+        "hasta": "17:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "13 a 17",
+        "desde": "13:00",
+        "hasta": "17:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IES/2015"
+    ]
+  },
+  {
+    "codigoMateria": "CB30",
+    "materia": "Cálculo III",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB30",
+    "codigoOfertaOriginal": "CB30",
+    "materiaOfertaOriginal": "CALCULO III",
+    "cuatrimestreOferta": 4,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IES/2015"
+    ]
+  },
+  {
+    "codigoMateria": "CB31",
+    "materia": "Física IV",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB31",
+    "codigoOfertaOriginal": "CB31",
+    "materiaOfertaOriginal": "FISICA IV",
+    "cuatrimestreOferta": 5,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IES/2015"
+    ]
+  },
+  {
+    "codigoMateria": "CB31",
+    "materia": "Física IV",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB31",
+    "codigoOfertaOriginal": "CB31",
+    "materiaOfertaOriginal": "FISICA IV",
+    "cuatrimestreOferta": 5,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "8:30 a 12:30",
+        "desde": "08:30",
+        "hasta": "12:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IES/2015"
+    ]
+  },
+  {
+    "codigoMateria": "IB001",
+    "materia": "Ciencias Morfológicas",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB40",
+    "codigoOfertaOriginal": "CB40",
+    "materiaOfertaOriginal": "CIENCIAS MORFOLOGICAS",
+    "cuatrimestreOferta": 5,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB001",
+    "materia": "Ciencias Morfológicas",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB40",
+    "codigoOfertaOriginal": "CB40",
+    "materiaOfertaOriginal": "CIENCIAS MORFOLOGICAS",
+    "cuatrimestreOferta": 5,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB002",
+    "materia": "Tecnologías de los Productos y Procesos",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-BMD01",
+    "codigoOfertaOriginal": "BMD01",
+    "materiaOfertaOriginal": "TECNOLOGIAS DE LOS PRODUCTOS Y PROCESOS",
+    "cuatrimestreOferta": 5,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB002",
+    "materia": "Tecnologías de los Productos y Procesos",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-BMD01",
+    "codigoOfertaOriginal": "BMD01",
+    "materiaOfertaOriginal": "TECNOLOGIAS DE LOS PRODUCTOS Y PROCESOS",
+    "cuatrimestreOferta": 5,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB003",
+    "materia": "Protección radiológica",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-BMD02",
+    "codigoOfertaOriginal": "BMD02",
+    "materiaOfertaOriginal": "PROTECCION RADIOLOGICA",
+    "cuatrimestreOferta": 6,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB003",
+    "materia": "Protección radiológica",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-COF05",
+    "codigoOfertaOriginal": "COF05",
+    "materiaOfertaOriginal": "PROTECCION RADIOLOGICA",
+    "cuatrimestreOferta": 7,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "17 a 20",
+        "desde": "17:00",
+        "hasta": "20:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "17 a 20",
+        "desde": "17:00",
+        "hasta": "20:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009"
+    ]
+  },
+  {
+    "codigoMateria": "IB004",
+    "materia": "Modelos y sistemas",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-BMD03",
+    "codigoOfertaOriginal": "BMD03",
+    "materiaOfertaOriginal": "MODELOS Y SISTEMAS",
+    "cuatrimestreOferta": 6,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Viernes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB005",
+    "materia": "Medidas",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-ELE03",
+    "codigoOfertaOriginal": "ELE03",
+    "materiaOfertaOriginal": "MEDIDAS I",
+    "cuatrimestreOferta": 6,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB006",
+    "materia": "Biofísica",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB41",
+    "codigoOfertaOriginal": "CB41",
+    "materiaOfertaOriginal": "BIOFISICA",
+    "cuatrimestreOferta": 6,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Sábado",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      }
+    ],
+    "seDictaSabados": true,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB006",
+    "materia": "Biofísica",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-T0209",
+    "codigoOfertaOriginal": "T0209",
+    "materiaOfertaOriginal": "BIOFÍSICA",
+    "cuatrimestreOferta": 3,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Viernes",
+        "horario": "13:30 a 21:30",
+        "desde": "13:30",
+        "hasta": "21:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "TEM/1998"
+    ]
+  },
+  {
+    "codigoMateria": "IB007",
+    "materia": "Electrónica digital I",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-ELE06",
+    "codigoOfertaOriginal": "ELE06",
+    "materiaOfertaOriginal": "ELECTRONICA DIGITAL I",
+    "cuatrimestreOferta": 7,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB007",
+    "materia": "Electrónica digital I",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-ELE06",
+    "codigoOfertaOriginal": "ELE06",
+    "materiaOfertaOriginal": "ELECTRONICA DIGITAL I",
+    "cuatrimestreOferta": 7,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB008",
+    "materia": "Procesamiento de Imágenes",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-BMD04",
+    "codigoOfertaOriginal": "BMD04",
+    "materiaOfertaOriginal": "PROCESAMIENTO DE IMAGENES",
+    "cuatrimestreOferta": 7,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB008",
+    "materia": "Procesamiento de Imágenes",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-BMD04",
+    "codigoOfertaOriginal": "BMD04",
+    "materiaOfertaOriginal": "PROCESAMIENTO DE IMAGENES",
+    "cuatrimestreOferta": 7,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB009",
+    "materia": "Electrónica analógica",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-ELE14",
+    "codigoOfertaOriginal": "ELE14",
+    "materiaOfertaOriginal": "ELECTRONICA ANALOGICA",
+    "cuatrimestreOferta": "14",
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB009",
+    "materia": "Electrónica analógica",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-ITR24",
+    "codigoOfertaOriginal": "ITR24",
+    "materiaOfertaOriginal": "ELECTRONICA ANALOGICA",
+    "cuatrimestreOferta": 7,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IB009",
+    "materia": "Electrónica analógica",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-ELE14",
+    "codigoOfertaOriginal": "ELE14",
+    "materiaOfertaOriginal": "ELECTRONICA ANALOGICA",
+    "cuatrimestreOferta": 7,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB009",
+    "materia": "Electrónica analógica",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-ITR24",
+    "codigoOfertaOriginal": "ITR24",
+    "materiaOfertaOriginal": "ELECTRONICA ANALOGICA",
+    "cuatrimestreOferta": 7,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IB010",
+    "materia": "Fisiología",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB42",
+    "codigoOfertaOriginal": "CB42",
+    "materiaOfertaOriginal": "FISIOLOGIA",
+    "cuatrimestreOferta": 7,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Sábado",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      }
+    ],
+    "seDictaSabados": true,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB010",
+    "materia": "Fisiología",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB42",
+    "codigoOfertaOriginal": "CB42",
+    "materiaOfertaOriginal": "FISIOLOGIA",
+    "cuatrimestreOferta": 7,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB011",
+    "materia": "Electrónica digital II",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-ELE08",
+    "codigoOfertaOriginal": "ELE08",
+    "materiaOfertaOriginal": "ELECTRONICA DIGITAL II",
+    "cuatrimestreOferta": 8,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB012",
+    "materia": "Electrotecnia",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-ELE10",
+    "codigoOfertaOriginal": "ELE10",
+    "materiaOfertaOriginal": "ELECTROTECNIA",
+    "cuatrimestreOferta": 8,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB012",
+    "materia": "Electrotecnia",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-ELE10",
+    "codigoOfertaOriginal": "ELE10",
+    "materiaOfertaOriginal": "ELECTROTECNIA",
+    "cuatrimestreOferta": 8,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB013",
+    "materia": "Ingeniería Biomédica I",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-BMD05",
+    "codigoOfertaOriginal": "BMD05",
+    "materiaOfertaOriginal": "INGENIERIA BIOMEDICA I",
+    "cuatrimestreOferta": 8,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB014",
+    "materia": "Ingeniería Biomédica II",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-BMD06",
+    "codigoOfertaOriginal": "BMD06",
+    "materiaOfertaOriginal": "INGENIERIA BIOMEDICA II",
+    "cuatrimestreOferta": 9,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB014",
+    "materia": "Ingeniería Biomédica II",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-BMD06",
+    "codigoOfertaOriginal": "BMD06",
+    "materiaOfertaOriginal": "INGENIERIA BIOMEDICA II",
+    "cuatrimestreOferta": 9,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB015",
+    "materia": "Ingeniería Clínica",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-BMD07",
+    "codigoOfertaOriginal": "BMD07",
+    "materiaOfertaOriginal": "INGENIERIA CLINICA",
+    "cuatrimestreOferta": 9,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB015",
+    "materia": "Ingeniería Clínica",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-BMD07",
+    "codigoOfertaOriginal": "BMD07",
+    "materiaOfertaOriginal": "INGENIERIA CLINICA",
+    "cuatrimestreOferta": 9,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB016",
+    "materia": "Biomecánica y Biomateriales",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-BMD08",
+    "codigoOfertaOriginal": "BMD08",
+    "materiaOfertaOriginal": "BIOMECANICA Y BIOMATERIALES",
+    "cuatrimestreOferta": 9,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB017",
+    "materia": "Ingeniería Biomédica III",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-BMD09",
+    "codigoOfertaOriginal": "BMD09",
+    "materiaOfertaOriginal": "INGENIERIA BIOMEDICA III",
+    "cuatrimestreOferta": 10,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Viernes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB018",
+    "materia": "Práctica profesional supervisada",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-ITR20",
+    "codigoOfertaOriginal": "ITR20",
+    "materiaOfertaOriginal": "PRACTICA PROFESIONAL SUPERVISADA",
+    "cuatrimestreOferta": 10,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IB018",
+    "materia": "Práctica profesional supervisada",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-PPIB",
+    "codigoOfertaOriginal": "PPIB",
+    "materiaOfertaOriginal": "PRACTICA PROFESIONAL SUPERVISADA",
+    "cuatrimestreOferta": 10,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB018",
+    "materia": "Práctica profesional supervisada",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-PPII",
+    "codigoOfertaOriginal": "PPII",
+    "materiaOfertaOriginal": "PRACTICA PROFESIONAL SUPERVISADA",
+    "cuatrimestreOferta": 10,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "II/2015"
+    ]
+  },
+  {
+    "codigoMateria": "IB018",
+    "materia": "Práctica profesional supervisada",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-PPIT",
+    "codigoOfertaOriginal": "PPIT",
+    "materiaOfertaOriginal": "PRACTICA PROFESIONAL SUPERVISADA",
+    "cuatrimestreOferta": 10,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IT/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB018",
+    "materia": "Práctica profesional supervisada",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-ITR20",
+    "codigoOfertaOriginal": "PPITR",
+    "materiaOfertaOriginal": "PRACTICA PROFESIONAL SUPERVISADA",
+    "cuatrimestreOferta": 10,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IB018",
+    "materia": "Práctica profesional supervisada",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-PPIA",
+    "codigoOfertaOriginal": "PPIA",
+    "materiaOfertaOriginal": "PRACTICA PROFESIONAL SUPERVISADA",
+    "cuatrimestreOferta": 10,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IA/2019"
+    ]
+  },
+  {
+    "codigoMateria": "IB018",
+    "materia": "Práctica profesional supervisada",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-PPIB",
+    "codigoOfertaOriginal": "PPIB",
+    "materiaOfertaOriginal": "PRACTICA PROFESIONAL SUPERVISADA",
+    "cuatrimestreOferta": 10,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Viernes",
+        "horario": "14:30 a 21:30",
+        "desde": "14:30",
+        "hasta": "21:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB018",
+    "materia": "Práctica profesional supervisada",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-PPIE",
+    "codigoOfertaOriginal": "PPIE",
+    "materiaOfertaOriginal": "PRACTICA PROFESIONAL SUPERVISADA",
+    "cuatrimestreOferta": 10,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B"
+    ]
+  },
+  {
+    "codigoMateria": "IB018",
+    "materia": "Práctica profesional supervisada",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-PPII",
+    "codigoOfertaOriginal": "PPII",
+    "materiaOfertaOriginal": "PRACTICA PROFESIONAL SUPERVISADA",
+    "cuatrimestreOferta": 10,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "II/2015"
+    ]
+  },
+  {
+    "codigoMateria": "IB018",
+    "materia": "Práctica profesional supervisada",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-PPIT",
+    "codigoOfertaOriginal": "PPIT",
+    "materiaOfertaOriginal": "PRACTICA PROFESIONAL SUPERVISADA",
+    "cuatrimestreOferta": 10,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IT/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB018",
+    "materia": "Práctica profesional supervisada",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-PPSES",
+    "codigoOfertaOriginal": "PPSES",
+    "materiaOfertaOriginal": "PRACTICA PROFESIONAL SUPERVISADA",
+    "cuatrimestreOferta": 11,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IES/2015"
+    ]
+  },
+  {
+    "codigoMateria": "IB019",
+    "materia": "Ingeniería de la Rehabilitación",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-BMD10",
+    "codigoOfertaOriginal": "BMD10",
+    "materiaOfertaOriginal": "INGENIERIA DE LA REHABILITACION",
+    "cuatrimestreOferta": 11,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB019",
+    "materia": "Ingeniería de la Rehabilitación",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-BMD10",
+    "codigoOfertaOriginal": "BMD10",
+    "materiaOfertaOriginal": "INGENIERIA DE LA REHABILITACION",
+    "cuatrimestreOferta": 11,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB070",
+    "materia": "Proyecto final integrador",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-ITR23",
+    "codigoOfertaOriginal": "ITR23",
+    "materiaOfertaOriginal": "PROYECTO FINAL INTEGRADOR",
+    "cuatrimestreOferta": 11,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IB070",
+    "materia": "Proyecto final integrador",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-PFIB",
+    "codigoOfertaOriginal": "PFIB",
+    "materiaOfertaOriginal": "PROYECTO FINAL INTEGRADOR",
+    "cuatrimestreOferta": 11,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Viernes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB070",
+    "materia": "Proyecto final integrador",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-PFII",
+    "codigoOfertaOriginal": "PFII",
+    "materiaOfertaOriginal": "PROYECTO FINAL INTEGRADOR",
+    "cuatrimestreOferta": 11,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "II/2015"
+    ]
+  },
+  {
+    "codigoMateria": "IB070",
+    "materia": "Proyecto final integrador",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-PFIT",
+    "codigoOfertaOriginal": "PFIT",
+    "materiaOfertaOriginal": "PROYECTO FINAL INTEGRADOR",
+    "cuatrimestreOferta": 11,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IT/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB070",
+    "materia": "Proyecto final integrador",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-T0223",
+    "codigoOfertaOriginal": "T0223",
+    "materiaOfertaOriginal": "PROYECTO FINAL INTEGRADOR",
+    "cuatrimestreOferta": 6,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "17 a 21",
+        "desde": "17:00",
+        "hasta": "21:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "TEM/1998"
+    ]
+  },
+  {
+    "codigoMateria": "IB070",
+    "materia": "Proyecto final integrador",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-ITR23",
+    "codigoOfertaOriginal": "PFITR",
+    "materiaOfertaOriginal": "PROYECTO FINAL INTEGRADOR",
+    "cuatrimestreOferta": 11,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IB070",
+    "materia": "Proyecto final integrador",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-PFIA",
+    "codigoOfertaOriginal": "PFIA",
+    "materiaOfertaOriginal": "PROYECTO FINAL INTEGRADOR",
+    "cuatrimestreOferta": 11,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IA/2019"
+    ]
+  },
+  {
+    "codigoMateria": "IB070",
+    "materia": "Proyecto final integrador",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-PFIB",
+    "codigoOfertaOriginal": "PFIB",
+    "materiaOfertaOriginal": "PROYECTO FINAL INTEGRADOR",
+    "cuatrimestreOferta": 11,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB070",
+    "materia": "Proyecto final integrador",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-PFIE",
+    "codigoOfertaOriginal": "PFIE",
+    "materiaOfertaOriginal": "PROYECTO FINAL INTEGRADOR",
+    "cuatrimestreOferta": 11,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B"
+    ]
+  },
+  {
+    "codigoMateria": "IB070",
+    "materia": "Proyecto final integrador",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-PFIES",
+    "codigoOfertaOriginal": "PFIES",
+    "materiaOfertaOriginal": "PROYECTO FINAL INTEGRADOR",
+    "cuatrimestreOferta": 11,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IES/2015"
+    ]
+  },
+  {
+    "codigoMateria": "IB070",
+    "materia": "Proyecto final integrador",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-PFII",
+    "codigoOfertaOriginal": "PFII",
+    "materiaOfertaOriginal": "PROYECTO FINAL INTEGRADOR",
+    "cuatrimestreOferta": 11,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "II/2015"
+    ]
+  },
+  {
+    "codigoMateria": "IB070",
+    "materia": "Proyecto final integrador",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-PFIT",
+    "codigoOfertaOriginal": "PFIT",
+    "materiaOfertaOriginal": "PROYECTO FINAL INTEGRADOR",
+    "cuatrimestreOferta": 11,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IT/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IB070",
+    "materia": "Proyecto final integrador",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-T0223",
+    "codigoOfertaOriginal": "T0223",
+    "materiaOfertaOriginal": "PROYECTO FINAL INTEGRADOR",
+    "cuatrimestreOferta": 6,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "17 a 21",
+        "desde": "17:00",
+        "hasta": "21:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "TEM/1998"
+    ]
+  },
+  {
+    "codigoMateria": "IE004",
+    "materia": "Sistemas de Representación Gráfica",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB37-Mar",
+    "codigoOfertaOriginal": "CB37",
+    "materiaOfertaOriginal": "SISTEMAS DE REPRESENTACION GRAFICA",
+    "cuatrimestreOferta": 2,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "13:30 a 17:30",
+        "desde": "13:30",
+        "hasta": "17:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IE004",
+    "materia": "Sistemas de Representación Gráfica",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB37-Sab",
+    "codigoOfertaOriginal": "CB37",
+    "materiaOfertaOriginal": "SISTEMAS DE REPRESENTACION GRAFICA",
+    "cuatrimestreOferta": 2,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Sábado",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      }
+    ],
+    "seDictaSabados": true,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IE004",
+    "materia": "Sistemas de Representación Gráfica",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB37-Mar",
+    "codigoOfertaOriginal": "CB37",
+    "materiaOfertaOriginal": "SISTEMAS DE REPRESENTACION GRAFICA",
+    "cuatrimestreOferta": 2,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "13 a 17",
+        "desde": "13:00",
+        "hasta": "17:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IE004",
+    "materia": "Sistemas de Representación Gráfica",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB37-Sab",
+    "codigoOfertaOriginal": "CB37",
+    "materiaOfertaOriginal": "SISTEMAS DE REPRESENTACION GRAFICA",
+    "cuatrimestreOferta": 2,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Sábado",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      }
+    ],
+    "seDictaSabados": true,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IE004",
+    "materia": "Sistemas de Representación Gráfica",
+    "periodo": "Verano 2026",
+    "anioFuente": 2026,
+    "comision": "A completar",
+    "codigoOfertaOriginal": "IE004",
+    "materiaOfertaOriginal": "Sistemas de Representación Gráfica",
+    "cuatrimestreOferta": "Verano",
+    "turno": "A completar",
+    "modalidad": "A completar",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": true,
+    "estadoHorario": "Base manual / falta cargar horarios",
+    "fuente": "Dato aportado por estudiante: materias dictadas en Verano 2026",
+    "observaciones": "Materia indicada como dictada en verano 2026. Completar comisión, días y horarios.",
+    "planes": []
+  },
+  {
+    "codigoMateria": "IE011",
+    "materia": "Programación",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB39",
+    "codigoOfertaOriginal": "CB39",
+    "materiaOfertaOriginal": "PROGRAMACION",
+    "cuatrimestreOferta": 4,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Sábado",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      }
+    ],
+    "seDictaSabados": true,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IES/2015"
+    ]
+  },
+  {
+    "codigoMateria": "IE011",
+    "materia": "Programación",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB39",
+    "codigoOfertaOriginal": "CB39",
+    "materiaOfertaOriginal": "PROGRAMACION",
+    "cuatrimestreOferta": 4,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Sábado",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      }
+    ],
+    "seDictaSabados": true,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IES/2015"
+    ]
+  },
+  {
+    "codigoMateria": "IE012",
+    "materia": "Probabilidad y Estadística",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB34",
+    "codigoOfertaOriginal": "CB34",
+    "materiaOfertaOriginal": "PROBABILIDAD Y ESTADISTICA",
+    "cuatrimestreOferta": 4,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Jueves",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IE012",
+    "materia": "Probabilidad y Estadística",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-T0015",
+    "codigoOfertaOriginal": "T0015",
+    "materiaOfertaOriginal": "PROBABILIDAD Y ESTADÍSTICA",
+    "cuatrimestreOferta": 4,
+    "turno": "Mixto",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "17 a 20\n20 a 22",
+        "desde": "17:00",
+        "hasta": "20:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "TDI/1999/2"
+    ]
+  },
+  {
+    "codigoMateria": "IE012",
+    "materia": "Probabilidad y Estadística",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB34",
+    "codigoOfertaOriginal": "CB34",
+    "materiaOfertaOriginal": "PROBABILIDAD Y ESTADISTICA",
+    "cuatrimestreOferta": 4,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Jueves",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IE012",
+    "materia": "Probabilidad y Estadística",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-T0015",
+    "codigoOfertaOriginal": "T0015",
+    "materiaOfertaOriginal": "PROBABILIDAD Y ESTADÍSTICA",
+    "cuatrimestreOferta": 4,
+    "turno": "Mixto",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "17 a 20\n20 a 22",
+        "desde": "17:00",
+        "hasta": "20:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "TDI/1999/2"
+    ]
+  },
+  {
+    "codigoMateria": "IE013",
+    "materia": "Métodos numéricos",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB35-N",
+    "codigoOfertaOriginal": "CB35",
+    "materiaOfertaOriginal": "METODOS NUMERICOS",
+    "cuatrimestreOferta": 5,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Viernes",
+        "horario": "18 a 20\n20 a 22",
+        "desde": "18:00",
+        "hasta": "20:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IEN/2015B",
+      "II/2015",
+      "ITR/2000"
+    ]
+  },
+  {
+    "codigoMateria": "IE013",
+    "materia": "Métodos numéricos",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB35-T",
+    "codigoOfertaOriginal": "CB35",
+    "materiaOfertaOriginal": "METODOS NUMERICOS",
+    "cuatrimestreOferta": 5,
+    "turno": "Mixto",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Viernes",
+        "horario": "15 a 17\n18 a 20",
+        "desde": "15:00",
+        "hasta": "17:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IEN/2015B",
+      "II/2015"
+    ]
+  },
+  {
+    "codigoMateria": "IE013",
+    "materia": "Métodos numéricos",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-TPI12",
+    "codigoOfertaOriginal": "TPI12",
+    "materiaOfertaOriginal": "MÉTODOS NUMÉRICOS",
+    "cuatrimestreOferta": 4,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Lunes",
+        "horario": "16:30 a 21:30",
+        "desde": "16:30",
+        "hasta": "21:30"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "TPI/2006"
+    ]
+  },
+  {
+    "codigoMateria": "IE013",
+    "materia": "Métodos numéricos",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB35-N",
+    "codigoOfertaOriginal": "CB35",
+    "materiaOfertaOriginal": "METODOS NUMERICOS",
+    "cuatrimestreOferta": 5,
+    "turno": "Mixto",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Viernes",
+        "horario": "16 a 18\n18:30 a 20:30",
+        "desde": "16:00",
+        "hasta": "18:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IEN/2015B",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IE013",
+    "materia": "Métodos numéricos",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB35-T",
+    "codigoOfertaOriginal": "CB35",
+    "materiaOfertaOriginal": "METODOS NUMERICOS",
+    "cuatrimestreOferta": 5,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Viernes",
+        "horario": "14 a 16\n16 a 18",
+        "desde": "14:00",
+        "hasta": "16:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IEN/2015B",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IE013",
+    "materia": "Métodos numéricos",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-TPI12",
+    "codigoOfertaOriginal": "TPI12",
+    "materiaOfertaOriginal": "MÉTODOS NUMÉRICOS",
+    "cuatrimestreOferta": 4,
+    "turno": "A confirmar",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "TPI/2006"
+    ]
+  },
+  {
+    "codigoMateria": "IE025",
+    "materia": "Análisis y procesamiento de señales",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-ELE04",
+    "codigoOfertaOriginal": "ELE04",
+    "materiaOfertaOriginal": "ANALISIS Y PROCESAMIENTO DE SEÑALES",
+    "cuatrimestreOferta": 6,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Miércoles",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      },
+      {
+        "dia": "Jueves",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IE026",
+    "materia": "Sensores, acondicionadores de señales y adquisición de datos",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-ELE11",
+    "codigoOfertaOriginal": "ELE11",
+    "materiaOfertaOriginal": "SENSORES, ACONDICIONADORES DE SEÑALES Y ADQUISICION DE DATOS",
+    "cuatrimestreOferta": 8,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Sábado",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      }
+    ],
+    "seDictaSabados": true,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IE029",
+    "materia": "Higiene, seguridad ambiental y laboral",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CMP01",
+    "codigoOfertaOriginal": "CMP01",
+    "materiaOfertaOriginal": "HIGIENE Y SEGURIDAD AMBIENTAL Y LABORAL",
+    "cuatrimestreOferta": 7,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Sábado",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      }
+    ],
+    "seDictaSabados": true,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IE029",
+    "materia": "Higiene, seguridad ambiental y laboral",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CMP01",
+    "codigoOfertaOriginal": "CMP01",
+    "materiaOfertaOriginal": "HIGIENE Y SEGURIDAD AMBIENTAL Y LABORAL",
+    "cuatrimestreOferta": 7,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Sábado",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      }
+    ],
+    "seDictaSabados": true,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IE029",
+    "materia": "Higiene, seguridad ambiental y laboral",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-LTI03",
+    "codigoOfertaOriginal": "LTI03",
+    "materiaOfertaOriginal": "HIGIENE Y SEGURIDAD AMBIENTAL Y LABORAL",
+    "cuatrimestreOferta": null,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Sábado",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      }
+    ],
+    "seDictaSabados": true,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LTI/2004"
+    ]
+  },
+  {
+    "codigoMateria": "IE031",
+    "materia": "Economía",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CMP02",
+    "codigoOfertaOriginal": "CMP02",
+    "materiaOfertaOriginal": "ECONOMIA",
+    "cuatrimestreOferta": 9,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IES/2015"
+    ]
+  },
+  {
+    "codigoMateria": "IE031",
+    "materia": "Economía",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CMP02",
+    "codigoOfertaOriginal": "CMP02",
+    "materiaOfertaOriginal": "ECONOMIA",
+    "cuatrimestreOferta": 9,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IES/2015"
+    ]
+  },
+  {
+    "codigoMateria": "IE032",
+    "materia": "Ética y ejercicio profesional",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CMP04",
+    "codigoOfertaOriginal": "CMP04",
+    "materiaOfertaOriginal": "ETICA Y EJERCICIO PROFESIONAL",
+    "cuatrimestreOferta": 11,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "II/2015"
+    ]
+  },
+  {
+    "codigoMateria": "IE032",
+    "materia": "Ética y ejercicio profesional",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CMP04",
+    "codigoOfertaOriginal": "CMP04",
+    "materiaOfertaOriginal": "ETICA Y EJERCICIO PROFESIONAL",
+    "cuatrimestreOferta": 11,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "II/2015"
+    ]
+  },
+  {
+    "codigoMateria": "IE033",
+    "materia": "Organización industrial",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CMP03",
+    "codigoOfertaOriginal": "CMP03",
+    "materiaOfertaOriginal": "ORGANIZACION INDUSTRIAL",
+    "cuatrimestreOferta": 10,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Martes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010"
+    ]
+  },
+  {
+    "codigoMateria": "IE103",
+    "materia": "Introducción a la Informática",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB36-M",
+    "codigoOfertaOriginal": "CB36",
+    "materiaOfertaOriginal": "INTRODUCCION A LA INFORMATICA",
+    "cuatrimestreOferta": 1,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Viernes",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IE103",
+    "materia": "Introducción a la Informática",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB36-N",
+    "codigoOfertaOriginal": "CB36",
+    "materiaOfertaOriginal": "INTRODUCCION A LA INFORMATICA",
+    "cuatrimestreOferta": 1,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Viernes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IE103",
+    "materia": "Introducción a la Informática",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB36-M",
+    "codigoOfertaOriginal": "CB36",
+    "materiaOfertaOriginal": "INTRODUCCION A LA INFORMATICA",
+    "cuatrimestreOferta": 1,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Viernes",
+        "horario": "9 a 13",
+        "desde": "09:00",
+        "hasta": "13:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IE103",
+    "materia": "Introducción a la Informática",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB36-N",
+    "codigoOfertaOriginal": "CB36",
+    "materiaOfertaOriginal": "INTRODUCCION A LA INFORMATICA",
+    "cuatrimestreOferta": 1,
+    "turno": "Noche",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Viernes",
+        "horario": "18 a 22",
+        "desde": "18:00",
+        "hasta": "22:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "IE/2010B",
+      "IT/2010",
+      "IB/2010",
+      "IEN/2015B",
+      "IES/2015",
+      "II/2015",
+      "ITR/2020"
+    ]
+  },
+  {
+    "codigoMateria": "IE107",
+    "materia": "Informática",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB29-J",
+    "codigoOfertaOriginal": "CB29",
+    "materiaOfertaOriginal": "INFORMATICA",
+    "cuatrimestreOferta": 3,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Jueves",
+        "horario": "13 a 17",
+        "desde": "13:00",
+        "hasta": "17:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009"
+    ]
+  },
+  {
+    "codigoMateria": "IE107",
+    "materia": "Informática",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB29-S",
+    "codigoOfertaOriginal": "CB29",
+    "materiaOfertaOriginal": "INFORMATICA",
+    "cuatrimestreOferta": 3,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Sábado",
+        "horario": "9 a 11\n11 a 13",
+        "desde": "09:00",
+        "hasta": "11:00"
+      }
+    ],
+    "seDictaSabados": true,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IES/2015"
+    ]
+  },
+  {
+    "codigoMateria": "IE107",
+    "materia": "Informática",
+    "periodo": "1C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB29-Vi",
+    "codigoOfertaOriginal": "CB29",
+    "materiaOfertaOriginal": "INFORMATICA",
+    "cuatrimestreOferta": 3,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Viernes",
+        "horario": "13 a 17",
+        "desde": "13:00",
+        "hasta": "17:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "OfertaAcademica1C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IES/2015"
+    ]
+  },
+  {
+    "codigoMateria": "IE107",
+    "materia": "Informática",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB29-J",
+    "codigoOfertaOriginal": "CB29",
+    "materiaOfertaOriginal": "INFORMATICA",
+    "cuatrimestreOferta": 3,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Jueves",
+        "horario": "13 a 17",
+        "desde": "13:00",
+        "hasta": "17:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009"
+    ]
+  },
+  {
+    "codigoMateria": "IE107",
+    "materia": "Informática",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB29-S",
+    "codigoOfertaOriginal": "CB29",
+    "materiaOfertaOriginal": "INFORMATICA",
+    "cuatrimestreOferta": 3,
+    "turno": "Mañana",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Sábado",
+        "horario": "9 a 11\n11 a 13",
+        "desde": "09:00",
+        "hasta": "11:00"
+      }
+    ],
+    "seDictaSabados": true,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IES/2015"
+    ]
+  },
+  {
+    "codigoMateria": "IE107",
+    "materia": "Informática",
+    "periodo": "2C 2022",
+    "anioFuente": 2022,
+    "comision": "C-CB29-Vi",
+    "codigoOfertaOriginal": "CB29",
+    "materiaOfertaOriginal": "INFORMATICA",
+    "cuatrimestreOferta": 3,
+    "turno": "Tarde",
+    "modalidad": "No especificada",
+    "sede": "",
+    "diasHorarios": [
+      {
+        "dia": "Viernes",
+        "horario": "13 a 17",
+        "desde": "13:00",
+        "hasta": "17:00"
+      }
+    ],
+    "seDictaSabados": false,
+    "seDictaEnVerano": false,
+    "estadoHorario": "Histórico / verificar antes de inscribirse",
+    "fuente": "Oferta2C2022.xlsx",
+    "observaciones": "",
+    "planes": [
+      "LFM/2009",
+      "IE/2010B",
+      "IT/2010",
+      "IA/2019",
+      "IB/2010",
+      "IES/2015"
+    ]
+  }
+]
