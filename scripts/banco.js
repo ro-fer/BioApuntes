@@ -123,7 +123,9 @@ function normalizarArray(valor) {
 
     if (typeof valor === "string") {
         return valor
-            .split(/[;,\n]+/)
+            .split(";")
+            .flatMap((item) => item.split(","))
+            .flatMap((item) => item.split("\n"))
             .map((item) => item.trim())
             .filter(Boolean);
     }
