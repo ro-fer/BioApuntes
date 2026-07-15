@@ -152,7 +152,7 @@
       "Biomateriales"
     ],
     "modalidad": null,
-    "puntaje": null,
+    "puntaje": 50.0,
     "cargaHorariaSemanal": null,
     "correlativas": [
       "IAM y Física I"
@@ -189,7 +189,7 @@
       "Bionanotecnología"
     ],
     "modalidad": null,
-    "puntaje": null,
+    "puntaje": 50,
     "cargaHorariaSemanal": null,
     "correlativas": [],
     "oferta": {
@@ -216,7 +216,7 @@
       "Humanística / CTS"
     ],
     "modalidad": null,
-    "puntaje": null,
+    "puntaje": 50.0,
     "cargaHorariaSemanal": null,
     "correlativas": [
       "CTS"
@@ -286,7 +286,7 @@
       "Electrónica"
     ],
     "modalidad": null,
-    "puntaje": null,
+    "puntaje": 50,
     "cargaHorariaSemanal": null,
     "correlativas": [],
     "oferta": {
@@ -393,7 +393,7 @@
       "Física"
     ],
     "modalidad": null,
-    "puntaje": null,
+    "puntaje": 75.00,
     "cargaHorariaSemanal": 5.0,
     "correlativas": [
       "Física 1 aprobada, Física 2 y 3 convenientes"
@@ -452,7 +452,7 @@
       "Ciencia de datos"
     ],
     "modalidad": null,
-    "puntaje": null,
+    "puntaje": 50.0,
     "cargaHorariaSemanal": null,
     "correlativas": [
       "Probabilidad y estadística",
@@ -489,25 +489,29 @@
       "Ciencia de datos"
     ],
     "modalidad": null,
-    "puntaje": null,
-    "cargaHorariaSemanal": null,
+    "puntaje": 50.0,
+    "cargaHorariaSemanal": 6.00,
     "correlativas": [
       "Probabilidad y estadística",
       "Programación"
     ],
     "oferta": {
       "anios": [],
-      "cuatrimestres": [],
+      "cuatrimestres": ["1° Cuatrimestre","2° Cuatrimestre"],
       "horario": null,
-      "observaciones": "Jueves 18-22 hs"
+      "observaciones": "En teoria se toma asistencia. Posible que sea virtual"
     },
     "comentarios": "Con cupos",
-    "contenidosMinimos": null,
+    "contenidosMinimos": "Funcionamiento de una computadora. Unidad de procesamiento central. Memoria RAM. Redes. Tiempo de latencia. Recursos compartidos. Clusters de cálculo. Cálculo usando Unidades de procesamiento de gráficos (GPU). Nociones de escala y capacidades. Conceptos básicos de 'cloud computing'. Diferencias y ventajas con respecto a las infraestructuras tradicionales. Almacenamiento definido por software. Soluciones de redes definidas por software. Sistemas operativos para servidores. Virtualización. Servicios de red. Servicios de directorio (Active Directory, OpenLDAP)",
     "links": [
       {
         "tipo": "programa",
         "nombre": "Programa",
         "url": "https://drive.google.com/file/d/1YeLDbOAMdlOQF5acdakiXb_ekJstLy7g/view?usp=sharing"
+      },{
+        "tipo": "material",
+        "nombre": "Notion de DataSam",
+        "url": "https://datasam.notion.site/Infraestructura-para-la-Ciencia-de-Datos-bbd59d6e4465433dbb3782b6e0ee7bfd"
       }
     ],
     "revisionPendiente": [],
@@ -601,22 +605,26 @@
       "Ciencia de datos"
     ],
     "modalidad": null,
-    "puntaje": null,
-    "cargaHorariaSemanal": null,
+    "puntaje": 75.0,
+    "cargaHorariaSemanal": 6.00,
     "correlativas": [],
     "oferta": {
       "anios": [],
-      "cuatrimestres": [],
+      "cuatrimestres": ["1° Cuatrimestre","2° Cuatrimestre"],
       "horario": null,
       "observaciones": "Lunes 14-16 hs virtual; Miércoles 14-18 hs presencial"
     },
     "comentarios": "Con cupos en general",
-    "contenidosMinimos": null,
+    "contenidosMinimos": "Introducción práctica al análisis de datos. La relación entre los datos y los problemas prácticos. Formulación de preguntas relevantes y pasos de resolución de un problema realista de ciencia de datos. Presentación en casos reales. Obtención y carga de datos. Formato de almacenamiento de datos (csv, tsv, ascii). Encabezados. Formato de los datos (numérico, string, fechas y otros). Técnicas y herramientas de exploración y visualización de los datos. Evaluación y corrección de datos. Datos faltantes, datos incorrectos. Análisis exploratorio de los datos. Selección, descubrimiento y diseño de features relevantes para la resolución de un problema dado.Técnicas descriptivas de los datos. Muestras. Valor medio, desvío estándar. Estadísticos. Estimadores. Concepto de correlación y  covarianza. Coeficiente de correlación. Coeficiente de Pearson.  Coeficiente de Spearman. Outliers. Sensibilidad de distintos estimadores a los outliers.Modelado de los datos. Modelos estadísticos básicos. Parámetros de los modelos. Regresión lineal simple. Interpretación. Nociones de ajuste por cuadrados mínimos. Estimadores de los parámetros del modelo lineal.  Supuestos del modelo lineal. Diagnósticos del ajuste. Evaluación del modelo. Introducción básica a test estadísticos, residuos, QQplots. Residuos. Leverage. Outliers. Extensión de los modelos. Modelos aditivos. Regresión lineal múltiple.",
     "links": [
       {
         "tipo": "programa",
         "nombre": "Programa",
         "url": "https://drive.google.com/file/d/1LLTURbVnFXwjmi4sfmW4UuSPV673u717/view?usp=sharing"
+      },{
+        "tipo": "material",
+        "nombre": "Notion de DataSam",
+        "url": "https://datasam.notion.site/3c9693388172489b8f28ff4b10745f69?v=9c8253e9fcf84bd09670ecc0bb46590b&p=6ffa315dd0b34d69ab74e2c361d0379f&pm=s"
       }
     ],
     "revisionPendiente": [],
@@ -630,7 +638,7 @@
       "Sistemas espaciales"
     ],
     "modalidad": null,
-    "puntaje": null,
+    "puntaje": 100.0,
     "cargaHorariaSemanal": 10.0,
     "correlativas": [],
     "oferta": {
@@ -771,7 +779,7 @@
       "Ciencia de datos"
     ],
     "modalidad": null,
-    "puntaje": null,
+    "puntaje": 75.0,
     "cargaHorariaSemanal": null,
     "correlativas": [
       "Probabilidad y estadística",
@@ -898,7 +906,7 @@
       "Sin área informada"
     ],
     "modalidad": null,
-    "puntaje": null,
+    "puntaje": 50.0,
     "cargaHorariaSemanal": null,
     "correlativas": [],
     "oferta": {
@@ -935,8 +943,8 @@
       "ELE04"
     ],
     "oferta": {
-      "anios": [],
-      "cuatrimestres": [],
+      "anios": [2025],
+      "cuatrimestres": ["2° Cuatrimestre"],
       "horario": null,
       "observaciones": "Se dictó en 2.º cuatrimestre 2025 : Lunes 9:30-13:30 (a confirmar)"
     },
@@ -961,7 +969,7 @@
       "Programación"
     ],
     "modalidad": null,
-    "puntaje": null,
+    "puntaje": 50.0,
     "cargaHorariaSemanal": null,
     "correlativas": [
       "Informática"
@@ -1036,7 +1044,7 @@
       "Radiobiología"
     ],
     "modalidad": null,
-    "puntaje": null,
+    "puntaje": 50.0,
     "cargaHorariaSemanal": null,
     "correlativas": [
       "Biofísica"
@@ -1102,7 +1110,7 @@
       "Tecnología biomédica"
     ],
     "modalidad": null,
-    "puntaje": null,
+    "puntaje": 50,
     "cargaHorariaSemanal": null,
     "correlativas": [
       "IAM, Física I"
@@ -1186,6 +1194,34 @@
         "tipo": "frubox",
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/drive/folders/1KtY9ZNsRVVOLzgSQaLXg2Cgyme2wdBUj"
+      }
+    ],
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
+  },{
+    "id": "biologia-i",
+    "materia": "TBiologia I",
+    "codigo": null,
+    "area": [
+      "Electrónica"
+    ],
+    "modalidad": null,
+    "puntaje": 50,
+    "cargaHorariaSemanal": null,
+    "correlativas": [],
+    "oferta": {
+      "anios": [],
+      "cuatrimestres": [],
+      "horario": null,
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": "Bases químicas de los seres vivos Principales compuestos orgánicos e inorgánicos presentes en los seres vivos. Niveles de organización de los seres vivos. Célula: estructura y funciones. Teoría celular. Células procarióticas y eucarióticas. Descripción de las organelas y sus funciones. Citoesqueleto. Concepto de Metabolismo y Bioenergética. Enzimas. Respiración celular. El ADN como molécula portadora de la información genética. Expresión de la información genética. Mitosis y Meiosis. Los orígenes de la vida: hipótesis propuestas. Elementos de la teoría de Evolución: organismos procariontes y aparición de las células eucariontes; introducción a los conceptos de selección natural y reproducción diferencial. Nociones de taxonomía. La vida en el contexto de la biósfera. Elementos de Ecología.",
+    "links": [
+      {
+        "tipo": "frubox",
+        "nombre": "Carpeta Drive Frubox",
+        "url": "https://drive.google.com/embeddedfolderview?id=1XjoNF-YLN3oRUrl0uAR5vNysQY4agUJ3"
       }
     ],
     "revisionPendiente": [],
