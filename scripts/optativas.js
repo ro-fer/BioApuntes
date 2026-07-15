@@ -2,477 +2,369 @@
 
 const DATA_URL = "../data/optativas.json";
 
-const elementos = {
-    grilla: document.querySelector("#grilla-optativas"),
-    contador: document.querySelector("#contador"),
-    carga: document.querySelector("#estado-carga"),
-    error: document.querySelector("#error-carga"),
-    sinResultados: document.querySelector("#sin-resultados"),
-    busqueda: document.querySelector("#busqueda"),
-    area: document.querySelector("#filtro-area"),
-    modalidad: document.querySelector("#filtro-modalidad"),
-    cursada: document.querySelector("#filtro-cursada"),
-    ordenar: document.querySelector("#ordenar"),
-    limpiar: document.querySelector("#limpiar-filtros"),
-    modal: document.querySelector("#detalle-modal"),
-    modalContenido: document.querySelector("#detalle-contenido"),
-    modalCerrar: document.querySelector(".modal-close")
-};
-
 let optativas = [];
 
-iniciar();
+const busqueda = document.querySelector("#busqueda");
+const filtroArea = document.querySelector("#filtro-area");
+const filtroModalidad = document.querySelector("#filtro-modalidad");
+const filtroCursada = document.querySelector("#filtro-cursada");
+const filtroPuntaje = document.querySelector("#filtro-puntaje");
+const ordenar = document.querySelector("#ordenar");
+const limpiarFiltros = document.querySelector("#limpiar-filtros");
 
-async function iniciar() {
-    registrarEventos();
+const contador = document.querySelector("#contador");
+const estadoCarga = document.querySelector("#estado-carga");
+const grilla = document.querySelector("#grilla-optativas");
+const sinResultados = document.querySelector("#sin-resultados");
+const errorCarga = document.querySelector("#error-carga");
 
+iniciarOptativas();
+
+async function iniciarOptativas() {
     try {
         const respuesta = await fetch(DATA_URL);
-
-        if (!respuesta.ok) {
-            throw new Error(`HTTP ${respuesta.status}`);
-        }
+        if (!respuesta.ok) throw new Error(`HTTP ${respuesta.status}`);
 
         const datos = await respuesta.json();
+        optativas = Array.isArray(datos) ? datos : [];
 
-        if (!Array.isArray(datos)) {
-            throw new Error("El JSON debe contener un arreglo.");
-        }
+        cargarFiltros();
+        activarEventos();
+        filtrarYRenderizar();
 
-        optativas = datos;
-        completarFiltros(datos);
-        renderizar();
-
+        if (estadoCarga) estadoCarga.hidden = true;
+        if (errorCarga) errorCarga.hidden = true;
     } catch (error) {
-        console.error("No se pudieron cargar las optativas:", error);
+        console.error("No se pudo cargar optativas.json:", error);
 
-        if (elementos.carga) elementos.carga.hidden = true;
-
-        if (elementos.error) {
-            elementos.error.hidden = false;
-            elementos.error.innerHTML = `
-                <h2>⚠️ No se pudo cargar el archivo de optativas</h2>
-                <p>
-                    Revisá que exista <strong>data/optativas.json</strong>,
-                    que esté subido a GitHub y que no tenga errores de formato.
-                </p>
-                <p class="empty-text">
-                    Error técnico: ${escapar(error.message)}
-                </p>
-            `;
-        }
-
-        if (elementos.contador) {
-            elementos.contador.textContent = "No disponible";
-        }
+        if (estadoCarga) estadoCarga.hidden = true;
+        if (errorCarga) errorCarga.hidden = false;
+        if (grilla) grilla.innerHTML = "";
+        if (contador) contador.textContent = "No se pudo cargar la información.";
     }
 }
 
-function registrarEventos() {
-    [
-        elementos.busqueda,
-        elementos.area,
-        elementos.modalidad,
-        elementos.cursada,
-        elementos.ordenar
-    ].forEach(control => {
-        control?.addEventListener("input", renderizar);
-        control?.addEventListener("change", renderizar);
-    });
-
-    elementos.limpiar?.addEventListener("click", limpiarFiltros);
-    document.querySelector('[data-action="limpiar"]')?.addEventListener("click", limpiarFiltros);
-
-    elementos.modalCerrar?.addEventListener("click", cerrarModal);
-
-    elementos.modal?.addEventListener("click", (evento) => {
-        if (evento.target === elementos.modal) cerrarModal();
-    });
-
-    document.addEventListener("keydown", (evento) => {
-        if (evento.key === "Escape") cerrarModal();
-    });
+function cargarFiltros() {
+    cargarFiltroArea();
+    cargarFiltroModalidad();
+    cargarFiltroPuntaje();
 }
 
-/* =========================
-   Filtros
-   ========================= */
+function cargarFiltroArea() {
+    if (!filtroArea) return;
 
-function completarFiltros(datos) {
-    const todasLasAreas = datos.flatMap(item => obtenerAreas(item));
-    const todasLasModalidades = datos.map(item => item.modalidad || "Sin modalidad informada");
-
-    llenarSelect(elementos.area, valoresUnicos(todasLasAreas));
-    llenarSelect(elementos.modalidad, valoresUnicos(todasLasModalidades));
-}
-
-function obtenerAreas(item) {
-    const area = item.area;
-
-    if (Array.isArray(area)) {
-        const areasLimpias = area
-            .map(valor => String(valor).trim())
-            .filter(valor => valor !== "");
-
-        return areasLimpias.length > 0 ? areasLimpias : ["Sin área informada"];
-    }
-
-    if (typeof area === "string") {
-        const areaLimpia = area.trim();
-        return areaLimpia !== "" ? [areaLimpia] : ["Sin área informada"];
-    }
-
-    return ["Sin área informada"];
-}
-
-function mostrarAreas(item) {
-    return obtenerAreas(item).join(" / ");
-}
-
-function valoresUnicos(valores) {
-    return [...new Set(
-        valores
+    const areas = [...new Set(
+        optativas
+            .flatMap((item) => normalizarArray(item.area))
             .filter(Boolean)
-            .map(valor => String(valor).trim())
-            .filter(valor => valor !== "")
-    )].sort((a, b) => a.localeCompare(b, "es"));
+            .sort((a, b) => String(a).localeCompare(String(b), "es"))
+    )];
+
+    filtroArea.innerHTML = `<option value="">Todas las áreas</option>`;
+
+    areas.forEach((area) => {
+        const option = document.createElement("option");
+        option.value = area;
+        option.textContent = area;
+        filtroArea.appendChild(option);
+    });
 }
 
-function llenarSelect(select, valores) {
-    if (!select) return;
+function cargarFiltroModalidad() {
+    if (!filtroModalidad) return;
 
-    const primeraOpcion = select.querySelector("option")?.outerHTML || "";
-    select.innerHTML = primeraOpcion;
+    const modalidades = [...new Set(
+        optativas
+            .map((item) => item.modalidad)
+            .filter(Boolean)
+            .sort((a, b) => String(a).localeCompare(String(b), "es"))
+    )];
 
-    const opciones = valores
-        .map(valor => `<option value="${escapar(valor)}">${escapar(valor)}</option>`)
-        .join("");
+    filtroModalidad.innerHTML = `<option value="">Todas las modalidades</option>`;
 
-    select.insertAdjacentHTML("beforeend", opciones);
+    modalidades.forEach((modalidad) => {
+        const option = document.createElement("option");
+        option.value = modalidad;
+        option.textContent = modalidad;
+        filtroModalidad.appendChild(option);
+    });
 }
 
-/* =========================
-   Render
-   ========================= */
+function cargarFiltroPuntaje() {
+    if (!filtroPuntaje) return;
 
-function renderizar() {
-    if (!optativas.length) return;
+    const puntajes = [...new Set(
+        optativas
+            .map((item) => item.puntaje)
+            .filter((puntaje) => puntaje !== null && puntaje !== undefined && puntaje !== "")
+            .map((puntaje) => Number(puntaje))
+            .filter((puntaje) => !Number.isNaN(puntaje))
+    )].sort((a, b) => a - b);
 
-    const filtradas = obtenerFiltradas();
+    filtroPuntaje.innerHTML = `<option value="">Todos los puntajes</option>`;
 
-    if (elementos.carga) elementos.carga.hidden = true;
-    if (elementos.error) elementos.error.hidden = true;
+    puntajes.forEach((puntaje) => {
+        const option = document.createElement("option");
+        option.value = String(puntaje);
+        option.textContent = formatearPuntaje(puntaje);
+        filtroPuntaje.appendChild(option);
+    });
 
-    if (elementos.sinResultados) {
-        elementos.sinResultados.hidden = filtradas.length > 0;
-    }
-
-    if (elementos.grilla) {
-        elementos.grilla.hidden = filtradas.length === 0;
-        elementos.grilla.innerHTML = filtradas.map(crearTarjeta).join("");
-    }
-
-    if (elementos.contador) {
-        elementos.contador.textContent =
-            `${filtradas.length} de ${optativas.length} ${filtradas.length === 1 ? "materia" : "materias"}`;
-    }
+    const optionSinPuntaje = document.createElement("option");
+    optionSinPuntaje.value = "sin-puntaje";
+    optionSinPuntaje.textContent = "Sin puntaje cargado";
+    filtroPuntaje.appendChild(optionSinPuntaje);
 }
 
-function obtenerFiltradas() {
-    const termino = normalizar(elementos.busqueda?.value || "");
-    const areaSeleccionada = elementos.area?.value || "";
-    const modalidadSeleccionada = elementos.modalidad?.value || "";
-    const filtroCursada = elementos.cursada?.value || "";
+function activarEventos() {
+    if (busqueda) busqueda.addEventListener("input", filtrarYRenderizar);
+    if (filtroArea) filtroArea.addEventListener("change", filtrarYRenderizar);
+    if (filtroModalidad) filtroModalidad.addEventListener("change", filtrarYRenderizar);
+    if (filtroCursada) filtroCursada.addEventListener("change", filtrarYRenderizar);
+    if (filtroPuntaje) filtroPuntaje.addEventListener("change", filtrarYRenderizar);
+    if (ordenar) ordenar.addEventListener("change", filtrarYRenderizar);
 
-    const resultado = optativas.filter(item => {
-        const texto = normalizar([
+    if (limpiarFiltros) {
+        limpiarFiltros.addEventListener("click", limpiarTodo);
+    }
+
+    document.querySelectorAll("[data-action='limpiar']").forEach((boton) => {
+        boton.addEventListener("click", limpiarTodo);
+    });
+}
+
+function filtrarYRenderizar() {
+    const texto = normalizarTexto(busqueda?.value || "");
+    const areaSeleccionada = filtroArea?.value || "";
+    const modalidadSeleccionada = filtroModalidad?.value || "";
+    const cursadaSeleccionada = filtroCursada?.value || "";
+    const puntajeSeleccionado = filtroPuntaje?.value || "";
+    const ordenSeleccionado = ordenar?.value || "nombre";
+
+    let resultado = optativas.filter((item) => {
+        const areas = normalizarArray(item.area);
+        const correlativas = normalizarArray(item.correlativas);
+        const oferta = item.oferta || {};
+        const cuatrimestres = normalizarArray(oferta.cuatrimestres);
+
+        const textoItem = normalizarTexto([
             item.materia,
             item.codigo,
-            mostrarAreas(item),
             item.modalidad,
-            ...(item.correlativas || []),
+            item.puntaje,
+            areas.join(" "),
+            correlativas.join(" "),
+            oferta.horario,
+            oferta.observaciones,
             item.comentarios,
-            item.oferta?.horario,
-            item.oferta?.observaciones
+            item.contenidosMinimos
         ].filter(Boolean).join(" "));
 
-        const coincideBusqueda = !termino || texto.includes(termino);
+        const coincideBusqueda = texto === "" || textoItem.includes(texto);
 
         const coincideArea =
-            !areaSeleccionada ||
-            obtenerAreas(item).includes(areaSeleccionada);
+            areaSeleccionada === "" ||
+            areas.includes(areaSeleccionada);
 
         const coincideModalidad =
-            !modalidadSeleccionada ||
-            (item.modalidad || "Sin modalidad informada") === modalidadSeleccionada;
+            modalidadSeleccionada === "" ||
+            item.modalidad === modalidadSeleccionada;
 
-        const coincideCursada = coincideFiltroCursada(item, filtroCursada);
+        const coincideCursada = coincideFiltroCursada(item, cuatrimestres, cursadaSeleccionada);
+        const coincidePuntaje = coincideFiltroPuntaje(item, puntajeSeleccionado);
 
-        return coincideBusqueda && coincideArea && coincideModalidad && coincideCursada;
+        return coincideBusqueda &&
+            coincideArea &&
+            coincideModalidad &&
+            coincideCursada &&
+            coincidePuntaje;
     });
 
-    return [...resultado].sort((a, b) => {
-        const ordenarPor = elementos.ordenar?.value || "nombre";
+    resultado = ordenarOptativas(resultado, ordenSeleccionado);
 
-        if (ordenarPor === "material") {
-            return (
-                Number(enlacesValidos(b).length > 0) -
-                Number(enlacesValidos(a).length > 0)
-            ) || (a.materia || "").localeCompare(b.materia || "", "es");
-        }
-
-        if (ordenarPor === "puntaje") {
-            return (
-                (b.puntaje ?? -1) -
-                (a.puntaje ?? -1)
-            ) || (a.materia || "").localeCompare(b.materia || "", "es");
-        }
-
-        return (a.materia || "").localeCompare(b.materia || "", "es");
-    });
+    renderizarOptativas(resultado);
 }
 
-function coincideFiltroCursada(item, filtro) {
-    if (!filtro) return true;
+function coincideFiltroPuntaje(item, puntajeSeleccionado) {
+    if (puntajeSeleccionado === "") return true;
+
+    const puntaje = item.puntaje;
+
+    if (puntajeSeleccionado === "sin-puntaje") {
+        return puntaje === null || puntaje === undefined || puntaje === "";
+    }
+
+    return Number(puntaje) === Number(puntajeSeleccionado);
+}
+
+function coincideFiltroCursada(item, cuatrimestres, filtro) {
+    if (filtro === "") return true;
 
     const oferta = item.oferta || {};
-    const cuatrimestres = Array.isArray(oferta.cuatrimestres) ? oferta.cuatrimestres : [];
-    const cuatrimestresNormalizados = cuatrimestres.map(normalizar);
+    const tieneHorario = Boolean(oferta.horario || oferta.observaciones);
+    const tieneCuatrimestre = cuatrimestres.length > 0;
 
-    const tieneInformacion =
-        cuatrimestres.length > 0 ||
-        Boolean(oferta.horario?.trim()) ||
-        Boolean(oferta.observaciones?.trim()) ||
-        (Array.isArray(oferta.anios) && oferta.anios.length > 0);
+    const tienePrimero = cuatrimestres.some((valor) => {
+        const texto = normalizarTexto(valor);
+        return texto.includes("1") || texto.includes("primer");
+    });
 
-    const seDictaPrimero = cuatrimestresNormalizados.some(valor =>
-        valor.includes("1°") ||
-        valor.includes("1o") ||
-        valor.includes("primer")
-    );
+    const tieneSegundo = cuatrimestres.some((valor) => {
+        const texto = normalizarTexto(valor);
+        return texto.includes("2") || texto.includes("segund");
+    });
 
-    const seDictaSegundo = cuatrimestresNormalizados.some(valor =>
-        valor.includes("2°") ||
-        valor.includes("2o") ||
-        valor.includes("segundo")
-    );
-
-    if (filtro === "con-info") return tieneInformacion;
-    if (filtro === "sin-info") return !tieneInformacion;
-    if (filtro === "primero") return seDictaPrimero;
-    if (filtro === "segundo") return seDictaSegundo;
-    if (filtro === "ambos") return seDictaPrimero && seDictaSegundo;
+    if (filtro === "primero") return tienePrimero;
+    if (filtro === "segundo") return tieneSegundo;
+    if (filtro === "ambos") return tienePrimero && tieneSegundo;
+    if (filtro === "con-info") return tieneHorario || tieneCuatrimestre;
+    if (filtro === "sin-info") return !tieneHorario && !tieneCuatrimestre;
 
     return true;
 }
 
-function crearTarjeta(item) {
-    const links = enlacesValidos(item);
-    const tieneMaterial = links.length > 0;
-    const oferta = item.oferta || {};
+function ordenarOptativas(lista, criterio) {
+    const copia = [...lista];
 
-    const revision = item.revisionPendiente?.length
-        ? `
-            <p class="optativa-review">
-                🛠️ ${item.revisionPendiente.length}
-                dato${item.revisionPendiente.length > 1 ? "s" : ""}
-                pendiente${item.revisionPendiente.length > 1 ? "s" : ""}
-                de revisión.
-            </p>
-        `
-        : "";
+    if (criterio === "material") {
+        return copia.sort((a, b) => {
+            const materialA = tieneMaterial(a) ? 1 : 0;
+            const materialB = tieneMaterial(b) ? 1 : 0;
 
-    const cuatrimestres = Array.isArray(oferta.cuatrimestres) && oferta.cuatrimestres.length > 0
-        ? oferta.cuatrimestres.join(" · ")
-        : "No informado";
-
-    const horario = oferta.horario || oferta.observaciones || "No informado";
-
-    const correlativas = Array.isArray(item.correlativas) && item.correlativas.length > 0
-        ? item.correlativas.join(" · ")
-        : "No informadas";
-
-    const ultimaRevision = item.ultimaRevision || "Sin fecha cargada";
-
-    return `
-        <article class="materia-card card optativa-card">
-            <div>
-                <div class="materia-card-header">
-                    <div class="optativa-badges">
-                        <span class="optativa-badge">
-                            ${escapar(mostrarAreas(item))}
-                        </span>
-
-                        <span class="optativa-badge ${tieneMaterial ? "material" : "sin-material"}">
-                            ${
-                                tieneMaterial
-                                    ? `✓ ${links.length} recurso${links.length > 1 ? "s" : ""}`
-                                    : "Sin material cargado"
-                            }
-                        </span>
-                    </div>
-
-                    <h2>${escapar(item.materia || "Materia sin nombre")}</h2>
-
-                    <p class="materia-area">
-                        ${escapar(item.codigo || "Código no informado")}
-                    </p>
-                </div>
-
-                <div class="materia-card-info">
-                    <p><strong>Modalidad:</strong> ${escapar(item.modalidad || "No informada")}</p>
-                    <p><strong>Cuatrimestre:</strong> ${escapar(cuatrimestres)}</p>
-                    <p><strong>Horario:</strong> ${escapar(horario)}</p>
-                    <p><strong>Correlativas:</strong> ${escapar(correlativas)}</p>
-                    <p><strong>Puntaje:</strong> ${
-                        item.puntaje != null ? `${item.puntaje} puntos` : "No informado"
-                    }</p>
-                    <p><strong>Última revisión:</strong> ${escapar(ultimaRevision)}</p>
-                </div>
-
-                ${revision}
-            </div>
-
-            <div class="card-buttons card-buttons-links">
-                <a class="btn btn-secondary" href="./optativa.html?id=${encodeURIComponent(item.id)}">
-                    Ver detalle
-                </a>
-
-                ${crearBotonesLinks(links)}
-            </div>
-        </article>
-    `;
-}
-
-/* =========================
-   Links por tipo
-   ========================= */
-
-function enlacesValidos(item) {
-    if (!Array.isArray(item.links)) return [];
-
-    return item.links
-        .filter(link => link && link.url && String(link.url).trim() !== "")
-        .map(link => ({
-            ...link,
-            url: String(link.url).trim(),
-            tipo: normalizarTipoLink(link),
-            nombre: link.nombre || etiquetaTipoLink(normalizarTipoLink(link))
-        }));
-}
-
-function crearBotonesLinks(links) {
-    if (!links.length) return "";
-
-    return links
-        .map(link => {
-            const tipo = normalizarTipoLink(link);
-            const icono = iconoTipoLink(tipo);
-            const clase = claseTipoLink(tipo);
-            const texto = link.nombre || etiquetaTipoLink(tipo);
-
-            return `
-                <a class="btn ${clase}" href="${escapar(link.url)}" target="_blank" rel="noopener noreferrer">
-                    ${icono} ${escapar(texto)}
-                </a>
-            `;
-        })
-        .join("");
-}
-
-function normalizarTipoLink(link) {
-    const tipoOriginal = normalizar(link.tipo || "");
-    const nombre = normalizar(link.nombre || "");
-    const url = normalizar(link.url || "");
-
-    if (tipoOriginal.includes("programa") || nombre.includes("programa")) return "programa";
-    if (tipoOriginal.includes("frubox") || nombre.includes("frubox")) return "frubox";
-    if (tipoOriginal.includes("onedrive") || nombre.includes("onedrive") || url.includes("sharepoint") || url.includes("onedrive")) return "onedrive";
-    if (tipoOriginal.includes("drive") || nombre.includes("drive") || url.includes("drive.google")) return "drive";
-    if (tipoOriginal.includes("github") || nombre.includes("github") || url.includes("github")) return "github";
-    if (tipoOriginal.includes("notion") || nombre.includes("notion") || nombre.includes("datasam") || url.includes("notion")) return "notion";
-    if (tipoOriginal.includes("material")) return "material";
-
-    return tipoOriginal || "material";
-}
-
-function iconoTipoLink(tipo) {
-    const iconos = {
-        programa: "📄",
-        frubox: "📦",
-        drive: "📁",
-        onedrive: "☁️",
-        github: "💻",
-        notion: "🧠",
-        material: "🔗"
-    };
-
-    return iconos[tipo] || "🔗";
-}
-
-function etiquetaTipoLink(tipo) {
-    const etiquetas = {
-        programa: "Programa",
-        frubox: "Frubox",
-        drive: "Drive",
-        onedrive: "OneDrive",
-        github: "GitHub",
-        notion: "Notion / DataSAM",
-        material: "Material"
-    };
-
-    return etiquetas[tipo] || "Material";
-}
-
-function claseTipoLink(tipo) {
-    const clases = {
-        programa: "btn-link-programa",
-        frubox: "btn-link-frubox",
-        drive: "btn-link-drive",
-        onedrive: "btn-link-onedrive",
-        github: "btn-link-github",
-        notion: "btn-link-notion",
-        material: "btn-primary"
-    };
-
-    return clases[tipo] || "btn-primary";
-}
-
-/* =========================
-   Utilidades
-   ========================= */
-
-function limpiarFiltros() {
-    if (elementos.busqueda) elementos.busqueda.value = "";
-    if (elementos.area) elementos.area.value = "";
-    if (elementos.modalidad) elementos.modalidad.value = "";
-    if (elementos.cursada) elementos.cursada.value = "";
-    if (elementos.ordenar) elementos.ordenar.value = "nombre";
-
-    renderizar();
-    elementos.busqueda?.focus();
-}
-
-function cerrarModal() {
-    if (!elementos.modal) return;
-
-    elementos.modal.hidden = true;
-
-    if (elementos.modalContenido) {
-        elementos.modalContenido.innerHTML = "";
+            if (materialA !== materialB) return materialB - materialA;
+            return compararNombre(a, b);
+        });
     }
+
+    if (criterio === "puntaje") {
+        return copia.sort((a, b) => {
+            const puntajeA = a.puntaje == null ? -1 : Number(a.puntaje);
+            const puntajeB = b.puntaje == null ? -1 : Number(b.puntaje);
+
+            if (puntajeA !== puntajeB) return puntajeB - puntajeA;
+            return compararNombre(a, b);
+        });
+    }
+
+    return copia.sort(compararNombre);
 }
 
-function normalizar(valor = "") {
-    return String(valor)
+function compararNombre(a, b) {
+    return String(a.materia || "").localeCompare(String(b.materia || ""), "es");
+}
+
+function renderizarOptativas(lista) {
+    if (!grilla) return;
+
+    grilla.innerHTML = "";
+
+    if (contador) {
+        contador.textContent = `${lista.length} materia${lista.length === 1 ? "" : "s"} encontrada${lista.length === 1 ? "" : "s"}.`;
+    }
+
+    if (lista.length === 0) {
+        if (sinResultados) sinResultados.hidden = false;
+        return;
+    }
+
+    if (sinResultados) sinResultados.hidden = true;
+
+    lista.forEach((item) => {
+        const card = document.createElement("article");
+        card.className = "materia-card optativa-card card";
+
+        const oferta = item.oferta || {};
+        const areas = normalizarArray(item.area);
+        const correlativas = normalizarArray(item.correlativas);
+        const cuatrimestres = normalizarArray(oferta.cuatrimestres);
+        const materialUrl = linkPrincipal(item);
+
+        card.innerHTML = `
+            <div class="materia-card-header">
+                <p class="materia-area">${escapar(areas.join(" · ") || "Área no informada")}</p>
+                <h2>${escapar(item.materia || "Materia sin nombre")}</h2>
+            </div>
+
+            <div class="materia-card-info">
+                <p><strong>Código:</strong> ${escapar(item.codigo || "Sin código")}</p>
+                <p><strong>Puntaje:</strong> ${escapar(formatearPuntaje(item.puntaje))}</p>
+                <p><strong>Modalidad:</strong> ${escapar(item.modalidad || "No informada")}</p>
+                <p><strong>Carga semanal:</strong> ${item.cargaHorariaSemanal != null ? `${escapar(item.cargaHorariaSemanal)} h` : "No informada"}</p>
+                <p><strong>Correlativas:</strong> ${escapar(correlativas.join(" · ") || "No informadas")}</p>
+                <p><strong>Cuatrimestre:</strong> ${escapar(cuatrimestres.join(" · ") || "No informado")}</p>
+                <p><strong>Horario:</strong> ${escapar(oferta.horario || oferta.observaciones || "No informado")}</p>
+                <p><strong>Material:</strong> ${tieneMaterial(item) ? "✅ Con material" : "Sin material cargado"}</p>
+            </div>
+
+            <div class="card-buttons">
+                <a href="./optativa.html?id=${encodeURIComponent(item.id)}" class="btn btn-secondary">Ver detalle</a>
+                ${materialUrl ? `<a href="${escapar(materialUrl)}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Abrir material</a>` : ""}
+            </div>
+        `;
+
+        grilla.appendChild(card);
+    });
+}
+
+function limpiarTodo() {
+    if (busqueda) busqueda.value = "";
+    if (filtroArea) filtroArea.value = "";
+    if (filtroModalidad) filtroModalidad.value = "";
+    if (filtroCursada) filtroCursada.value = "";
+    if (filtroPuntaje) filtroPuntaje.value = "";
+    if (ordenar) ordenar.value = "nombre";
+
+    filtrarYRenderizar();
+}
+
+function formatearPuntaje(puntaje) {
+    if (puntaje === null || puntaje === undefined || puntaje === "") {
+        return "Sin puntaje cargado";
+    }
+
+    const numero = Number(puntaje);
+
+    if (Number.isNaN(numero)) {
+        return String(puntaje);
+    }
+
+    return `${numero} punto${numero === 1 ? "" : "s"}`;
+}
+
+function normalizarArray(valor) {
+    if (!valor) return [];
+
+    if (Array.isArray(valor)) {
+        return valor
+            .filter(Boolean)
+            .map((item) => typeof item === "string" ? item.trim() : item)
+            .filter(Boolean);
+    }
+
+    return [String(valor).trim()].filter(Boolean);
+}
+
+function normalizarTexto(valor) {
+    return String(valor || "")
+        .toLowerCase()
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "")
-        .toLocaleLowerCase("es")
         .trim();
 }
 
+function tieneMaterial(item) {
+    return Array.isArray(item.links) && item.links.some((link) => link && link.url);
+}
+
+function linkPrincipal(item) {
+    if (!Array.isArray(item.links)) return "";
+
+    const link = item.links.find((elemento) => elemento && elemento.url);
+    return link ? link.url : "";
+}
+
 function escapar(valor = "") {
-    return String(valor).replace(/[&<>'"]/g, caracter => ({
+    return String(valor).replace(/[&<>'"]/g, (caracter) => ({
         "&": "&amp;",
         "<": "&lt;",
         ">": "&gt;",
