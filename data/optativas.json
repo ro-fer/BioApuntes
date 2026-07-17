@@ -166,7 +166,7 @@
         "1° Cuatrimestre",
         "2° Cuatrimestre"
       ],
-      "horario": "Martes 10 a 14:30 hs / martes 12 a 16 hs",
+      "horario": "Martes 10 a 14:30 hs / martes 12 a 16 hs (A CONFIRMAR)",
       "observaciones": null
     },
     "comentarios": "Con cupo",
@@ -261,9 +261,9 @@
         2026
       ],
       "cuatrimestres": [
-        "1° Cuatrimestre"
+        "1° Cuatrimestre","2° Cuatrimestre"
       ],
-      "horario": "Miércoles 14 a 18hs",
+      "horario": ["Miércoles 14 a 18hs","Miercoles 18 a 22hs"],
       "observaciones": null
     },
     "comentarios": "Con cupos",
@@ -1200,7 +1200,7 @@
     "ultimaRevision": "2026-07"
   },{
     "id": "biologia-i",
-    "materia": "TBiologia I",
+    "materia": "Biologia I",
     "codigo": null,
     "area": [
       "Electrónica"
@@ -1222,6 +1222,34 @@
         "tipo": "frubox",
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/embeddedfolderview?id=1XjoNF-YLN3oRUrl0uAR5vNysQY4agUJ3"
+      }
+    ],
+    "revisionPendiente": [],
+    "ultimaRevision": "2026-07"
+  },{
+    "id": "ingenieria-hospitalaria",
+    "materia": "Ingeniería Hospitalaria",
+    "codigo": null,
+    "area": [
+      "Ingenieria Hospitalaria"
+    ],
+    "modalidad": null,
+    "puntaje": 50,
+    "cargaHorariaSemanal": null,
+    "correlativas": ["Ingenieria Clinica"],
+    "oferta": {
+      "anios": [2026],
+      "cuatrimestres": ["2° Cuatrimestre"],
+      "horario": "Miércoles 18 a 22 hs",
+      "observaciones": null
+    },
+    "comentarios": null,
+    "contenidosMinimos": null,
+    "links": [
+      {
+        "tipo": "programa",
+        "nombre": "Programa",
+        "url": "https://drive.google.com/file/d/1_khFTqsF8HCQ61nO6Y3XraCqkFb7zBtR/view?usp=sharing"
       }
     ],
     "revisionPendiente": [],
