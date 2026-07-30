@@ -36,8 +36,7 @@ function renderizarDetalle(item) {
     contenedor.innerHTML = `
         <header class="optativa-detail-hero">
             <div class="optativa-badges">
-                <span class="optativa-badge">${escapar(item.area || "Área no informada")}</span>
-                ${item.modalidad ? `<span class="optativa-badge">${escapar(item.modalidad)}</span>` : ""}
+                ${renderizarBadges(item)}
             </div>
             <p class="eyebrow">Materia optativa / electiva</p>
             <h1>${escapar(item.materia || "Materia sin nombre")}</h1>
@@ -47,14 +46,16 @@ function renderizarDetalle(item) {
         <div class="optativa-detail-layout">
             <div>
                 ${seccionLista("Datos académicos", [
-                    `<strong>Puntaje:</strong> ${item.puntaje != null ? `${item.puntaje} puntos` : "No informado"}`,
-                    `<strong>Carga semanal:</strong> ${item.cargaHorariaSemanal != null ? `${item.cargaHorariaSemanal} h` : "No informada"}`,
-                    `<strong>Correlativas:</strong> ${escapar(item.correlativas?.join(" · ") || "No informadas")}`,
-                    `<strong>Años registrados:</strong> ${escapar(oferta.anios?.join(" · ") || "No informados")}`,
-                    `<strong>Cuatrimestres:</strong> ${escapar(oferta.cuatrimestres?.join(" · ") || "No informados")}`,
+                    `<strong>Puntaje:</strong> ${item.puntaje != null ? `${escapar(item.puntaje)} puntos` : "No informado"}`,
+                    `<strong>Carga semanal:</strong> ${item.cargaHorariaSemanal != null ? `${escapar(item.cargaHorariaSemanal)} h` : "No informada"}`,
+                    `<strong>Correlativas:</strong> ${escapar(normalizarArray(item.correlativas).join(" · ") || "No informadas")}`,
+                    `<strong>Años registrados:</strong> ${escapar(normalizarArray(oferta.anios).join(" · ") || "No informados")}`,
+                    `<strong>Cuatrimestres:</strong> ${escapar(normalizarArray(oferta.cuatrimestres).join(" · ") || "No informados")}`,
                     `<strong>Horario:</strong> ${escapar(oferta.horario || "No informado")}`
                 ])}
+
                 ${item.comentarios ? seccionTexto("Comentarios", item.comentarios) : ""}
+                ${renderizarExperiencias(item.experiencias)}
                 ${item.contenidosMinimos ? seccionTexto("Contenidos mínimos", item.contenidosMinimos) : ""}
                 ${oferta.observaciones ? seccionTexto("Antecedentes de cursada", oferta.observaciones) : ""}
                 ${revisiones.length ? seccionLista("Datos pendientes de revisión", revisiones.map(escapar)) : ""}
@@ -77,6 +78,78 @@ function renderizarDetalle(item) {
     contenedor.hidden = false;
 }
 
+function renderizarBadges(item) {
+    const badges = [];
+
+    normalizarArray(item.area).forEach((area) => {
+        badges.push(`<span class="optativa-badge">${escapar(area)}</span>`);
+    });
+
+    if (item.modalidad) {
+        badges.push(`<span class="optativa-badge">${escapar(item.modalidad)}</span>`);
+    }
+
+    if (item.puntaje != null) {
+        badges.push(`<span class="optativa-badge">${escapar(item.puntaje)} puntos</span>`);
+    }
+
+    return badges.join("");
+}
+
+function renderizarExperiencias(experiencias) {
+    if (!Array.isArray(experiencias) || experiencias.length === 0) {
+        return "";
+    }
+
+    return `
+        <section class="optativa-detail-section experiencias-section">
+            <h2>💬 Experiencias de cursada</h2>
+            <p class="empty-text">
+                Comentarios orientativos recopilados de experiencias de estudiantes. Pueden variar según cuatrimestre, docentes, cupos y modalidad.
+            </p>
+
+            <div class="experiencias-lista">
+                ${experiencias.map(renderizarExperiencia).join("")}
+            </div>
+        </section>
+    `;
+}
+
+function renderizarExperiencia(exp) {
+    const encabezado = [
+        exp.anio ? String(exp.anio) : "",
+        exp.cuatrimestre || "",
+        exp.fuente || "Experiencia de estudiante"
+    ].filter(Boolean).join(" · ");
+
+    const datos = [];
+
+    if (exp.dificultad) datos.push(`<li><strong>Dificultad:</strong> ${escapar(exp.dificultad)}</li>`);
+    if (exp.carga) datos.push(`<li><strong>Carga:</strong> ${escapar(exp.carga)}</li>`);
+    if (exp.asistencia) datos.push(`<li><strong>Asistencia:</strong> ${escapar(exp.asistencia)}</li>`);
+    if (exp.evaluacion) datos.push(`<li><strong>Evaluación:</strong> ${escapar(exp.evaluacion)}</li>`);
+    if (exp.final) datos.push(`<li><strong>Final:</strong> ${escapar(exp.final)}</li>`);
+    if (exp.idioma) datos.push(`<li><strong>Idioma:</strong> ${escapar(exp.idioma)}</li>`);
+    if (exp.conocimientosPrevios) datos.push(`<li><strong>Conocimientos previos:</strong> ${escapar(exp.conocimientosPrevios)}</li>`);
+
+    let recomendacion = "";
+    if (exp.recomendada === true) {
+        recomendacion = `<p class="experiencia-recomendada">✅ Recomendada por estudiantes</p>`;
+    } else if (exp.recomendada === false) {
+        recomendacion = `<p class="experiencia-recomendada">⚠️ No recomendada / revisar antes de cursar</p>`;
+    }
+
+    return `
+        <article class="experiencia-card">
+            ${encabezado ? `<p class="eyebrow">${escapar(encabezado)}</p>` : ""}
+            ${exp.resumen ? `<h3>${escapar(exp.resumen)}</h3>` : ""}
+            ${datos.length ? `<ul class="optativa-detail-list">${datos.join("")}</ul>` : ""}
+            ${exp.comentario ? `<p>${escapar(exp.comentario)}</p>` : ""}
+            ${recomendacion}
+        </article>
+    `;
+}
+
 function mostrarError() {
     estadoCarga.hidden = true;
     contenedor.hidden = true;
@@ -93,6 +166,19 @@ function seccionLista(titulo, items) {
 
 function enlacesValidos(item) {
     return Array.isArray(item.links) ? item.links.filter(link => link && link.url) : [];
+}
+
+function normalizarArray(valor) {
+    if (!valor) return [];
+
+    if (Array.isArray(valor)) {
+        return valor
+            .filter(Boolean)
+            .map((item) => String(item).trim())
+            .filter(Boolean);
+    }
+
+    return [String(valor).trim()].filter(Boolean);
 }
 
 function escapar(valor = "") {

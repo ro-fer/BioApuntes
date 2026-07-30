@@ -81,3 +81,29 @@
     .optativa-detail-layout { grid-template-columns: 1fr; }
     .optativa-material-panel { position: static; }
 }
+.experiencias-section {
+    margin-top: 2rem;
+}
+
+.experiencias-lista {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.experiencia-card {
+    padding: 1.25rem;
+    border-radius: 1rem;
+    background: #f7f0ff;
+    border: 1px solid #e2d2ff;
+}
+
+.experiencia-card h3 {
+    margin-top: 0.25rem;
+    color: #4b148c;
+}
+
+.experiencia-recomendada {
+    font-weight: 700;
+    color: #3c096c;
+}
