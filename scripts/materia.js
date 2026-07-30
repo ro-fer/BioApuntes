@@ -19,7 +19,8 @@ const experienciasContainer = document.getElementById("materia-experiencias");
 const cursadasContainer = document.getElementById("materia-cursadas");
 
 async function cargarJSON(url) {
-    const response = await fetch(url);
+    const separador = url.includes("?") ? "&" : "?";
+    const response = await fetch(`${url}${separador}v=20260730-2`, { cache: "no-store" });
     if (!response.ok) throw new Error(`No se pudo cargar ${url}`);
     return await response.json();
 }
@@ -343,13 +344,14 @@ function renderizarExperiencias(experiencias) {
 
     experienciasContainer.innerHTML = "";
 
+    experienciasCard.hidden = false;
+
     if (!Array.isArray(experiencias) || experiencias.length === 0) {
-        experienciasCard.hidden = true;
+        experienciasContainer.innerHTML = `<p class="empty-text">Todavía no hay experiencias comunitarias cargadas para esta materia.</p>`;
         return;
     }
 
     experienciasContainer.innerHTML = experiencias.map(renderizarExperiencia).join("");
-    experienciasCard.hidden = false;
 }
 
 function renderizarExperiencia(exp) {
