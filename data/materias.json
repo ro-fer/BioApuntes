@@ -230,7 +230,22 @@
       "texto": "Integral. Primitivas. Fórmula de Barrow. Cálculo integral y sus aplicaciones. Series numéricas. Criterios de convergencia para series positivas y alternadas. Integrales impropias. Series funcionales y de potencias. Convergencia puntual y uniforme. Radio de convergencia. Series de Taylor. Introducción a las ecuaciones diferenciales ordinarias. Métodos elementales de integración. Ecuaciones con variables separables y lineales de primer orden.",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Ciencias básicas"
+    "bloqueCurricular": "Ciencias básicas",
+    "experiencias": [
+      {
+        "periodo": "Experiencias 2023–2025",
+        "fuente": "Grupo general de WhatsApp · resumen comunitario",
+        "resumen": "Conviene llevar los ejercicios al día y aprovechar las clases de consulta.",
+        "dificultad": "Media/alta",
+        "carga": "Alta",
+        "asistencia": "Recomendada",
+        "evaluacion": "Parciales y final; la modalidad de verano puede diferir",
+        "final": "Se recomienda practicar con parciales y finales anteriores",
+        "conocimientosPrevios": "Bases sólidas de Introducción al Análisis Matemático",
+        "comentario": "Varias experiencias recomiendan hacer muchos ejercicios y usar las consultas de los sábados. También se comentó que la cursada de verano tuvo, en algunos años, promoción directa y una distribución distinta de temas; esto debe verificarse para cada edición.",
+        "recomendada": null
+      }
+    ]
   },
   {
     "materia": "Álgebra y Geometría Analítica I",
@@ -420,7 +435,22 @@
       "texto": "Funciones vectoriales reales. Límites y continuidad. Cálculo diferencial vectorial. Regla de la cadena. Funciones implícitas. Curvas y superficies parametrizadas.  Fórmula de Taylor vectorial. Plano tangente. Problemas de máximos y mínimos. Multiplicadores de Lagrange. Campos escalares y vectoriales. Potencial. Campo tangente y normal. Formas diferenciales exactas. Análisis geométrico de ecuaciones diferenciales. Cambio de coordenadas. Coordenadas polares, esféricas y cilíndricas. Integrales múltiples. Integrales paramétricas, curvilíneas  y de superficie. Aplicaciones geométricas. Operadores gradiente, divergencia, rotor y laplaciano. Teoremas integrales. Fórmula de Green. Teoremas de Stockes y de la divergencia.",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Ciencias básicas"
+    "bloqueCurricular": "Ciencias básicas",
+    "experiencias": [
+      {
+        "periodo": "Experiencias 2024–2026",
+        "fuente": "Grupo general de WhatsApp · resumen comunitario",
+        "resumen": "La dificultad y el ritmo dependen mucho de la comisión.",
+        "dificultad": "Media/alta",
+        "carga": "Alta",
+        "asistencia": "Recomendada",
+        "evaluacion": "Parciales y final",
+        "final": "Requiere tener aprobado el final de Cálculo I para rendir, según comentarios del grupo; verificar en SIU",
+        "conocimientosPrevios": "Cálculo I",
+        "comentario": "Las recomendaciones del grupo son muy dependientes del equipo docente. Se valoran las comisiones donde la explicación es clara y hay ayudantes disponibles durante la práctica y los parciales.",
+        "recomendada": null
+      }
+    ]
   },
   {
     "materia": "Álgebra y Geometría Analítica II",
@@ -486,9 +516,10 @@
     "queHay": [
       "Carpeta Frubox",
       "Drive embebido",
-      "Grupo WhatsApp"
+      "Grupo WhatsApp",
+      "Experiencias de cursada"
     ],
-    "materialDetectado": "Carpeta posible, revisar si corresponde; Carpeta Frubox; Drive embebido; Grupo WhatsApp",
+    "materialDetectado": "Carpeta posible, revisar si corresponde; Carpeta Frubox; Drive embebido; Grupo WhatsApp; Experiencias de cursada",
     "comentarios": "Revisar porque el plan visible cita IE104 como correlativa, pero el CSV mapea a Introducción a la Informática.",
     "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/informatica.md",
     "cargaHorariaSemanal": "4.0",
@@ -514,7 +545,22 @@
       "texto": "Computadoras y sistemas informáticos. Representación y procesamiento de la información. Computadoras. Hardware y software. CPU. Memorias. Dispositivos de almacenamiento. Sistemas operativos. Periféricos y utilitarios. Redes. Introducción a la programación. Algoritmos, lenguajes y programación estructurada.",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Ciencias básicas"
+    "bloqueCurricular": "Ciencias básicas",
+    "experiencias": [
+      {
+        "periodo": "Experiencia compartida en julio de 2026 sobre una cursada anterior",
+        "fuente": "Grupo general de WhatsApp · resumen comunitario",
+        "resumen": "Materia práctica con GNU/Linux, Bash, GitHub y una segunda parte orientada a DevOps.",
+        "dificultad": "Media",
+        "carga": "Moderada",
+        "asistencia": "A verificar",
+        "evaluacion": "Primera parte con multiple choice en campus; segunda parte con trabajo grupal",
+        "final": "A verificar",
+        "conocimientosPrevios": "No se mencionaron requisitos técnicos previos específicos",
+        "comentario": "Una experiencia describe una primera parte sobre instalación de GNU/Linux, comandos, Bash scripting y GitHub. La segunda parte abordó Docker y Docker Compose mediante un trabajo práctico grupal. La persona destacó que los contenidos le resultaron útiles para el trabajo, pero aclaró que la materia podría haber cambiado.",
+        "recomendada": true
+      }
+    ]
   },
   {
     "materia": "Física II",
@@ -534,9 +580,10 @@
     "queHay": [
       "Carpeta Frubox",
       "Drive embebido",
-      "Grupo WhatsApp"
+      "Grupo WhatsApp",
+      "Experiencias de cursada"
     ],
-    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp",
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp; Experiencias de cursada",
     "comentarios": "Match por nombre equivalente",
     "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/fisica-2.md",
     "cargaHorariaSemanal": "8.0",
@@ -562,7 +609,21 @@
       "texto": "Ondas mecánicas y acústicas. Óptica geométrica y óptica física. Temperatura. Calor y primera ley de la termodinámica. Entropía y segunda ley de la termodinámica. Potenciales termodinámicos. Teoría cinética de los gases.",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Ciencias básicas"
+    "bloqueCurricular": "Ciencias básicas",
+    "experiencias": [
+      {
+        "periodo": "Experiencias 2024–2026",
+        "fuente": "Grupo general de WhatsApp · resumen comunitario",
+        "resumen": "Materia troncal que requiere dedicación; las experiencias varían bastante entre comisiones.",
+        "dificultad": "Media/alta",
+        "carga": "Alta",
+        "asistencia": "Depende de la comisión",
+        "evaluacion": "Parciales; algunas experiencias mencionan varias instancias de consulta o recuperación",
+        "final": "Se mencionaron modalidades orales en algunas comisiones; confirmar vigencia",
+        "comentario": "En el grupo se repite que conviene sostener la práctica durante el cuatrimestre. Estudiantes destacaron comisiones con muchas instancias para preguntar y practicar, y señalaron que la experiencia puede cambiar según el equipo docente.",
+        "recomendada": null
+      }
+    ]
   },
   {
     "materia": "Cálculo III",
@@ -891,7 +952,21 @@
       "texto": "Histología, embriología y anatomía humana relacionada. Biología celular. Membrana Plasmática. Estructura y Función. Teoría Celular. Genes. Diferenciación y Proliferación Celular. Desarrollo embrionario. Histología del los tejidos y estructura anatómica. Anatomía de los sistemas.",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Ciencias básicas"
+    "bloqueCurricular": "Ciencias básicas",
+    "experiencias": [
+      {
+        "periodo": "Experiencias compartidas en febrero de 2026",
+        "fuente": "Grupo general de WhatsApp · resumen comunitario",
+        "resumen": "Cursada relativamente tranquila, con prácticas de laboratorio y control de asistencia.",
+        "dificultad": "Media-baja según una experiencia",
+        "carga": "Moderada",
+        "asistencia": "Obligatoria o controlada; confirmar con la cátedra",
+        "evaluacion": "A verificar",
+        "final": "A verificar",
+        "comentario": "En el grupo se mencionó que las prácticas de laboratorio son interesantes y que se toma asistencia. No hubo suficiente información consistente sobre parciales o final.",
+        "recomendada": null
+      }
+    ]
   },
   {
     "materia": "Higiene, seguridad ambiental y laboral",
@@ -977,7 +1052,22 @@
       "texto": "Componentes eléctricos, características y especificaciones. Conductores, aislantes y elementos de conmutación. Circuitos de CC y CA. Componentes electrónicos. Semiconductores. Introducción a los mecanismos. Introducción a los métodos constructivos, mecanizado, moldeado y soldado. Introducción a los sistemas neumáticos.",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Tecnologías básicas"
+    "bloqueCurricular": "Tecnologías básicas",
+    "experiencias": [
+      {
+        "periodo": "Experiencia compartida en julio de 2025",
+        "fuente": "Grupo general de WhatsApp · resumen comunitario",
+        "resumen": "Cursada basada en varios trabajos prácticos y dos parciales.",
+        "dificultad": "Media-baja según una experiencia",
+        "carga": "Moderada",
+        "asistencia": "A verificar",
+        "evaluacion": "Seis trabajos prácticos y dos parciales, según una experiencia",
+        "final": "A verificar",
+        "conocimientosPrevios": "Se recomienda haber cursado Física III y manejar circuitos",
+        "comentario": "Una experiencia indicó que los parciales resultaron accesibles y recomendó llegar con una buena base de circuitos. Esta descripción corresponde a una cursada puntual y puede variar.",
+        "recomendada": null
+      }
+    ]
   },
   {
     "materia": "Métodos numéricos",
@@ -1073,16 +1163,16 @@
     "bloqueCurricular": "Tecnologías aplicadas",
     "experiencias": [
       {
-        "periodo": null,
-        "fuente": "Experiencia de estudiante",
-        "resumen": "Materia no demasiado pesada, basada principalmente en clases, bibliografía y casos vistos.",
-        "dificultad": "Media-baja",
+        "periodo": "Experiencia compartida en julio de 2025",
+        "fuente": "Grupo general de WhatsApp · resumen comunitario",
+        "resumen": "Materia valorada por la claridad de las explicaciones y percibida como llevadera.",
+        "dificultad": "Media-baja según una experiencia",
         "carga": "Moderada",
-        "asistencia": "Recomendable ir a clase",
+        "asistencia": "Recomendada",
         "evaluacion": "A verificar",
         "final": "A verificar",
-        "comentario": "No parece ser una materia muy pesada. Con ir a clases puede alcanzar bastante, aunque a los profesores les importa mucho que se vaya a clase. Los contenidos están basados en un libro y en dos o tres casos que se mencionan durante la cursada.",
-        "recomendada": null
+        "comentario": "Una estudiante destacó que los profesores explicaban con claridad y que la materia no le resultó pesada. Es una experiencia individual y no reemplaza la modalidad informada por la cátedra.",
+        "recomendada": true
       }
     ]
   },
@@ -1130,15 +1220,15 @@
     "bloqueCurricular": "Tecnologías básicas",
     "experiencias": [
       {
-        "periodo": null,
-        "fuente": "Experiencia de estudiante",
-        "resumen": "Materia de dificultad baja y sin asistencia.",
-        "dificultad": "Baja",
-        "carga": "A verificar",
-        "asistencia": "Sin asistencia",
+        "periodo": "Experiencia de cursada durante modalidad de pandemia, comentada en 2025",
+        "fuente": "Grupo general de WhatsApp · resumen comunitario",
+        "resumen": "Fue percibida como interesante y no demasiado pesada en modalidad virtual.",
+        "dificultad": "Media-baja en una cursada anterior",
+        "carga": "Moderada",
+        "asistencia": "A verificar",
         "evaluacion": "A verificar",
         "final": "A verificar",
-        "comentario": "Según la experiencia compartida, la materia no tiene asistencia obligatoria y la dificultad es baja.",
+        "comentario": "La experiencia corresponde a una cursada durante la pandemia, por lo que se conserva solo como referencia histórica y debe contrastarse con la modalidad presencial actual.",
         "recomendada": null
       }
     ]
@@ -1188,16 +1278,17 @@
     "bloqueCurricular": "Tecnologías básicas",
     "experiencias": [
       {
-        "periodo": null,
-        "fuente": "Experiencia de estudiante",
-        "resumen": "Materia pesada, con bastante trabajo fuera de clase.",
+        "periodo": "Experiencias del 1C 2025 y consultas de 2026",
+        "fuente": "Grupo general de WhatsApp · resumen comunitario",
+        "resumen": "Materia exigente, especialmente al comienzo, con práctica frecuente y entregas semanales.",
         "dificultad": "Alta",
         "carga": "Alta",
-        "asistencia": "A verificar",
-        "evaluacion": "A verificar",
+        "asistencia": "Muy recomendada",
+        "evaluacion": "Trabajos casi semanales y dos parciales en una cursada de 2025",
         "final": "A verificar",
-        "comentario": "Es una materia pesada. Requiere mucho trabajo fuera de clase y el profesor puede ser exigente con el trabajo en clase y con los contenidos.",
-        "recomendada": null
+        "conocimientosPrevios": "La práctica de clase ayuda a comprender la teoría",
+        "comentario": "Dos experiencias de 2025 coinciden en que la materia es pesada pero muy interesante. Señalan clases personalizadas, teoría difícil al inicio, entregas casi todas las semanas y jornadas que pueden terminar tarde. En 2026 se recomendó asistir porque la práctica presencial es importante para seguir la teoría.",
+        "recomendada": true
       }
     ]
   },
@@ -1246,15 +1337,15 @@
     "bloqueCurricular": "Tecnologías básicas",
     "experiencias": [
       {
-        "periodo": null,
-        "fuente": "Experiencia de estudiante",
-        "resumen": "Materia pesada, sin asistencia.",
-        "dificultad": "A verificar",
+        "periodo": "Experiencia de pandemia comentada en julio de 2025",
+        "fuente": "Grupo general de WhatsApp · resumen comunitario",
+        "resumen": "Fue percibida como muy pesada en modalidad virtual; se mencionan mejores referencias de la cursada presencial.",
+        "dificultad": "Alta en una cursada anterior",
         "carga": "Alta",
-        "asistencia": "Sin asistencia",
+        "asistencia": "A verificar",
         "evaluacion": "A verificar",
         "final": "A verificar",
-        "comentario": "Es una materia pesada. Según la experiencia compartida, no tiene asistencia obligatoria.",
+        "comentario": "La experiencia directa corresponde a la modalidad de pandemia. La misma persona aclaró haber escuchado buenas referencias de la versión presencial, por lo que no conviene extrapolar la carga sin verificar.",
         "recomendada": null
       }
     ]
@@ -1303,15 +1394,15 @@
     "bloqueCurricular": "Ciencias básicas",
     "experiencias": [
       {
-        "periodo": "2C 2025",
-        "fuente": "Experiencia de estudiante",
-        "resumen": "La cursada tuvo dos exámenes, divididos por módulos, con preguntas principalmente multiple choice.",
+        "periodo": "Experiencias 2C 2025–2026",
+        "fuente": "Grupo general de WhatsApp · resumen comunitario",
+        "resumen": "Evaluación por módulos y final oral según experiencias recientes.",
         "dificultad": "Media",
-        "carga": "Moderada",
-        "asistencia": "A verificar",
-        "evaluacion": "Dos exámenes por módulos",
-        "final": "A verificar",
-        "comentario": "En 2C 2025 fueron dos exámenes: el primero incluyó los módulos 1, 2 y 3, y el segundo los módulos 4, 5 y 6. En general las preguntas fueron multiple choice, aunque el módulo 1 tuvo una pregunta a desarrollar. La docente proyectó las preguntas en el pizarrón, dio aproximadamente una hora por módulo y luego unos minutos para cargar las respuestas en el campus. Cada módulo debía aprobarse por separado con al menos 50%. Las respuestas incorrectas restaban puntaje. Hubo un laboratorio del módulo respiratorio donde se mostró el uso de un respirador, pero no fue evaluado.",
+        "carga": "Moderada/alta",
+        "asistencia": "Recomendada",
+        "evaluacion": "En 2C 2025 se mencionaron dos exámenes por módulos, principalmente multiple choice",
+        "final": "Se comentó que el final es oral y puede retomar temas donde hubo dificultades durante la cursada",
+        "comentario": "La modalidad descripta incluye aprobación separada por módulos y respuestas incorrectas que restaban puntaje. Como la evaluación puede cambiar, debe verificarse al inicio de la cursada.",
         "recomendada": null
       }
     ]
@@ -1607,15 +1698,15 @@
     "bloqueCurricular": "Tecnologías básicas",
     "experiencias": [
       {
-        "periodo": "2C 2025 / 1C 2026",
-        "fuente": "Experiencia de estudiante",
-        "resumen": "Los exámenes suelen estar basados en ejercicios de la guía. Las prácticas son útiles y hacer las guías es clave.",
+        "periodo": "Experiencias 2C 2025–1C 2026",
+        "fuente": "Grupo general de WhatsApp · resumen comunitario",
+        "resumen": "Las guías y las clases prácticas son centrales para preparar los exámenes.",
         "dificultad": "Media",
         "carga": "Moderada",
-        "asistencia": "A verificar",
-        "evaluacion": "Exámenes con ejercicios similares a la guía",
-        "final": "A verificar",
-        "comentario": "En 2C 2025 y 1C 2026, los exámenes fueron ejercicios de la guía. Las clases teóricas pueden hacerse un poco pesadas, pero las prácticas son útiles. Es clave hacer las guías.",
+        "asistencia": "Recomendada",
+        "evaluacion": "Ejercicios similares a los de las guías, según experiencias",
+        "final": "Se mencionan instancias teóricas; confirmar formato actual",
+        "comentario": "Las experiencias coinciden en que hacer las guías es clave. Las clases teóricas pueden sentirse densas, mientras que las prácticas fueron valoradas como útiles.",
         "recomendada": null
       }
     ]

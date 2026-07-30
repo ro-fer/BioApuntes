@@ -14,9 +14,9 @@ const comentarios = document.getElementById("materia-comentarios");
 const linksContainer = document.getElementById("materia-links");
 const carpetasDriveContainer = document.getElementById("materia-carpetas-drive");
 const contenidosContainer = document.getElementById("materia-contenidos");
-const cursadasContainer = document.getElementById("materia-cursadas");
-const experienciasContainer = document.getElementById("materia-experiencias");
 const experienciasCard = document.getElementById("materia-experiencias-card");
+const experienciasContainer = document.getElementById("materia-experiencias");
+const cursadasContainer = document.getElementById("materia-cursadas");
 
 async function cargarJSON(url) {
     const response = await fetch(url);
@@ -339,7 +339,7 @@ function normalizarContenidos(contenidos) {
 }
 
 function renderizarExperiencias(experiencias) {
-    if (!experienciasContainer || !experienciasCard) return;
+    if (!experienciasCard || !experienciasContainer) return;
 
     experienciasContainer.innerHTML = "";
 
@@ -348,10 +348,8 @@ function renderizarExperiencias(experiencias) {
         return;
     }
 
+    experienciasContainer.innerHTML = experiencias.map(renderizarExperiencia).join("");
     experienciasCard.hidden = false;
-    experienciasContainer.innerHTML = experiencias
-        .map(renderizarExperiencia)
-        .join("");
 }
 
 function renderizarExperiencia(exp) {
