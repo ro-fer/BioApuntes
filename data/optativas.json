@@ -30,7 +30,22 @@
       }
     ],
     "revisionPendiente": [],
-    "ultimaRevision": "2026-07"
+    "ultimaRevision": "2026-07",
+    "experiencias": [
+      {
+        "anio": 2025,
+        "cuatrimestre": "2° Cuatrimestre",
+        "fuente": "Experiencia de estudiante",
+        "resumen": "Primera parte de la materia de GNU/Linux. Dura aproximadamente dos meses y se evalúa con un examen tipo choice.",
+        "dificultad": "Baja-media",
+        "carga": "Baja",
+        "asistencia": "A verificar",
+        "evaluacion": "Examen tipo choice",
+        "final": "A verificar",
+        "comentario": "Materia bastante tranquila. La primera parte se enfoca en administración de sistemas GNU/Linux y virtualización, dura cerca de dos meses y cierra con un examen tipo choice. Hay diapositivas de las clases disponibles en la carpeta de material.",
+        "recomendada": true
+      }
+    ]
   },
   {
     "id": "administracion-de-sistemas-gnu-linux-y-virtualizacion-avanzada",
@@ -60,10 +75,30 @@
         "tipo": "onedrive",
         "nombre": "Carpeta OneDrive",
         "url": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgDykBshOPsOSqRaaCuinm6OAcHDtX4MdEnIQJ0315ByXq4?e=4ssssW"
+      },
+      {
+        "tipo": "github",
+        "nombre": "Ejemplo de trabajo final",
+        "url": "https://github.com/ro-fer/chatbot-ollama-docker"
       }
     ],
     "revisionPendiente": [],
-    "ultimaRevision": "2026-07"
+    "ultimaRevision": "2026-07",
+    "experiencias": [
+      {
+        "anio": 2025,
+        "cuatrimestre": "2° Cuatrimestre",
+        "fuente": "Experiencia de estudiante",
+        "resumen": "Segunda parte/parte avanzada. Se evalúa con un trabajo práctico grupal tranquilo y no tiene final tradicional.",
+        "dificultad": "Baja-media",
+        "carga": "Baja",
+        "asistencia": "A verificar",
+        "evaluacion": "Trabajo práctico grupal",
+        "final": "No tiene final tradicional.",
+        "comentario": "La parte avanzada continúa luego de la primera parte y se resuelve con un TP grupal. La experiencia reportada fue muy tranquila. Hay diapositivas de clase y un ejemplo de trabajo final compartido.",
+        "recomendada": true
+      }
+    ]
   },
   {
     "id": "applied-probability-and-statistics",
@@ -98,7 +133,23 @@
       }
     ],
     "revisionPendiente": [],
-    "ultimaRevision": "2026-07"
+    "ultimaRevision": "2026-07",
+    "experiencias": [
+      {
+        "anio": null,
+        "cuatrimestre": null,
+        "fuente": "Experiencia de estudiante",
+        "resumen": "Materia dictada en inglés, linda pero con más carga de la esperada. La práctica incluye cuatro trabajos/programas extensos y el cierre es una presentación oral del cuarto programa.",
+        "dificultad": "Media-alta",
+        "carga": "Alta",
+        "asistencia": "A verificar",
+        "idioma": "Inglés",
+        "evaluacion": "4 entregas prácticas con informe + presentación oral",
+        "final": "No tiene final tradicional escrito; el cierre es un oral presentando el cuarto programa.",
+        "comentario": "La materia está buena y exime el examen de suficiencia de inglés. Requiere más tiempo del esperado: no es una materia 'slopeable', hay que sentarse a programar, revisar material de estadística y armar informes explicando qué se hizo en cada entrega.",
+        "recomendada": true
+      }
+    ]
   },
   {
     "id": "biologia-basica-aplicada",
@@ -166,7 +217,7 @@
         "1° Cuatrimestre",
         "2° Cuatrimestre"
       ],
-      "horario": "Martes 10 a 14:30 hs / martes 12 a 16 hs (A CONFIRMAR)",
+      "horario": "Martes 10 a 14:30 hs / martes 12 a 16 hs",
       "observaciones": null
     },
     "comentarios": "Con cupo",
@@ -261,9 +312,9 @@
         2026
       ],
       "cuatrimestres": [
-        "1° Cuatrimestre","2° Cuatrimestre"
+        "1° Cuatrimestre"
       ],
-      "horario": ["Miércoles 14 a 18hs","Miercoles 18 a 22hs"],
+      "horario": "Miércoles 14 a 18hs",
       "observaciones": null
     },
     "comentarios": "Con cupos",
@@ -314,7 +365,23 @@
       }
     ],
     "revisionPendiente": [],
-    "ultimaRevision": "2026-07"
+    "ultimaRevision": "2026-07",
+    "experiencias": [
+      {
+        "anio": 2025,
+        "cuatrimestre": "2° Cuatrimestre",
+        "fuente": "Experiencia de estudiante",
+        "resumen": "Materia muy copada si interesa el desarrollo de placas. Tiene trabajos prácticos semanales y docentes muy predispuestos a ayudar.",
+        "dificultad": "Media",
+        "carga": "Media tirando a alta",
+        "asistencia": "A verificar",
+        "conocimientosPrevios": "Electrónica; recomendable haber cursado Electrónica Analógica antes.",
+        "evaluacion": "Trabajos prácticos semanales",
+        "final": "A verificar",
+        "comentario": "Recomendable para quienes quieran aprender desarrollo de placas. Conviene tener una base previa de electrónica, idealmente Analógica. Los profes acompañan bastante y ayudan durante la cursada. Hay material de clases disponible para sumar al banco.",
+        "recomendada": true
+      }
+    ]
   },
   {
     "id": "electronica-digital-iii",
@@ -393,7 +460,7 @@
       "Física"
     ],
     "modalidad": null,
-    "puntaje": 75.00,
+    "puntaje": 75.0,
     "cargaHorariaSemanal": 5.0,
     "correlativas": [
       "Física 1 aprobada, Física 2 y 3 convenientes"
@@ -490,14 +557,17 @@
     ],
     "modalidad": null,
     "puntaje": 50.0,
-    "cargaHorariaSemanal": 6.00,
+    "cargaHorariaSemanal": 6.0,
     "correlativas": [
       "Probabilidad y estadística",
       "Programación"
     ],
     "oferta": {
       "anios": [],
-      "cuatrimestres": ["1° Cuatrimestre","2° Cuatrimestre"],
+      "cuatrimestres": [
+        "1° Cuatrimestre",
+        "2° Cuatrimestre"
+      ],
       "horario": null,
       "observaciones": "En teoria se toma asistencia. Posible que sea virtual"
     },
@@ -508,7 +578,8 @@
         "tipo": "programa",
         "nombre": "Programa",
         "url": "https://drive.google.com/file/d/1YeLDbOAMdlOQF5acdakiXb_ekJstLy7g/view?usp=sharing"
-      },{
+      },
+      {
         "tipo": "material",
         "nombre": "Notion de DataSam",
         "url": "https://datasam.notion.site/Infraestructura-para-la-Ciencia-de-Datos-bbd59d6e4465433dbb3782b6e0ee7bfd"
@@ -606,11 +677,14 @@
     ],
     "modalidad": null,
     "puntaje": 75.0,
-    "cargaHorariaSemanal": 6.00,
+    "cargaHorariaSemanal": 6.0,
     "correlativas": [],
     "oferta": {
       "anios": [],
-      "cuatrimestres": ["1° Cuatrimestre","2° Cuatrimestre"],
+      "cuatrimestres": [
+        "1° Cuatrimestre",
+        "2° Cuatrimestre"
+      ],
       "horario": null,
       "observaciones": "Lunes 14-16 hs virtual; Miércoles 14-18 hs presencial"
     },
@@ -621,7 +695,8 @@
         "tipo": "programa",
         "nombre": "Programa",
         "url": "https://drive.google.com/file/d/1LLTURbVnFXwjmi4sfmW4UuSPV673u717/view?usp=sharing"
-      },{
+      },
+      {
         "tipo": "material",
         "nombre": "Notion de DataSam",
         "url": "https://datasam.notion.site/3c9693388172489b8f28ff4b10745f69?v=9c8253e9fcf84bd09670ecc0bb46590b&p=6ffa315dd0b34d69ab74e2c361d0379f&pm=s"
@@ -943,8 +1018,12 @@
       "ELE04"
     ],
     "oferta": {
-      "anios": [2025],
-      "cuatrimestres": ["2° Cuatrimestre"],
+      "anios": [
+        2025
+      ],
+      "cuatrimestres": [
+        "2° Cuatrimestre"
+      ],
       "horario": null,
       "observaciones": "Se dictó en 2.º cuatrimestre 2025 : Lunes 9:30-13:30 (a confirmar)"
     },
@@ -1198,9 +1277,10 @@
     ],
     "revisionPendiente": [],
     "ultimaRevision": "2026-07"
-  },{
+  },
+  {
     "id": "biologia-i",
-    "materia": "Biologia I",
+    "materia": "TBiologia I",
     "codigo": null,
     "area": [
       "Electrónica"
@@ -1222,34 +1302,6 @@
         "tipo": "frubox",
         "nombre": "Carpeta Drive Frubox",
         "url": "https://drive.google.com/embeddedfolderview?id=1XjoNF-YLN3oRUrl0uAR5vNysQY4agUJ3"
-      }
-    ],
-    "revisionPendiente": [],
-    "ultimaRevision": "2026-07"
-  },{
-    "id": "ingenieria-hospitalaria",
-    "materia": "Ingeniería Hospitalaria",
-    "codigo": null,
-    "area": [
-      "Ingenieria Hospitalaria"
-    ],
-    "modalidad": null,
-    "puntaje": 50,
-    "cargaHorariaSemanal": null,
-    "correlativas": ["Ingenieria Clinica"],
-    "oferta": {
-      "anios": [2026],
-      "cuatrimestres": ["2° Cuatrimestre"],
-      "horario": "Miércoles 18 a 22 hs",
-      "observaciones": null
-    },
-    "comentarios": null,
-    "contenidosMinimos": null,
-    "links": [
-      {
-        "tipo": "programa",
-        "nombre": "Programa",
-        "url": "https://drive.google.com/file/d/1_khFTqsF8HCQ61nO6Y3XraCqkFb7zBtR/view?usp=sharing"
       }
     ],
     "revisionPendiente": [],
