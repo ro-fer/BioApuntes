@@ -15,6 +15,8 @@ const linksContainer = document.getElementById("materia-links");
 const carpetasDriveContainer = document.getElementById("materia-carpetas-drive");
 const contenidosContainer = document.getElementById("materia-contenidos");
 const cursadasContainer = document.getElementById("materia-cursadas");
+const experienciasContainer = document.getElementById("materia-experiencias");
+const experienciasCard = document.getElementById("materia-experiencias-card");
 
 async function cargarJSON(url) {
     const response = await fetch(url);
@@ -337,26 +339,19 @@ function normalizarContenidos(contenidos) {
 }
 
 function renderizarExperiencias(experiencias) {
-    if (!contenidosContainer) return;
+    if (!experienciasContainer || !experienciasCard) return;
+
+    experienciasContainer.innerHTML = "";
 
     if (!Array.isArray(experiencias) || experiencias.length === 0) {
+        experienciasCard.hidden = true;
         return;
     }
 
-    const section = document.createElement("section");
-    section.className = "experiencias-section";
-
-    section.innerHTML = `
-        <h2>💬 Experiencias de cursada</h2>
-        <p class="empty-text">
-            Comentarios orientativos recopilados de experiencias de estudiantes. Pueden variar según cuatrimestre, docentes, modalidad y oferta vigente.
-        </p>
-        <div class="experiencias-lista">
-            ${experiencias.map(renderizarExperiencia).join("")}
-        </div>
-    `;
-
-    contenidosContainer.appendChild(section);
+    experienciasCard.hidden = false;
+    experienciasContainer.innerHTML = experiencias
+        .map(renderizarExperiencia)
+        .join("");
 }
 
 function renderizarExperiencia(exp) {
