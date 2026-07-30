@@ -44,6 +44,19 @@
         "final": "A verificar",
         "comentario": "Materia bastante tranquila. La primera parte se enfoca en administración de sistemas GNU/Linux y virtualización, dura cerca de dos meses y cierra con un examen tipo choice. Hay diapositivas de las clases disponibles en la carpeta de material.",
         "recomendada": true
+      },
+      {
+        "anio": null,
+        "cuatrimestre": null,
+        "fuente": "Experiencia de estudiante",
+        "resumen": "Primera parte enfocada en GNU/Linux, instalación de sistemas operativos, comandos, Bash scripting y GitHub.",
+        "dificultad": "Baja-media",
+        "carga": "Moderada",
+        "asistencia": "A verificar",
+        "evaluacion": "Multiple choice en campus",
+        "final": "A verificar",
+        "comentario": "La experiencia corresponde a una cursada de hace algunos años, por lo que puede haber cambiado. En la primera parte se ve instalación de sistemas operativos GNU/Linux, comandos, Bash scripting y GitHub. El parcial es un multiple choice en el campus. Para estudiantes a quienes les gusta la informática, fue una materia muy recomendable y útil para el ámbito laboral.",
+        "recomendada": true
       }
     ]
   },
@@ -96,6 +109,19 @@
         "evaluacion": "Trabajo práctico grupal",
         "final": "No tiene final tradicional.",
         "comentario": "La parte avanzada continúa luego de la primera parte y se resuelve con un TP grupal. La experiencia reportada fue muy tranquila. Hay diapositivas de clase y un ejemplo de trabajo final compartido.",
+        "recomendada": true
+      },
+      {
+        "anio": null,
+        "cuatrimestre": null,
+        "fuente": "Experiencia de estudiante",
+        "resumen": "Segunda parte opcional orientada a DevOps, Docker y Docker Compose, con trabajo práctico grupal.",
+        "dificultad": "Baja-media",
+        "carga": "Moderada",
+        "asistencia": "A verificar",
+        "evaluacion": "Trabajo práctico grupal",
+        "final": "No tiene final tradicional",
+        "comentario": "La experiencia corresponde a una cursada de hace algunos años, por lo que puede haber cambiado. La segunda parte puede cursarse o no. Se ven temas de DevOps, Docker y Docker Compose, y se realiza un trabajo práctico grupal. Para estudiantes a quienes les gusta la informática, fue una materia muy recomendable y útil para el ámbito laboral.",
         "recomendada": true
       }
     ]
