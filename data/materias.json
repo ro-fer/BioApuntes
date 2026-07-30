@@ -545,22 +545,7 @@
       "texto": "Computadoras y sistemas informáticos. Representación y procesamiento de la información. Computadoras. Hardware y software. CPU. Memorias. Dispositivos de almacenamiento. Sistemas operativos. Periféricos y utilitarios. Redes. Introducción a la programación. Algoritmos, lenguajes y programación estructurada.",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Ciencias básicas",
-    "experiencias": [
-      {
-        "periodo": "Experiencia compartida en julio de 2026 sobre una cursada anterior",
-        "fuente": "Grupo general de WhatsApp · resumen comunitario",
-        "resumen": "Materia práctica con GNU/Linux, Bash, GitHub y una segunda parte orientada a DevOps.",
-        "dificultad": "Media",
-        "carga": "Moderada",
-        "asistencia": "A verificar",
-        "evaluacion": "Primera parte con multiple choice en campus; segunda parte con trabajo grupal",
-        "final": "A verificar",
-        "conocimientosPrevios": "No se mencionaron requisitos técnicos previos específicos",
-        "comentario": "Una experiencia describe una primera parte sobre instalación de GNU/Linux, comandos, Bash scripting y GitHub. La segunda parte abordó Docker y Docker Compose mediante un trabajo práctico grupal. La persona destacó que los contenidos le resultaron útiles para el trabajo, pero aclaró que la materia podría haber cambiado.",
-        "recomendada": true
-      }
-    ]
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Física II",
@@ -952,21 +937,7 @@
       "texto": "Histología, embriología y anatomía humana relacionada. Biología celular. Membrana Plasmática. Estructura y Función. Teoría Celular. Genes. Diferenciación y Proliferación Celular. Desarrollo embrionario. Histología del los tejidos y estructura anatómica. Anatomía de los sistemas.",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Ciencias básicas",
-    "experiencias": [
-      {
-        "periodo": "Experiencias compartidas en febrero de 2026",
-        "fuente": "Grupo general de WhatsApp · resumen comunitario",
-        "resumen": "Cursada relativamente tranquila, con prácticas de laboratorio y control de asistencia.",
-        "dificultad": "Media-baja según una experiencia",
-        "carga": "Moderada",
-        "asistencia": "Obligatoria o controlada; confirmar con la cátedra",
-        "evaluacion": "A verificar",
-        "final": "A verificar",
-        "comentario": "En el grupo se mencionó que las prácticas de laboratorio son interesantes y que se toma asistencia. No hubo suficiente información consistente sobre parciales o final.",
-        "recomendada": null
-      }
-    ]
+    "bloqueCurricular": "Ciencias básicas"
   },
   {
     "materia": "Higiene, seguridad ambiental y laboral",
@@ -1340,12 +1311,12 @@
         "periodo": "Experiencia de pandemia comentada en julio de 2025",
         "fuente": "Grupo general de WhatsApp · resumen comunitario",
         "resumen": "Fue percibida como muy pesada en modalidad virtual; se mencionan mejores referencias de la cursada presencial.",
-        "dificultad": "Alta en una cursada anterior",
+        "dificultad": "Alta ",
         "carga": "Alta",
         "asistencia": "A verificar",
-        "evaluacion": "A verificar",
-        "final": "A verificar",
-        "comentario": "La experiencia directa corresponde a la modalidad de pandemia. La misma persona aclaró haber escuchado buenas referencias de la versión presencial, por lo que no conviene extrapolar la carga sin verificar.",
+        "evaluacion": "Examen final teorico modalidad multiple choice; parte practica (experiencias realizadas en el cuatrimestre). Hay trabajos practicos semanales que incluyen varias experiencias de cada unidad. ",
+        "final": "Sin Final. La nota corresponde al de cursada",
+        "comentario": ".",
         "recomendada": null
       }
     ]
@@ -1401,7 +1372,7 @@
         "carga": "Moderada/alta",
         "asistencia": "Recomendada",
         "evaluacion": "En 2C 2025 se mencionaron dos exámenes por módulos, principalmente multiple choice",
-        "final": "Se comentó que el final es oral y puede retomar temas donde hubo dificultades durante la cursada",
+        "final": "Se comentó que el final es oral y puede retomar temas donde hubo dificultades durante la cursada. Tambien puede ser escrito segun la cantidad de estudiantes.",
         "comentario": "La modalidad descripta incluye aprobación separada por módulos y respuestas incorrectas que restaban puntaje. Como la evaluación puede cambiar, debe verificarse al inicio de la cursada.",
         "recomendada": null
       }
@@ -1551,7 +1522,21 @@
       "texto": "Amplificadores operacionales. Diodos de señal, rectificadores y Zener. Transistores BJT, FET y MOS. Modelos y Aplicaciones. Etapas amplificadoras de baja frecuencia. Configuraciones usuales. Amplificadores diferenciales. Amplificadores de instrumentación. Amplificadores de potencia. Ruido en amplificadores.",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Tecnologías básicas"
+    "bloqueCurricular": "Tecnologías básicas",
+    "experiencias": [
+      {
+        "periodo": null,
+        "fuente": "Experiencia de estudiante",
+        "resumen": "Tiene 2 parciales. Varios tps de entrega grupal. Los examenes suelen ser ejercicios de los tps.",
+        "dificultad": "Media",
+        "carga": "Alta",
+        "asistencia": "A verificar",
+        "evaluacion": "2 Parciales + Varios TPs",
+        "final": "Practico + Teorico",
+        "comentario": null,
+        "recomendada": null
+      }
+    ]
   },
   {
     "materia": "Fisiología",
@@ -1705,7 +1690,7 @@
         "carga": "Moderada",
         "asistencia": "Recomendada",
         "evaluacion": "Ejercicios similares a los de las guías, según experiencias",
-        "final": "Se mencionan instancias teóricas; confirmar formato actual",
+        "final": "Practico + Teorico. Hay una opcion de 'promocion' que es con final corto que toma solo teoria.",
         "comentario": "Las experiencias coinciden en que hacer las guías es clave. Las clases teóricas pueden sentirse densas, mientras que las prácticas fueron valoradas como útiles.",
         "recomendada": null
       }
