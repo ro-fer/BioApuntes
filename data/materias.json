@@ -679,9 +679,10 @@
     "queHay": [
       "Carpeta Frubox",
       "Drive embebido",
-      "Grupo WhatsApp"
+      "Grupo WhatsApp",
+      "Experiencias"
     ],
-    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp",
+    "materialDetectado": "Carpeta detectada en OneDrive/tree; Carpeta Frubox; Drive embebido; Grupo WhatsApp; Experiencias",
     "comentarios": "Match por nombre equivalente",
     "archivoMdFrubox": "INFO DE FRUBOX/ciclo-basico/probabilidad-y-estadistica.md",
     "cargaHorariaSemanal": "4.0",
@@ -707,7 +708,21 @@
       "texto": "Experimentos aleatorios. Frecuencias relativas. Modelo de Laplace.  Probabilidad. Independencia y probabilidad condicional. Teorema de Bayes. Cálculo de probabilidades. Variables aleatorias. Funciones de densidad y de probabilidad. Funciones de distribución.  Principales distribuciones discretas y continuas. Variables aleatorias vectoriales.  Distribuciones conjuntas y marginales.  Momentos de primer y segundo orden. Correlación. Nociones de procesos estocásticos. Función de auto-correlación. Procesos estacionarios. Ruido gaussiano.  Nociones de estadística  descriptiva y paramétrica. Test de hipótesis.",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Ciencias básicas"
+    "bloqueCurricular": "Ciencias básicas",
+    "experiencias": [
+      {
+        "periodo": "1C 2026",
+        "fuente": "Experiencia de estudiante",
+        "resumen": "La cursada tuvo dos exámenes.",
+        "dificultad": "A verificar",
+        "carga": "A verificar",
+        "asistencia": "A verificar",
+        "evaluacion": "Dos exámenes",
+        "final": "A verificar",
+        "comentario": "En 1C 2026 la evaluación de la cursada consistió en dos exámenes.",
+        "recomendada": null
+      }
+    ]
   },
   {
     "materia": "Física III",
@@ -757,7 +772,21 @@
       "texto": "Electrostática: carga y campo eléctrico. Ley de Coulomb. Ley de Gauss. Energía potencial eléctrica. Potencial electrostático. Electrostática en medios dieléctricos. Condensadores. Corriente y resistencia eléctricas. Ley de Ohm. Leyes de Kirchoff. Magnetismo: campo magnético. Fuerza de Lorentz. Ley de Biot-Savart. Aplicaciones de la Ley de Ampere. Ley de Faraday. Inducción electromagnética. Energía magnética. Propiedades magnéticas de la materia. Fuerza electromotriz alterna. Circuitos de corriente alterna. Aplicaciones en motores, generadores  y galvanómetros. Campos electromagnéticos variables en el espacio y el tiempo. Ecuaciones de Maxwell. Ondas electromagnéticas. Espectro de radiación. Propagación de ondas electromagnéticas en medios materiales.",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Ciencias básicas"
+    "bloqueCurricular": "Ciencias básicas",
+    "experiencias": [
+      {
+        "periodo": null,
+        "fuente": "Experiencia de estudiante",
+        "resumen": "Los parciales de la comisión noche pueden ser más complicados que los de la mañana.",
+        "dificultad": "A verificar",
+        "carga": "A verificar",
+        "asistencia": "A verificar",
+        "evaluacion": "Parciales",
+        "final": "A verificar",
+        "comentario": "Según experiencias de cursada, los parciales de la comisión noche pueden ser un poco más complicados que los de la comisión mañana.",
+        "recomendada": null
+      }
+    ]
   },
   {
     "materia": "Física IV",
@@ -805,7 +834,21 @@
       "texto": "Radiación de cuerpo negro. Efecto fotoeléctrico. Efecto Compton. Postulados de De Broglie. Modelo atómico. Espectros atómicos y moleculares. Postulados de la Mecánica Cuántica. Función de onda y ecuación de Schrödinger. Problemas unidimensionales. Átomo de hidrógeno. Momento angular intrínseco. Principio de exclusión de Pauli. Introducción a la física del sólido. Estructura cristalina. Electrones en sólidos. Bandas. Conductores, semiconductores y aislantes.",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Ciencias básicas"
+    "bloqueCurricular": "Ciencias básicas",
+    "experiencias": [
+      {
+        "periodo": null,
+        "fuente": "Experiencia de estudiante",
+        "resumen": "En los últimos años los finales vienen teniendo una estructura similar.",
+        "dificultad": "A verificar",
+        "carga": "A verificar",
+        "asistencia": "A verificar",
+        "evaluacion": "A verificar",
+        "final": "Los últimos años vienen tomando finales similares.",
+        "comentario": "Según experiencias recientes, los finales de los últimos años vienen siendo parecidos o repitiendo una estructura similar.",
+        "recomendada": null
+      }
+    ]
   },
   {
     "materia": "Ciencias Morfológicas",
@@ -1027,7 +1070,21 @@
       "texto": "Radiaciones ionizantes: fuentes y tipos aplicaciones médicas; alfa, beta, gamma Rx.  Interacción de la radiación con la materia. Efectos estocásticos y determínisticos. Magnitudes: dosis absorbida, equivalente efectiva, ambiental, comprometida. Fundamentos de la protección radiología: optimización, justificación, límites de dosis. Monitoreo de la radiación ocupacional, blindajes: dosímetros, monitores ambientales, atenuación, blindajes de instalaciones, protecciones personales. Protección radiológica del paciente y del público. Prevención de accidentes.",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Tecnologías aplicadas"
+    "bloqueCurricular": "Tecnologías aplicadas",
+    "experiencias": [
+      {
+        "periodo": null,
+        "fuente": "Experiencia de estudiante",
+        "resumen": "Materia no demasiado pesada, basada principalmente en clases, bibliografía y casos vistos.",
+        "dificultad": "Media-baja",
+        "carga": "Moderada",
+        "asistencia": "Recomendable ir a clase",
+        "evaluacion": "A verificar",
+        "final": "A verificar",
+        "comentario": "No parece ser una materia muy pesada. Con ir a clases puede alcanzar bastante, aunque a los profesores les importa mucho que se vaya a clase. Los contenidos están basados en un libro y en dos o tres casos que se mencionan durante la cursada.",
+        "recomendada": null
+      }
+    ]
   },
   {
     "materia": "Modelos y sistemas",
@@ -1070,7 +1127,21 @@
       "texto": "Sistemas lineales. Función transferencia.  Polos y ceros en el plano S. Respuesta en frecuencia. Bode. Ecuaciones de estado. Simulación de sistemas. Analogía  de los modelos eléctricos RLC con los modelos mecánicos y biomédicos. Estabilidad y sistemas realimentados. Sistemas no lineales simples. Diferenciación con los lineales. Ejemplos de modelo biomédicos (presa depredador, etc).",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Tecnologías básicas"
+    "bloqueCurricular": "Tecnologías básicas",
+    "experiencias": [
+      {
+        "periodo": null,
+        "fuente": "Experiencia de estudiante",
+        "resumen": "Materia de dificultad baja y sin asistencia.",
+        "dificultad": "Baja",
+        "carga": "A verificar",
+        "asistencia": "Sin asistencia",
+        "evaluacion": "A verificar",
+        "final": "A verificar",
+        "comentario": "Según la experiencia compartida, la materia no tiene asistencia obligatoria y la dificultad es baja.",
+        "recomendada": null
+      }
+    ]
   },
   {
     "materia": "Análisis y procesamiento de señales",
@@ -1114,7 +1185,21 @@
       "texto": "Señales analógicas. Análisis mediante series de Fourier, la transformada de Fourier y la transformada de Laplace. Filtros analógicos. Señales digitales. Muestreo e interpolación. Análisis mediante la transformada discreta de Fourier.  Transformada Z. Filtros digitales. Análisis mediante onditas. Cuantización. Ruido. Modulación en frecuencia.",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Tecnologías básicas"
+    "bloqueCurricular": "Tecnologías básicas",
+    "experiencias": [
+      {
+        "periodo": null,
+        "fuente": "Experiencia de estudiante",
+        "resumen": "Materia pesada, con bastante trabajo fuera de clase.",
+        "dificultad": "Alta",
+        "carga": "Alta",
+        "asistencia": "A verificar",
+        "evaluacion": "A verificar",
+        "final": "A verificar",
+        "comentario": "Es una materia pesada. Requiere mucho trabajo fuera de clase y el profesor puede ser exigente con el trabajo en clase y con los contenidos.",
+        "recomendada": null
+      }
+    ]
   },
   {
     "materia": "Medidas",
@@ -1158,7 +1243,21 @@
       "texto": "Sistemas de unidades y patrones. Exactitud e incertidumbre en las mediciones. Especificaciones de los instrumentos. Métodos de medición. Mediciones de tensiones y corrientes continuas y de baja frecuencia. Mediciones de impedancia y potencia.  Introducción a la instrumentación virtual.",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Tecnologías básicas"
+    "bloqueCurricular": "Tecnologías básicas",
+    "experiencias": [
+      {
+        "periodo": null,
+        "fuente": "Experiencia de estudiante",
+        "resumen": "Materia pesada, sin asistencia.",
+        "dificultad": "A verificar",
+        "carga": "Alta",
+        "asistencia": "Sin asistencia",
+        "evaluacion": "A verificar",
+        "final": "A verificar",
+        "comentario": "Es una materia pesada. Según la experiencia compartida, no tiene asistencia obligatoria.",
+        "recomendada": null
+      }
+    ]
   },
   {
     "materia": "Biofísica",
@@ -1201,7 +1300,21 @@
       "texto": "Metabolismo energético. Termodinámica en los seres vivos. Propiedades coligativas de las soluciones. Presión osmótica. Transporte a través de la membrana celular. Potencial de acción. Fluidos. Fenómenos de superficie. Difusión de gases en líquidos.  Estado ácido-base, pH. Biofísica de los sentidos.",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Ciencias básicas"
+    "bloqueCurricular": "Ciencias básicas",
+    "experiencias": [
+      {
+        "periodo": "2C 2025",
+        "fuente": "Experiencia de estudiante",
+        "resumen": "La cursada tuvo dos exámenes, divididos por módulos, con preguntas principalmente multiple choice.",
+        "dificultad": "Media",
+        "carga": "Moderada",
+        "asistencia": "A verificar",
+        "evaluacion": "Dos exámenes por módulos",
+        "final": "A verificar",
+        "comentario": "En 2C 2025 fueron dos exámenes: el primero incluyó los módulos 1, 2 y 3, y el segundo los módulos 4, 5 y 6. En general las preguntas fueron multiple choice, aunque el módulo 1 tuvo una pregunta a desarrollar. La docente proyectó las preguntas en el pizarrón, dio aproximadamente una hora por módulo y luego unos minutos para cargar las respuestas en el campus. Cada módulo debía aprobarse por separado con al menos 50%. Las respuestas incorrectas restaban puntaje. Hubo un laboratorio del módulo respiratorio donde se mostró el uso de un respirador, pero no fue evaluado.",
+        "recomendada": null
+      }
+    ]
   },
   {
     "materia": "Electrónica digital I",
@@ -1245,7 +1358,21 @@
       "texto": "Sistemas de numeración y códigos. Álgebra de Boole. Circuitos lógicos combinacionales. Familias lógicas comerciales. Circuitos lógicos secuenciales y reconfigurables. Introducción a los microprocesadores y las memorias. Introducción a lenguajes descriptores de hardware.",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Tecnologías básicas"
+    "bloqueCurricular": "Tecnologías básicas",
+    "experiencias": [
+      {
+        "periodo": null,
+        "fuente": "Experiencia de estudiante",
+        "resumen": "Para regularizar piden guías y un TP regularizador. El final consiste en armar un voltímetro digital.",
+        "dificultad": "A verificar",
+        "carga": "A verificar",
+        "asistencia": "A verificar",
+        "evaluacion": "Guías + TP regularizador",
+        "final": "Armado de un voltímetro digital",
+        "comentario": "Para regularizar la materia piden guías y un trabajo práctico regularizador, que consiste en un reloj. El final consiste en el armado de un voltímetro digital.",
+        "recomendada": null
+      }
+    ]
   },
   {
     "materia": "Procesamiento de Imágenes",
@@ -1419,7 +1546,21 @@
       "texto": "Sistemas digitales programables. Microprocesadores, microcontroladores. Conversión A/D y D/A. Procesamiento digital de señales. La computadora personal. Programación.",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Tecnologías básicas"
+    "bloqueCurricular": "Tecnologías básicas",
+    "experiencias": [
+      {
+        "periodo": null,
+        "fuente": "Experiencia de estudiante",
+        "resumen": "Para regularizar piden guías y un TP regularizador. El final consiste en un proyecto con sensor y Bluepill.",
+        "dificultad": "A verificar",
+        "carga": "A verificar",
+        "asistencia": "A verificar",
+        "evaluacion": "Guías + TP regularizador",
+        "final": "Proyecto con sensor y Bluepill",
+        "comentario": "Para regularizar la materia piden guías y un trabajo práctico regularizador, que consiste en un generador de ondas. El final consiste en armar un proyecto con un sensor y la placa Bluepill.",
+        "recomendada": null
+      }
+    ]
   },
   {
     "materia": "Electrotecnia",
@@ -1463,7 +1604,21 @@
       "texto": "Circuitos eléctricos trifásicos. Instalaciones eléctricas. Seguridad. Conducción de la corriente eléctrica en metales, líquidos y gases. Características de los materiales eléctricos. Conversión electromecánica de la energía eléctrica. Motores de distinto tipo. Generadores.",
       "fuente": "Contenidos mínimos del plan de estudios"
     },
-    "bloqueCurricular": "Tecnologías básicas"
+    "bloqueCurricular": "Tecnologías básicas",
+    "experiencias": [
+      {
+        "periodo": "2C 2025 / 1C 2026",
+        "fuente": "Experiencia de estudiante",
+        "resumen": "Los exámenes suelen estar basados en ejercicios de la guía. Las prácticas son útiles y hacer las guías es clave.",
+        "dificultad": "Media",
+        "carga": "Moderada",
+        "asistencia": "A verificar",
+        "evaluacion": "Exámenes con ejercicios similares a la guía",
+        "final": "A verificar",
+        "comentario": "En 2C 2025 y 1C 2026, los exámenes fueron ejercicios de la guía. Las clases teóricas pueden hacerse un poco pesadas, pero las prácticas son útiles. Es clave hacer las guías.",
+        "recomendada": null
+      }
+    ]
   },
   {
     "materia": "Ingeniería Biomédica I",
