@@ -1,0 +1,202 @@
+/* Página de preguntas frecuentes de BIOApuntes */
+
+.pagina-faq {
+  background: #f8f4f8;
+  color: #211b22;
+}
+
+.faq-main {
+  width: min(100% - 2rem, 980px);
+  margin: 0 auto;
+  padding: 2rem 0 4rem;
+}
+
+.faq-hero {
+  padding: 2.5rem;
+  border-radius: 28px;
+  color: white;
+  background: linear-gradient(115deg, hsl(292deg 37% 48%), hsl(323deg 58% 60%));
+  box-shadow: 0 14px 35px rgba(65, 30, 68, 0.16);
+}
+
+.faq-hero h1 {
+  margin: 0.3rem 0 0.8rem;
+  font-size: clamp(2rem, 6vw, 3.6rem);
+}
+
+.faq-hero p {
+  max-width: 720px;
+  line-height: 1.55;
+}
+
+.faq-etiqueta {
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.faq-aviso {
+  display: grid;
+  gap: 0.35rem;
+  margin: 1.4rem 0;
+  padding: 1rem 1.2rem;
+  border-left: 5px solid #8d318d;
+  border-radius: 10px;
+  background: #fff;
+  line-height: 1.5;
+}
+
+.faq-aviso span {
+  color: #665d67;
+  font-size: 0.92rem;
+}
+
+.faq-indice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1.2rem 0 2rem;
+}
+
+.faq-indice a {
+  padding: 0.65rem 0.9rem;
+  border: 1px solid #9a719a;
+  border-radius: 999px;
+  color: #56235b;
+  background: #fff;
+}
+
+.faq-indice a:hover,
+.faq-indice a:focus {
+  color: white;
+  background: #6e2875;
+}
+
+.faq-seccion {
+  margin-top: 2.2rem;
+  scroll-margin-top: 1rem;
+}
+
+.faq-seccion h2,
+.faq-fuente h2 {
+  margin-bottom: 1rem;
+  font-size: clamp(1.45rem, 4vw, 2rem);
+}
+
+.faq-seccion details {
+  margin-bottom: 0.8rem;
+  border: 1px solid #d7c8d8;
+  border-radius: 14px;
+  background: white;
+  overflow: hidden;
+}
+
+.faq-seccion summary {
+  position: relative;
+  padding: 1rem 3rem 1rem 1.1rem;
+  cursor: pointer;
+  font-weight: bold;
+  line-height: 1.35;
+}
+
+.faq-seccion summary::after {
+  content: "+";
+  position: absolute;
+  right: 1.1rem;
+  top: 50%;
+  translate: 0 -50%;
+  font-size: 1.4rem;
+  color: #7d367f;
+}
+
+.faq-seccion details[open] summary::after {
+  content: "–";
+}
+
+.faq-seccion details[open] summary {
+  border-bottom: 1px solid #e1d6e1;
+  background: #fbf7fb;
+}
+
+.faq-respuesta {
+  padding: 1rem 1.2rem 1.2rem;
+  line-height: 1.6;
+}
+
+.faq-respuesta p + p,
+.faq-respuesta ul + p {
+  margin-top: 0.8rem;
+}
+
+.faq-respuesta ul {
+  margin: 0.7rem 0 0.4rem 1.25rem;
+  list-style: disc;
+}
+
+.faq-respuesta a,
+.faq-contactos a {
+  color: #7a237f;
+  text-decoration: underline;
+  overflow-wrap: anywhere;
+}
+
+.faq-nota {
+  padding: 0.7rem;
+  border-radius: 8px;
+  background: #f3e7f3;
+}
+
+.faq-contactos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+}
+
+.faq-contactos article {
+  padding: 1.1rem;
+  border: 1px solid #d7c8d8;
+  border-radius: 14px;
+  background: white;
+}
+
+.faq-contactos h3 {
+  margin-bottom: 0.45rem;
+}
+
+.faq-contactos p {
+  margin-top: 0.55rem;
+  color: #504752;
+  line-height: 1.45;
+}
+
+.faq-aviso-final {
+  margin-top: 1rem;
+}
+
+.faq-fuente {
+  margin-top: 2.5rem;
+  padding: 1.4rem;
+  border-radius: 16px;
+  background: #ead9ea;
+  line-height: 1.55;
+}
+
+@media (max-width: 600px) {
+  .faq-main {
+    width: min(100% - 1rem, 980px);
+  }
+
+  .faq-hero {
+    padding: 1.5rem;
+    border-radius: 20px;
+  }
+
+  .faq-indice {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .faq-indice a {
+    text-align: center;
+  }
+}
