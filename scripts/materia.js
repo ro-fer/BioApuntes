@@ -72,6 +72,7 @@ async function cargarMateria() {
         comentarios.textContent = formatearTexto(materia.comentarios);
 
         renderizarContenidos(materia.contenidosMinimos);
+        renderizarExperiencias(materia.experiencias);
         renderizarCursadas(obtenerCursadasMateria(materia.codigo, cursadas));
         renderizarLinks(materia.links);
         renderizarCarpetasDrive(materia.links);
@@ -274,11 +275,11 @@ function renderizarContenidos(contenidos) {
         bloque.className = "contenido-bloque";
 
         if (typeof item === "string") {
-            bloque.innerHTML = `<p>${item}</p>`;
+            bloque.innerHTML = `<p>${escaparHTML(item)}</p>`;
         } else {
             bloque.innerHTML = `
-                <h3>${item.titulo}</h3>
-                <p>${item.texto}</p>
+                <h3>${escaparHTML(item.titulo)}</h3>
+                <p>${escaparHTML(item.texto)}</p>
             `;
         }
 
@@ -333,6 +334,66 @@ function normalizarContenidos(contenidos) {
     }
 
     return [];
+}
+
+function renderizarExperiencias(experiencias) {
+    if (!contenidosContainer) return;
+
+    if (!Array.isArray(experiencias) || experiencias.length === 0) {
+        return;
+    }
+
+    const section = document.createElement("section");
+    section.className = "experiencias-section";
+
+    section.innerHTML = `
+        <h2>💬 Experiencias de cursada</h2>
+        <p class="empty-text">
+            Comentarios orientativos recopilados de experiencias de estudiantes. Pueden variar según cuatrimestre, docentes, modalidad y oferta vigente.
+        </p>
+        <div class="experiencias-lista">
+            ${experiencias.map(renderizarExperiencia).join("")}
+        </div>
+    `;
+
+    contenidosContainer.appendChild(section);
+}
+
+function renderizarExperiencia(exp) {
+    const encabezado = [
+        exp.periodo || "",
+        exp.anio ? String(exp.anio) : "",
+        exp.cuatrimestre || "",
+        exp.fuente || "Experiencia de estudiante"
+    ].filter(Boolean).join(" · ");
+
+    const datos = [];
+
+    if (exp.dificultad) datos.push(`<li><strong>Dificultad:</strong> ${escaparHTML(exp.dificultad)}</li>`);
+    if (exp.carga) datos.push(`<li><strong>Carga:</strong> ${escaparHTML(exp.carga)}</li>`);
+    if (exp.asistencia) datos.push(`<li><strong>Asistencia:</strong> ${escaparHTML(exp.asistencia)}</li>`);
+    if (exp.evaluacion) datos.push(`<li><strong>Evaluación:</strong> ${escaparHTML(exp.evaluacion)}</li>`);
+    if (exp.final) datos.push(`<li><strong>Final:</strong> ${escaparHTML(exp.final)}</li>`);
+    if (exp.idioma) datos.push(`<li><strong>Idioma:</strong> ${escaparHTML(exp.idioma)}</li>`);
+    if (exp.conocimientosPrevios) datos.push(`<li><strong>Conocimientos previos:</strong> ${escaparHTML(exp.conocimientosPrevios)}</li>`);
+
+    let recomendacion = "";
+
+    if (exp.recomendada === true) {
+        recomendacion = `<p class="experiencia-recomendada">✅ Recomendada por estudiantes</p>`;
+    } else if (exp.recomendada === false) {
+        recomendacion = `<p class="experiencia-recomendada">⚠️ No recomendada / revisar antes de cursar</p>`;
+    }
+
+    return `
+        <article class="experiencia-card">
+            ${encabezado ? `<p class="eyebrow">${escaparHTML(encabezado)}</p>` : ""}
+            ${exp.resumen ? `<h3>${escaparHTML(exp.resumen)}</h3>` : ""}
+            ${datos.length ? `<ul class="optativa-detail-list">${datos.join("")}</ul>` : ""}
+            ${exp.comentario ? `<p>${escaparHTML(exp.comentario)}</p>` : ""}
+            ${recomendacion}
+        </article>
+    `;
 }
 
 function renderizarLinks(links) {
@@ -455,7 +516,7 @@ function renderizarCursadas(listaCursadas) {
         const bloquePeriodo = document.createElement("div");
         bloquePeriodo.className = "cursadas-periodo";
 
-        bloquePeriodo.innerHTML = `<h3>${periodo || "Período no especificado"}</h3>`;
+        bloquePeriodo.innerHTML = `<h3>${escaparHTML(periodo || "Período no especificado")}</h3>`;
 
         cursadasPeriodo.forEach((cursada) => {
             const item = document.createElement("div");
@@ -473,15 +534,15 @@ function renderizarCursadas(listaCursadas) {
             }
 
             item.innerHTML = `
-                <h4>${cursada.comision || "Comisión sin nombre"}</h4>
-                <p><strong>Turno:</strong> ${normalizarTurno(cursada.turno)}</p>
-                <p><strong>Días y horarios:</strong> ${dias || "Horario a completar"}</p>
-                <p><strong>Modalidad:</strong> ${cursada.modalidad || "No especificada"}</p>
-                <p><strong>Sede:</strong> ${cursada.sede || "No especificada"}</p>
+                <h4>${escaparHTML(cursada.comision || "Comisión sin nombre")}</h4>
+                <p><strong>Turno:</strong> ${escaparHTML(normalizarTurno(cursada.turno))}</p>
+                <p><strong>Días y horarios:</strong> ${escaparHTML(dias || "Horario a completar")}</p>
+                <p><strong>Modalidad:</strong> ${escaparHTML(cursada.modalidad || "No especificada")}</p>
+                <p><strong>Sede:</strong> ${escaparHTML(cursada.sede || "No especificada")}</p>
                 ${marcas.length ? `<p><strong>Notas:</strong> ${marcas.join(" · ")}</p>` : ""}
-                <p><strong>Estado:</strong> ${cursada.estadoHorario || "A verificar"}</p>
-                <p><strong>Fuente:</strong> ${cursada.fuente || "Sin fuente cargada"}</p>
-                ${cursada.observaciones ? `<p><strong>Observaciones:</strong> ${cursada.observaciones}</p>` : ""}
+                <p><strong>Estado:</strong> ${escaparHTML(cursada.estadoHorario || "A verificar")}</p>
+                <p><strong>Fuente:</strong> ${escaparHTML(cursada.fuente || "Sin fuente cargada")}</p>
+                ${cursada.observaciones ? `<p><strong>Observaciones:</strong> ${escaparHTML(cursada.observaciones)}</p>` : ""}
             `;
 
             bloquePeriodo.appendChild(item);
@@ -544,6 +605,16 @@ function tieneDiaSabado(cursada) {
     });
 }
 
+function escaparHTML(valor = "") {
+    return String(valor).replace(/[&<>'"]/g, (caracter) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        "'": "&#039;",
+        '"': "&quot;"
+    })[caracter]);
+}
+
 function mostrarError(mensaje) {
     nombre.textContent = "Materia no encontrada";
     area.textContent = "Error";
@@ -559,7 +630,7 @@ function mostrarError(mensaje) {
 
     linksContainer.innerHTML = "";
     carpetasDriveContainer.innerHTML = "";
-    contenidosContainer.innerHTML = `<p class="empty-text">${mensaje}</p>`;
+    contenidosContainer.innerHTML = `<p class="empty-text">${escaparHTML(mensaje)}</p>`;
 
     if (cursadasContainer) {
         cursadasContainer.innerHTML = "";
