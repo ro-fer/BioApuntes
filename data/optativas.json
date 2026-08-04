@@ -338,9 +338,11 @@
         2026
       ],
       "cuatrimestres": [
-        "1° Cuatrimestre"
+        "1° Cuatrimestre","2° Cuatrimestre"
       ],
-      "horario": "Miércoles 14 a 18hs",
+      "horario": [
+        "Miércoles 13 a 17","Miércoles 18 a 22hs"
+      ],
       "observaciones": null
     },
     "comentarios": "Con cupos",
@@ -944,6 +946,11 @@
         "tipo": "programa",
         "nombre": "Programa",
         "url": "https://drive.google.com/file/d/1mcxywtxbdeK3SlJS4yQgJPtys8SKdito/view?usp=sharing"
+      },
+      {
+        "tipo": "onedrive",
+        "nombre": "Carpeta OneDrive",
+        "url": "https://unsamms-my.sharepoint.com/:f:/g/personal/rfernandez_estudiantes_unsam_edu_ar/IgDYkwwkCOy1RZI8qLWYpUy6AVB5LvfGYVkYgsIG41IhMkg?e=Bbh2UO"
       }
     ],
     "revisionPendiente": [],
